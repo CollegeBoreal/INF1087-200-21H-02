@@ -1,10 +1,24 @@
 # INF1087-200-21-02
 Administration d'infrastructure informatique 1
 
-## Devoirs
+## :date: [Épreuves](.epreuves)
 
-| Date   | Titre                                                  |     Commentaires            |  Fait |
-|:------:|:-------------------------------------------------------|:----------------------------|-------|
+## :one: [Devoirs](Devoirs)
+
+|No| Date   | Cours              | Intitulé                            |  Pratique                                                     |
+|--|--------|:-------------------|:------------------------------------|:--------------------------------------------------------------|
+
+
+## Resultats d'Apprentissage du Cours
+
+|No|L'etudiant(e) aura demontre, de facon fiable, sa capacite a:      |          Elements de performance                               | 
+|--|------------------------------------------------------------------|:---------------------------------------------------------------| 
+| 1| installer un systeme d'exploitation                              | Savoir:                                                        | 
+|  |                                                                  | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
+| 2| Planifier les services                                           | Savoir:                                                        | 
+|  |                                                                  | Savoir Faire:                                                  | 
+|  |                                                                  | Savoir Etre:                                                   | 
 
 
 ## Déroulement de cours:
