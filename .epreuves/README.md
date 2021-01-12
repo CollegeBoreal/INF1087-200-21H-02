@@ -10,15 +10,7 @@
 
 ## Épreuves
 
-| :hash:    | Type    | Description                                         |:infinity:| Statut           |
-|-----------|---------|-----------------------------------------------------|----------|------------------|
-| :one:     | Blog    | Installation Linux                                  | 25       | :+1:             |
-| :two:     | Quizz   | Linux Shell                                         | 20       | :+1:             |
-| :three:   | Projet  | Projet Linux                                        | 30       | :calendar:       |
-| :four:    | Quizz   | Final                                               | 25       | :calendar:       |
-|:wavy_dash:|         |                                                     |:100:     |                  |
-
-| Titre | Type        | Description                                         |infinity:| Statut           |
+| :hash: | Type        | Description                                         |infinity:| Statut           |
 |-------|-------------|-----------------------------------------------------|---------|------------------|
 | :one: | Quiz        | Introduction Windows Server                         |        5|:x:|
 | :one: | Test        | Installation Windows Server                         |       10|:heavy_check_mark:|
