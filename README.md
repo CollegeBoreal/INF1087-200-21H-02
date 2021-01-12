@@ -14,12 +14,17 @@ Administration d'infrastructure informatique 1
 |No|L'etudiant(e) aura demontre, de facon fiable, sa capacite a:      |          Elements de performance                               | 
 |--|------------------------------------------------------------------|:---------------------------------------------------------------| 
 | 1| Administrer un système d’exploitation Windows Server dans des    | Savoir:                                                        | 
-|  | environnements hôtes, en respectant les normes                   | Savoir Faire:                                                  | 
-|  | standards de l’industrie.                                        | Savoir Etre:                                                   | 
-|  |                                                                  | |
-| 2| Planifier les services                                           | Savoir:                                                        | 
-|  |                                                                  | Savoir Faire:                                                  | 
+|  | environnements hôtes                                             | Savoir Faire:                                                  | 
 |  |                                                                  | Savoir Etre:                                                   | 
+| 2| Administrer des solutions infonuagiques privées avec             | Savoir:                                                        | 
+|  | Hyper-V dans le but d’exécuter des systèmes                      | Savoir Faire:                                                  | 
+|  | d’exploitation en tant qu’ordinateurs virtuels sur Windows       | Savoir Etre:                                                   | 
+
+
+
+
+
+en respectant les normes standards de l’industrie.
 
 
 ## Déroulement de cours:
