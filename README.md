@@ -31,7 +31,7 @@ en respectant les normes standards de l’industrie.
 
 |# | Semaine|                                          |     Commentaires                                                   |
 |--|:------:|:-----------------------------------------|:-------------------------------------------------------------------|
-|01|11-01-21|                                          | Rentrée des classes                                                |
+|01|11-01-21| [1.Windows](1.Windows)                   | Rentrée des classes                                                |
 |02|18-01-21| Part 1                                   | Process isolation and environment-independant computing            |
 |03|25-01-21|                                          |                                                                    |
 |04|01-02-21|                                          |                                                                    |
