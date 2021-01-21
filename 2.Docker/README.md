@@ -49,9 +49,9 @@ En un mot, récupérer le travail que vous avez fait à travers [Github Leaning 
 
 En rappel, pour éxécuter localement son fichier `Dockerfile`, on execute la commande :
 
-`$ docker build --tag b`:id:`:1.0 .`
+`$ docker image build --tag b`:id:`:1.0 .`
 
-`$ docker run --tty --env INPUT_MON_NOM="Draman" b`:id:`:1.0`
+`$ docker container run --tty --env INPUT_MON_NOM="Draman" b`:id:`:1.0`
 
 `Bonjour tout le monde mon nom est Draman`
 
