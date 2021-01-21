@@ -6,7 +6,7 @@ Ce laboratoire t'apprendra à créer ton propre conteneur `Docker` en créant un
 
 Une section [Indices](#fire-indices) est fournie ci-dessous comme documentation d'aide à terminer ce laboratoire.
 
-Tu pourras t'appuyer d'une documentation en ligne pour continuer ce labobratoire en améliorant le fichier `Dockerfile` avec le [cours en ligne suivant](https://www.linkedin.com/learning/docker-essential-training-3-image-creation-management-and-registry/analyzing-a-dockerfile)
+Tu pourras t'appuyer d'une documentation en ligne pour continuer ce laboratoire en améliorant le fichier `Dockerfile` avec le [cours en ligne suivant](https://www.linkedin.com/learning/docker-essential-training-3-image-creation-management-and-registry/analyzing-a-dockerfile)
 
 ## :a: :id:
 
