@@ -1,6 +1,6 @@
 # :two: Docker
 
-## :video: [Bienvenue dans docker pour les developpeurs](https://www.linkedin.com/learning/docker-pour-les-developpeurs/bienvenue-dans-docker-pour-les-developpeurs?u=56968449)
+## :tv: [Bienvenue dans docker pour les developpeurs](https://www.linkedin.com/learning/docker-pour-les-developpeurs/bienvenue-dans-docker-pour-les-developpeurs?u=56968449)
 
 Ce laboratoire t'apprendra à créer ton propre conteneur `Docker` en créant un fichier `Dockerfile`, à l'enrichier avec des commandes `shell` sous Unix en créant un fichier `entrypoint.sh`, et t'apprendra les bases du [`CI/CD`](https://en.wikipedia.org/wiki/CI/CD) `Continuous Integration` et `Continuous Delivery` avec le service `github actions` de `github.com`.
 
