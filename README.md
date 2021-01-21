@@ -1,6 +1,34 @@
 # INF1087-200-21-02
 Administration d'infrastructure informatique 1
 
+```
+Brice Robert is inviting you to a scheduled Zoom meeting.
+
+Topic: CBCR  INF1087/200/2/Administration d'infrastructure informatique 1/21H
+Time: This is a recurring meeting Meet anytime
+
+Join Zoom Meeting
+https://collegeboreal.zoom.us/j/86989235418?pwd=OHhkLytldUZTNGdhaVoyamNNT1ZGdz09
+
+Password: M7@f@1rrgk
+
+One tap mobile
++12042727920,,86989235418# Canada
++14388097799,,86989235418# Canada
+
+Dial by your location
+        +1 204 272 7920 Canada
+        +1 438 809 7799 Canada
+        +1 587 328 1099 Canada
+        +1 647 374 4685 Canada
+        +1 647 558 0588 Canada
+        +1 778 907 2071 Canada
+        855 703 8985 Canada Toll-free
+Meeting ID: 869 8923 5418
+Find your local number: https://collegeboreal.zoom.us/u/kcQWtlaysv
+```
+
+
 ## :date: [Épreuves](.epreuves)
 
 ## :one: [Devoirs](Devoirs)
