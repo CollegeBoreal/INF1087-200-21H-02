@@ -1,0 +1,11 @@
+name: Un flux de taches pour mon fichier Bonjour Monde
+on: push
+jobs:
+  build:
+    name: Action Bonjour Monde
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MON_NOM: "Mona"
