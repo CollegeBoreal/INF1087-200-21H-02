@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:sdk AS build-env 
+FROM debian:9.5-slim
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
