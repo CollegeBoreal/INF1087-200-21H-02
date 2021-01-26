@@ -1,5 +1,4 @@
-FROM debian:9.5-slim
+FROM java:8
+RUN javac HelloWorld.java
+CMD ["java","HelloWorld"]
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
