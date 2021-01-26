@@ -20,8 +20,6 @@ Tu pourras t'appuyer d'une documentation en ligne pour continuer ce laboratoire 
 $ touch README.md
 ```
 
-[Participation](Participation.md)
-
 ## :b: Laboratoire
 
 :one: Écrire les scripts en suivant le laboratoire ci-dessous dans [Github Leaning Lab](https://lab.github.com/CollegeBoreal):
