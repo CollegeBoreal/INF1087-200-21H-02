@@ -15,6 +15,9 @@
 
 
 <img src="images/Docker-In-Action_Features.png" width=500 height=500 ></img>
+
 <img src="images/Docker-In-Action_Figure-1.3.png" width=500 height=500 ></img>
+
 <img src="images/Docker-In-Action_Figure-1.4.png" width=500 height=500 ></img>
+
 <img src="images/Docker-In-Action_Images.png" width="310" height="308" ></img>
