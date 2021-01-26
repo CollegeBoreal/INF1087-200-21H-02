@@ -1,6 +1,6 @@
 # :two: Docker
 
-### [:tada Participation](.scripts/Participation.md)
+#### [:tada: Participation](.scripts/Participation.md)
 
 [Docker](../D.Docker)
 
