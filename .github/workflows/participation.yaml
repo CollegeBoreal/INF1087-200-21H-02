@@ -1,0 +1,23 @@
+name: Participations
+
+on: [push]
+
+jobs:
+  presence:
+    name: presence de fichiers pour la participation
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - shell: bash
+        run: |
+          cd 2.Docker
+          bash .scripts/run.sh
+      - name: Commit files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Participation"
+          git push
