@@ -11,7 +11,7 @@ Sous [@PowerShell](https://docs.microsoft.com/en-us/powershell)
 
 #### :one: Entrer la commande ci-dessous, 
 
-* Taper Enter et Donner `B0r34l$` comme mot de passe - B:zero:r:three::four:l$ - La lettre `L` en minuscule
+* Taper Enter et Donner `B0r34l$` comme mot de passe - `B`:zero:`r`:three::four:`l`$ - La lettre `L` en minuscule
 
 ```
 PS > $Password = Read-Host -AsSecureString 
