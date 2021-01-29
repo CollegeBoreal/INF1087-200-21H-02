@@ -1,10 +1,14 @@
 # :two: Docker
 
-Ce laboratoire t'apprendra à créer ton propre conteneur `Docker` en créant un fichier `Dockerfile`, à l'enrichier avec des commandes `shell` sous Unix en créant un fichier `entrypoint.sh`, et t'apprendra les bases du [`CI/CD`](https://en.wikipedia.org/wiki/CI/CD) `Continuous Integration` et `Continuous Delivery` avec le service `github actions` de `github.com`.
+#### [:tada: Participation](.scripts/Participation.md)
+
+[Docker](../D.Docker)
+
+Ce laboratoire t'apprendra à créer ton propre conteneur `Docker` en créant un fichier `Dockerfile`, à l'enrichir avec des commandes `shell` sous Unix en créant un fichier `entrypoint.sh`, et t'apprendra les bases du [`CI/CD`](https://en.wikipedia.org/wiki/CI/CD) `Continuous Integration` et `Continuous Delivery` avec le service `github actions` de `github.com`.
 
 Une section [Indices](#fire-indices) est fournie ci-dessous comme documentation d'aide à terminer ce laboratoire.
 
-Tu pourras t'appuyer d'une documentation en ligne pour continuer ce labobratoire en améliorant le fichier `Dockerfile` avec le [cours en ligne suivant](https://www.linkedin.com/learning/docker-essential-training-3-image-creation-management-and-registry/analyzing-a-dockerfile)
+Tu pourras t'appuyer d'une documentation en ligne pour continuer ce laboratoire en améliorant le fichier `Dockerfile` avec le [cours en ligne suivant](https://www.linkedin.com/learning/docker-essential-training-3-image-creation-management-and-registry/analyzing-a-dockerfile)
 
 ## :a: :id:
 
@@ -15,8 +19,6 @@ Tu pourras t'appuyer d'une documentation en ligne pour continuer ce labobratoire
 ```
 $ touch README.md
 ```
-
-[Participation](Participation.md)
 
 ## :b: Laboratoire
 
@@ -47,9 +49,9 @@ En un mot, récupérer le travail que vous avez fait à travers [Github Leaning 
 
 En rappel, pour éxécuter localement son fichier `Dockerfile`, on execute la commande :
 
-`$ docker build --tag b`:id:`:1.0 .`
+`$ docker image build --tag b`:id:`:1.0 .`
 
-`$ docker run --tty --env INPUT_MON_NOM="Draman" b`:id:`:1.0`
+`$ docker container run --tty --env INPUT_MON_NOM="Draman" b`:id:`:1.0`
 
 `Bonjour tout le monde mon nom est Draman`
 
@@ -89,3 +91,7 @@ par exemple pour créer `.github/workflows` utilise la commande suivante avec le
 ```
 $ mkdir -p .github/workflows
 ```
+
+# References
+
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
