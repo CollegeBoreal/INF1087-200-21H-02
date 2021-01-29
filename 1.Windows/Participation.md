@@ -18,6 +18,4 @@
 | 03   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.?      |:heavy_check_mark: Datacenter  (:x: 2016)                 |:keyboard:|:x:| :+1: |
 | 02   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.16     |:heavy_check_mark: Datacenter  (:heavy_check_mark: 2019)       |:keyboard:|:heavy_check_mark:| :heavy_check_mark: |
 
-## :b: [sconfig](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx)
 
-## :ab: [Vérification par le prof](Verification.md)
