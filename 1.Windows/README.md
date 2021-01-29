@@ -1,6 +1,6 @@
 # :one: Windows
 
-Pour ce laboratoire:
+## :a: Pour ce laboratoire:
   
   Installer un serveur Windows avec la distribution de votre choix
   
