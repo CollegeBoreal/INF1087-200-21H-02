@@ -2,7 +2,7 @@
 
 
 
-|:hash:| :id:      | Utilisateur à ajouter   | Windows Product Name (Windows Server 2019)  | :key: OS Level | :gear: sconfig  |  :school: |
+|:hash:| :id:      | Utilisateur à ajouter   | Windows Product Name (Windows Server 2019)  | :key: OS Level | :gear: [sconfig](Participation.md#b-sconfig)  |  :school: |
 |------|-----------|-------------------------|------------------------------------------------|----------|--------------|------|
 | 01   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image>  | Brice@10.13.237.187      |:heavy_check_mark: Datacenter  (:heavy_check_mark: 2019)                 |:keyboard:|:heavy_check_mark:| :heavy_check_mark: |
 | 02   | 300111824 - <image src="https://avatars2.githubusercontent.com/u/54911706?s=400&v=4" width=20 height=20></image>  | Brice@10.13.237.?      |:heavy_check_mark: Datacenter  (:x: 2019)                 |:keyboard:|:x:| :+1: |
