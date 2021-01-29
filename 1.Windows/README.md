@@ -13,9 +13,13 @@ Pour ce laboratoire:
   
   https://github.com/CollegeBoreal/Tutoriels/tree/main/P.Plateformes/2.Windows/servers
 
-## :b: [sconfig](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx)
+## :b: sconfig
+
+Assurez vous de connaitre les commandes [sconfig](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx) afin de faire des configurations sur la ligne de commande
 
 ## :ab: [Vérification par le prof](Verification.md)
+
+Ajouter mon utilisateur pour les vérifications
 
 ## :tada: [Participation](Participation.md)
 
