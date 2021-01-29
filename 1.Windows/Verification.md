@@ -93,8 +93,6 @@ HyperVRequirementVirtualizationFirmwareEnabled    : True
 HyperVRequirementVMMonitorModeExtensions          : True
 ```
 
-### :whale: Docker Engine
-
 
 # Références
 
