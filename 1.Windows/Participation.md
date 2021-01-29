@@ -1,6 +1,18 @@
 # Participation
 
+| Table des matières            | Description                                             |
+|-------------------------------|---------------------------------------------------------|
+| :a: [Présence](#a-présence)   | L'étudiant.e a fait son travail    :heavy_check_mark:   |
+| :b: [Précision](#b-précision) | L'étudiant.e a réussi son travail  :tada:               |
 
+## Légende
+
+| Signe              | Signification                 |
+|--------------------|-------------------------------|
+| :heavy_check_mark: | Prêt à être corrigé           |
+| :x:                | Projet inexistant             |
+
+## Résultat
 
 |:hash:| :id:      | Utilisateur à ajouter   | Windows Product Name (Windows Server 2019)  | :key: OS Level | :gear: [sconfig](Participation.md#b-sconfig)  |  :school: |
 |------|-----------|-------------------------|------------------------------------------------|----------|--------------|------|
