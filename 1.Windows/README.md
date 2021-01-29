@@ -15,7 +15,7 @@
 
 ## :b: sconfig
 
-Assurez vous de connaitre les commandes [sconfig](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx) afin de faire des configurations sur la ligne de commande
+Assurez vous de connaitre la commande [sconfig.cmd](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx) afin de faire des configurations sur la ligne de commande
 
 ## :ab: [Vérification par le prof](Verification.md)
 
