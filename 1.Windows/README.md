@@ -13,7 +13,11 @@ Pour ce laboratoire:
   
   https://github.com/CollegeBoreal/Tutoriels/tree/main/P.Plateformes/2.Windows/servers
 
-## [Participation](Participation.md)
+## :b: [sconfig](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx)
+
+## :ab: [Vérification par le prof](Verification.md)
+
+## :tada: [Participation](Participation.md)
 
 
 # :o: References
