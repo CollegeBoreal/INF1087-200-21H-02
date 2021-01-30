@@ -4,9 +4,9 @@
 
 | Signe              | Signification                 |
 |--------------------|-------------------------------|
+| :tada:             | Machine Installée avec :key:  |
 | :heavy_check_mark: | Corrigé                       |
 | :+1:               | Prêt à être corrigé           |
-| :x:                | Projet inexistant             |
 
 ## Résultat
 
