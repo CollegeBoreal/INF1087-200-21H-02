@@ -3,7 +3,7 @@
 ### :gear: Se connecter au routeur
 
 ```
-$ ssh amirali12:Terminal@12@10.13.237.200
+$ ssh amirali12@10.13.237.200
 Password: Teminal@2
 ```
 
