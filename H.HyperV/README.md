@@ -3,7 +3,7 @@
 ## Qu'est-ce que Hyper V
 
 
-## :one: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) sur Windows Server
+## :a: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) sur Windows Server
 
 :warning: Attention le serveur va redémarrer
 
