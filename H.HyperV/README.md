@@ -5,7 +5,7 @@ HyperV est un [HyperVisor](https://github.com/CollegeBoreal/Tutoriels/tree/main/
 Sur vos serveur Windows 2019:
 
 
-- [ ] [Install](Install.md)er HyperV
+- [ ] Veuillez [Install](Install.md)er HyperV
 
 
 - [ ] Configurer la Switch Virtuelle - [VmSwitch](VmSwitch.md)
