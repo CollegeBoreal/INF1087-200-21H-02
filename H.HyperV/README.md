@@ -5,6 +5,8 @@
 
 ## :one: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) sur Windows Server
 
+:warning: Attention le serveur va redémarrer
+
 ```
 PS> Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 ```
