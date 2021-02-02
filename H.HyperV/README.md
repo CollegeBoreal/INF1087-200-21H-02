@@ -3,7 +3,9 @@
 ## Qu'est-ce que Hyper V
 
 
-## :a: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) sur Windows Server
+## :a: Installer Hyper-V
+
+### :one: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) sur Windows Server
 
 :warning: Attention le serveur va redémarrer
 
@@ -12,7 +14,7 @@ PS> Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 ```
 
 
-### :pushpin: Tester le role Hyper V et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
+### :two: Tester le role Hyper V et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
 
 ```
 PS> Get-WindowsFeature *Hyper*
