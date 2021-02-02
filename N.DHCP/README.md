@@ -47,6 +47,8 @@ ip dhcp pool hyper-v
 
 ### :ab: Consulter le pool `hyper-v`
 
+- [ ] Son utilisation
+
 ``` 
 Arta_group# show ip dhcp pool hyper-v
 
@@ -60,6 +62,18 @@ Pool hyper-v :
  1 subnet is currently in the pool :
  Current index        IP address range                    Leased/Excluded/Total
  10.13.237.194        10.13.237.1      - 10.13.237.254     1     / 1     / 254  
+```
+
+- [ ] les liens DHCP associés
+
+```
+Arta_group#show ip dhcp binding     
+Bindings from all pools not associated with VRF:
+IP address      Client-ID/ 		Lease expiration 	Type       State      Interface
+		Hardware address/
+		User name
+10.13.237.193   0012.5f30.949d          Feb 02 2021 09:57 PM    Automatic  Selecting  GigabitEthernet0/0/1
+10.13.237.194   0100.155d.ed58.01       Feb 03 2021 09:35 PM    Automatic  Active     GigabitEthernet0/0/1
 ```
 
 # References
