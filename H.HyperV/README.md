@@ -34,6 +34,7 @@ PS> Install-WindowsFeature -Name Hyper-V-PowerShell
 PS> Install-WindowsFeature -Name RSAT-Hyper-V-Tools
 ```
 
+### :three: Lister les modules Hyper-V disponibles
 
 ```
 PS> Get-Module -ListAvailable *Hyper*
@@ -49,7 +50,7 @@ Binary     1.1        Hyper-V                             {Add-VMDvdDrive, Add-V
 
 ```
 
-## Voir les commandes Powershell pour le role Hyper V
+### :four: Voir les commandes Powershell pour le role Hyper V
 
 ```
 PS> Get-Command -Module Hyper-V
