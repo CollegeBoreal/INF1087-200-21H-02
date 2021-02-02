@@ -10,7 +10,7 @@ PS> Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 ```
 
 
-### :pushpin: Tester le role Hyper V et les outils de gestion `RSAT`
+### :pushpin: Tester le role Hyper V et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
 
 ```
 PS> Get-WindowsFeature *Hyper*
