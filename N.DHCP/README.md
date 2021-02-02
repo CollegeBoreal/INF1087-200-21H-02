@@ -16,10 +16,11 @@ Arta_group> enable
 Password: cisco
 Arta_group# configure terminal 
 Enter configuration commands, one per line.  End with CNTL/Z.
-Arta_group(config)#ip dhcp pool hyper-v
-Arta_group(dhcp-config)#network 10.13.237.0 255.255.255.0
-Arta_group(dhcp-config)#default-router 10.13.237.1
-Arta_group(dhcp-config)#exit
+Arta_group(config)# ip dhcp pool hyper-v
+Arta_group(dhcp-config)# network 10.13.237.0 255.255.255.0
+Arta_group(dhcp-config)# dns-server 1.0.0.1 1.1.1.1
+Arta_group(dhcp-config)# default-router 10.13.237.1
+Arta_group(dhcp-config)# end
 Arta_group(config)#^Z
 ```
 
@@ -42,6 +43,7 @@ ip dhcp excluded-address 10.13.237.1 10.13.237.191
 ip dhcp pool hyper-v
  network 10.13.237.0 255.255.255.0
  default-router 10.13.237.1 
+ dns-server 1.0.0.1 1.1.1.1 
 ...
 ```
 
