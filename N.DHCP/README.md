@@ -1,7 +1,5 @@
 # DHCP 
 
-https://www.cisco.com/en/US/docs/ios/12_4t/ip_addr/configuration/guide/htdhcpsv.html
-
 ### :gear: Se connecter au routeur
 
 ```
@@ -63,3 +61,8 @@ Pool hyper-v :
  Current index        IP address range                    Leased/Excluded/Total
  10.13.237.194        10.13.237.1      - 10.13.237.254     1     / 1     / 254  
 ```
+
+# References
+
+https://www.cisco.com/en/US/docs/ios/12_4t/ip_addr/configuration/guide/htdhcpsv.html
+
