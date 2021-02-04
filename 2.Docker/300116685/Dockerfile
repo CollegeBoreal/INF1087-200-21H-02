@@ -1,5 +1,7 @@
-FROM debian:9.5-slim
+From python:3.8
+WORKDIR /code 
+COPY requirements.txt .
+RUN pip install -r requirements.txt 
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+COPY src/ .
+CMD ["python", "./server.py"]
