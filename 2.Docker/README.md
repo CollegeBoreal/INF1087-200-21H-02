@@ -99,3 +99,5 @@ https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://phoenixnap.com/kb/how-to-containerize-applications
 
 https://phoenixnap.com/kb/docker-cmd-vs-entrypoint
+
+https://livebook.manning.com/book/docker-in-action/chapter-8
