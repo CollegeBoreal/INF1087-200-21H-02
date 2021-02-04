@@ -95,3 +95,5 @@ $ mkdir -p .github/workflows
 # References
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+https://phoenixnap.com/kb/how-to-containerize-applications
