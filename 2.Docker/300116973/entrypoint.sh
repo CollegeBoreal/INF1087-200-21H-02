@@ -1,4 +1,4 @@
-#!/bin/sh -l
+#!/bin/bash -l
 
-sh -c "echo Bonjour tout le monde mon nom est $INPUT_MON_NOM"
-sh -c "echo et mon ID est $INPUT_MON_ID"
+bash -c "echo Bonjour tout le monde mon nom est $INPUT_MON_NOM"
+bash -c "echo et mon ID est $INPUT_MON_ID"

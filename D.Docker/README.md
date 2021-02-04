@@ -12,3 +12,12 @@
 - [ ] [Cycle de vie](https://www.linkedin.com/learning/decouvrir-docker/decouvrir-le-cycle-de-vie-d-un-conteneur?u=56968449)
 
 - [ ] [Image](https://www.linkedin.com/learning/decouvrir-docker/comprendre-les-couches-d-une-image?u=56968449)
+
+
+<img src="images/Docker-In-Action_Features.png" width=500 height=500 ></img>
+
+<img src="images/Docker-In-Action_Figure-1.3.png" width=500 height=500 ></img>
+
+<img src="images/Docker-In-Action_Figure-1.4.png" width=500 height=500 ></img>
+
+<img src="images/Docker-In-Action_Images.png" width=500 height=500 ></img>

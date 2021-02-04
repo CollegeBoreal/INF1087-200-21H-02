@@ -1,5 +1,6 @@
 FROM debian:9.5-slim
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN apt-get update
+RUN mkdir -p .github/workflows
+RUN apt-get install git -y
+#RUN apt-get upgrade -y
