@@ -6,4 +6,4 @@ def display():
     return "Looks like it works!"
 
 if __name__=='__main__':
-    app.run(debug=False,host='0.0.0.0')0
+    app.run(debug=False,host='0.0.0.0')
