@@ -24,7 +24,7 @@
 | 10 | 300117444 - <image src="https://avatars0.githubusercontent.com/u/54910261?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.95 |:heavy_check_mark: Datacenter  (:x: 2016)                 |:keyboard:|:heavy_check_mark:| :bangbang: | 
 | 11 | 300117782 - <image src="https://avatars0.githubusercontent.com/u/56364697?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.67      |:heavy_check_mark: Datacenter  (:heavy_check_mark: 2019)                 |:tada:|:heavy_check_mark:| :bangbang: | 
 | 12   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.78      |:heavy_check_mark: Datacenter  (:x: 2019)                 |:keyboard:|:x:| :bangbang: | 
-| 13   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.123      |:heavy_check_mark: Datacenter  (:x: 2016)                 |:keyboard:|:x:| :+1: |
+| 13   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.123      |:heavy_check_mark: Datacenter  (:x: 2016)                 |:keyboard:|:x:| :bangbang: | 
 | 14   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image>  | Brice@10.13.237.16     |:heavy_check_mark: Datacenter  (:heavy_check_mark: 2019)       |:tada:|:heavy_check_mark:| :heavy_check_mark: |
 
 
