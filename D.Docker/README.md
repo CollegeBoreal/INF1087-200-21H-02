@@ -42,3 +42,5 @@ comentaires `#`
 `ENTRYPOINT` -- par défaut éxécute à la fin de l'installation `["/bin/sh"]`. On peut l'`override` (outrepasser ou remplacer)
 
 `CMD` -- permet de rajouter des parametres à la commande `ENTRYPOINT` - de type tableaux [ "param1", "parma2"] 
+
+`ENV` -- permet de passer des variables d'environnements
