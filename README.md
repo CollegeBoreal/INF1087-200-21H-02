@@ -35,7 +35,7 @@ Find your local number: https://collegeboreal.zoom.us/u/kcQWtlaysv
 
 |:hash:| Date   | Cours              | Intitulé                            |  Pratique                                                     |
 |------|--------|:-------------------|:------------------------------------|:--------------------------------------------------------------|
-|:one: |02/02/21| [1.Windows](1.Windows) | |
+|:one: |12/02/21| [1.Windows](1.Windows) |  â Noter :bangbang: |
 |:two: |02/02/21| [2.Docker](2.Docker) | |
 
 
