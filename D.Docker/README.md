@@ -31,19 +31,19 @@
 
 Quels sont les mots clés pour créer son image?
 
-| mot clé   |  Commentaires                                                    |
-|-----------|------------------------------------------------------------------|
-| `#`       | faire un comentaire                                              | 
-| `FROM`    | Donner une image                                                 |
-| `LABEL`   | Donner de l'information (i.e. `maintener=`)                      |
-| `WORKDIR` | Comme `pwd` en Unix, indique le répertoire de travail ou courant |
-| `ADD`     | Ajoute des fichiers (compréssés) ou des répertoires à l'image    |
-| `COPY`    | Ajoute des fichiers à l'image                                    |
+| mot clé      |  Commentaires                                                                                                |
+|--------------|--------------------------------------------------------------------------------------------------------------|
+| `#`          | faire un comentaire                                                                                          |
+| `FROM`       | Donner une image                                                                                             |
+| `LABEL`      | Donner de l'information (i.e. `maintener=`)                                                                  |
+| `WORKDIR`    | Comme `pwd` en Unix, indique le répertoire de travail ou courant                                             |
+| `ADD`        | Ajoute des fichiers (compréssés) ou des répertoires à l'image                                                |
+| `COPY`       | Ajoute des fichiers à l'image                                                                                |
+| `RUN`        | Éxécute les scripts ou installe des librairies ( `apt-get` ou `pip` ) dans l'image                           |
+| `ENTRYPOINT` | Par défaut éxécute à la fin de l'installation `["/bin/sh"]`. On peut l'`override` (outrepasser ou remplacer) |
+| `CMD`        | Permet de rajouter des parametres à la commande `ENTRYPOINT` - de type tableaux [ "param1", "parma2"]        |
+| `ENV`        | permet de passer des variables d'environnements. Note: utiliser le paramêtre `--env` à la ligne de commande  |
 
-`RUN` -- Éxécute les scripts ou installe des librairies ( `apt-get` ou `pip` ) dans l'image
+# Références
 
-`ENTRYPOINT` -- par défaut éxécute à la fin de l'installation `["/bin/sh"]`. On peut l'`override` (outrepasser ou remplacer)
-
-`CMD` -- permet de rajouter des parametres à la commande `ENTRYPOINT` - de type tableaux [ "param1", "parma2"] 
-
-`ENV` -- permet de passer des variables d'environnements. Note: utiliser le paramêtre `--env` à la ligne de commande 
+https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf
