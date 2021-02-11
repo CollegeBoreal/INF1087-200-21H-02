@@ -49,7 +49,7 @@ Quels sont les instructions pour créer sa propre image?
 https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf
 
 
-<img src="images/Container-plus-VM.png" width=500 height=500 ></img>
+<img src="images/Container-plus-VM.png" width=521 height=293 ></img>
 
 <img src="images/Container-vs-VM.png" width=500 height=500 ></img>
 
