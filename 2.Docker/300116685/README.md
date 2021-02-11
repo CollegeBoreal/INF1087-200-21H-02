@@ -6,6 +6,7 @@
 Nous montrons comment faire cela avec un service Flask simple de sorte que nous puissions l'exécuter de manière autonome sans avoir à configurer d'autres composants.
 
 :fireworks: fichier server.py
+------------------------------
 ```
 from flask import Flask
 server = Flask(__name__)
@@ -39,8 +40,29 @@ Pour exécuter notre programme Python, il ne reste plus qu'à installer un inter
  Dockerfile contenant des instructions pour assembler une image Docker pour notre service Python hello world :
  
  :firecracker: Dockerfile
+ -------------------------
+ ```
+ # set base image (host OS)
+FROM python:3.8
+
+# set the working directory in the container
+WORKDIR /code
+
+# copy the dependencies file to the working directory
+COPY requirements.txt .
+
+# install dependencies
+RUN pip install -r requirements.txt
+
+# copy the content of the local src directory to the working directory
+COPY src/ .
+
+# command to run on container start
+CMD [ "python", "./server.py" ]
+ ```
  
+Pour chaque instruction ou commande du Dockerfile, 
+le constructeur Docker génère un calque d'image et l'empile sur les précédents.
 
-
-
+:link: https://www.docker.com/blog/containerized-python-development-part-1/
 
