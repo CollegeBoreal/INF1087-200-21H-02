@@ -1,12 +1,12 @@
-# Executer une simple application Node.js sur Docker#
+# :apple: Executer une simple application Node.js sur Docker :apple:
 
 :smile: nous allons vous montrer comment obtenir une application Node.js dans un conteneur Docker.:smile:
 
-:one: ## Creation de l'application Node.js ##
+## :one:  Creation de l'application Node.js
 
 Pour ce faire nous allons créer un fichier `package.json` qui décrit votre application et ses dépendances :
 
-`
+```
 {
   "name": "docker_web_app",
   "version": "1.0.0",
@@ -20,20 +20,20 @@ Pour ce faire nous allons créer un fichier `package.json` qui décrit votre app
     "express": "^4.16.1"
   }
 }
-`
+```
 
-:two: ## Executer nmp install ##
+## :two: Executer nmp install
 
-![image](images/deroulement.png)
+![images](images/1.JPG)
 
 Avec votre nouveau fichier package.json, exécutez npm install. Si vous utilisez npm version 5 ou ultérieure, 
 cela générera un fichier `package-lock.json` qui sera copié sur votre image Docker.
 
-:three: ## Creer un fichier `server.js`
+## :three: Creer un fichier `server.js`
 
 Créez un fichier `server.js` qui doit définir une application web en utilisant le framework `Express.js`
 
-`
+```
 'use strict';
 
 const express = require('express');
@@ -50,11 +50,11 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
-`
+```
 La prochaines étapes consiste, a exécuter cette application dans un conteneur Docker en utilisant 
 l’image officielle de Docker. Tout d’abord, nous devons créer une image Docker de notre application.
 
-:four: ## Creation du `Dockerfile`
+## :four: Creation du `Dockerfile`
 
 creer un fichier `Dockerfile`
 
@@ -62,7 +62,7 @@ creer un fichier `Dockerfile`
 
 :apple: a l'aide d'un editeur ouvrir votre Dockerfile et mettez les element suivant :
 
-`
+```
 FROM node:14
 
 # Create app directory
@@ -83,20 +83,22 @@ COPY . .
 EXPOSE 8080
 CMD [ "node", "server.js" ]
 
-`
+```
 
-:five: Creation d'un fichier .dockerignore  dans le meme repertoire que Dockerfile et mettre les elements suivant a l'interieur:
+## :five: Creation d'un fichier .dockerignore
 
-`
+Dans le meme repertoire que Dockerfile et mettre les elements suivant a l'interieur: 
+
+```
 node_modules
 npm-debug.log
 
-`
+```
 
 :apple: Ceci empêchera la copie de vos modules locaux et journaux de débogage sur votre image Docker et éventuellement
 l’écrasement des modules installés dans votre image.
 
-:six: ## Construire votre image ##
+## :six: Construire votre image
 
 acceder votre repertoire `Dockerfile` et exécutez la commande suivante pour construire l’image Docker. 
 Le drapeau `-tty` vous permet de taguer votre image afin qu’elle soit plus facile à trouver plus tard en utilisant la commande docker images :
@@ -104,19 +106,27 @@ Le drapeau `-tty` vous permet de taguer votre image afin qu’elle soit plus fac
 `docker image build --tag nathynode:1.0 .`
 
 
-:shark:vous pouvez verifier votre image avec `docker images`
+:shark:vous pouvez verifier votre image avec `docker images ls`
 
-:seven: ## Exercuter votre image ##
+![images](images/2.JPG)
 
-`docker run -detach -publish 49160:8080 nathynode:1.0`
+## :seven: Exercuter votre image##
 
-:eight: ##Imprimer le resultat de votre application##
+![images](images/3.JPG)
+
+```docker run -detach -publish 49160:8080 nathynode:1.0```
+
+## :eight: Imprimer le resultat de votre application
 
 `docker ps` pour voir votre ID et le port ou est loger votre image et `docker logs fa5aa42ecd0e` pour afficher sur une page web
 
-:nine: ##Publier le port ##
+## :nine:  Publier le port
 
-`curl 10.13.237.23:49160`
+```curl 10.13.237.23:49160```
+
+![images](images/4.JPG)
+
+References : :link: https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 
 
