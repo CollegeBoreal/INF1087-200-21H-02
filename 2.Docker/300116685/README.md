@@ -80,8 +80,6 @@ publie le port
 $ curl http://localhost:5000
 "Hello World!"
 ```
-```
-
 
 :link: https://www.docker.com/blog/containerized-python-development-part-1/
 
