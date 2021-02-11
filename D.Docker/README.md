@@ -6,6 +6,12 @@
 
 ## :tv: [Bienvenue dans docker pour les developpeurs](https://www.linkedin.com/learning/docker-pour-les-developpeurs/bienvenue-dans-docker-pour-les-developpeurs?u=56968449)
 
+## Qu'est-ce que Docker?
+
+<img src="images/Docker-In-Action_Figure-1.3.png" width=500 height=500 ></img>
+
+<img src="images/Docker-In-Action_Figure-1.4.png" width=500 height=500 ></img>
+
 
 ## :tv: Vidéos de cours
 
@@ -13,14 +19,12 @@
 
 - [ ] [Image](https://www.linkedin.com/learning/decouvrir-docker/comprendre-les-couches-d-une-image?u=56968449)
 
+<img src="images/Docker-In-Action_Images.png" width=500 height=500 ></img>
+
 
 <img src="images/Docker-In-Action_Features.png" width=500 height=500 ></img>
 
-<img src="images/Docker-In-Action_Figure-1.3.png" width=500 height=500 ></img>
 
-<img src="images/Docker-In-Action_Figure-1.4.png" width=500 height=500 ></img>
-
-<img src="images/Docker-In-Action_Images.png" width=500 height=500 ></img>
 
 
 #: :bulb: Dockerfile
