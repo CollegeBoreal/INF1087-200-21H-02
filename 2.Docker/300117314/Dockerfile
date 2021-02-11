@@ -1,5 +1,6 @@
-FROM debian:9.5-slim
+#mon exemple dockerfiles
+FROM ubuntu:latest
+LABEL maintainer="mrgt747@gmail.com"
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN apt-get update && apt-get install -y git
+ENTRYPOINT ["git"]

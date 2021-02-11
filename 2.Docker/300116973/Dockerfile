@@ -1,5 +1,6 @@
+# mon exemple dockerfile
 FROM ubuntu:latest
+LABEL maintainer="lagokamdem@gmail.com"
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN apt-get update && apt-get install -y git
+ENTRYPOINT ["git"]
