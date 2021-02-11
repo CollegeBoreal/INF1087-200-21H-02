@@ -3,7 +3,7 @@
 -----------------------------------
 ## :a: Dockerfile
 -------------------------------
-  Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement java pour pouvoir afficher Hello World a la creation du conteneur de notre conteneur
+  Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement java pour pouvoir afficher Hello World a la creation du container 
  ### Dockerfile
  ```
 FROM java:8
@@ -23,10 +23,10 @@ j'utilise le repertoire **/var/www/java** comme repertoire de travail
 je copie mes fichier dans mon repertoire de travail
 
 ### :four: RUN javac HelloWorld.java
-j'excecute mon script **HelloWorld.java** a la creation/execution de notre conteneur
+j'excecute mon script **HelloWorld.java** a la creation/execution de notre container
 
 ### :five: CMD ["java","HelloWorld"]
-je donne la commande  **java HelloWorld** au demarrage du conteneur
+je donne la commande  **java HelloWorld** au demarrage du container
 
 
 ## :b: HelloWorld.java
@@ -50,5 +50,16 @@ import java.util.Scanner;
 
 }
 ```
+## :c: Creer Image et Executer le Container
 
+### Creer Image
+```
+$ docker build -t javaImage:1.0 .
+```
+
+### Executer/Creer le Container
+```
+$ docker run --name javaContainer -d javaImage:1.0 
+
+```
 
