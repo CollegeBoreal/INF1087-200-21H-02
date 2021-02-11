@@ -3,9 +3,9 @@
 ## Qu'est-ce que Hyper V
 
 
-## :a: Installer Hyper-V
+## :gear: Installer Hyper-V
 
-### :one: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) sur Windows Server
+### :a: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) sur Windows Server
 
 :warning: Attention le serveur va redémarrer
 
@@ -13,7 +13,7 @@
 PS> Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 ```
 
-### :two: Tester le role Hyper V et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
+### :b: Tester le role Hyper V et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools)
 
 ```
 PS> Get-WindowsFeature *Hyper*
@@ -26,15 +26,7 @@ Display Name                                            Name                    
             [X] Hyper-V Module for Windows PowerShell   Hyper-V-PowerShell             Installed
 ```
 
-### :x: Installer les modules powershell et RSAT individuellement (Si non installé par la commande globale)
-
-```
-PS> # Install Hyper-V Manager and the PowerShell module (HVM only available on GUI systems)
-PS> Install-WindowsFeature -Name Hyper-V-PowerShell
-PS> Install-WindowsFeature -Name RSAT-Hyper-V-Tools
-```
-
-### :three: Lister les modules Hyper-V disponibles
+### :ab: Lister les modules Hyper-V disponibles
 
 ```
 PS> Get-Module -ListAvailable *Hyper*
@@ -50,13 +42,19 @@ Binary     1.1        Hyper-V                             {Add-VMDvdDrive, Add-V
 
 ```
 
-### :four: Voir les commandes Powershell pour le role Hyper V
+### :o: Voir les commandes Powershell pour le role Hyper V
 
 ```
 PS> Get-Command -Module Hyper-V
 ```
 
+### :x: Installer les modules powershell et RSAT individuellement (Si non installé par la commande globale)
 
+```
+PS> # Install Hyper-V Manager and the PowerShell module (HVM only available on GUI systems)
+PS> Install-WindowsFeature -Name Hyper-V-PowerShell
+PS> Install-WindowsFeature -Name RSAT-Hyper-V-Tools
+```
 
 # References
 
