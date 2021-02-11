@@ -33,10 +33,10 @@ Find your local number: https://collegeboreal.zoom.us/u/kcQWtlaysv
 
 ## :one: [Devoirs](Devoirs)
 
-|:hash:| Date   | Cours              | Intitulé                            |  Pratique                                                     |
-|------|--------|:-------------------|:------------------------------------|:--------------------------------------------------------------|
-|:one: |02/02/21| [1.Windows](1.Windows) | |
-|:two: |02/02/21| [2.Docker](2.Docker) | |
+|:hash:| Date   | Cours                  | Intitulé                            |  Pratique                                                     |
+|------|--------|:-----------------------|:------------------------------------|:--------------------------------------------------------------|
+|:one: |12/02/21| [1.Windows](1.Windows) | â Noter :bangbang: |
+|:two: |12/02/21| [2.Docker](2.Docker)   | â Noter :bangbang: |
 
 
 ## Resultats d'Apprentissage du Cours

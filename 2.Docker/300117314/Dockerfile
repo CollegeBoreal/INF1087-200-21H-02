@@ -1,5 +1,7 @@
-FROM debian:9.5-slim
-
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+#mon exemple dockerfiles
+FROM ubuntu:latest
+LABEL maintainer="mrgt747@gmail.com"
+COPY . /app
+RUN make /app && apt-get update && apt-get install -y git
+CMD python /app/app.py
+ENTRYPOINT ["git"]

@@ -55,6 +55,10 @@ En rappel, pour éxécuter localement son fichier `Dockerfile`, on execute la co
 
 `Bonjour tout le monde mon nom est Draman`
 
+:bookmark: Le but de l'exercice est de l'améliorer le `Dockerfile` soit cherchant des examples sur Internet ou dans le livre au Chapitre 8
+
+Décrire les commandes utilisées pour l'amélioration
+
 :four: Docker Image
 
 Pour visualiser les couches images de l'image créée

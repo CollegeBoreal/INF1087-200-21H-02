@@ -11,7 +11,7 @@
   - Windows Server Hyper-V 2019
   
   
-  https://github.com/CollegeBoreal/Tutoriels/tree/main/P.Plateformes/2.Windows/servers
+  https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/2.Windows/servers
 
 ## :b: sconfig
 
