@@ -2,6 +2,7 @@
 # :rocket: Java Hello World avec Dockerfile
 -----------------------------------
 ## :a: Dockerfile
+-------------------------------
   Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement java pour pouvoir afficher Hello World a la creation du conteneur de notre conteneur
  ### Dockerfile
  ```
@@ -26,3 +27,28 @@ j'excecute mon script **HelloWorld.java** a la creation/execution de notre conte
 
 ### :five: CMD ["java","HelloWorld"]
 je donne la commande  **java HelloWorld** au demarrage du conteneur
+
+
+## :b: HelloWorld.java
+--------------------------------
+mon fichier HelloWorld.java vas executer notre **"Hello World"**
+
+### HelloWorld.java
+
+```
+import java.util.Scanner;
+ class HelloWorld{
+
+	public static void main(String[] args){
+		 Scanner sc = new Scanner(System.in); 
+		 System.out.println("#######################");
+		 System.out.println("HelloWorld TO Boris Machine Java");
+
+
+
+}
+
+}
+```
+
+
