@@ -1,7 +1,7 @@
 
 ## Demonstration Dockerfile 
 ----------------------------
-:sun: Nous creons le Script de dockerfile 
+:Sun: Nous creons le Script de dockerfile 
 
 :one: Conteneuriser un service Python 
 --------------------------------------
