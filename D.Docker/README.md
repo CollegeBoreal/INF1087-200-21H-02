@@ -53,11 +53,11 @@ https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/
 
 <img src="images/Container-vs-VM.png" width=521 height=293 ></img>
 
-<img src="images/Docker-Basics.png" width=500 height=500 ></img>
+<img src="images/Docker-Basics.png" width=521 height=293 ></img>
 
-<img src="images/Docker-Container.png" width=500 height=500 ></img>
+<img src="images/Docker-Container.png" width=521 height=293 ></img>
 
-<img src="images/Docker-Family-Tree.png" width=500 height=500 ></img>
+<img src="images/Docker-Family-Tree.png" width=521 height=293 ></img>
 
-<img src="images/Docker-Hystory.png" width=500 height=500 ></img>
+<img src="images/Docker-Hystory.png" width=521 height=293 ></img>
 
