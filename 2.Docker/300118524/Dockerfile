@@ -1,6 +1,6 @@
-FROM debian:9.5-slim
+FROM php:8.0-apache
+LABEL version="1.1"
 
-RUN apt-get update
-RUN mkdir -p .github/workflows
-RUN apt-get install git -y
-#RUN apt-get upgrade -y
+COPY . /var/www/html
+EXPOSE 80
+CMD ["php", "./legacy_app.php"]
