@@ -50,7 +50,8 @@ import java.util.Scanner;
 
 }
 ```
-## :c: Creer Image et Executer le Container
+##  Creer Image et Executer le Container
+-------------------------------------------
 
 ### Creer Image
 ```
