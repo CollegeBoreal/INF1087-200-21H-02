@@ -2,6 +2,7 @@
 
 ## Qu'est-ce que Hyper V
 
+HyperV est un [hypervisor](https://fr.wikipedia.org/wiki/Hyperviseur) tournant sur les plateformes `Windows` 
 
 ## :gear: Installer Hyper-V
 
