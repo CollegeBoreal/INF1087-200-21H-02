@@ -1,7 +1,6 @@
 
 ## Demonstration Dockerfile 
 ----------------------------
-:Sun: Nous creons le Script de dockerfile 
 
 :one: Conteneuriser un service Python 
 --------------------------------------
@@ -66,10 +65,16 @@ CMD [ "python", "./server.py" ]
 Pour chaque instruction ou commande du Dockerfile, 
 le constructeur Docker génère un calque d'image et l'empile sur les précédents.
 
-:dollar: Exécutez le conteneur
+:dollar: creer image dockerfile et execute le container 
 ----------------------------
 
+```
+$ docker image build --tag b300116685:1.1 .
+$ docker run -d -p 5000:5000 b300116685:1.1
+$ curl http://localhost:5000
+"Hello World!"
 
+```
 
 
 :link: https://www.docker.com/blog/containerized-python-development-part-1/
