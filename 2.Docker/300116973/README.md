@@ -1,6 +1,6 @@
 # :apple: Executer une simple application Node.js sur Docker :apple:
 
-:smile: nous allons vous montrer comment obtenir une application Node.js dans un conteneur Docker.:smile:
+:smile: Nous allons vous montrer comment obtenir une application Node.js dans un conteneur Docker.:smile:
 
 ## :one:  Creation de l'application Node.js
 
@@ -60,7 +60,7 @@ creer un fichier `Dockerfile`
 
 `touch dockerfile`
 
-:apple: a l'aide d'un editeur ouvrir votre Dockerfile et mettez les element suivant :
+:apple: a l'aide d'un editeur ouvrir votre Dockerfile et mettez les elements suivant :
 
 ```
 FROM node:14
@@ -87,7 +87,7 @@ CMD [ "node", "server.js" ]
 
 ## :five: Creation d'un fichier .dockerignore
 
-Dans le meme repertoire que Dockerfile et mettre les elements suivant a l'interieur: 
+Creer ce fichier dans le meme repertoire que Dockerfile et mettre les elements suivant a l'interieur: 
 
 ```
 node_modules
@@ -100,13 +100,13 @@ l’écrasement des modules installés dans votre image.
 
 ## :six: Construire votre image
 
-acceder votre repertoire `Dockerfile` et exécutez la commande suivante pour construire l’image Docker. 
-Le drapeau `-tty` vous permet de taguer votre image afin qu’elle soit plus facile à trouver plus tard en utilisant la commande docker images :
+Acceder a votre repertoire `Dockerfile` et exécutez la commande suivante pour construire l’image Docker. 
+Le drapeau `-tag` vous permet de taguer votre image afin qu’elle soit plus facile à trouver plus tard en utilisant la commande docker images :
 
 `docker image build --tag nathynode:1.0 .`
 
 
-:shark:vous pouvez verifier votre image avec `docker images ls`
+:shark:Vous pouvez verifier votre image avec `docker images ls`
 
 ![images](images/2.JPG)
 
@@ -118,7 +118,7 @@ Le drapeau `-tty` vous permet de taguer votre image afin qu’elle soit plus fac
 
 ## :eight: Imprimer le resultat de votre application
 
-`docker ps` pour voir votre ID et le port ou est loger votre image et `docker logs fa5aa42ecd0e` pour afficher sur une page web
+`docker ps` pour voir votre ID et le port ou est logee votre image et `docker logs fa5aa42ecd0e` pour afficher sur une page web. 'fa5aa42ecd0e' reprensente le ID de mon image.
 
 ## :nine:  Publier le port
 
