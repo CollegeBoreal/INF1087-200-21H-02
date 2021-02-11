@@ -1,7 +1,7 @@
 
 ## Demonstration Dockerfile 
 ----------------------------
-:warning: Nous creons le Script de dockerfile 
+:Blood Type A: Nous creons le Script de dockerfile 
 
 :one: Conteneuriser un service Python 
 --------------------------------------
