@@ -1,4 +1,4 @@
 
 # Java Hello World avec Dockerfile
 -----------------------------------
-:A:
+:a:
