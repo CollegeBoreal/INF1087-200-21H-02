@@ -27,13 +27,15 @@
 
 
 
-#: :bulb: Dockerfile
+## :bulb: Dockerfile
 
-comentaires `#`
+Quels sont les mots clés pour créer son image?
 
-`FROM` --- Donner une image
-
-`LABEL` --- Donner de l'information
+| mot clé |  Commentaires           |
+|---------|-------------------------|
+| `#`     | faire un comentaire     | 
+| `FROM`  | Donner une image        |
+| `LABEL` | Donner de l'information (i.e. `maintener=`)|
 
 `WORKDIR` -- comme `pwd` le répertoire de travail ou courant 
 
