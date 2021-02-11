@@ -1,7 +1,7 @@
 
 # Java Hello World avec Dockerfile
 -----------------------------------
-:a: notre fichier Dockerfile
+:a: Dockerfile
   le fichier Dockerfile vas nous permettre de creer une image contenant notre envirronnement java pour pouvoir afficher Hello World a la creation du conteneur
  ```
   FROM java:8
