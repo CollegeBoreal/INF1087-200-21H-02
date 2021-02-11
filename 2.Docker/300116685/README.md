@@ -4,6 +4,7 @@
 :one: Conteneuriser un service Python 
 --------------------------------------
 Nous montrons comment faire cela avec un service Flask simple de sorte que nous puissions l'exécuter de manière autonome sans avoir à configurer d'autres composants.
+
 :fireworks: fichier server.py
 ```
 from flask import Flask
@@ -36,6 +37,7 @@ Pour exécuter notre programme Python, il ne reste plus qu'à installer un inter
 :two: Analyse d'un Dockerfile
 -----------------------------
  Dockerfile contenant des instructions pour assembler une image Docker pour notre service Python hello world :
+ 
  :firecracker: Dockerfile
  
 
