@@ -70,10 +70,16 @@ le constructeur Docker génère un calque d'image et l'empile sur les précéden
 
 ```
 $ docker image build --tag b300116685:1.1 .
+```
+
+```
 $ docker run -detach -publish 5000:5000 b300116685:1.1
+```
+
+```
 $ curl http://localhost:5000
 "Hello World!"
-
+```
 ```
 
 
