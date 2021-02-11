@@ -31,17 +31,14 @@
 
 Quels sont les mots clés pour créer son image?
 
-| mot clé |  Commentaires           |
-|---------|-------------------------|
-| `#`     | faire un comentaire     | 
-| `FROM`  | Donner une image        |
-| `LABEL` | Donner de l'information (i.e. `maintener=`)|
-
-`WORKDIR` -- comme `pwd` le répertoire de travail ou courant 
-
-`ADD` -- ajoute des fichiers (compréssé) ou des répertoires à l'image
-
-`COPY` -- ajoute des fichiers à l'image
+| mot clé   |  Commentaires                                                    |
+|-----------|------------------------------------------------------------------|
+| `#`       | faire un comentaire                                              | 
+| `FROM`    | Donner une image                                                 |
+| `LABEL`   | Donner de l'information (i.e. `maintener=`)                      |
+| `WORKDIR` | Comme `pwd` en Unix, indique le répertoire de travail ou courant |
+| `ADD`     | Ajoute des fichiers (compréssés) ou des répertoires à l'image    |
+| `COPY`    | Ajoute des fichiers à l'image                                    |
 
 `RUN` -- Éxécute les scripts ou installe des librairies ( `apt-get` ou `pip` ) dans l'image
 
