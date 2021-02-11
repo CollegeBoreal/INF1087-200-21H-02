@@ -1,6 +1,8 @@
 
 ## Demonstration Dockerfile 
 ----------------------------
+:warning: Nous creons le Script de dockerfile 
+
 :one: Conteneuriser un service Python 
 --------------------------------------
 Nous montrons comment faire cela avec un service Flask simple de sorte que nous puissions l'exécuter de manière autonome sans avoir à configurer d'autres composants.
@@ -63,6 +65,12 @@ CMD [ "python", "./server.py" ]
  
 Pour chaque instruction ou commande du Dockerfile, 
 le constructeur Docker génère un calque d'image et l'empile sur les précédents.
+
+:plus: Exécutez le conteneur
+----------------------------
+
+
+
 
 :link: https://www.docker.com/blog/containerized-python-development-part-1/
 
