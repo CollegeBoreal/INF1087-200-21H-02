@@ -67,15 +67,15 @@ le constructeur Docker génère un calque d'image et l'empile sur les précéden
 
 :dollar: creer image dockerfile et execute le container 
 ----------------------------
-
+creer image 
 ```
 $ docker image build --tag b300116685:1.1 .
 ```
-
+exécuter le conteneur
 ```
 $ docker run -detach -publish 5000:5000 b300116685:1.1
 ```
-
+publie le port 
 ```
 $ curl http://localhost:5000
 "Hello World!"
