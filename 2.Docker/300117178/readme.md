@@ -2,7 +2,7 @@
 # :rocket: Java Hello World avec Dockerfile
 -----------------------------------
 ## :a: Dockerfile
-  Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement java pour pouvoir afficher Hello World a la creation du conteneur
+  Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement java pour pouvoir afficher Hello World a la creation du conteneur de notre conteneur
  ```
   FROM java:8
 WORKDIR /var/www/java
