@@ -66,7 +66,7 @@ CMD [ "python", "./server.py" ]
 Pour chaque instruction ou commande du Dockerfile, 
 le constructeur Docker génère un calque d'image et l'empile sur les précédents.
 
-:plus: Exécutez le conteneur
+:dollar: Exécutez le conteneur
 ----------------------------
 
 
