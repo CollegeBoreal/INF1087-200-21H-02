@@ -17,7 +17,7 @@
 
 - [ ] [Cycle de vie](https://www.linkedin.com/learning/decouvrir-docker/decouvrir-le-cycle-de-vie-d-un-conteneur?u=56968449)
 
-- [ ] [Image](https://www.linkedin.com/learning/decouvrir-docker/comprendre-les-couches-d-une-image?u=56968449)
+- [ ] Composition d'une [Image](https://www.linkedin.com/learning/decouvrir-docker/comprendre-les-couches-d-une-image?u=56968449) `ISO` docker
 
 <img src="images/Docker-In-Action_Images.png" width=500 height=500 ></img>
 
