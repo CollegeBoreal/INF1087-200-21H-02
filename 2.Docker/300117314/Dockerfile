@@ -3,7 +3,7 @@ FROM ubuntu:latest
 LABEL maintainer="mrgt747@gmail.com"
 
 RUN apt-get update && apt-get install -y git
-RUN apt-get install python 3
+RUN sudo apt-get install python 3
 COPY . /app
 RUN make /app
 CMD python /app/app.py
