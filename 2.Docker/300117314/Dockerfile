@@ -2,6 +2,9 @@
 FROM ubuntu:latest
 LABEL maintainer="mrgt747@gmail.com"
 
-RUN make /app && apt-get update && apt-get install -y git
-
+RUN apt-get update && apt-get install -y git
+RUN apt-get install python 3
+COPY . /app
+RUN make /app
+CMD python /app/app.py
 ENTRYPOINT ["git"]
