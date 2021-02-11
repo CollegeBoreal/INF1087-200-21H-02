@@ -1,10 +1,4 @@
-# Hyper V 
-
-## Qu'est-ce que Hyper V
-
-HyperV est un [hypervisor](https://fr.wikipedia.org/wiki/Hyperviseur) tournant sur les plateformes `Windows` 
-
-## :gear: Installer Hyper-V
+# Installer Hyper-V
 
 ### :a: Installer le role [Hyper V](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-the-hyper-v-role-on-windows-server) et les outils de gestion [`RSAT`](https://docs.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) sur Windows Server
 
