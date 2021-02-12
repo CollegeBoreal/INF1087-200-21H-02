@@ -10,7 +10,7 @@
 
 ## Résultat
 
-|:hash:| :id:      | Utilisateur à ajouter   | Windows Product Name   | :key: Check | :gear: [sconfig](Participation.md#b-sconfig)  |  :parking: Unit |
+|:hash:| :id:      | Utilisateur à ajouter   | Windows Product Name   | :key: Check | :gear: [sconfig](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx)  |  :parking: Unit |
 |------|-----------|-------------------------|------------------------|----------|--------------|------|
 | 01   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image>  | Brice@10.13.237.187      |:heavy_check_mark: Datacenter  (:heavy_check_mark: 2019)                 |:tada:|:heavy_check_mark:| :bangbang: | 
 | 02   | 300111824 - <image src="https://avatars2.githubusercontent.com/u/54911706?s=400&v=4" width=20 height=20></image>  | Brice@10.13.237.147      |:heavy_check_mark: Datacenter  (:x: 2019)                 |:x:|:x:| :three::eight: | 
