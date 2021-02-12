@@ -45,7 +45,9 @@ $ docker run --name nodeContainer --publish 8080:8080 --detach nodeImage:1.0
 ## :six: Resources
 Pris dans le livre **Kubernetie In action**
 
-## :seven: Test 
+## :seven: Test
+```
 $ curl http://localhost:8080
 "You've hit "
+```
 
