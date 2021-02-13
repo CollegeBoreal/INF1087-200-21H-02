@@ -166,9 +166,10 @@ try {
 ├── db
 │   └── articles.sql
 └── Dockerfile
+```
 
 ### :ab: DOCKERFILE
-```
+
 
 ```
 # --------------- DÉBUT COUCHE OS -------------------
