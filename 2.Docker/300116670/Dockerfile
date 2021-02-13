@@ -1,7 +1,3 @@
-# Mon exemple dockerfile
-FROM ubuntu:latest
-LABEL maintainer="marieauriane@yahoo.fr"
-
 FROM node:10
 
 # Create app directory
