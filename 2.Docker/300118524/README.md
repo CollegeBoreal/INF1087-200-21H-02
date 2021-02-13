@@ -222,7 +222,9 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 **`MAINTAINER Zoureni`**
 > Rajouter de l’information qu’on pourra lire plus tard avec la commande docker inspect < nom_de_image > et docker history <nom_de_image>
 
-**``**
+**```ARG APT_FLAGS="-q -y"
+ARG DOCUMENTROOT="/var/www/html"```**
+> L’instruction ARG permet ici de créer des variables temporaires
 **``**
 **``**
 **``**
