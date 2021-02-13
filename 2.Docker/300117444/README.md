@@ -79,13 +79,13 @@ Last but not least, define the command to run your app using CMD which defines y
 
 CMD [ "node", "server.js" ]
 
-## :three: .dockerignore file
+## :three: .dockerignore file :panda_face:
 Create a .dockerignore file in the same directory as your Dockerfile with following content:
 
 node_modules
 npm-debug.log
 This will prevent your local modules and debug logs from being copied onto your Docker image and possibly overwriting modules installed within your image.
-## :four: Building your image
+## :four: Building your image :panda_face:
 Go to the directory that has your Dockerfile and run the following command to build the Docker image. The -t flag lets you tag your image so it's easier to find later using the docker images command:
 
 docker build -t <your username>/node-web-app .
@@ -98,7 +98,7 @@ REPOSITORY                      TAG        ID              CREATED
 node                            10         1934b0b038d1    5 days ago
 <your username>/node-web-app    latest     d64d3505b0d2    1 minute ago
 
-## :five: Run the image
+## :five: Run the image :panda_face:
 Running your image with -d runs the container in detached mode, leaving the container running in the background. The -p flag redirects a public port to a private port inside the container. Run the image you previously built:
 
 docker run -p 49160:8080 -d <your username>/node-web-app
@@ -114,7 +114,7 @@ $ docker logs <container id>
 Running on http://localhost:8080
 If you need to go inside the container you can use the exec command:
 
-## :six: . Test
+## :six: . Test :panda_face:
 To test your app, get the port of your app that Docker mapped:
 
 $ docker ps
