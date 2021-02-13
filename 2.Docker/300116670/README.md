@@ -1,4 +1,18 @@
-# Dockerizing a Node.js web app
+#  Dockerizing a Node.js web app
+
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1412%2F1*gX-N6cHK9p715OUKmNiX5g.jpeg&imgrefurl=https%3A%2F%2Fgrigorkh.medium.com%2Fdockerizing-a-node-js-web-app-8cb0549dabe1&tbnid=oxFZrCGdlrhMmM&vet=12ahUKEwih6pDaqObuAhVOSKwKHercDUkQMygBegUIARCUAQ..i&docid=T8ULB5tOF7jJNM&w=1354&h=604&q=Dockerizing%20a%20Node.js%20web%20app&ved=2ahUKEwih6pDaqObuAhVOSKwKHercDUkQMygBegUIARCUAQ" width="250"> 
+
+## SOMMAIRE
+
+1.Creer un fichier Node.js app
+2.Creer un dockerfile
+3.Creer le fichier .dockerignore 
+4.Construire l'image
+5.Executer l'image
+6.Test
+
+
+
 The goal of this example is to show you how to get a Node.js application into a Docker container. The guide is intended for development, and not for a production deployment. The guide also assumes you have a working Docker installation and a basic understanding of how a Node.js application is structured.
 
 In the first part of this guide we will create a simple web application in Node.js, then we will build a Docker image for that application, and lastly we will instantiate a container from that image.
