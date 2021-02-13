@@ -1,5 +1,17 @@
 # ÉTAPES DE CONCEPTION DE NOTRE IMAGE
 
+- **SOMMAIRE**
+
+  - CRÉATION DES SOURCES
+  
+  - EXPLICATION DU DOCKERFILE
+  
+  - CONSTRUCTION DE L'IMAGE
+  
+  - EXÉCUTION DE L'IMAGE
+  
+  - RÉSULTAT FINAL
+
 ## :one: CRÉATION DES SOURCES
 
 ### :a: Repertoire db : 
@@ -205,6 +217,16 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 
 **`FROM debian:stable-slim`**
 > Image de base pour créer ma couche OS debian :stable-slim
+
+**`LABEL version="1.0"`**
+**`MAINTAINER Zoureni`**
+> Rajouter de l’information qu’on pourra lire plus tard avec la commande docker inspect < nom_de_image > et docker history <nom_de_image>
+
+**``**
+**``**
+**``**
+**``**
+
 
 
 
