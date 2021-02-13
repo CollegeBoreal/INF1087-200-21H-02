@@ -1,9 +1,10 @@
 
-:welcome:
-## Dockerizing a Node.js web app
+
+:mega::mega:
+## Dockerizing a Node.js web app :star2: :star2: :star2:
 The goal of this example is to show you how to get a Node.js application into a Docker container
 In the first part of this guide we will create a simple web application in Node.js, then we will build a Docker image for that application, and lastly we will instantiate a container from that image.*
-## :one: Create the Node.js app
+## :one: Create the Node.js app :star2: :star2:  :star2: 
 
 First, create a new directory where all the files would live. In this directory create a package.json file that describes your app and its dependencies:
 
