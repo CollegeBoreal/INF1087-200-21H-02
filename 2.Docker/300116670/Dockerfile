@@ -1,5 +1,6 @@
-FROM debian:9.5-slim
+# Mon exemple dockerfile
+FROM ubuntu:latest
+LABEL maintainer="marieauriane@yahoo.fr"
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN apt-get update && apt-get install -y git
+ENTRYPOINT ["git"]
