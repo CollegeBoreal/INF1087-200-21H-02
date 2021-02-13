@@ -197,12 +197,14 @@ WORKDIR  ${DOCUMENTROOT}
 
 
 # DÉMARRAGE DES SERVICES LORS DE L'EXÉCUTION DE L'IMAGE
-ENTRYPOINT ["service mysql start" , " mysql < /articles.sql" , " apache2ctl -D FOREGROUND"]
+ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGROUND
 
 ```
 
 ## :two: EXPLICATION DU DOCKERFILE
 
+**`FROM debian:stable-slim`**
+> Image de base pour créer ma couche OS debian :stable-slim
 
 
 
