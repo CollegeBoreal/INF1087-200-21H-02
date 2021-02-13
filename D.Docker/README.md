@@ -27,24 +27,37 @@
 
 
 
-#: :bulb: Dockerfile
+## :bulb: Dockerfile
 
-comentaires `#`
+Quels sont les instructions pour créer sa propre image?
 
-`FROM` --- Donner une image
+| Instructions |  Commentaires                                                                                                |
+|--------------|--------------------------------------------------------------------------------------------------------------|
+| `#`          | faire un commentaire                                                                                         |
+| `FROM`       | Donner une image                                                                                             |
+| `LABEL`      | Donner de l'information (i.e. `maintener=`)                                                                  |
+| `ENV`        | permet de passer des variables d'environnements. Note: utiliser le paramêtre `--env` à la ligne de commande  |
+| `WORKDIR`    | Comme `pwd` en Unix, indique le répertoire de travail ou courant                                             |
+| `ADD`        | Ajoute des fichiers (compréssés) ou des répertoires à l'image                                                |
+| `COPY`       | Ajoute des fichiers à l'image                                                                                |
+| `RUN`        | Éxécute les scripts ou installe des librairies ( `apt-get` ou `pip` ) dans l'image                           |
+| `ENTRYPOINT` | Par défaut éxécute à la fin de l'installation `["/bin/sh"]`. On peut l'`override` (outrepasser ou remplacer) |
+| `CMD`        | Permet de rajouter des parametres à la commande `ENTRYPOINT` - de type tableaux [ "param1", "parma2"]        |
 
-`LABEL` --- Donner de l'information
+# Références
 
-`WORKDIR` -- comme `pwd` le répertoire de travail ou courant 
+https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/images/docker_cheatsheet_r3v2.pdf
 
-`ADD` -- ajoute des fichiers (compréssé) ou des répertoires à l'image
 
-`COPY` -- ajoute des fichiers à l'image
+<img src="images/Container-plus-VM.png" width=521 height=293 ></img>
 
-`RUN` -- Éxécute les scripts ou installe des librairies ( `apt-get` ou `pip` ) dans l'image
+<img src="images/Container-vs-VM.png" width=521 height=293 ></img>
 
-`ENTRYPOINT` -- par défaut éxécute à la fin de l'installation `["/bin/sh"]`. On peut l'`override` (outrepasser ou remplacer)
+<img src="images/Docker-Basics.png" width=521 height=293 ></img>
 
-`CMD` -- permet de rajouter des parametres à la commande `ENTRYPOINT` - de type tableaux [ "param1", "parma2"] 
+<img src="images/Docker-Container.png" width=521 height=293 ></img>
 
-`ENV` -- permet de passer des variables d'environnements. Note: utiliser le paramêtre `--env` à la ligne de commande 
+<img src="images/Docker-Family-Tree.png" width=521 height=293 ></img>
+
+<img src="images/Docker-Hystory.png" width=521 height=293 ></img>
+
