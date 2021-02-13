@@ -158,6 +158,7 @@ try {
 
 :pushpin: architecture de mon repertoire actuel
 
+```
 ├── images
 ├── app
 │   ├── db-config.php
@@ -167,6 +168,7 @@ try {
 └── Dockerfile
 
 ### :ab: DOCKERFILE
+```
 
 ```
 # --------------- DÉBUT COUCHE OS -------------------
