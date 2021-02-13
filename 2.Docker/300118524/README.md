@@ -218,13 +218,17 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 **`FROM debian:stable-slim`**
 > Image de base pour créer ma couche OS debian :stable-slim
 
-**`LABEL version="1.0"`**
-**`MAINTAINER Zoureni`**
-> Rajouter de l’information qu’on pourra lire plus tard avec la commande docker inspect < nom_de_image > et docker history <nom_de_image>
+```
+LABEL version="1.0"
+MAINTAINER Zoureni
+```
+> Rajouter de l’information qu’on pourra lire plus tard avec la commande **`docker inspect < nom_de_image >`** et **`docker history <nom_de_image>`**
 
-**`ARG APT_FLAGS="-q -y"**`
+```
+ARG APT_FLAGS="-q -y"
 
-**`ARG DOCUMENTROOT="/var/www/html"**`
+ARG DOCUMENTROOT="/var/www/html"
+```
 > L’instruction **ARG** permet ici de créer des variables temporaires
 
 ```
@@ -232,9 +236,58 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 
 apt-get install ${APT_FLAGS} apache2
 ```
-**
-**``**
-**``**
+> Récupération des paquets puis installation d’Apache
+
+```
+RUN apt-get install ${APT_FLAGS} mariadb-server
+COPY db/articles.sql /
+```
+> Téléchargement du service MySQL puis rajout du fichier *articles.sql* pour le nouveau conteneur
+
+```
+RUN apt-get install ${APT_FLAGS} \
+    php-mysql \
+    php && \
+    rm -f ${DOCUMENTROOT}/index.html && \
+    apt-get autoclean -y
+
+COPY app ${DOCUMENTROOT}
+```
+> Installation de l’interpréteur php et du module php-mysql.
+
+```
+EXPOSE 80
+```
+> Ouverture du port http
+
+```
+WORKDIR  /var/www/html
+```
+> Détermination de */var/www/html* en tant que répertoire de travail afin qu’on soit directement sur ce dossier lorsque le conteneur démarre
+
+```
+ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGROUND
+```
+> Démarrage du service MySQL et construction de l'architecture de la base de données grâce au fichier *articles.sql*
+> Pour que le conteneur soit toujours en état de running on laisse un processus en premier plan, d'où le lancement du service Apache en premier plan à l'aide de la commande apache2 -D FOREGROUND.
+
+## :three: CONSTRUCTION DE L'IMAGE
+
+```
+docker image build --tag zoureni:1.0 . 
+```
+> zoureni = nom de l'image
+
+## :four: EXÉCUTION DE L'IMAGE
+
+```
+docker run --detach --name site --publish 8080:80 zoureni:1.0
+```
+
+## :five: RÉSULTAT FINAL
+
+![image](images/site.png)
+
 
 
 
