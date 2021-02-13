@@ -156,6 +156,16 @@ try {
 
 ```
 
+:pushpin: architecture de mon repertoire actuel
+
+├── images
+├── app
+│   ├── db-config.php
+│   └── index.php
+├── db
+│   └── articles.sql
+└── Dockerfile
+
 ### :ab: DOCKERFILE
 
 ```
