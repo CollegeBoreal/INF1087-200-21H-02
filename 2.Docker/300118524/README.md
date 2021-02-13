@@ -226,7 +226,7 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 
 ```
 
-## :two: EXPLICATION DU DOCKERFILE
+## :two: EXPLICATION DU DOCKERFILE :mega:
 
 **`FROM debian:stable-slim`**
 > Image de base pour créer ma couche OS debian :stable-slim
@@ -284,20 +284,20 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 > Démarrage du service MySQL et construction de l'architecture de la base de données grâce au fichier *articles.sql*
 > Pour que le conteneur soit toujours en état de running on laisse un processus en premier plan, d'où le lancement du service Apache en premier plan à l'aide de la commande apache2 -D FOREGROUND.
 
-## :three: CONSTRUCTION DE L'IMAGE
+## :three: CONSTRUCTION DE L'IMAGE :zap:
 
 ```
 docker image build --tag zoureni:1.0 . 
 ```
 > zoureni = nom de l'image
 
-## :four: EXÉCUTION DE L'IMAGE
+## :four: EXÉCUTION DE L'IMAGE :panda_face:
 
 ```
 docker run --detach --name site --publish 8080:80 zoureni:1.0
 ```
 
-## :five: RÉSULTAT FINAL
+## :five: RÉSULTAT FINAL :panda_face:
 
 ![image](images/site.png)
 
