@@ -1,8 +1,9 @@
 
+:welcome:
 ## Dockerizing a Node.js web app
 The goal of this example is to show you how to get a Node.js application into a Docker container
 In the first part of this guide we will create a simple web application in Node.js, then we will build a Docker image for that application, and lastly we will instantiate a container from that image.*
-## 1 Create the Node.js app
+## :one: Create the Node.js app
 
 First, create a new directory where all the files would live. In this directory create a package.json file that describes your app and its dependencies:
 
@@ -41,7 +42,7 @@ app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 In the next steps, we'll look at how you can run this app inside a Docker container using the official Docker image. First, you'll need to build a Docker image of your app.
 
- ## 2  Creating a Dockerfile
+ ## :twoo:  Creating a Dockerfile
 Create an empty file called Dockerfile:
 
 touch Dockerfile
@@ -77,13 +78,13 @@ Last but not least, define the command to run your app using CMD which defines y
 
 CMD [ "node", "server.js" ]
 
-## 3 .dockerignore file
+## :three: .dockerignore file
 Create a .dockerignore file in the same directory as your Dockerfile with following content:
 
 node_modules
 npm-debug.log
 This will prevent your local modules and debug logs from being copied onto your Docker image and possibly overwriting modules installed within your image.
-## 4 Building your image
+## :four: Building your image
 Go to the directory that has your Dockerfile and run the following command to build the Docker image. The -t flag lets you tag your image so it's easier to find later using the docker images command:
 
 docker build -t <your username>/node-web-app .
@@ -96,7 +97,7 @@ REPOSITORY                      TAG        ID              CREATED
 node                            10         1934b0b038d1    5 days ago
 <your username>/node-web-app    latest     d64d3505b0d2    1 minute ago
 
-## 5 Run the image
+## :five: Run the image
 Running your image with -d runs the container in detached mode, leaving the container running in the background. The -p flag redirects a public port to a private port inside the container. Run the image you previously built:
 
 docker run -p 49160:8080 -d <your username>/node-web-app
@@ -108,11 +109,11 @@ $ docker ps
 # Print app output
 $ docker logs <container id>
 
-# Example
+ Example
 Running on http://localhost:8080
 If you need to go inside the container you can use the exec command:
 
-## 6 . Test
+## :six: . Test
 To test your app, get the port of your app that Docker mapped:
 
 $ docker ps
