@@ -225,8 +225,14 @@ ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGRO
 **`ARG APT_FLAGS="-q -y"**`
 
 **`ARG DOCUMENTROOT="/var/www/html"**`
-> L’instruction ARG permet ici de créer des variables temporaires
-**``**
+> L’instruction **ARG** permet ici de créer des variables temporaires
+
+```
+**RUN apt-get update -y && \
+
+apt-get install ${APT_FLAGS} apache2
+```
+**
 **``**
 **``**
 
