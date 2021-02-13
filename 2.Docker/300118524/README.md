@@ -4,8 +4,7 @@
 
 ### :a: Repertoire db : contient un fichier articles.sql, qui renferme toute l'architecture de la base de données.
 
-``
-CREATE DATABASE IF NOT EXISTS test CHARACTER SET utf8;
+`CREATE DATABASE IF NOT EXISTS test CHARACTER SET utf8;
 CREATE USER 'test'@'localhost' IDENTIFIED BY 'test';
 GRANT ALL PRIVILEGES ON test.* TO 'test'@'localhost';
 
@@ -23,8 +22,6 @@ CREATE TABLE IF NOT EXISTS articles (
 
 
 INSERT INTO articles (title, author, content) VALUES
-("Qu'est-ce qu'un Dockerfile ?", 'zoureni', " Un Dockerfile est un fichier texte décrivant les différentes étapes permettant de partir d'une base pour aller $
-
-``
+("Qu'est-ce qu'un Dockerfile ?", 'zoureni', " Un Dockerfile est un fichier texte décrivant les différentes étapes permettant de partir d'une base pour aller $`
 
 ### :b:	Repertoire app : comporte les sources php de notre l'application web.
