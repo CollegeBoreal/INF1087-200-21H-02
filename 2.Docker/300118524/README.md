@@ -4,7 +4,8 @@
 
 ### :a: Repertoire db : contient un fichier articles.sql, qui renferme toute l'architecture de la base de données.
 
-``CREATE DATABASE IF NOT EXISTS test CHARACTER SET utf8;
+``
+CREATE DATABASE IF NOT EXISTS test CHARACTER SET utf8;
 CREATE USER 'test'@'localhost' IDENTIFIED BY 'test';
 GRANT ALL PRIVILEGES ON test.* TO 'test'@'localhost';
 
