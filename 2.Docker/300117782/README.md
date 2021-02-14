@@ -1,6 +1,15 @@
 # :round_pushpin: Conception de notre image
 -----------------------------------
-## :a: Dockerfile
+## :pushpin: Dockerfile
 -------------------------------
-  Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement java pour pouvoir afficher Hello World a la creation du container 
+  Mon fichier Dockerfile vas me permettre de creer une image contenant notre environnement Alpine 
  ### Dockerfile
+
+```
+
+FROM alpine
+ADD event.sh /
+ENTRYPOINT ["/event.sh"]
+
+```
+
