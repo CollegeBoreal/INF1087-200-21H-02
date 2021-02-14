@@ -43,6 +43,6 @@ Step 1: Create a New Directory for all the files - then create a file called pac
 ```
 
 
-
+Step 2: run npm install to generate a package-lock.json to be copied to the Docker image.
 
 
