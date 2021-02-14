@@ -1,4 +1,4 @@
-# PROJET DOCKER IMAGE - INSTALL AND RUN NODEJS INTO DOCKER
+# DOCKER IMAGE EXERCICE - INSTALL AND RUN NODEJS INTO DOCKER
 
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/docker1.PNG" width="350">
 
@@ -13,7 +13,7 @@
 
 ## INTRODUCTION
 
-This exercice aims to create a Dockerfile and improve it with Shell commands under Unix. It is inspired from the book 'Docker in action' from Jeff Nickoloff' and the tutorial video on Linkedin called 'Docker Essential Training 3'
+This exercice aims to create a Dockerfile and improve it with Shell commands under Unix. It is inspired from the book 'Docker in action' from Jeff Nickoloff', the tutorial video on Linkedin called 'Docker Essential Training 3' and the official website Docs fo NodeJS, www.nodejs.org
 We will use Nodejs to demonstrate the installation and the running of the image on Docker.
 Node.js is a platform built with Chrome's JavaScript for easily building fast network applications. Node.js uses a non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.  
 
