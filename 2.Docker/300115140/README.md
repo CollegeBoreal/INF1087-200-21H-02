@@ -5,9 +5,9 @@
 ## SOMMAIRE
 1. Mise en place du projet
 2. Changer Dockerfile
-3.
-4.
-5.
+3. créer l'app Node.js
+4. créer app directory
+5. aller sur le local host
 
 
 
