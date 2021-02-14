@@ -45,7 +45,7 @@ Step 1: Create a New Directory for all the files - then create a file called pac
 
 Step 2: run npm install to generate a package-lock.json to be copied to the Docker image.
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/npm.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/npm.PNG" width="650">
 
 
 Step 3: add a file called server.js to define the framework. The framework used will be Express.js
@@ -79,7 +79,7 @@ There are indeed differents changes to make and I will explain why:
 
 The final work should look like this:
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/nano.PNG" width="350">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/nano.PNG" width="650">
 
 So what did we do?
 
@@ -108,11 +108,11 @@ Into the directory with Dockerfile, we need to run the command to build the Dock
 
 I will name the image zackito
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/build.PNG" width="450">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/build.PNG" width="650">
 
 We can check the image with the command docker images:
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima.PNG" width="450">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima.PNG" width="650">
 
 
 ## Running the image
