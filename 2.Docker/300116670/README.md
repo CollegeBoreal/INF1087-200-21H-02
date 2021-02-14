@@ -6,11 +6,16 @@ Le but de cet exemple est de vous montrer comment obtenir une application Node.j
 
 ## SOMMAIRE
 
-1.Creer un fichier Node.js app
+:heavy_checkmark: 1.Creer un fichier Node.js app
+
 2.Creer un dockerfile
+
 3.Creer le fichier .dockerignore 
+
 4.Construire l'image
+
 5.Executer l'image
+
 6.Test
 
 
@@ -35,7 +40,7 @@ First, create a new directory where all the files would live. In this directory 
  
  With your new package.json file, run npm install. If you are using npm version 5 or later, this will generate a package-lock.json file which will be copied to your Docker image.
 
-*Then, create a server.js file that defines a web app using the Express.js framework:*
+**Then, create a server.js file that defines a web app using the Express.js framework:**
 
     'use strict';
 
