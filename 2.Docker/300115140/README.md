@@ -24,6 +24,7 @@ Node.js is a platform built with Chrome's JavaScript for easily building fast ne
 We will be doing this exercice following the instructions on the officiall NodejS website: https://nodejs.org/en/docs/guides/
 
 Step 1: Create a New Directory for all the files - then create a file called package.json to describe the app and its dependencies:
+```
 
 {
   "name": "docker_web_app",
@@ -39,7 +40,7 @@ Step 1: Create a New Directory for all the files - then create a file called pac
   }
 }
 
-
+```
 
 
 
