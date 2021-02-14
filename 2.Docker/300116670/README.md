@@ -6,23 +6,23 @@ Le but de cet exemple est de vous montrer comment obtenir une application Node.j
 
 ## SOMMAIRE
 
-:heavy_checkmark: 1.Creer un fichier Node.js app
+:one: Creer un fichier Node.js app
 
-2.Creer un dockerfile
+:two: Creer un dockerfile
 
-3.Creer le fichier .dockerignore 
+:three: Creer le fichier .dockerignore 
 
-4.Construire l'image
+:four: Construire l'image
 
-5.Executer l'image
+:five: Executer l'image
 
-6.Test
+:six: Test
 
 
 
-### Create the Node.js app
+### :one: Creer l'app Node.js 
 
-First, create a new directory where all the files would live. In this directory create a package.json file that describes your app and its dependencies:
+Tout d’abord, créer un nouveau répertoire où tous les fichiers resideront. Dans ce répertoire, créez un fichier package.json qui décrit votre application et ses dépendances :
 
     {
       "name": "docker_web_app",
@@ -38,9 +38,9 @@ First, create a new directory where all the files would live. In this directory 
       }
     }
  
- With your new package.json file, run npm install. If you are using npm version 5 or later, this will generate a package-lock.json file which will be copied to your Docker image.
+Avec votre nouveau fichier package.json, exécutez npm install. Si vous utilisez npm version 5 ou ultérieure, cela générera un fichier package-lock.json qui sera copié sur votre image Docker.
 
-**Then, create a server.js file that defines a web app using the Express.js framework:**
+**Ensuite, créez un fichier server.js qui définit une application web en utilisant le framework Express.js :**
 
     'use strict';
 
@@ -59,29 +59,28 @@ First, create a new directory where all the files would live. In this directory 
     app.listen(PORT, HOST);
     console.log(`Running on http://${HOST}:${PORT}`);
     
-In the next steps, we'll look at how you can run this app inside a Docker container using the official Docker image. First, you'll need to build a Docker image of your app.
+Dans les prochaines étapes, nous verrons comment vous pouvez exécuter cette application dans un conteneur Docker en utilisant l’image officielle de Docker. Tout d’abord, vous devrez créer une image Docker de votre application.
 
-Creating a Dockerfile
-Create an empty file called Dockerfile:
+### :two: Creating a Dockerfile
+
+Créer un fichier vide appelé Dockerfile :
 
     touch Dockerfile
     
-Open the Dockerfile in your favorite text editor, dans notre cas ce sera 
-notepad
+Ouvrez le Dockerfile dans votre éditeur de texte préféré, dans notre cas ce sera notepad
 
      $ notepad Dockerfile
 
-The first thing we need to do is define from what image we want to build from. Here we will use the latest LTS (long term support) version 10 of node available from the Docker Hub:
-
+La première chose que nous devons faire est de définir à partir de quelle image nous voulons construire. Nous utiliserons ici la dernière version LTS (support à long terme) du nœud disponible sur le Docker Hub :
     FROM node:10
 
-Next we create a directory to hold the application code inside the image, this will be the working directory for your application:
+Ensuite, nous créons un répertoire pour contenir le code de l’application à l’intérieur de l’image, ce sera le répertoire de travail pour votre application :
 
-### Create app directory
+   *Create app directory*
 
     WORKDIR /usr/src/app
     
-This image comes with Node.js and NPM already installed so the next thing we need to do is to install your app dependencies using the npm binary. Please note that if you are using npm version 4 or earlier a package-lock.json file will not be generated.
+Cette image est livrée avec Node.js et NPM déjà installés donc la prochaine chose que nous devons faire est d’installer vos dépendances app en utilisant le binaire npm. Veuillez noter que si vous utilisez npm version 4 ou une version antérieure, un fichier package-lock.json ne sera pas généré.
 
     # Install app dependencies
     # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -156,14 +155,15 @@ Running your image with -d runs the container in detached mode, leaving the cont
 docker run -p 49160:8080 -d <your username>/node-web-app
 Print the output of your app:
 
-# Get container ID
-$ docker ps
+    # Get container ID
+    $ docker ps
 
-# Print app output
-$ docker logs <container id>
+    # Print app output
+    $ docker logs <container id>
 
-# Example
-Running on http://localhost:8080
+    # Example
+    Running on http://localhost:8080
+    
 If you need to go inside the container you can use the exec command:
 
 # Enter the container
