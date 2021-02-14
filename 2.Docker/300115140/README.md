@@ -119,12 +119,12 @@ We can check the image with the command docker images:
 
 To run the image in the detached mode with -d, using also the flag -pto redirect to a private port inside a container:
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima2.PNG" width="450">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima2.PNG" width="650">
 
 
 To see the Image ID, the ports used, run the commande: docker ps
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima3.PNG" width="450">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima3.PNG" width="650">
 
 
 
