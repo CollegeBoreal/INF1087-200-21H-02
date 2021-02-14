@@ -23,7 +23,7 @@ Node.js is a platform built with Chrome's JavaScript for easily building fast ne
 
 We will be doing this exercice following the instructions on the officiall NodejS website: https://nodejs.org/en/docs/guides/
 
-Step 1: Create a New Directory for all the files - then create a file called package.json to describe the app and its dependencies:
+**Step 1:** Create a New Directory for all the files - then create a file called package.json to describe the app and its dependencies:
 ```
 
 {
@@ -43,12 +43,12 @@ Step 1: Create a New Directory for all the files - then create a file called pac
 ```
 
 
-Step 2: run npm install to generate a package-lock.json to be copied to the Docker image.
+**Step 2:** run npm install to generate a package-lock.json to be copied to the Docker image.
 
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/npm.PNG" width="650">
 
 
-Step 3: add a file called server.js to define the framework. The framework used will be Express.js
+**Step 3:** add a file called server.js to define the framework. The framework used will be Express.js
 Express is a minimal and flexible Node.js web application framework providing a robust set of features for web and mobile applications (www.expressjs.com)
 
 ```
@@ -72,7 +72,7 @@ console.log(`Running on http://${HOST}:${PORT}`);
 ```
 
 
-Step 3: creating a Dockerfile 
+**Step 4:** creating a Dockerfile 
 You can create a Dockerfile file with the command touch Dockerfile
 Once you created the Dockerfile, you can enter the file on Bash with the command nano Dockerfile OR you can prepare all the modifications first on a Notepad and then copy the elements by entering Dockerfile.
 There are indeed differents changes to make and I will explain why:
@@ -94,7 +94,7 @@ After that, we need to add the port 8080 with the following commande: EXPOSE 808
 Finally, we define the command using CMD: CMD ["node", "server.js"]
 
 
-Step 4: Create a .dockerignore file
+**Step 5:** Create a .dockerignore file
 
 It will help to avoid having modules or logs copied into the Docker image.
 
@@ -103,7 +103,7 @@ node_modules
 npm-debug.log
 ```
 
-Step 5: Build the image
+**Step 6:** Build the image
 Into the directory with Dockerfile, we need to run the command to build the Docker image
 
 I will name the image zackito
