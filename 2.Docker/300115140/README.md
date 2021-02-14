@@ -127,8 +127,13 @@ To see the Image ID, the ports used, run the commande: docker ps
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/ima3.PNG" width="650">
 
 
+## Calling the app
 
+We can call the app using curl
 
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/CURL.PNG" width="650">
+
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300115140/IMAGES/hello.PNG" width="650">
 
 
 
