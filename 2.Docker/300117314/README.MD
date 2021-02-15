@@ -62,4 +62,5 @@ Once the image has all that it needs to build the application, it installs the a
 #refrences: 
 
 :link: https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html
-chaptr 8 of Action 
+
+chaptr 8 of Docker in action 
