@@ -13,15 +13,18 @@ FROM ubuntu:18.04
 # ------ Fin ----------
 
 
+
 # ------ Debut ------------
 RUN apt-get update && \
  apt-get -y install apache2
 # ---------- Fin -----------
 
 
+
 # --------- Debut --------------------------------
 RUN echo 'Hello World!' > /var/www/html/index.html
 # ---------- fin -----------------------------------
+
 
 
 # -------------- Debut --------------------------------------
@@ -30,7 +33,7 @@ RUN echo '. /etc/apache2/envvars' > /root/run_apache.sh && \
  echo 'mkdir -p /var/lock/apache2' >> /root/run_apache.sh && \ 
  echo '/usr/sbin/apache2 -D FOREGROUND' >> /root/run_apache.sh && \ 
  chmod 755 /root/run_apache.sh
-# ----------------- Fin -----------------------------------------
+# ----------------- Fin --------------------------------
 
 # OUVERTUR DU PORT INTERNET
 EXPOSE 80
@@ -38,7 +41,14 @@ EXPOSE 80
 # DEMARRRAGE DU WEB SERVEUR
 CMD /root/run_apache.sh
 
-## :one: EXPLICATION DOCKERFILE
+```
+
+## :one: EXPLICATION DOCKERFILE :apple:
+
+** `FROM ubuntu:18.04`**
+> Image source pour la creation
+
+```
 
 
 
