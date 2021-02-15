@@ -1,6 +1,6 @@
 ## :o: improving a Node.js application's Docker image
 
-<img src=images/4.png  alt="alt text" width="450" height="800">
+<img src=images/4.PNG  alt="alt text" width="450" height="800">
 
 
 **Step 1:** Create a new Dockerfile: 
