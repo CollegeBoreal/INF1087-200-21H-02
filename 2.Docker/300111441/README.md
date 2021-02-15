@@ -89,5 +89,5 @@ docker image build --tag luxuryking:1.2
 docker container run --tty --name luxuryking --detach --publish 8080:80 luxuryking:1.2
 ```
 
-## :four: RESULTAT FINAL :tree:
+## :four: RESULTAT FINAL :banana:
 
