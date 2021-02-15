@@ -1,10 +1,10 @@
-#  Dockerizing a Node.js web app :whale: :container:
+#  Dockerizing a Node.js web app :whale: :computer:
 
 <img src="docker-node.png" width="250"> 
 
 Le but de cet exemple est de vous montrer comment obtenir une application Node.js dans un conteneur Docker. Le guide est destiné au développement et non au déploiement en production. Le guide suppose également que vous avez une installation Docker fonctionnelle et une compréhension de base de la structure d’une application Node.js.
 
-## SOMMAIRE
+## :pushpin: SOMMAIRE :pushpin:
 
 :one: Creer un fichier Node.js app
 
@@ -241,4 +241,6 @@ Vous pouvez maintenant appeler votre application en utilisant curl (installez si
        Connection: keep-alive
 
        Hello world
+       
+ ### SOURCE DU TUTORIEL
 
