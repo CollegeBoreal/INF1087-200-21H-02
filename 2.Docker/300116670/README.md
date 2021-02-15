@@ -71,14 +71,17 @@ Créer un fichier vide appelé Dockerfile :
     touch Dockerfile
     
     
+    
 Ouvrez le Dockerfile dans votre éditeur de texte préféré, dans notre cas ce sera notepad
 
      $ notepad Dockerfile
+     
      
 
 La première chose que nous devons faire est de définir à partir de quelle image nous voulons construire. Nous utiliserons ici la dernière version LTS (support à long terme) du nœud disponible sur le Docker Hub :
 
      FROM node:10
+     
      
 
 Ensuite, nous créons un répertoire pour contenir le code de l’application à l’intérieur de l’image, ce sera le répertoire de travail pour votre application :
@@ -87,7 +90,10 @@ Ensuite, nous créons un répertoire pour contenir le code de l’application à
      WORKDIR /usr/src/app
     
     
+    
  Cette image est livrée avec Node.js et NPM déjà installés donc la prochaine chose que nous devons faire est d’installer vos dépendances app en utilisant le binaire npm:
+ 
+ (:warning: *Veuillez noter que si vous utilisez npm version 4 ou une version antérieure, un fichier package-lock.json ne sera pas généré.*)
 
     # Install app dependencies
     # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -98,7 +104,7 @@ Ensuite, nous créons un répertoire pour contenir le code de l’application à
     # If you are building your code for production
     # RUN npm ci --only=production
     
-    :warning: *Veuillez noter que si vous utilisez npm version 4 ou une version antérieure, un fichier package-lock.json ne sera pas généré.*
+    
     
     
     
@@ -111,14 +117,17 @@ Pour regrouper le code source de votre application dans l’image Docker, utilis
     COPY . .
     
     
+    
 Votre application se lie au port 8080, vous utiliserez donc l’instruction EXPOSE pour la faire mapper par le démon docker :
 
     EXPOSE 8080
     
     
+    
 Enfin, définissez la commande pour exécuter votre application à l’aide de CMD qui définit votre environnement d’exécution. Ici, nous utiliserons node server.js pour démarrer votre serveur :
 
         CMD [ "node", "server.js" ]
+        
         
     
 **Votre Dockerfile devrait ressembler à ça en somme:**
@@ -144,6 +153,8 @@ Enfin, définissez la commande pour exécuter votre application à l’aide de C
     CMD [ "node", "server.js" ]
     
     
+    
+    
 ### :three: Creer le .dockerignore file
 
 Créez un fichier . dockerignore dans le même répertoire que votre Dockerfile avec le contenu suivant :
@@ -152,6 +163,9 @@ Créez un fichier . dockerignore dans le même répertoire que votre Dockerfile 
     npm-debug.log
     
 **NB**: Dans un projet Git, nous utilisons un fichier .gitignore ; sur Docker il existe le même type de fichier. Celui-ci permet de ne pas copier certains fichiers et/ou dossiers dans notre conteneur lors de l’exécution de l'instruction ADD.
+
+
+
 
 ### :four: Creer l'image Docker
 
@@ -166,14 +180,18 @@ Accédez au répertoire contenant votre Dockerfile et exécutez la commande suiv
 
    **Example
 REPOSITORY                      TAG        ID              CREATED**
+
 node                            10         1934b0b038d1    5 days ago
 <your username>/node-web-app    latest     d64d3505b0d2    1 minute ago
+    
+    
     
 ### :five: Exécuter l'image
 
 L’exécution de votre image avec -d exécute le conteneur en mode détaché, laissant le conteneur tourner en arrière-plan. Le drapeau -p redirige un port public vers un port privé à l’intérieur du conteneur. Exécutez l’image que vous avez précédemment créée :
 
     docker run -p 49160:8080 -d <your username>/node-web-app
+    
     
     
 **Print the output of your app:**
@@ -202,23 +220,25 @@ Pour tester votre application, obtenez le port de votre application que Docker a
 
 **Example
 ID            IMAGE                                COMMAND    ...   PORTS**
+
 ecce33b30ebf  <your username>/node-web-app:latest  npm start  ...   49160->8080
 In the example above, Docker mapped the 8080 port inside of the container to the port 49160 on your machine.
-    
-
+       
+   Dans l’exemple ci-dessus, Docker a mappé le port 8080 à l’intérieur du conteneur au port 49160 de votre machine.
+   
+   
 Vous pouvez maintenant appeler votre application en utilisant curl (installez si nécessaire via : sudo apt-get install curl) :
+
 
        $ curl -i localhost:49160
 
-HTTP/1.1 200 OK
-X-Powered-By: Express
-Content-Type: text/html; charset=utf-8
-Content-Length: 12
-ETag: W/"c-M6tWOb/Y57lesdjQuHeB1P/qTV0"
-Date: Mon, 13 Nov 2017 20:53:59 GMT
-Connection: keep-alive
+       HTTP/1.1 200 OK
+       X-Powered-By: Express
+       Content-Type: text/html; charset=utf-8
+       Content-Length: 12
+       ETag: W/"c-M6tWOb/Y57lesdjQuHeB1P/qTV0"
+       Date: Mon, 13 Nov 2017 20:53:59 GMT
+       Connection: keep-alive
 
-Hello world
-We hope this tutorial helped you get up and running a simple Node.js application on Docker.
+       Hello world
 
-You can find more information about Docker and Node.js 
