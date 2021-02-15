@@ -24,5 +24,5 @@ ENTRYPOINT ["git"]
 
 ```
 ------------------------------
-
-<img src=images/image1.png  alt="alt text" width="450" height="800">
+**Step 2:** built a new Docker image:
+<img src=images/2.PNG  alt="alt text" width="750" height="400">
