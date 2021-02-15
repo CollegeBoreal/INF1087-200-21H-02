@@ -1,4 +1,4 @@
-# improving a Node.js application's Docker image
+## :o: improving a Node.js application's Docker image
 
 [image 1.npg]
 
