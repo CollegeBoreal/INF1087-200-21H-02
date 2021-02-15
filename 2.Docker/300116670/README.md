@@ -48,7 +48,7 @@ Tout d’abord, créer un nouveau répertoire où tous les fichiers resideront. 
  
 Avec votre nouveau fichier package.json, exécutez npm install. Si vous utilisez npm version 5 ou ultérieure, cela générera un fichier package-lock.json qui sera copié sur votre image Docker.
 
-<img src="dockertutorial.png" width="250"> 
+<img src="dockertutorial.png" width="450"> 
 
 
 
