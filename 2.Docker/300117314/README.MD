@@ -52,3 +52,5 @@ ENTRYPOINT ["git"]
 
 <img src=images/3.PNG  alt="alt text" width="750" height="400">
 ------------------------------
+
+:link: https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html
