@@ -1,5 +1,6 @@
 #  Dockerizing a Node.js web app :whale: :computer:
 
+
 <img src="docker-node.png" width="250"> 
 
 Le but de cet exemple est de vous montrer comment obtenir une application Node.js dans un conteneur Docker. Le guide est destiné au développement et non au déploiement en production. Le guide suppose également que vous avez une installation Docker fonctionnelle et une compréhension de base de la structure d’une application Node.js.
@@ -17,6 +18,9 @@ Le but de cet exemple est de vous montrer comment obtenir une application Node.j
 :five: Executer l'image
 
 :six: Test
+
+
+__________________________________________________________________________________
 
 
 
@@ -39,7 +43,12 @@ Tout d’abord, créer un nouveau répertoire où tous les fichiers resideront. 
       }
     }
  
+ 
 Avec votre nouveau fichier package.json, exécutez npm install. Si vous utilisez npm version 5 ou ultérieure, cela générera un fichier package-lock.json qui sera copié sur votre image Docker.
+
+<img src="docker-node.png" width="250"> 
+
+
 
 **Ensuite, créez un fichier server.js qui définit une application web en utilisant le framework Express.js :**
 
