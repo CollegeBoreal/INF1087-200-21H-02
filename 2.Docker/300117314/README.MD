@@ -1,6 +1,6 @@
 ## :o: improving a Node.js application's Docker image
 
-[image 1.npg]
+[img src=images/image4.png]
 
 
 **Step 1:** Create a new Dockerfile: 
