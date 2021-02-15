@@ -76,7 +76,18 @@ CMD /root/run_apache.sh
 > Pour ajouter les paramettre a la commande
 
 
+## :two: CONSTRUCTION DE L'AMAGE :snake:
 
+```
+docker image build --tag luxuryking:1.2 
+```
+> luxuryking est le nom de l'image
 
+## :three: L'EXECUTION DE L'IMAGE :apple:
 
+```
+docker container run --tty --name luxuryking --detach --publish 8080:80 luxuryking:1.2
+```
+
+## :four: RESULTAT FINAL :banana:
 
