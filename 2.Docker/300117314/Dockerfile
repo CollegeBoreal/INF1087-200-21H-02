@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:9.5-slim
 LABEL maintainer="mrgt747@gmail.com"
 # Copy application files
 COPY . /app
