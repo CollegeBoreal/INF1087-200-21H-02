@@ -24,5 +24,15 @@ ENTRYPOINT ["git"]
 
 ```
 ------------------------------
-**Step 2:** built a new Docker image:
+**Step 2:** verifiying our Dockerfile:
+<img src=images/1.PNG  alt="alt text" width="750" height="400">
+
+------------------------------
+
+**Step 3:** executing our Dockerfile in order to create our image: 
 <img src=images/2.PNG  alt="alt text" width="750" height="400">
+------------------------------
+
+**Step 4:** Verifiying our image:
+<img src=images/3.PNG  alt="alt text" width="750" height="400">
+------------------------------
