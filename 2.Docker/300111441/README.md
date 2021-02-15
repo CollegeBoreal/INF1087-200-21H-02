@@ -4,8 +4,10 @@
 
 -Dockerfile est un document texte qui contient toutes les commandes qu'un utilisateur peut appeler sur la ligne de commande pour assembler une image.
 
+
 ### :apple: Dockerfile
 
+```
 - Ce Dorkerfile utilise l'image ubuntu 18.04
 
 # ----- Debut -------------
@@ -48,7 +50,6 @@ CMD /root/run_apache.sh
 ** `FROM ubuntu:18.04`**
 > Image source pour la creation
 
-```
 
 
 
