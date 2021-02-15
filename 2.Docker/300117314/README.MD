@@ -57,6 +57,9 @@ Once the image has all that it needs to build the application, it installs the a
 
 <img src=images/3.PNG  alt="alt text" width="750" height="400">
 ------------------------------
+
+
 #refrences: 
+
 :link: https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html
 chaptr 8 of Action 
