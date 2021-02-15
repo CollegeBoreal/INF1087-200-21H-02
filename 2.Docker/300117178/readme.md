@@ -60,7 +60,7 @@ $ docker build --tag javaImage:1.0 .
 
 ### Executer/Creer le Container
 ```
-$ docker run --name javaContainer --detach javaImage:1.0 
+$ docker run --name javaContainer javaImage:1.0 
 HelloWorld TO Boris Machine Java
 ```
 #### editer par --- boris kwayep
