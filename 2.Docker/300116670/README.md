@@ -20,6 +20,9 @@ Le but de cet exemple est de vous montrer comment obtenir une application Node.j
 :six: Test
 
 
+
+
+
 -----------------------------------------------------------------------------
 
 
@@ -69,6 +72,13 @@ Avec votre nouveau fichier package.json, exécutez npm install. Si vous utilisez
     console.log(`Running on http://${HOST}:${PORT}`);
     
 Dans les prochaines étapes, nous verrons comment vous pouvez exécuter cette application dans un conteneur Docker en utilisant l’image officielle de Docker. Tout d’abord, vous devrez créer une image Docker de votre application.
+
+
+
+
+-----------------------------------------------------------------------------
+
+
 
 
 
@@ -161,6 +171,10 @@ Enfin, définissez la commande pour exécuter votre application à l’aide de C
     CMD [ "node", "server.js" ]
     
     
+ -----------------------------------------------------------------------------
+
+
+    
     
     
 ### :three: Creer le .dockerignore file
@@ -171,6 +185,10 @@ Créez un fichier . dockerignore dans le même répertoire que votre Dockerfile 
     npm-debug.log
     
 **NB**: Dans un projet Git, nous utilisons un fichier .gitignore ; sur Docker il existe le même type de fichier. Celui-ci permet de ne pas copier certains fichiers et/ou dossiers dans notre conteneur lors de l’exécution de l'instruction ADD.
+
+
+
+-----------------------------------------------------------------------------
 
 
 
@@ -193,6 +211,12 @@ node                            10         1934b0b038d1    5 days ago
 <your username>/node-web-app    latest     d64d3505b0d2    1 minute ago
     
     
+
+
+
+-----------------------------------------------------------------------------
+
+
     
 ### :five: Exécuter l'image
 
@@ -217,6 +241,13 @@ If you need to go inside the container you can use the exec command:
 
      #Enter the container
      $ docker exec -it <container id> /bin/bash
+     
+     
+     
+     
+-----------------------------------------------------------------------------
+
+
      
     
 ### :six: Test
