@@ -8,26 +8,38 @@
 
 - Ce Dorkerfile utilise l'image ubuntu 18.04
 
+# ````````` Debut ```````````
 FROM ubuntu:18.04
+# ````````` Fin `````````````
 
-# Install dependencies
+
+# ```````` Debut ```````````
 RUN apt-get update && \
  apt-get -y install apache2
+# ````````` Fin `````````````
 
-# Install apache and write hello world message
+
+# ``````` Debut ``````````````````````````````````
 RUN echo 'Hello World!' > /var/www/html/index.html
+# ```````` fin ````````````````````````````````````
 
-# Configure apache
+
+# ```````````````````` Debut `````````````````````````````````````
 RUN echo '. /etc/apache2/envvars' > /root/run_apache.sh && \
  echo 'mkdir -p /var/run/apache2' >> /root/run_apache.sh && \
  echo 'mkdir -p /var/lock/apache2' >> /root/run_apache.sh && \ 
  echo '/usr/sbin/apache2 -D FOREGROUND' >> /root/run_apache.sh && \ 
  chmod 755 /root/run_apache.sh
+# ````````````````````` Fin ``````````````````````````````````````````
 
+# OUVERTUR DU PORT INTERNET
 EXPOSE 80
 
+# DEMARRRAGE DU WEB SERVEUR
 CMD /root/run_apache.sh
 
-## :one: EXPLICATION DOCKERFILE :SNAKE:
+## :one: EXPLICATION DOCKERFILE
+
+
 
 
