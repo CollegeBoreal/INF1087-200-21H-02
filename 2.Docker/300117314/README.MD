@@ -63,4 +63,4 @@ Once the image has all that it needs to build the application, it installs the a
 
 :link: https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html
 
-chaptr 8 of Docker in action 
+:link: https://pepa.holla.cz/wp-content/uploads/2016/10/Docker-in-Action.pdf
