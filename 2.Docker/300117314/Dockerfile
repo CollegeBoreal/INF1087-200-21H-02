@@ -1,7 +1,8 @@
 #mon exemple dockerfiles
-FROM ubuntu:latest
-LABEL maintainer="mrgt747@gmail.com"
+FROM python:alpine3.7
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+EXPOSE 5000
+CMD python ./index.py
 
-RUN apt-get update && apt-get install -y git
-RUN apt-get install -y python  
-ENTRYPOINT ["git"]
