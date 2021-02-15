@@ -5,6 +5,7 @@
 
 **Step 1:** Create a new Dockerfile: 
 [image2.npg]
+------------------------------
 ```
 FROM debian:9.5-slim
 LABEL maintainer="mrgt747@gmail.com"
@@ -22,3 +23,4 @@ CMD ["npm", "start", "--prefix", "app"]
 ENTRYPOINT ["git"]
 
 ```
+------------------------------
