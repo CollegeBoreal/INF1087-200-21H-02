@@ -8,29 +8,29 @@
 
 - Ce Dorkerfile utilise l'image ubuntu 18.04
 
-# ````````` Debut ```````````
+# ----- Debut -------------
 FROM ubuntu:18.04
-# ````````` Fin `````````````
+# ------ Fin ----------
 
 
-# ```````` Debut ```````````
+# ------ Debut ------------
 RUN apt-get update && \
  apt-get -y install apache2
-# ````````` Fin `````````````
+# ---------- Fin -----------
 
 
-# ``````` Debut ``````````````````````````````````
+# --------- Debut --------------------------------
 RUN echo 'Hello World!' > /var/www/html/index.html
-# ```````` fin ````````````````````````````````````
+# ---------- fin -----------------------------------
 
 
-# ```````````````````` Debut `````````````````````````````````````
+# -------------- Debut --------------------------------------
 RUN echo '. /etc/apache2/envvars' > /root/run_apache.sh && \
  echo 'mkdir -p /var/run/apache2' >> /root/run_apache.sh && \
  echo 'mkdir -p /var/lock/apache2' >> /root/run_apache.sh && \ 
  echo '/usr/sbin/apache2 -D FOREGROUND' >> /root/run_apache.sh && \ 
  chmod 755 /root/run_apache.sh
-# ````````````````````` Fin ``````````````````````````````````````````
+# ----------------- Fin -----------------------------------------
 
 # OUVERTUR DU PORT INTERNET
 EXPOSE 80
