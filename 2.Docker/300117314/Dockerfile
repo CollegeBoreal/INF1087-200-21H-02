@@ -4,7 +4,4 @@ LABEL maintainer="mrgt747@gmail.com"
 
 RUN apt-get update && apt-get install -y git
 RUN apt-get install -y python  
-COPY . /app
-RUN make /app
-CMD python /app/app.py
 ENTRYPOINT ["git"]
