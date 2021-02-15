@@ -26,9 +26,12 @@ ENTRYPOINT ["git"]
 
 ## This is how the lines above can be read:
 
-## Using debian as the base image, it installs nodejs and npm in the system using the apt-get command. To run the application, it's necessary to install some extra system packages for the Node.js setup script to work, such as curl, imagemagick, software-properties-common, or gnupg. Furthermore, it installs vim and ssh packages for debugging purposes.
+# Using debian as the base image, it installs nodejs and npm in the system using the apt-get command. To run the application, it's necessary to install some extra system packages for the Node.js setup script to work, such as curl, imagemagick, software-properties-common, or gnupg. Furthermore, it installs vim and ssh packages for debugging purposes.
 
-## Once the image has all that it needs to build the application, it installs the application dependencies and uses the npm start command to start the application. The port 80 is exposed since the application uses it and it is specified with the expose parameter. 
+# MAINTAINER—Sets the maintainer name and email for the image. Providing this information helps people know whom to contact if there’s a problem with the 
+# image. This was accomplished earlier when you invoked commit.
+
+# Once the image has all that it needs to build the application, it installs the application dependencies and uses the npm start command to start the application. The port 80 is exposed since the application uses it and it is specified with the expose parameter. 
 ------------------------------
 
 
