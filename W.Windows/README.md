@@ -43,7 +43,7 @@
     
     - Windows `Hyper-V` Server 2019
     
-   :pushpin: Disques [RAID](https://github.com/CollegeBoreal/Laboratoires/tree/master/3202/proliant/RAID)
+   :pushpin: Disques [RAID](https://github.com/CollegeBoreal/Laboratoires/tree/main/3202/proliant/RAID)
    
     - Booter sur RAID Setup Utility `F8`
     
