@@ -74,7 +74,7 @@ Actually, Your External USB keys were set to disable, its very simple to fix: re
 
 ## :two: Installation de Windows 
 
-https://github.com/CollegeBoreal/Tutoriels/tree/master/7.Microsoft/servers/core
+https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/2.Windows/servers
    
    
       * Passe d'un écran à un autre
@@ -119,11 +119,11 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/7.Microsoft/servers/core
 
 ### :o: Remote Desktop
 
-https://github.com/CollegeBoreal/Tutoriels/tree/master/7.Microsoft/servers/core#utilisation-a-distance
+https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/2.Windows/servers/core#utilisation-a-distance
 
  * Accès coté client
  
-    RDP:
+    RDP: (Remote Destop Protocol)
     
     * Adresse IP
     
