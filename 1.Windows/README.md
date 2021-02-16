@@ -1,6 +1,6 @@
 # :one: Windows
 
-En se reférant au cours [W.Windows](W.Windows) monter votre serveur Windows en suivant le laboratoire ci-dessous
+En se reférant au cours [W.Windows](W.Windows), montez votre serveur Windows en suivant le laboratoire ci-dessous
 
 ## :a: Pour ce laboratoire:
   
