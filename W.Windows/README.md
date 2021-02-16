@@ -130,7 +130,8 @@ https://github.com/CollegeBoreal/Tutoriels/blob/main/O.OS/2.Windows/servers#util
     * Nom
     
     * Mot de passe
-          
+
+    * port TCP `3389`
           
           
 # References
