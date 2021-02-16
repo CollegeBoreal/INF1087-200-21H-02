@@ -119,7 +119,7 @@ https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/2.Windows/servers
 
 ### :o: Remote Desktop
 
-https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/2.Windows/servers/core#utilisation-a-distance
+https://github.com/CollegeBoreal/Tutoriels/blob/main/O.OS/2.Windows/servers#utilisation-a-distance
 
  * Accès coté client
  
