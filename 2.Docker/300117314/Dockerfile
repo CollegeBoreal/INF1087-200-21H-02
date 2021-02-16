@@ -1,16 +1,15 @@
-FROM debian:9.5-slim
-LABEL maintainer="mrgt747@gmail.com"
-# Copy application files
+ARG VERSION
 
-COPY package.json server.js /app
-# Install required system packages
-RUN apt-get update
-RUN apt-get -y install imagemagick curl software-properties-common gnupg vim ssh
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
-RUN apt-get -y install nodejs && apt-get install -y git
-# Install NPM dependencies
-RUN npm install --prefix /app
+FROM bitnami/minideb:stretch AS builder
+RUN install_packages ca-certificates curl git
+RUN curl https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz | tar -xzf - -C /usr/local
+ENV PATH="/usr/local/go/bin:$PATH" CGO_ENABLED=0
+RUN go get -u github.com/golang/glog && go get -u github.com/kubeapps/kubeapps/cmd/tiller-proxy
+RUN go build -a -installsuffix cgo -ldflags "-X main.version=$VERSION" github.com/kubeapps/kubeapps/cmd/tiller-proxy
+
+FROM scratch
+COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+COPY --from=builder /tiller-proxy /proxy
 EXPOSE 80
-CMD ["npm", "start", "--prefix", "app"]
-ENTRYPOINT ["git"]
+CMD ["/proxy"]
 
