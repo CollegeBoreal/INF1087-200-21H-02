@@ -61,3 +61,5 @@ https://design.jboss.org/redhatdeveloper/marketing/docker_cheatsheet/cheatsheet/
 
 <img src="images/Docker-Hystory.png" width=521 height=293 ></img>
 
+
+[sergey.kirgizov🐱u-bourgogne.fr](https://kirgizov.link/teaching/esirem/advanced-information-systems-2019/CM-7-clouds-containers.pdf)
