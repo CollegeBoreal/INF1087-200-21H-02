@@ -1,4 +1,4 @@
-# Revision Test Windows
+# Cours sur Windows Server
 
 
 ## :one: Installation Proliant
@@ -63,7 +63,7 @@
     ![image](images/PartitionTypes.png)
     
     
-       ## :x: Reset Proliant 
+## :x: Reset Proliant 
    
    https://serverfault.com/questions/662448/resetting-factory-defaults-hp-proliant-dl360-gen8
    
