@@ -2,6 +2,7 @@ FROM debian:9.5-slim
 LABEL maintainer="mrgt747@gmail.com"
 # Copy application files
 COPY . /app
+COPY package.json server.js /app
 # Install required system packages
 RUN apt-get update
 RUN apt-get -y install imagemagick curl software-properties-common gnupg vim ssh
