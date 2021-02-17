@@ -32,4 +32,20 @@ ADD log-event.sh /
 
 ```
 
-### :two: Configuration
+### :two: Exécution de l'image
+
+L'instruction d'exécution s'exécute lorsque nous construisons l'image. Cela signifie que la commande passée à run s'exécute au-dessus de l'image actuelle dans un nouveau calque. Le résultat est ensuite transmis à l'image
+
+```
+docker build -t erna:1.0 .
+```
+
+Nous espérons maintenant avoir une image Docker contenant un fichier log.txt avec une ligne de création d'image à l'intérieur. Vérifions cela en lançant un conteneur basé sur l'image :
+
+```
+docker run myimage cat log.txt
+```
+
+## Reference
+
+:link: https://www.baeldung.com/ops/dockerfile-run-cmd-entrypoint
