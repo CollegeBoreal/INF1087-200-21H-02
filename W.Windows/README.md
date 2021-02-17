@@ -9,7 +9,7 @@
    
     - Télécharger ISO sur Azure Education
     
-    Logicel de boot de clé USB ? ([Rufus](https://github.com/CollegeBoreal/Tutoriels/tree/master/7.Microsoft/servers/ISO), UnetBooting)
+    Logicel de boot de clé USB ? ([Rufus](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/7.Microsoft/servers/ISO), UnetBooting)
     
     Option pour booter la clé : 
     
