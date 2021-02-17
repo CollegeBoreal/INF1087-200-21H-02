@@ -23,3 +23,13 @@ echo `date` $@ >> log.txt;
 cat log.txt;
 
 ```
+
+Et maintenant, créons un simple Dockerfile :
+
+```
+FROM alpine
+ADD log-event.sh /
+
+```
+
+### :two: Configuration
