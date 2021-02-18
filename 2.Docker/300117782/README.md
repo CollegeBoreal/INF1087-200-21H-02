@@ -41,7 +41,7 @@ L'instruction d'exécution s'exécute lorsque nous construisons l'image. Cela si
 ![images](doc2.PNG)
 
 ```
-docker build -t erna:1.0 .
+docker build -t myimage:1.0 .
 ```
 
 Nous espérons maintenant avoir une image Docker contenant un fichier log.txt avec une ligne de création d'image à l'intérieur. Vérifions cela en lançant un conteneur basé sur l'image :
