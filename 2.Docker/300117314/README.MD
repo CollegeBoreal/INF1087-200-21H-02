@@ -68,6 +68,7 @@ Once the image has all that it needs to build the application, it installs the a
 
 ```
 ------------------------------
+
 **Step 3:** création du fichier server.js 
 
 <img src=images/12.PNG  alt="alt text" width="750" height="550">
@@ -97,17 +98,18 @@ myConsole.log(`Running on http://${serverHost}:${serverPort}`);
 
 ```
 
+------------------------------
 
 
-**Step :** executing our Dockerfile in order to create our image: 
+**Step 4:** création de notre image: 
 
 
-<img src=images/2.PNG  alt="alt text" width="750" height="400">
+<img src=images/18.PNG  alt="alt text" width="750" height="400">
 
 
 ------------------------------
 
-**Step 4:** Verifiying our image:
+**Step 5:** Verifiying our image:
 
 
 <img src=images/3.PNG  alt="alt text" width="750" height="400">
