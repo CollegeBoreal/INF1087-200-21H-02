@@ -46,8 +46,12 @@ app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 ```
 
+Il faut ensuite créer un fichier .dockerignore:
 
-
+```
+node_modules
+npm-debug.log
+```
 
 
 
