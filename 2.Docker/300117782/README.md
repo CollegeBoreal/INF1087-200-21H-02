@@ -12,6 +12,7 @@ ADD event.sh /
 ENTRYPOINT ["/event.sh"]
 
 ```
+
 ![images](Doc1/1.PNG)
 
 ### :one: Configuration
@@ -48,7 +49,9 @@ Nous espérons maintenant avoir une image Docker contenant un fichier log.txt av
 ```
 docker run myimage cat log.txt
 ```
+
 ![images](doc3/1.PNG)
+
 ## Reference
 
 :link: https://www.baeldung.com/ops/dockerfile-run-cmd-entrypoint
