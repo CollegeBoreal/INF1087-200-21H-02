@@ -48,6 +48,25 @@ Once the image has all that it needs to build the application, it installs the a
 
 <img src=images/11.PNG  alt="alt text" width="750" height="400">
 
+```
+{
+  "name": "express_example",
+  "version": "1.0.0",
+  "description": "Express App Example",
+  "author": "Juan Ariza <juanariza@vmware.com>",
+  "main": "server.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
+```
 ------------------------------
 
 **Step 3:** executing our Dockerfile in order to create our image: 
