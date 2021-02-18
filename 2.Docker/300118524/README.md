@@ -302,6 +302,11 @@ docker run --detach --name site --publish 8080:80 zoureni:1.0
 ![image](images/site.png)
 
 
+# Reference
+
+https://devopssec.fr/article/creer-ses-propres-images-docker-dockerfile
+
+
 
 
 
