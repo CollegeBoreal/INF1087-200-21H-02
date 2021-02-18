@@ -120,7 +120,7 @@ $ docker container ls --all
 
 ```
 
-<img src=images/20.PNG  alt="alt text" width="750" height="400">
+<img src=images/20.PNG  alt="alt text" width="900" height="100">
 ------------------------------
 
 
