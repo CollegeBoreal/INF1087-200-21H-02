@@ -71,6 +71,8 @@ Once the image has all that it needs to build the application, it installs the a
 **Step 3:** création du fichier server.js 
 
 <img src=images/12.PNG  alt="alt text" width="750" height="550">
+
+
 ```
 'use strict';
 
