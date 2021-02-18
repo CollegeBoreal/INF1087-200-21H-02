@@ -59,6 +59,10 @@ npm-debug.log
 
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300111824/IMAGES/npm1.PNG" width="650">
 
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300111824/IMAGES/run1.PNG" width="650">
+
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300111824/IMAGES/calling.PNG" width="650">
+
 ## résulat sur page web
 
-
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/2.Docker/300111824/IMAGES/hello.PNG" width="650">
