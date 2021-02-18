@@ -1,16 +1,20 @@
 'use strict';
 
 const express = require('express');
+const fs = require('fs');
+
+const myLogFileStream = fs.createWriteStream('/var/log/app.log');
+const myConsole = new console.Console(myLogFileStream, myLogFileStream);
 
 // Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
+const serverHost = '8000';
+const serverPort = 80;
 
-// App
+// Express app
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hello world\n');
 });
 
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+app.listen(serverPort);
+myConsole.log(`Running on http://${serverHost}:${serverPort}`);
