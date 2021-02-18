@@ -13,7 +13,7 @@ ENTRYPOINT ["/event.sh"]
 
 ```
 
-![images](Doc1/1.PNG)
+![images](Doc1.PNG)
 
 ### :one: Configuration
 
@@ -38,7 +38,7 @@ ADD log-event.sh /
 
 L'instruction d'exécution s'exécute lorsque nous construisons l'image. Cela signifie que la commande passée à run s'exécute au-dessus de l'image actuelle dans un nouveau calque. Le résultat est ensuite transmis à l'image
 
-![images](doc2/1.PNG)
+![images](doc2.PNG)
 
 ```
 docker build -t erna:1.0 .
@@ -50,7 +50,7 @@ Nous espérons maintenant avoir une image Docker contenant un fichier log.txt av
 docker run myimage cat log.txt
 ```
 
-![images](doc3/1.PNG)
+![images](doc3.PNG)
 
 ## Reference
 
