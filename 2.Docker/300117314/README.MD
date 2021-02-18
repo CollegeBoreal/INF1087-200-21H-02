@@ -68,6 +68,7 @@ Once the image has all that it needs to build the application, it installs the a
 
 ```
 ------------------------------
+
 **Step 3:** création du fichier server.js 
 
 <img src=images/12.PNG  alt="alt text" width="750" height="550">
@@ -97,23 +98,57 @@ myConsole.log(`Running on http://${serverHost}:${serverPort}`);
 
 ```
 
+------------------------------
 
 
-**Step :** executing our Dockerfile in order to create our image: 
+**Step 4:** création de notre image: 
 
+```
+$ docker image build --tag mortinode:20.0 .
 
-<img src=images/2.PNG  alt="alt text" width="750" height="400">
+```
+
+<img src=images/18.PNG  alt="alt text" width="750" height="400">
 
 
 ------------------------------
 
-**Step 4:** Verifiying our image:
+**Step 5:** Verifiying our image:
+
+```
+$ docker container ls --all
+
+```
+
+<img src=images/20.PNG  alt="alt text" width="900" height="100">
 
 
-<img src=images/3.PNG  alt="alt text" width="750" height="400">
+------------------------------
+**Step 6:** Execute our image:
+
+```
+$ docker container run --name mortiNode --publish 8000:80 --detach mortinode:20.0
+
+```
+
+<img src=images/21.PNG  alt="alt text" width="900" height="100">
+
+
 ------------------------------
 
+**Step 7:** Verifiying our image:
+```
+$ docker container logs mortiNode
 
+```
+<img src=images/22.PNG  alt="alt text" width="700" height="100">
+
+------------------------------
+**Step 8:** Verifiying our server:
+
+<img src=images/23.PNG  alt="alt text" width="500" height="400">
+
+------------------------------
 #refrences: 
 
 :link: https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html
