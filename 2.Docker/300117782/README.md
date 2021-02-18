@@ -13,6 +13,8 @@ ENTRYPOINT ["/event.sh"]
 
 ```
 
+![images](Doc1/1.PNG)
+
 ### :one: Configuration
 
 Pour commencer, créons un script, log-event.sh. Il suffit d'ajouter une ligne à un fichier et de l'imprimer :
@@ -36,6 +38,8 @@ ADD log-event.sh /
 
 L'instruction d'exécution s'exécute lorsque nous construisons l'image. Cela signifie que la commande passée à run s'exécute au-dessus de l'image actuelle dans un nouveau calque. Le résultat est ensuite transmis à l'image
 
+![images](doc2/1.PNG)
+
 ```
 docker build -t erna:1.0 .
 ```
@@ -43,8 +47,10 @@ docker build -t erna:1.0 .
 Nous espérons maintenant avoir une image Docker contenant un fichier log.txt avec une ligne de création d'image à l'intérieur. Vérifions cela en lançant un conteneur basé sur l'image :
 
 ```
-docker run erna cat log.txt
+docker run myimage cat log.txt
 ```
+
+![images](doc3/1.PNG)
 
 ## Reference
 

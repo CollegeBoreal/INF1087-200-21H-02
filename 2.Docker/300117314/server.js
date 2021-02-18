@@ -13,7 +13,7 @@ const serverPort = 80;
 // Express app
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Bonjour Tout le monde\n');
+  res.send('Hello Word\n');
 });
 
 app.listen(serverPort);

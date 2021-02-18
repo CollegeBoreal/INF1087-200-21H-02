@@ -1,28 +1,34 @@
 ## :o: improving a Node.js application's Docker image
 
-<img src=images/4.PNG  alt="alt text" width="750" height="400">
+<img src=images/10.PNG  alt="alt text" width="750" height="400">
+
+
 
 
 **Step 1:** Create a new Dockerfile: 
 
 ------------------------------
 ```
+
 FROM debian:9.5-slim
 LABEL maintainer="mrgt747@gmail.com"
 # Copy application files
 COPY . /app
+
 # Install required system packages
 RUN apt-get update
 RUN apt-get -y install imagemagick curl software-properties-common gnupg vim ssh
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
-RUN apt-get -y install nodejs && apt-get install -y git
+RUN apt-get -y install nodejs 
 # Install NPM dependencies
 RUN npm install --prefix /app
 EXPOSE 80
-CMD ["npm", "start", "--prefix", "app"]
-ENTRYPOINT ["git"]
+CMD ["start", "--prefix", "app"]
+ENTRYPOINT ["npm"]
 
 ```
+------------------------------
+
 
 ## This is how the lines above can be read:
 
@@ -37,14 +43,63 @@ Once the image has all that it needs to build the application, it installs the a
 ------------------------------
 
 
-**Step 2:** verifiying our Dockerfile:
+**Step 2:** création du fichier package.json:
 
 
-<img src=images/1.PNG  alt="alt text" width="750" height="400">
+<img src=images/11.PNG  alt="alt text" width="750" height="550">
 
+```
+{
+  "name": "express_example",
+  "version": "1.0.0",
+  "description": "Express App Example",
+  "author": "Juan Ariza <juanariza@vmware.com>",
+  "main": "server.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
+```
 ------------------------------
+**Step 3:** création du fichier server.js 
 
-**Step 3:** executing our Dockerfile in order to create our image: 
+<img src=images/12.PNG  alt="alt text" width="750" height="550">
+
+
+```
+'use strict';
+
+const express = require('express');
+const fs = require('fs');
+
+const myLogFileStream = fs.createWriteStream('/var/log/app.log');
+const myConsole = new console.Console(myLogFileStream, myLogFileStream);
+
+// Constants
+const serverHost = '8000';
+const serverPort = 80;
+
+// Express app
+const app = express();
+app.get('/', (req, res) => {
+  res.send('Hello Word\n');
+});
+
+app.listen(serverPort);
+myConsole.log(`Running on http://${serverHost}:${serverPort}`);
+
+```
+
+
+
+**Step :** executing our Dockerfile in order to create our image: 
 
 
 <img src=images/2.PNG  alt="alt text" width="750" height="400">
