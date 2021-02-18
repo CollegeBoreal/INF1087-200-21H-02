@@ -1,22 +1,18 @@
-## ce docker file permet d'afficher ce qui se trouve dans un fichier **.txt**
+# L'exercice se ^porte sur l'installation de node.js
 ---------------------------------------------------------------------
+Nous allons prendre l'exercice sur le site de nodejs.org
 
-### :a: pour creer l'image
-
-```
-docker build --tag blevie:1.0 .
-
-```
-
-### :b: pour executer ce ficher
-```
-docker run --name bleviecontainer blevie:1.0
-
-```
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 
-## plus de details
-```
-welcome blevie
-```
+## créatoion de l'image
+
+
+
+## exewcution du fichier
+
+
+
+## résulat sur page web
+
 
