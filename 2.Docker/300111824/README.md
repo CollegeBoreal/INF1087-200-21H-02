@@ -6,7 +6,7 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 
 ## créatoion de l'image
-
+Il dfaut cr
 
 
 ## exewcution du fichier
