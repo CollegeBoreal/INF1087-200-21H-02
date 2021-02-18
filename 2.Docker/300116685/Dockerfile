@@ -1,4 +1,4 @@
-From python:3.8 
+FROM python:3.8 
 WORKDIR /code
 COPY requirements.txt .
 COPY server.py .
