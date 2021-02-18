@@ -23,6 +23,33 @@ Il faut créer package.json
 }
 
 ```
+ensuite on utilise npm install
+et le package-lock.json s'installe sur le systéme
+
+Ensuite créer le fichier server.js:
+```
+'use strict';
+
+const express = require('express');
+
+// Constants
+const PORT = 8080;
+const HOST = '0.0.0.0';
+
+// App
+const app = express();
+app.get('/', (req, res) => {
+  res.send('Hello World');
+});
+
+app.listen(PORT, HOST);
+console.log(`Running on http://${HOST}:${PORT}`);
+```
+
+
+
+
+
 
 ## execution du fichier
 
