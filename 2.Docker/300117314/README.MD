@@ -103,6 +103,10 @@ myConsole.log(`Running on http://${serverHost}:${serverPort}`);
 
 **Step 4:** création de notre image: 
 
+```
+$ docker image build --tag mortinode:20.0 .
+
+```
 
 <img src=images/18.PNG  alt="alt text" width="750" height="400">
 
@@ -111,8 +115,12 @@ myConsole.log(`Running on http://${serverHost}:${serverPort}`);
 
 **Step 5:** Verifiying our image:
 
+```
+$ docker container ls --all
 
-<img src=images/3.PNG  alt="alt text" width="750" height="400">
+```
+
+<img src=images/20.PNG  alt="alt text" width="750" height="400">
 ------------------------------
 
 
