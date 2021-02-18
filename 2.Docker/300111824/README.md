@@ -6,7 +6,7 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 
 ## créatoion de l'image
-Il dfaut cr
+Il faut créer package.json
 
 
 ## exewcution du fichier
