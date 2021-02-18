@@ -68,8 +68,36 @@ Once the image has all that it needs to build the application, it installs the a
 
 ```
 ------------------------------
+**Step 3:** création du fichier server.js 
 
-**Step 3:** executing our Dockerfile in order to create our image: 
+<img src=images/12.PNG  alt="alt text" width="750" height="550">
+```
+'use strict';
+
+const express = require('express');
+const fs = require('fs');
+
+const myLogFileStream = fs.createWriteStream('/var/log/app.log');
+const myConsole = new console.Console(myLogFileStream, myLogFileStream);
+
+// Constants
+const serverHost = '8000';
+const serverPort = 80;
+
+// Express app
+const app = express();
+app.get('/', (req, res) => {
+  res.send('Hello Word\n');
+});
+
+app.listen(serverPort);
+myConsole.log(`Running on http://${serverHost}:${serverPort}`);
+
+```
+
+
+
+**Step :** executing our Dockerfile in order to create our image: 
 
 
 <img src=images/2.PNG  alt="alt text" width="750" height="400">
