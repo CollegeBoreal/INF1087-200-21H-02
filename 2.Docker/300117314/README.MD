@@ -43,10 +43,10 @@ Once the image has all that it needs to build the application, it installs the a
 ------------------------------
 
 
-**Step 2:** verifiying our Dockerfile:
+**Step 2:** création du fichier package.json:
 
 
-<img src=images/1.PNG  alt="alt text" width="750" height="400">
+<img src=images/11.PNG  alt="alt text" width="750" height="400">
 
 ------------------------------
 
