@@ -12,9 +12,8 @@
 
 | :hash: | Type        | Description                                         |infinity:| Statut           |
 |-------|-------------|-----------------------------------------------------|---------|------------------|
-| :one: | Quiz        | Introduction Windows Server                         |        5|:x:|
-| :one: | Test        | Installation Windows Server                         |       10|:heavy_check_mark:|
-| :one: | Laboratoire | Installation Windows Server                         |       10|:heavy_check_mark:|
+| :one: | Test        | Installation Windows Server                         |       20|:heavy_check_mark:|
+| :one: | Laboratoire | Installation Windows Server                         |        5|:heavy_check_mark:|
 | :two: | Test        | Implémentation de la virtualisation Hyper-V         |       15|:+1: CB-HYPERV et CB-HYPERV2 |
 | :two: | Laboratoire | Configuration dans le laboratoire virtuel           |       15|:+1: CB-HYPERV3   |
 |:three:| Test        | Conteneur                                           |       15|:bulb: [5.Conteneurs](../5.Conteneurs) déploiement sur un cloud publique   |
