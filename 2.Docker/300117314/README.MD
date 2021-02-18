@@ -146,7 +146,7 @@ $ docker container logs mortiNode
 ------------------------------
 **Step 8:** Verifiying our server:
 
-<img src=images/23.PNG  alt="alt text" width="7000" height="100">
+<img src=images/23.PNG  alt="alt text" width="700" height="100">
 
 ------------------------------
 #refrences: 
