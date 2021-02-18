@@ -121,9 +121,34 @@ $ docker container ls --all
 ```
 
 <img src=images/20.PNG  alt="alt text" width="900" height="100">
+
+
+------------------------------
+**Step 6:** Execute our image:
+
+```
+$ docker container run --name mortiNode --publish 8000:80 --detach mortinode:20.0
+
+```
+
+<img src=images/21.PNG  alt="alt text" width="900" height="100">
+
+
 ------------------------------
 
+**Step 7:** Verifiying our image:
+```
+$ docker container logs mortiNode
 
+```
+<img src=images/22.PNG  alt="alt text" width="700" height="100">
+
+------------------------------
+**Step 8:** Verifiying our server:
+
+<img src=images/23.PNG  alt="alt text" width="7000" height="100">
+
+------------------------------
 #refrences: 
 
 :link: https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html
