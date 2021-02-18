@@ -27,8 +27,8 @@ CMD ["start", "--prefix", "app"]
 ENTRYPOINT ["npm"]
 
 ```
+------------------------------
 
-```
 
 ## This is how the lines above can be read:
 
