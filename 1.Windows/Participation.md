@@ -40,7 +40,7 @@
 | 04   | 300115140 - <image src="https://avatars0.githubusercontent.com/u/54910329?s=460&v=4" width=20 height=20></image> | `ssh zackto@10.13.237.117`   | :heavy_check_mark: | :heavy_check_mark: |
 | 04   | 300116670 - <image src="https://avatars0.githubusercontent.com/u/55238107?s=460&v=4" width=20 height=20></image> | `ssh auriane@10.13.237.25`   | :heavy_check_mark: | :heavy_check_mark: |
 | 06   | 300116685 - <image src="https://avatars0.githubusercontent.com/u/54910751?s=460&v=4" width=20 height=20></image> | `ssh amirali11@10.13.237.88`   |:x:      |:x:  |
-| 07   | 300116973 - <image src="https://avatars0.githubusercontent.com/u/54910252?s=460&v=4" width=20 height=20></image> | `ssh nathalie@10.13.237.23`  | :heavy_check_mark: | :heavy_check_mark: |
+| 07   | 300116973 - <image src="https://avatars0.githubusercontent.com/u/54910252?s=460&v=4" width=20 height=20></image> | `ssh nathalie@10.13.237.23`  | :heavy_check_mark: | :heavy_check_mark: | :two::seven: |
 | 08   | 300117178 - <image src="https://avatars0.githubusercontent.com/u/54910937?s=460&v=4" width=20 height=20></image> | `ssh boris@10.13.237.15`     | :heavy_check_mark: |  :heavy_check_mark: |
 | 09   | 300117314 - <image src="https://avatars0.githubusercontent.com/u/54910700?s=460&v=4" width=20 height=20></image> | `ssh morti@10.13.237.100`    | :heavy_check_mark: | :heavy_check_mark: |
 | 10   | 300117444 - <image src="https://avatars0.githubusercontent.com/u/54910261?s=460&v=4" width=20 height=20></image> | `ssh idir@10.13.237.97`   |:x:               |:x:               |
