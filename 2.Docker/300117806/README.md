@@ -86,10 +86,10 @@ docker container run --publish 5900:5900 300117806:1.0
  
 # RESULTAT FINAL 🍌
 
-![image](captureA.PNG)
-![image](captureB.PNG)
-![image](capture104.PNG)
-![image](capture1.png)
+![image](CaptureA.PNG)
+![image](CaptureB.PNG)
+![image](Capture104.PNG)
+![image](Capture1.PNG)
 
 
 
