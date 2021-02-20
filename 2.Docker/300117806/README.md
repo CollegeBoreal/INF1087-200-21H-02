@@ -14,12 +14,7 @@ FROM      ubuntu
     RUN apt-get update && apt-get install -y inotify-tools nginx apache2 openssh-server
     
     
-# ---------apres-------
-
- 
-    
-    
-# ------ Fin ----------
+# ---------apres----------------------------------------
 
 
 # -------------- Debut --------------------------------------
@@ -86,10 +81,10 @@ docker container run --publish 5900:5900 300117806:1.0
  
 # RESULTAT FINAL 🍌
 
+![image](Capture103.PNG)
+![image](Capture104.PNG)
 ![image](CaptureA.PNG)
 ![image](CaptureB.PNG)
-![image](Capture104.PNG)
-![image](Capture103.PNG)
 
 
 
