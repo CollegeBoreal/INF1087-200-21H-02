@@ -50,8 +50,6 @@ FROM      ubuntu
 ---------------------------------------
 
 
-
-
 ---------------------------------
 # Démarrer le docker conteneur
 docker image build --tag 300117806:1.0 
@@ -83,7 +81,7 @@ docker container run --publish 5900:5900 300117806:1.0
 
 ![image](Capture103.PNG)
 ![image](Capture104.PNG)
-![image](Capture hh.PNG)
+![image](Capture10.PNG)
 ![image](CaptureA.PNG)
 ![image](CaptureB.PNG)
 
