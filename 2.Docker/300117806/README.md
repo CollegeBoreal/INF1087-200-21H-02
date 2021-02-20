@@ -81,6 +81,7 @@ docker container run --publish 5900:5900 300117806:1.0
 
  docker container run --name 300117806 --tty --publish 5900:5900 300117806:1.0
  
+ 
  --------------------------------------------------------------
  
 # RESULTAT FINAL 🍌
