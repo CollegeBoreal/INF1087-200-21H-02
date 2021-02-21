@@ -43,7 +43,7 @@ Once the image has all that it needs to build the application, it installs the a
 ------------------------------
 
 
-**Step 2:** création du fichier package.json:
+**Step 2:** Then we will create the package.json file:
 
 
 <img src=images/11.PNG  alt="alt text" width="750" height="550">
@@ -69,7 +69,7 @@ Once the image has all that it needs to build the application, it installs the a
 ```
 ------------------------------
 
-**Step 3:** création du fichier server.js 
+**Step 3:** Now it's the time to create fichier server.js with port number of host and our server: 
 
 <img src=images/12.PNG  alt="alt text" width="750" height="550">
 
@@ -101,8 +101,7 @@ myConsole.log(`Running on http://${serverHost}:${serverPort}`);
 ------------------------------
 
 
-**Step 4:** création de notre image: 
-
+**Step 4:** Let's strart creation of our image:
 ```
 $ docker image build --tag mortinode:20.0 .
 
@@ -113,7 +112,7 @@ $ docker image build --tag mortinode:20.0 .
 
 ------------------------------
 
-**Step 5:** Verifiying our image:
+**Step 5:**  How to Verify our image:
 
 ```
 $ docker container ls --all
@@ -124,7 +123,7 @@ $ docker container ls --all
 
 
 ------------------------------
-**Step 6:** Execute our image:
+**Step 6:** How to execute our image:
 
 ```
 $ docker container run --name mortiNode --publish 8000:80 --detach mortinode:20.0
@@ -136,7 +135,7 @@ $ docker container run --name mortiNode --publish 8000:80 --detach mortinode:20.
 
 ------------------------------
 
-**Step 7:** Verifiying our image:
+**Step 7:** How to Verify our image:
 ```
 $ docker container logs mortiNode
 
@@ -144,9 +143,9 @@ $ docker container logs mortiNode
 <img src=images/22.PNG  alt="alt text" width="700" height="100">
 
 ------------------------------
-**Step 8:** Verifiying our server:
+**Step 8:** How to verify our server:
 
-<img src=images/23.PNG  alt="alt text" width="500" height="400">
+<img src=images/23.PNG  alt="alt text" width="600" height="300">
 
 ------------------------------
 #refrences: 
