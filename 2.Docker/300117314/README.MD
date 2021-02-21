@@ -36,8 +36,7 @@ Using debian as the base image, it installs nodejs and npm in the system using t
 
 MAINTAINER—Sets the maintainer name and email for the image. Providing this information helps people know whom to contact if there’s a problem with the 
 image. This was accomplished earlier when you invoked commit. 
-RUN apt-get install –y git—Tells the builder to run the provided command to install Git.
-ENTRYPOINT ["git"]—Sets the entrypoint for the image to git.
+
 
 Once the image has all that it needs to build the application, it installs the application dependencies and uses the npm start command to start the application. The port 80 is exposed since the application uses it and it is specified with the expose parameter. 
 ------------------------------
@@ -69,7 +68,7 @@ Once the image has all that it needs to build the application, it installs the a
 ```
 ------------------------------
 
-**Step 3:** Now it's the time to create fichier server.js with port number of host and our server: 
+**Step 3:** Now it's the time to create server.js file with port number of host and our server: 
 
 <img src=images/12.PNG  alt="alt text" width="750" height="550">
 
@@ -101,7 +100,7 @@ myConsole.log(`Running on http://${serverHost}:${serverPort}`);
 ------------------------------
 
 
-**Step 4:** Let's strart creation of our image:
+**Step 4:** Let's start creation of our image:
 ```
 $ docker image build --tag mortinode:20.0 .
 
