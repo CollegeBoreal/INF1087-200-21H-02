@@ -40,7 +40,7 @@ Quels sont les instructions pour créer sa propre image?
 
 <img src="images/Docker-In-Action_Images.png" width=500 height=500 ></img>
 
-<img src="images/Docker-In-Action_octogone.png" width=1260 height=768 ></img>
+<img src="images/Docker-In-Action_octogone.png" width=315 height=192 ></img>
 
 <img src="images/Docker-In-Action_Features.png" width=500 height=500 ></img>
 
