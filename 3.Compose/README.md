@@ -7,6 +7,8 @@
 
 Penser à `kafka`, bien sûr ne pas utiliser cet example
 
+:bulb: Le faire sur votre machine Linux
+
 Bonne chance
 
 
