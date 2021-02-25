@@ -1,5 +1,7 @@
 # Compose
 
+https://livebook.manning.com/book/docker-in-action-second-edition/chapter-11/81
+
 - [ ] Créer votre répertoire avec votre :id:
 
 - [ ] Chercher un fichier `docker-compose.yaml` pour illustrer plusieurs containeurs sur un seul `noeud`.
