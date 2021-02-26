@@ -37,7 +37,7 @@ Notre script excecutera le server web au **port 8080**
 $ docker build --tag nodeimage:1.0 .
 
 ```
-![image](image1.PNG)
+![image](./creation1.PNG)
 
 ## :five: Creer le Containeur 
 ```
