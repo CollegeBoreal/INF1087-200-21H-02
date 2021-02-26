@@ -45,6 +45,9 @@ $ docker build --tag nodeimage:1.0 .
 $ docker run --name nodeContainer --publish 8080:8080 --detach nodeimage:1.0 
 
 ```
+![image](./creationC.PNG)
+---------------------------------------
+![image](./creationCc.PNG)
 ## :six: Resources
 Pris dans le livre **Kubernetie In action**
 
