@@ -34,12 +34,12 @@ Notre script excecutera le server web au **port 8080**
 ## :four: Creation de l'image
 
 ```
-$ docker build --tag nodeImage:1.0 .
+$ docker build --tag nodeimage:1.0 .
 
 ```
 ## :five: Creer le Containeur 
 ```
-$ docker run --name nodeContainer --publish 8080:8080 --detach nodeImage:1.0 
+$ docker run --name nodeContainer --publish 8080:8080 --detach nodeimage:1.0 
 
 ```
 ## :six: Resources
