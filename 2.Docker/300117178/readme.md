@@ -57,10 +57,13 @@ import java.util.Scanner;
 ```
 $ docker build --tag javaimage:1.0 .
 ```
+![dockerimage](./dockerfile1)
 
 ### Executer/Creer le Container
 ```
 $ docker run --name javaContainer javaimage:1.0 
 HelloWorld TO Boris Machine Java
 ```
+![dockerimage](./dockerfile2)
+
 #### editer par --- boris kwayep
