@@ -1,5 +1,7 @@
 # :one: Windows
 
+En se reférant au cours [W.Windows](../W.Windows), montez votre serveur Windows en suivant le laboratoire ci-dessous
+
 ## :a: Pour ce laboratoire:
   
   Installer un serveur Windows avec la distribution de votre choix

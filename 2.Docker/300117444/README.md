@@ -70,14 +70,7 @@ Note that, rather than copying the entire working directory, we are only copying
 
 To bundle your app's source code inside the Docker image, use the COPY instruction:
 
-# Bundle app source
-COPY . .
-Your app binds to port 8080 so you'll use the EXPOSE instruction to have it mapped by the docker daemon:
 
-EXPOSE 8080
-Last but not least, define the command to run your app using CMD which defines your runtime. Here we will use node server.js to start your server:
-
-CMD [ "node", "server.js" ]
 
 ## :three: .dockerignore file :panda_face:
 Create a .dockerignore file in the same directory as your Dockerfile with following content:
