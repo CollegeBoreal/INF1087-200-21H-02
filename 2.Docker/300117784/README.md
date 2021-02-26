@@ -38,7 +38,8 @@ $ docker build --tag nodeimage:1.0 .
 
 ```
 ![image](./creation1.PNG)
-
+-----------------------------------
+![image](./creation2.PNG)
 ## :five: Creer le Containeur 
 ```
 $ docker run --name nodeContainer --publish 8080:8080 --detach nodeimage:1.0 
