@@ -1,6 +1,8 @@
 # :one: Windows
 
-Pour ce laboratoire:
+En se reférant au cours [W.Windows](../W.Windows), montez votre serveur Windows en suivant le laboratoire ci-dessous
+
+## :a: Pour ce laboratoire:
   
   Installer un serveur Windows avec la distribution de votre choix
   
@@ -11,9 +13,17 @@ Pour ce laboratoire:
   - Windows Server Hyper-V 2019
   
   
-  https://github.com/CollegeBoreal/Tutoriels/tree/main/P.Plateformes/2.Windows/servers
+  https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/2.Windows/servers
 
-## [Participation](Participation.md)
+## :b: sconfig
+
+Assurez vous de connaitre la commande [sconfig.cmd](https://social.technet.microsoft.com/wiki/contents/articles/52672.windows-server-sconfig-exe.aspx) afin de faire des configurations sur la ligne de commande
+
+## :ab: [Vérification par le prof](Verification.md)
+
+Ajouter mon utilisateur pour les vérifications
+
+## :tada: [Participation](Participation.md)
 
 
 # :o: References

@@ -55,6 +55,10 @@ En rappel, pour éxécuter localement son fichier `Dockerfile`, on execute la co
 
 `Bonjour tout le monde mon nom est Draman`
 
+:bookmark: Le but de l'exercice est de l'améliorer le `Dockerfile` soit cherchant des examples sur Internet ou dans le livre au Chapitre 8
+
+Décrire les commandes utilisées pour l'amélioration
+
 :four: Docker Image
 
 Pour visualiser les couches images de l'image créée
@@ -91,3 +95,13 @@ par exemple pour créer `.github/workflows` utilise la commande suivante avec le
 ```
 $ mkdir -p .github/workflows
 ```
+
+# References
+
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+https://phoenixnap.com/kb/how-to-containerize-applications
+
+https://phoenixnap.com/kb/docker-cmd-vs-entrypoint
+
+https://livebook.manning.com/book/docker-in-action/chapter-8
