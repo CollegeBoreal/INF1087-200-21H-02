@@ -4,7 +4,7 @@
 
 ```
 $ ssh amirali12@10.13.237.200
-Password: Teminal@12
+Password: Terminal@12
 ```
 
 ### :a: Configurer DHCP sur le routeur
