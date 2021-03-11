@@ -26,20 +26,5 @@ services:
       WORDPRESS_DB_NAME: wordpress
 volumes:
   db_data: {}
-      context: ./docker/node
-      dockerfile: Dockerfile
-    image: shippingdocker/node:latest
-    networks:
-     - appnet
-    volumes:
-     - .:/opt
-    working_dir: /opt
-    command: echo hi
-networks:
-  appnet:
-    driver: bridge
-volumes:
-  dbdata:
-    driver: local
-  cachedata:
-    driver: local
+
+
