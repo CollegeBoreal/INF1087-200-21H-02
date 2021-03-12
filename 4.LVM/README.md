@@ -1,6 +1,6 @@
 
 
-|Nom|:id:|Groupe|:penguin: 10.13.237.*|:computer: 10.13.237.*|
+|:copyright|:id:|Groupe|:penguin: 10.13.237.*|:computer: 10.13.237.*|
 |-----|--|------|-----------------|---------------|
 |Brice|300098957|:parking:|9|24|
 |Amir|300116685|:parking:|10|25|
