@@ -12,7 +12,7 @@
 ```
 
 `--------------------------------------------------------------------------------------------------`
-## Explication du docker-compose.yml :wrench:
+## Démonstration du docker-compose.yml :wrench:
 
 ### Notre docker-compose est composé de :balloon: 2 container
 
