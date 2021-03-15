@@ -2,7 +2,7 @@
 
 ### Notre docker-compose est composé de 2 container
 
-## container :one: de gitlab
+## container :one: : gitlab
 
 ```
 
@@ -43,3 +43,30 @@ Aperçu sur le navigateur
 
 ![image](images/projet1.png) 
 
+```
+
+```
+
+## container :two: : portainer
+```
+
+```
+
+### :a: :volcano: Determiner votre mot de passe
+
+:point_down:
+
+![image](images/mdp_portainer.png)
+
+### :b: À quoi sert ce container :question:
+
+- monitorer les conteneurs
+
+   • Voir les ressources utilisées
+   
+   •	voir les logs des conteneurs
+   
+   •	inspecter la configuration des conteneurs…
+   
+![image](images/logs.png)
+ 
