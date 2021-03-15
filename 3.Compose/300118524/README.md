@@ -1,10 +1,10 @@
 # DOCKER-COMPOSE.YML
 
-## exécution du docker-compose
+## exécution du docker-compose :100:
 
 `docker-compose up --detach`
 
-### vérification 
+### vérification :white_check_mark:
 
 `docker-compose ps`
 ```
@@ -12,7 +12,7 @@
 ```
 
 `--------------------------------------------------------------------------------------------------`
-## Explication du docker-compose.yml
+## Explication du docker-compose.yml :wrench:
 
 ### Notre docker-compose est composé de 2 container
 
