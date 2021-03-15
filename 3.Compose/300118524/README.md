@@ -14,7 +14,7 @@
 `--------------------------------------------------------------------------------------------------`
 ## Explication du docker-compose.yml :wrench:
 
-### Notre docker-compose est composé de 2 container
+### Notre docker-compose est composé de :balloon: 2 container
 
 ## container :one: : gitlab
 ```
