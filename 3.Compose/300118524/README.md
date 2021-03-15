@@ -19,23 +19,23 @@
 
 ![image](images/login.png)
 
-:boom: Et voilà vous pouvez monitorer vos projets :boom:
+:boom: Et voilà vous pouvez gérer vos projets :boom:
 
-:b: Démonstration avec le CLI
+#### :b: Démonstration avec le CLI
 
--dans ce cas
+- dans ce cas
 
-   -connexion à la console gitlab `docker container exec --tty --interactive 9f7d4237ec70 bash`
+   - connexion à la console gitlab `docker container exec --tty --interactive 9f7d4237ec70 bash`
    
-   -configuration `git config --global user.name "zoureni"` `git config --global user.email "gitlab.zoureni.com"`
+   - configuration `git config --global user.name "zoureni"` `git config --global user.email "gitlab.zoureni.com"`
    
-   -accès au projet Monitoring `cd Monitoring`
+   - accès au projet Monitoring `cd Monitoring`
    
-   -clone  `git clone http://zoureni/gitlab-instance-d88eab10/Monitoring.git`
+   - clone  `git clone http://zoureni/gitlab-instance-d88eab10/Monitoring.git`
    
-   -création de fichier README.md `touch README.md`
+   - création de fichier README.md `touch README.md`
    
-   -ajouter et commit et push au projet
+   - ajouter et commit et push au projet
 
 ![image](images/projet.png)  
  
