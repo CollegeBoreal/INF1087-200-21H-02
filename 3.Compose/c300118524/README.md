@@ -26,10 +26,14 @@
 :point_down:
 
 ![image](images/mdp_gitlab.png)
+```
+```
 
 :speech_balloon: Connecter vous avec **username** = `root` **mot de passe** = `le mot de passe que vous venez de définir` :point_up:
 
 ![image](images/login.png)
+```
+```
 
 :boom: Et voilà vous pouvez gérer vos projets :boom:
 
@@ -49,7 +53,9 @@
    
    - ajouter et commit et push au projet
 
-![image](images/projet.png)  
+![image](images/projet.png) 
+```
+```
  
 Aperçu sur le navigateur
 
@@ -68,6 +74,8 @@ Aperçu sur le navigateur
 :point_down:
 
 ![image](images/mdp_portainer.png)
+```
+```
 
 ### :b: À quoi sert ce container :question:
 
@@ -80,6 +88,8 @@ Aperçu sur le navigateur
    •	inspecter la configuration des container…
    
 ![image](images/logs.png)
+```
+```
 
 - gérer les container
 
@@ -104,6 +114,8 @@ Aperçu sur le navigateur
    •	mettre en pause des container
    
 ![image](images/start.png)
+```
+```
 
 •	Gérer les images Docker
 
