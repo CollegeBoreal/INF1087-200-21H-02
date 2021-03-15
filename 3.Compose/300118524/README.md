@@ -11,13 +11,13 @@
 
 ```
 
+`--------------------------------------------------------------------------------------------------`
 ## Explication du docker-compose.yml
 
 ### Notre docker-compose est composé de 2 container
 
 ## container :one: : gitlab
 
-`                                  --------------------------------------                             `
 
 ### :a: Démonstration sur le navigateur
 
@@ -55,11 +55,10 @@ Aperçu sur le navigateur
 
 ![image](images/projet1.png) 
 
-`                                         -------------------------------------                                  `
 ```
 
 ```
-
+`--------------------------------------------------------------------------------------------------`
 ## container :two: : portainer
 ```
 ```
