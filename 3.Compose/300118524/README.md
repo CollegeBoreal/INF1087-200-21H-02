@@ -17,8 +17,8 @@
 ### Notre docker-compose est composé de 2 container
 
 ## container :one: : gitlab
-
-
+```
+```
 ### :a: Démonstration sur le navigateur
 
 #### :volcano: Determiner votre mot de passe
