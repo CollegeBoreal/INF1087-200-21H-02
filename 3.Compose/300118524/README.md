@@ -69,4 +69,37 @@ Aperçu sur le navigateur
    •	inspecter la configuration des conteneurs…
    
 ![image](images/logs.png)
+
+- gérer les conteneurs
+
+   •	créer des conteneurs
+   
+   •	supprimer des conteneurs
+   
+   •	régénérer des conteneurs
+   
+   •	éditer des conteneurs
+   
+   •	redéployer des conteneurs
+   
+   •	démarrer des conteneurs
+   
+   •	éteindre des conteneurs
+   
+   •	redémarrer des conteneurs
+   
+   •	tuer des conteneurs
+   
+   •	mettre en pause des conteneurs
+   
+![image](images/start.png)
+
+•	Gérer les images Docker
+
+•	Gérer les réseaux
+
+•	Gérer les volumes…
+
+![image](images/gestion.png)
+
  
