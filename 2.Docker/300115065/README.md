@@ -115,10 +115,10 @@ Running on http://0.0.0.0:8080
 ```
 
 ## :four: Test
+Maintenant vous pouvez appeler l'application en utilisant curl
 ```
 $ curl -i localhost:49160
-
-![image](Test.png
 ```
+![image](Test.png)
 
 
