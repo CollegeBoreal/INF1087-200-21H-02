@@ -71,37 +71,37 @@ Aperçu sur le navigateur
 
 ### :b: À quoi sert ce container :question:
 
-- monitorer les conteneurs
+- monitorer les container
 
    • Voir les ressources utilisées
    
-   •	voir les logs des conteneurs
+   •	voir les logs des container
    
-   •	inspecter la configuration des conteneurs…
+   •	inspecter la configuration des container…
    
 ![image](images/logs.png)
 
-- gérer les conteneurs
+- gérer les container
 
-   •	créer des conteneurs
+   •	créer des container
    
-   •	supprimer des conteneurs
+   •	supprimer des container
    
-   •	régénérer des conteneurs
+   •	régénérer des container
    
-   •	éditer des conteneurs
+   •	éditer des container
    
-   •	redéployer des conteneurs
+   •	redéployer des container
    
-   •	démarrer des conteneurs
+   •	démarrer des container
    
-   •	éteindre des conteneurs
+   •	éteindre des container
    
-   •	redémarrer des conteneurs
+   •	redémarrer des container
    
-   •	tuer des conteneurs
+   •	tuer des container
    
-   •	mettre en pause des conteneurs
+   •	mettre en pause des container
    
 ![image](images/start.png)
 
@@ -112,5 +112,8 @@ Aperçu sur le navigateur
 •	Gérer les volumes…
 
 ![image](images/gestion.png)
-
+```
+```
+ •	Accéder aux consoles de différent container
  
+ ![image](images/console.png)
