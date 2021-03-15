@@ -86,24 +86,29 @@ Cela empêchera vos modules locaux et vos logs de débogage d'être copiés sur 
 ```
 docker build -t 300115065/node-web-app .
 ```
+
 Pour lister votre image par Docker :
+
 ```
 docker images
 ```
 ![image](nodeapp.png)
 
 ## :three: Exécuter l'image
+
 ```
 $ docker run -p 49160:8080 -d 300115065/node-web-app
 a0c513256189d653188b4acd0171850b943027779140a3f321ab71e6cb4552c2
 ```
-### Get container ID
+
+### 💡 Get container ID
+
 ```
 $ docker ps
 CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                     NAMES
 a0c513256189        300115065/node-web-app   "docker-entrypoint.s…"   3 minutes ago       Up 3 minutes 
 ```
-### Print app output
+### 💡 Print app output
 ```
 $ docker logs a0c513256189      -- container ID
 Running on http://0.0.0.0:8080
@@ -113,5 +118,7 @@ Running on http://0.0.0.0:8080
 ```
 $ curl -i localhost:49160
 
-![image](Testt.png
+![image](Test.png
 ```
+
+
