@@ -1,12 +1,24 @@
-# EXPLICATION DOCKER-COMPOSE.YML
+# DOCKER-COMPOSE.YML
+
+## exécution du docker-compose
+
+`docker-compose up --detach`
+
+### vérification 
+
+`docker-compose ps`
+```
+
+```
+
+## Explication du docker-compose.yml
 
 ### Notre docker-compose est composé de 2 container
 
 ## container :one: : gitlab
 
-```
+` ------------------------------------------------------------------------------------------------------------------------------------------------`
 
-```
 ### :a: Démonstration sur le navigateur
 
 #### :volcano: Determiner votre mot de passe
@@ -43,13 +55,13 @@ Aperçu sur le navigateur
 
 ![image](images/projet1.png) 
 
+`----------------------------------------------------------------------------------------------------------------------------------------------`
 ```
 
 ```
 
 ## container :two: : portainer
 ```
-
 ```
 
 ### :a: :volcano: Determiner votre mot de passe
