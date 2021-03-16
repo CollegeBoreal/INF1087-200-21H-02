@@ -6,4 +6,4 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
-[Domaine](Domaine) :pinching_hand: 
+[Grappes](Grapeps.md) :pinching_hand: 
