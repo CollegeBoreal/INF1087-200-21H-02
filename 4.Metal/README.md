@@ -15,7 +15,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 - [ ] Nommer vos [Grappes](.doc/Grappes.md) :pinching_hand: 
 
-:star: Name: :grey_question:
+:star: Name: orion
 
 | Type Server   | Hostname                |  IP               | Specs                 |
 |---------------|-------------------------|-------------------|-----------------------|
