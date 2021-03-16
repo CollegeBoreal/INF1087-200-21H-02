@@ -13,4 +13,4 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 
 Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
-- [ ] Nommer vos [Grappes](Grapeps.md) :pinching_hand: 
+- [ ] Nommer vos [Grappes](Grappes.md) :pinching_hand: 
