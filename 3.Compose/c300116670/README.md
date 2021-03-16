@@ -4,5 +4,6 @@ Sur ce Lab, nous allons créer une application Web Python simple exécutée sur 
 
 
 
-SOURCE
-https://docs.docker.com/compose/gettingstarted/
+**SOURCE**
+
+📌 https://docs.docker.com/compose/gettingstarted/
