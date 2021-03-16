@@ -1,5 +1,7 @@
 # :m: Grappe GTA
 
+
+
 | Server   | Hostname                |  IP               | Specs                 |
 |---------------|-------------------------|-------------------|-----------------------|
 | control plane | brampton.mrti.rocks   | `10.13.15.16/24` | 64GB Ram,      16cpus |
