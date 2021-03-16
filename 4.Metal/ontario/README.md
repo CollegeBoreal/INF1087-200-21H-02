@@ -1,4 +1,4 @@
-# Grappe Ontario
+# :o: Grappe Ontario
 
 | Server   | Hostname                |  IP               | Specs                 |
 |---------------|-------------------------|-------------------|-----------------------|
