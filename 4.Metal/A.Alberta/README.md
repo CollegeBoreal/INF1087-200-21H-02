@@ -1,4 +1,4 @@
-# :A: Grappe Alberta
+# :a: Grappe Alberta
 
 | Server           | Hostname                |  IP              | Specs                 |
 |------------------|----------------------   |------------------|-----------------------|
