@@ -15,6 +15,11 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 - [ ] Nommer vos [Grappes](.doc/Grappes.md) :pinching_hand: 
 
+
+- [ ] Après avoir déterminé le nom de votre grappe:
+
+* Créer un répertoire avec le nom de votre grappe et y mettre un fichier `README.md` avec la topologie de votre grappe, example:
+
 :star: Name: orion
 
 | Type Server   | Hostname                |  IP               | Specs                 |
