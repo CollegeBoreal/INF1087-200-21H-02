@@ -6,14 +6,14 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresses IP
 
-- [ ] Réorganiser [Reorg](.doc/Reorg.md) :pinching_hand: les addresses IP dans le sous-réseau `10.13.237.0/24`
+- [ ] Réorganiser [Reorg](.doc/Reorg.md) :writing_hand:	 les addresses IP dans le sous-réseau `10.13.237.0/24`
 
 
 ## :a: Nommage
 
 Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
-- [ ] Nommer vos [Grappes](.doc/Grappes.md) :pinching_hand: 
+- [ ] Nommer vos [Grappes](.doc/Grappes.md) :writing_hand:	 
 
 
 - [ ] Après avoir déterminé le nom de votre grappe:
@@ -33,4 +33,4 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
 
-[LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :pinching_hand: 
+[LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :writing_hand:	
