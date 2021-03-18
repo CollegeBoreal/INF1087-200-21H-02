@@ -15,7 +15,7 @@ Penser à `kafka`, bien sûr ne pas utiliser cet example
 
 :bulb: Le faire sur votre machine Linux
 
-SVP Faites un README.md avec de belles images montrant que vous avez éxécuter votre devoir
+SVP Faites un README.md avec de belles images montrant que vous avez éxécuté votre devoir
 
 Bonne chance
 
