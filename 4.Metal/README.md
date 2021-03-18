@@ -39,4 +39,4 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 :round_pushpin: Le reste
 
-[Preparation](Preparation.md) :writing_hand:	
+[Preparation](.doc/Preparation.md) :writing_hand:	
