@@ -28,3 +28,9 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 | data plane    | bellatrix.boreal.codes  | `10.13.15.201/20` | 64GB Ram,      16cpus |
 | data plane    | rigel.boreal.codes      | `10.13.15.202/20` | 32GB Ram,      16cpus |
 | data plane    | saiph.boreal.codes      | `10.13.15.203/20` | 64GB Ram,      16cpus |
+
+## :b: Les Disques 
+
+Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
+
+[LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM)
