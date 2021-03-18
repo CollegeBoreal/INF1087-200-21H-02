@@ -33,4 +33,4 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
 
-[LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM)
+[LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :pinching_hang: 
