@@ -22,4 +22,4 @@ services:
 -----------------------------------
 
 # run the appliction
-docker compose --detach-up
+docker compose --detach up
