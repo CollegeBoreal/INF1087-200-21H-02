@@ -18,3 +18,8 @@ services:
 :one: **build .** execute le Dockerfile se trouvant sur le repertoire courrant
 
 :two: **ports** indique le port de notre container
+
+-----------------------------------
+
+# run the appliction
+docker coompose --detach-up
