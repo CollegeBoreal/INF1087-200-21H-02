@@ -23,6 +23,7 @@ services:
       - ALLOW_EMPTY_PASSWORD=yes
     volumes:
       - 'moodle_data:/bitnami/moodle'  
+      - 'moodledata_data:/bitnami/moodledata'
     depends_on:
       - mariadb
 volumes:
