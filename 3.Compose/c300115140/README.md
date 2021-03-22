@@ -15,7 +15,7 @@ This quick README file demonstrates how to use Compose to set up and run WordPre
 
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/3.Compose/c300115140/PICTURES/wordpress.PNG" width="650">
 
-### Whu choosing Wordpress on Docker-compose?
+### Why choosing Wordpress on Docker-compose?
 
 WordPress is one of the most popular content management software (CMS) because of its multitude of features and ease of use. 
 Setting up a new web host environment can be time-consuming especially if you need to do it often. Docker Compose manages to simplify the installation process to a single deployment command. It will reduce the time and effort required.
