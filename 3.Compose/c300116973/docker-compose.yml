@@ -22,8 +22,7 @@ services:
       - MOODLE_DATABASE_NAME=bitnami_moodle
       - ALLOW_EMPTY_PASSWORD=yes
     volumes:
-      - 'moodle_data:/bitnami/moodle'
-      - 'moodledata_data:/bitnami/moodledata'
+      - 'moodle_data:/bitnami/moodle'  
     depends_on:
       - mariadb
 volumes:
