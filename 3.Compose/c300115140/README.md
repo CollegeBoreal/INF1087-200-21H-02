@@ -2,36 +2,13 @@
 # I use Docker Compose to easily run WordPress in an isolated environment built with Docker containers. 
 This quick README file demonstrates how to use Compose to set up and run WordPress.
 
-This is the code used for the yml file:
+Step 1: This is the code used for the yml file:
 
-`
-version: "3.9"
-    
-services:
-  db:
-    image: mysql:5.7
-    volumes:
-      - db_data:/var/lib/mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: somewordpress
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
-    
-  wordpress:
-    depends_on:
-      - db
-    image: wordpress:latest
-    ports:
-      - "8000:80"
-    restart: always
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: wordpress
-      WORDPRESS_DB_NAME: wordpress
-volumes:
-  db_data: {}
-  `
-  
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/3.Compose/c300115140/PICTURES/yml.PNG" width="650">
+
+Step 2: I run my project from the directory
+
+
+Step 3: I put Wordpress on web browser, using 8000 as the port
+
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/3.Compose/c300115140/PICTURES/wordpress.PNG" width="650">
