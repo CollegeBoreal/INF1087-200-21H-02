@@ -11,9 +11,9 @@ Sur votre PC:
 
 ## :a: Création de la grappe :wheel_of_dharma: sur Azure
 
-À partir de votre PC, créer une grappe sur Azure
+À partir de votre PC, créer une grappe sur:
 
-:round_pushpin: [Azure](https://github.com/CollegeBoreal/Tutoriels/blob/main/2.MicroServices/3.Orchestration/1.Kubernetes/C.Cluster/1.Public/1.Azure) sur le nuage
+:round_pushpin: [Azure](https://github.com/CollegeBoreal/Tutoriels/blob/main/2.MicroServices/3.Orchestration/1.Kubernetes/C.Cluster/1.Public/1.Azure) dans le nuage
 
 ## :b: Installer votre application 
 
