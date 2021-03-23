@@ -24,6 +24,12 @@
 
 🃏 creer sa grappe 
 ------------------
-![image](images/1.3.PNG)  ![image](images/1.4.PNG)  ![image](images/1.5.PNG)
+![image](images/1.3.PNG)  ![image](images/1.4.PNG)  ![image](images/1.5.PNG) ![image](images/1.6.PNG) ![image](images/1.7.PNG)
+ 
+🃏 Ajouter votre grappe kubia à votre contexte Kubernetes
+---------------------------------------------------------
+![image](images/1.8.PNG)
+
+
 
 
