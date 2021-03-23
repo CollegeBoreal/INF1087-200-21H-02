@@ -13,8 +13,8 @@
 
 ## :b: Installer votre application 
 
-- [ ] Utiliser Lens pour installer votre application
+- [ ] Utiliser Lens pour installer votre application
 
-- [ ] Créer un répertoire avec votre id
+- [ ] Créer un répertoire avec votre id
 
 - [ ] Mettre une image montrant votre grappe dans Lens
