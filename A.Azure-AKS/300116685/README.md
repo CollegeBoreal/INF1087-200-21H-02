@@ -14,5 +14,5 @@
 
 ㊙️ creer la grappe (cluster)
 --------------------
-
+![image](images/2.1.PNG)
 
