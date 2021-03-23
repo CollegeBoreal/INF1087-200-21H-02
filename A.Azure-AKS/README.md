@@ -19,6 +19,6 @@ Sur votre PC:
 
 - [ ] Utiliser Lens pour installer votre application
 
-- [ ] Créer un répertoire avec votre :id:
+- [ ] Créer un répertoire avec votre :id: et y mettre un fichier `README.md` 
 
-- [ ] Mettre une image montrant votre grappe dans Lens
+- [ ] Mettre une image montrant votre grappe dans Lens (plus il y a d'images et de textes mieux ce sera)
