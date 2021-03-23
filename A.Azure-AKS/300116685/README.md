@@ -14,5 +14,11 @@
 
 ㊙️ creer la grappe (cluster)
 --------------------
+🃏 Mettre son groupe dans une variable d'environnement
+
 ![image](images/2.1.PNG)
+
+🃏 verifiez si des groupes existent 
+----------------------------------
+![image](images/2.2.PNG)
 
