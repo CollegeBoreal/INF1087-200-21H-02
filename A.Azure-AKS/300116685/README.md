@@ -22,3 +22,8 @@
 ----------------------------------
 ![image](images/2.2.PNG)
 
+🃏 creer sa grappe 
+------------------
+![image](images/1.3.PNG)  ![image](images/1.4.PNG)  ![image](images/1.5.PNG)
+
+
