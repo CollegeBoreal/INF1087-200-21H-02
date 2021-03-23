@@ -12,7 +12,7 @@
 ----------------------
 ![image](images/1.2.PNG)
 
-㊙️ creer la grappe
+㊙️ creer la grappe (cluster)
 --------------------
 
 
