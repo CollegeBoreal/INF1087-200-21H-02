@@ -4,13 +4,16 @@ pour installer Moodle vous devez creer un run docker file avec le format .yml. u
 
 Vous devez l'exucuter avec la commande suivante
 
-``` docker-compose up --detach
+``` 
+docker-compose up --detach
+
 ```
 
 une fois fois que vos container sont Up vous pouvez allez tester dans le nagiateur web avec avotre adresse ip suivie du port que vous avez utilise
 
 
-```10.13.237.16:8080
+```
+10.13.237.16:8080
 
 ```
 
