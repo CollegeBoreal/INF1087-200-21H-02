@@ -17,9 +17,6 @@ cette fenetre s'affiche cliquez sur install
 
 ![image](images/4.JPG)
 
-:heavy_check_mark: Puis celle ci s'affiche, copiez la commande qui vous permettra de generer votre mot de passe
-
-![image](images/5.JPG)
 
 :heavy_check_mark: Ensuite allez de nouveau a apps et releases pour voir l'application que vous avez installee. le status doit etre deployed.
 
@@ -29,17 +26,21 @@ cette fenetre s'affiche cliquez sur install
 
 ![image](images/14.JPG)
 
+
+:heavy_check_mark: Puis celle ci s'affiche, copiez la commande qui vous permettra de generer votre mot de passe
+
+![image](images/5.JPG)
+
 :heavy_check_mark: Allez dans git bash et tapez cette la commande d'echo password. Cela va generer automatiquement votre mot de passe que vous allez utiliser.
 
 ![image](images/6.JPG)
-
 
 
 :heavy_check_mark: cliquez sur network dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
 
 ![image](images/12.JPG)
 
-:heavy_check_mark:taper votre adresse ip publique que lens vous a donnee et tapez le sur le navigateur cette page va s'afficher.
+:heavy_check_mark:Taper votre adresse ip publique que lens vous a donnee et tapez le sur le navigateur cette page va s'afficher.
 
 ![image](images/8.JPG)
 
