@@ -36,7 +36,7 @@ cette fenetre s'affiche cliquez sur install
 ![image](images/6.JPG)
 
 
-:heavy_check_mark: cliquez sur network dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
+:heavy_check_mark: cliquez sur network,puis service dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
 
 ![image](images/12.JPG)
 
