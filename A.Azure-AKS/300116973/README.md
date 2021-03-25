@@ -13,32 +13,33 @@
 ![image](images/3.JPG)
 
 :heavy_check_mark: cliquez sur install pour installer l'application :
-cette netre s'affiche cliquez sur install
+cette fenetre s'affiche cliquez sur install
 
 ![image](images/4.JPG)
 
-:heavy_check_mark: Puis celle ci s'affiche, cliquez encore sur install
+:heavy_check_mark: Puis celle ci s'affiche, copiez la commande qui vous permettra de generer votre mot de passe
 
-![image](iamges/5.JPG)
+![image](images/5.JPG)
 
-:heavy_check_mark: Ensuite alles de nous a apps et releases pour voir l'application que vous avez installee. le status doit etres deployed.
+:heavy_check_mark: Ensuite allez de nouveau a apps et releases pour voir l'application que vous avez installee. le status doit etre deployed.
 
-![images](images/6.JPG)
+![images](images/7.JPG)
 
 :heavy_check_mark: Double cliquez sur l'application que vous avez installer; cette fenetre doit s'ouvrir:
 
 ![image](images/7.JPG)
 
-:heavy_check_mark: Copier les infrmations qui vont vous permettre d'obtenir votre mot de passe pour vous connecter en tant que qu'administrateur:
+:heavy_check_mark: Copier les informations qui vont vous permettre d'obtenir votre mot de passe pour vous connecter en tant que qu'administrateur:
 
 ![image](images/8.JPG)
 
 :heavy_check_mark: Allez dans git bash et tapez cette commande. Cela va generer automatiquement votre mot de passe que vous allez utiliser.
 
-![image](images/8.JPG)
+![image](images/6.JPG)
 
 :heavy_check_mark: cliquez sur network dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
 
+![image](images/12.JPG)
 ![image](images/9.JPG)
 ![image](images/10.JPG)
 
