@@ -33,20 +33,23 @@ cette fenetre s'affiche cliquez sur install
 
 ![image](images/6.JPG)
 
-:heavy_check_mark: Copier les informations qui vont vous permettre d'obtenir votre mot de passe pour vous connecter en tant que qu'administrateur:
-
-![image](images/8.JPG)
-
 
 
 :heavy_check_mark: cliquez sur network dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
 
 ![image](images/12.JPG)
+
+:heavy_check_mark:taper votre adresse ip publique que lens vous a donnee et tapez le sur le navigateur cette page va s'afficher.
+
+![image](images/8.JPG)
+
+:heavy_check_mark: Copier les informations qui vont vous permettre d'obtenir votre mot de passe pour vous connecter en tant que qu'administrateur a votre addresse ip ajouter / administrator, cette page va s'ouvrir, entre vos credentials.
+
 ![image](images/9.JPG)
 ![image](images/10.JPG)
 
 
-:heavy_check_mark: entre votre credential. voila vous avez reussir a installer wordpress a partir de lens
+:heavy_check_mark: Voila vous avez reussir a installer wordpress a partir de lens :smile:
 
 ![image](images/11.JPG)
 
