@@ -23,7 +23,7 @@ cette fenetre s'affiche cliquez sur install
 
 :heavy_check_mark: Ensuite allez de nouveau a apps et releases pour voir l'application que vous avez installee. le status doit etre deployed.
 
-![images](images/7.JPG)
+![images](images/13.JPG)
 
 :heavy_check_mark: Double cliquez sur l'application que vous avez installer; cette fenetre doit s'ouvrir:
 
