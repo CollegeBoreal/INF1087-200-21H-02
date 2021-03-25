@@ -22,6 +22,8 @@
 
 ![image](dashhh.PNG)
 
+----------------------------------------
+
 # Bienvenu sur WordPress
 
 ![image](dashh.PNG)
