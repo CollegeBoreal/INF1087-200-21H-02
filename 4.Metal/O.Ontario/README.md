@@ -8,6 +8,6 @@
 
 
 # 🍇 GRAPPE 
-![image](grappe.PNG)
+![image](grappe.png)
 
 
