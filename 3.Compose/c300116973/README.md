@@ -2,10 +2,6 @@
 
 pour installer Moodle vous devez creer un run docker file avec le format .yml. 
 
-```
-10.13.237.16:8080
-
-```
 
 ```
 version: '2'
