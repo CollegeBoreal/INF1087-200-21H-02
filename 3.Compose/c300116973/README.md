@@ -1,6 +1,6 @@
 # Installer Moodle avec Docker-compose.yml
 
-pour installer Moodle vous devez creer un run docker file avec le format .yml. une fais cela fais 
+pour installer Moodle vous devez creer un run docker file avec le format .yml. Une fois cela fais 
 
 Vous devez l'exucuter avec la commande suivante
 
@@ -42,7 +42,7 @@ services:
       - MOODLE_DATABASE_NAME=bitnami_moodle
       - ALLOW_EMPTY_PASSWORD=yes
       - MOODLE_USERNAME=user
-      - MOODLE_PASSWORD=admin
+      - MOODLE_PASSWORD=bitnami
     volumes:
       - 'moodle_data:/bitnami/moodle'  
       - 'moodledata_data:/bitnami/moodledata'
