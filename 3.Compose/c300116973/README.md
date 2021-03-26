@@ -65,13 +65,13 @@ https://10.13.237.16:443
 
 ![image](d4.JPG)
 
-Mooddle dot s'ouvrir alors cliquez sur login et entre le user name qui est `use` et le mot de passe qui est `bitnami`
+Mooddle doit s'ouvrir alors cliquez sur login et entre le user name qui est `use` et le mot de passe qui est `bitnami`
 
-![image](d2.JPG)
+![image](d5.JPG)
 ![images](d3.JPG)
 
 Vous avez reussir a vous connecter a moodle alors vous pouvez commencer vos configuration.
 
-![image](d5.JPG)
+![image](d2.JPG)
 
 References : https://devopsheaven.com/moodle/devops/deploy/docker/docker-compose/2017/09/08/deploy-moodle-remote-server-docker.html
