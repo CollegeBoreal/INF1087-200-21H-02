@@ -1,16 +1,6 @@
 # Installer Moodle avec Docker-compose.yml
 
-pour installer Moodle vous devez creer un run docker file avec le format .yml. Une fois cela fais 
-
-Vous devez l'exucuter avec la commande suivante
-
-``` 
-docker-compose up --detach
-
-```
-
-une fois fois que vos container sont Up vous pouvez allez tester dans le nagiateur web avec avotre adresse ip suivie du port que vous avez utilise
-
+pour installer Moodle vous devez creer un run docker file avec le format .yml. 
 
 ```
 10.13.237.16:8080
@@ -57,5 +47,31 @@ volumes:
     driver: local
 
 ```
+
+Vous devez l'exucuter avec la commande suivante
+
+``` 
+docker-compose up --detach
+
+```
+
+![image](d1.JPG)
+
+Une fois fois que vos container sont Up vous pouvez allez tester dans le navigateur web avec avotre adresse ip suivie du port que vous avez utilise
+
+```
+https://10.13.237.16:443
+```
+
+![image](d2.JPG)
+
+Mooddle dot s'ouvrir alors cliquez sur login et entre le user name qui est `use` et le mot de passe qui est `bitnami`
+
+![image](d4.JPG)
+![images](d3.JPG)
+
+Vous avez reussir a vous connecter a moodle alors vous pouvez commencer vos configuration.
+
+![image](d5.JPG)
 
 References : https://devopsheaven.com/moodle/devops/deploy/docker/docker-compose/2017/09/08/deploy-moodle-remote-server-docker.html
