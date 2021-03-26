@@ -67,8 +67,8 @@ https://10.13.237.16:443
 
 Mooddle dot s'ouvrir alors cliquez sur login et entre le user name qui est `use` et le mot de passe qui est `bitnami`
 
-![image](d3.JPG)
-![images](d2.JPG)
+![image](d2.JPG)
+![images](d3.JPG)
 
 Vous avez reussir a vous connecter a moodle alors vous pouvez commencer vos configuration.
 
