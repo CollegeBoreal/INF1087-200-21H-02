@@ -44,10 +44,14 @@ volumes:
 
 ```
 
-Vous devez l'exucuter avec la commande suivante
+Vous devez l'executer avec la commande suivante
 
 ``` 
 docker-compose up --detach
+
+puis
+
+docker-compose ps
 
 ```
 
@@ -59,12 +63,12 @@ Une fois fois que vos container sont Up vous pouvez allez tester dans le navigat
 https://10.13.237.16:443
 ```
 
-![image](d2.JPG)
+![image](d4.JPG)
 
 Mooddle dot s'ouvrir alors cliquez sur login et entre le user name qui est `use` et le mot de passe qui est `bitnami`
 
-![image](d4.JPG)
-![images](d3.JPG)
+![image](d3.JPG)
+![images](d2.JPG)
 
 Vous avez reussir a vous connecter a moodle alors vous pouvez commencer vos configuration.
 
