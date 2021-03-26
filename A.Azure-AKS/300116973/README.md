@@ -1,6 +1,6 @@
-# Installer Wordpress avec Lens
+# Installer Wordpress a partir d'Azure kubernetes services
 
-:heavy_check_mark: Au prealable vous devez installer Kubectl et lens sur votre ordinateur. Ensuite vous devez creer la grappe a votre context kubernetes  (Azure Kubernetes services). Pour notre cas nous avons creer deux marchine virtuelle par cluster.
+:heavy_check_mark: Au prealable vous devez installer `Kubectl` et `lens` sur votre ordinateur,  s'enregistrer a azure et creer ces clusters avec le context kubernetes  (Azure Kubernetes services). Pour notre cas nous avons creer deux marchines virtuelles  cluster. Une fois fait ouvrez votre cluster avec lens prealablement installer dans votre ordinateur.
 
 ![image](images/cluster.JPG)
 
