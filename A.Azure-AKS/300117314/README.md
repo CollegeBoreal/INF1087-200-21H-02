@@ -66,7 +66,7 @@ az aks create --resource-group $AZ_GROUP_ID \
               --enable-addons monitoring
 ```            
 
-<img src=images/12.PNG  alt="alt text" width="650" height="500">
+<img src=images/12.PNG  alt="alt text" width="750" height="500">
 
 ##
 
