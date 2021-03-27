@@ -56,8 +56,9 @@ AZ_NODE_COUNT=2
 ```
 AZ_CLUSTER_NAME="morty"
 ```
-``
 :star: Lancer la création.
+
+```
 az aks create --resource-group $AZ_GROUP_ID \
                 --name $AZ_CLUSTER_NAME \
               --node-count $AZ_NODE_COUNT \
@@ -74,23 +75,23 @@ az aks create --resource-group $AZ_GROUP_ID \
 :star: Lancer Lens et verifier notre grappe "morty".
 
 
-<img src=images/13.PNG  alt="alt text" width="650" height="500">
+<img src=images/13.PNG  alt="alt text" width="850" height="500">
 
 ##
 
 :star: Installer l'application WordPress.
 
-<img src=images/14.PNG  alt="alt text" width="650" height="500">
+<img src=images/14.PNG  alt="alt text" width="850" height="500">
 
 ##
 :star: Vérifier si WordPress existe parmi nos applications.
 
-<img src=images/15.PNG  alt="alt text" width="650" height="500">
+<img src=images/15.PNG  alt="alt text" width="850" height="500">
 
 ##
 :star: Vérifier son adresse IP externe.
 
-<img src=images/16.PNG  alt="alt text" width="650" height="500">
+<img src=images/16.PNG  alt="alt text" width="850" height="500">
 
 
 
