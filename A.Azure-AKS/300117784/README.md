@@ -4,6 +4,12 @@
 
 ![image](wp1.PNG)
 -----
-:two:Dans Lens selectioner APPS et en suite dans Sharter et aller dans l'onglet de recherche saisi le nom de l'application a installer dans notre cas saisir wordpress
+:two:Dans Lens selectioner APPS et en suite dans Shart pour choisir l'application a installer 
 
-![image](wp2.PNG)
+![image](wp10.PNG)
+![image](wp11.PNG)
+
+-----
+:three:Verifier que wordpress est installer en cliquant sur APPS puis sur Releases
+
+![image](wp12.PNG)
