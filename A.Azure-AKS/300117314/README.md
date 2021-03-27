@@ -95,3 +95,34 @@ az aks create --resource-group $AZ_GROUP_ID \
 
 
 
+##
+:star: Copier le commande et executer dans bash pour recevoir recevoir votre mot de passe.
+##
+<img src=images/20.PNG  alt="alt text" width="850" height="500">
+
+##
+
+<img src=images/17.PNG  alt="alt text" width="850" height="250">
+
+##
+
+:star: Utiliser notre adresse IP externe pour nous connecter à WordPress.
+
+```
+20.48.143.164\admin 
+```
+:star: utiliser le nome d'utilisateur "user" et le mode de passe que vous venez de recevoir:
+
+<img src=images/18.PNG  alt="alt text" width="850" height="250">
+
+##
+
+<img src=images/19.PNG  alt="alt text" width="850" height="250">
+
+
+
+
+
+
+
+
