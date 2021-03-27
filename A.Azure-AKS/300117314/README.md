@@ -113,11 +113,11 @@ az aks create --resource-group $AZ_GROUP_ID \
 ```
 :star: utiliser le nome d'utilisateur "user" et le mode de passe que vous venez de recevoir:
 
-<img src=images/18.PNG  alt="alt text" width="850" height="550">
+<img src=images/18.PNG  alt="alt text" width="850" height="500">
 
 ##
 
-<img src=images/19.PNG  alt="alt text" width="850" height="550">
+<img src=images/19.PNG  alt="alt text" width="850" height="500">
 
 
 
