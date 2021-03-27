@@ -29,7 +29,7 @@ choco install azure-cli
 az login
 ```
 
-<img src=images/8.PNG  alt="alt text" width="750" height="500">
+<img src=images/8.PNG  alt="alt text" width="850" height="500">
 
 
 ##
@@ -41,7 +41,7 @@ AZ_GROUP_ID=`az group list | jq 'limit(1;.[] | .name )' | sed 's/"//g'`
 
 echo $AZ_GROUP_ID
 ```
-<img src=images/11.PNG  alt="alt text" width="750" height="300">
+<img src=images/11.PNG  alt="alt text" width="850" height="250">
 
 
 ##
@@ -56,14 +56,14 @@ AZ_NODE_COUNT=2
 ```
 AZ_CLUSTER_NAME="morty"
 ```
-
+``
 :star: Lancer la création.
 az aks create --resource-group $AZ_GROUP_ID \
                 --name $AZ_CLUSTER_NAME \
               --node-count $AZ_NODE_COUNT \
               --generate-ssh-keys \
               --enable-addons monitoring
-              
+```            
 
 <img src=images/12.PNG  alt="alt text" width="650" height="500">
 
