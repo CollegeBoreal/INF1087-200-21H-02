@@ -4,6 +4,6 @@
 
 ![image](wp1.PNG)
 -----
-:two:Dans Lens selectioner APPS et en suite dans l'onglet de recherche saisi le nom de l'application a installer dans notre cas saisir wordpress
+:two:Dans Lens selectioner APPS et en suite dans Sharter et aller dans l'onglet de recherche saisi le nom de l'application a installer dans notre cas saisir wordpress
 
 ![image](wp2.PNG)
