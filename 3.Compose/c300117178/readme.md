@@ -23,3 +23,6 @@ services:
 
 # run the appliction
 docker-compose up --detach
+
+
+### source :📌 https://docs.docker.com/compose/gettingstarted/
