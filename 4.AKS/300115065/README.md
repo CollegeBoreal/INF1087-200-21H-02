@@ -4,10 +4,9 @@
 
 
 
+![image](./08-lens.png)
 
-![image](./01-lens.png)
-
-![w1](img/02-lens.PNG)
+![w1](img/02-lens.png)
 
 
 ![w1](img/03-lens.PNG)
