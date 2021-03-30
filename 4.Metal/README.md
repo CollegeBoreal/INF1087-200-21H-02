@@ -35,7 +35,8 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
 
-- [ ] lvm-iscsi
+- [ ] `ubuntu--vg-iscsi--lv`
+- [ ] `ubuntu--vg-docker--lv`
 
 [LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :writing_hand:	
 
