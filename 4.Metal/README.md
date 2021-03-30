@@ -35,8 +35,14 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
 
+- [ ] lvm-iscsi
+
 [LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :writing_hand:	
 
-:round_pushpin: Le reste
+:round_pushpin: Le serveur
+
+- [ ] son nom
+- [ ] son `swap`
+- [ ] son `bridge`
 
 [Preparation](.doc/Preparation.md) :writing_hand:	
