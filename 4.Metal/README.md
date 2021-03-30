@@ -14,8 +14,6 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 - [ ] Nommer vos [Grappes](.doc/Grappes.md) :writing_hand:	 
-
-
 - [ ] Après avoir déterminé le nom de votre grappe:
 
 * Créer un répertoire avec le nom de votre grappe et y mettre un fichier `README.md` avec la topologie de votre grappe, example:
