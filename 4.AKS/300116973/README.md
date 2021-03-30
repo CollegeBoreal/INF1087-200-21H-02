@@ -57,11 +57,17 @@ cette fenetre s'affiche cliquez sur install
 ✔️ Allez dans votre portail azure dans Zone DNS pour ajouter un jeu d'enregistrement aks a votre nom de domaine et ajouter votre adresse ip externe donne par lens. Pour notre cas notre adresse externe wordpress est `52.242.21.1` et notre nom de domaine est `2splus.live`
 
 ![image](images/aks.JPG)
+
+👖 cliquez sur votre DNS `2splus.live` et ajouter un jeux d'enregistrement `aks` et l'adresse ip externe.
+
 ![image](images/aks3.JPG)
+
+☑️ Une fois cela fait sa se presente comme l'image suivante
+
 ![image](images/aks4.JPG)
 
 
-✔️ Apres avoir ajouter notre adresse ip externe de wordpress dans notre zone DNS nous devons etre capable de d'ouvrir wordpress avec notre domaine `aks.2splus.live`
+✔️ Apres avoir ajouter notre adresse ip externe de wordpress dans notre zone DNS Azure, nous devons etre capable d'ouvrir wordpress avec notre domaine `aks.2splus.live`
 
 ![image](images/aks1.JPG)
 
