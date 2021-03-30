@@ -47,3 +47,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 - [ ] son `bridge`
 
 [Preparation](.doc/Preparation.md) :writing_hand:	
+
+## :ab: Les composants
+
+<img src="images/kube-cluster-component-topology.png" width="" height=""></img>
