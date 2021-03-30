@@ -24,4 +24,5 @@ Dans mon cas j'écrirais 10.13.237.15
 📌 https://docs.docker.com/compose/gettingstarted/
 
 **AMELIORER VOTRE APPLICATION WEB**
-📌 https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr
+ 
+📌https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr
