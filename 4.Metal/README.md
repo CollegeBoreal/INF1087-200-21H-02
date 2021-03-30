@@ -48,4 +48,4 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 ## :ab: Les composants
 
-<img src="images/kube-cluster-component-topology.png" width="708" height="348"></img>
+<img src="images/kube-cluster-component-topology.png" width="708" height="388"></img>
