@@ -13,7 +13,7 @@ Sur ce Lab, nous allons créer une application Web Python simple exécutée sur 
 
 [votre_adresse_ip]:5000 qui est notre port désigné dans notre fichier docker-compose.yaml
 
-Dans mon cas j'écrirais 10.13.237.15
+Dans mon cas j'écrirais 10.13.237.15:5000
 
 ![image](2.PNG)
 
