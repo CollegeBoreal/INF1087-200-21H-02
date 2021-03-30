@@ -13,3 +13,11 @@ after installing AKS CLI AND LENS
 :three: Testez sur le Navigateur
 
 ![w3](img/w3.PNG)
+
+:four: Recuperez vos identifiants
+
+![w3](img/w5.PNG)
+:four: Entez vos Identifiants
+
+![w4](img/w4.PNG)
+
