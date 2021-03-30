@@ -50,7 +50,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 [Preparation](.doc/Preparation.md) :writing_hand:	
 
-## :ab: Les composants ( :bust_in_silhouette: individuel )
+## :ab: Les composants
 
 :bust_in_silhouette: activité individuelle
 
