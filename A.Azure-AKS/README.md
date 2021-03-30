@@ -23,3 +23,10 @@ Sur votre PC:
 - [ ] Créer un répertoire avec votre :id: et y mettre un fichier `README.md` 
 
 - [ ] Mettre une image montrant votre grappe dans Lens (plus il y a d'images et de textes mieux ce sera)
+
+
+## :ab: .kube/config
+
+- [ ] Créer un répertoire `.kube`
+
+- [ ] Y mettre le fichier `config` de votre grappe
