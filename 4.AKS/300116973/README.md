@@ -1,4 +1,4 @@
-# Installer Wordpress a partir d'Azure kubernetes services
+# Installer Wordpress a partir d'Azure kubernetes services et joindre la page workpress a son nom de domaine
 
 :heavy_check_mark: Au prealable vous devez installer `Kubectl` et `lens` sur votre ordinateur,  s'enregistrer a azure et creer ces clusters avec le context kubernetes  (Azure Kubernetes services). Pour notre cas nous avons creer deux marchines virtuelles  cluster. Une fois fait ouvrez votre cluster avec lens prealablement installer dans votre ordinateur.
 
@@ -53,6 +53,19 @@ cette fenetre s'affiche cliquez sur install
 :heavy_check_mark: Voila vous avez reussir a installer wordpress a partir de lens :smile:
 
 ![image](images/11.JPG)
+
+✔️ Allez dans votre portail azure dans Zone DNS pour ajouter un jeu d'enregistrement aks a votre nom de domaine et ajouter votre adresse ip externe donne par lens. Pour notre cas notre adresse externe wordpress est `52.242.21.1` et notre nom de domaine est `2splus.live`
+
+![image](images/aks3.JPG)
+![image](images/ak2.JPG)
+![image](images/aks1.JPG)
+
+
+✔️ Apres avoir ajouter notre adresse ip externe de wordpress dans notre zone DNS nous devons etre capable de d'ouvrir wordpress avec notre domaine `aks.2splus.live`
+
+![image](images/aks4.JPG)
+
+👣 Ouf nous avons pu joindre notre nom de domaine a notre adresse ip publique wordpress.
 
 
 
