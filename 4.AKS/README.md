@@ -1,4 +1,4 @@
-# Azure [AKS Service](https://azure.microsoft.com/services/kubernetes-service)
+# :four: Azure [AKS](https://azure.microsoft.com/services/kubernetes-service)
 
 [:tada: Participation](.scripts/Participation.md)
 
