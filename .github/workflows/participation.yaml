@@ -16,6 +16,8 @@ jobs:
           bash .scripts/run.sh
           cd ../3.Compose
           bash .scripts/run.sh
+          cd ../A.Azure-AKS
+          bash .scripts/run.sh
       - name: Commit files
         run: |
           git config user.name github-actions
