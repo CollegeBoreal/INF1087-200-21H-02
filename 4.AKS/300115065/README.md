@@ -25,6 +25,6 @@
 ![w1](img/07-lens.PNG)
 
 
-![w1](img/08-lens.PNG)
+![image](./08-lens.PNG)
 
 
