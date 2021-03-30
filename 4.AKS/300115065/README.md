@@ -1,29 +1,40 @@
 
 
 
+# 📍 :AKS -LENS moodle:📍
 
 
 
+# check the status moodle
+![image](./01-lens.png)
+
+
+![image](./02-.png)
+
+
+![w1](img/03-lens.png)
+
+
+![image](./04-lens.png)
+
+ # 🔒Recuperez vos identifiants🔒
+ 
 ![image](./08-lens.png)
 
-![w1](img/02-lens.png)
 
 
-![w1](img/03-lens.PNG)
+# voir l'addresse ip avec le menu Network
 
+![image](./05-lens.png)
 
-![w1](img/04-lens.PNG)
+# Testez sur le Navigateur 💡
 
+# Entez vos Identifiants
 
-![w1](img/05-lens.PNG)
+![image](./06-lens.png)
 
+# log in✌
 
-![w1](img/06-lens.PNG)
-
-
-![w1](img/07-lens.PNG)
-
-
-![image](./08-lens.PNG)
+![image](./07-lens.png)
 
 
