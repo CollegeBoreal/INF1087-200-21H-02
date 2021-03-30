@@ -25,8 +25,10 @@ Sur votre PC:
 - [ ] Mettre une image montrant votre grappe dans Lens (plus il y a d'images et de textes mieux ce sera)
 
 
-## :ab: .kube/config
+## :ab: .kube/config et TLD
 
 - [ ] Créer un répertoire `.kube`
 
 - [ ] Y mettre le fichier `config` de votre grappe
+
+- [ ] Ajouter la grappe AKS à votre nom de domaine et y ajoutant l'adresse IP de votre `service` Kubernetes (si disponible)
