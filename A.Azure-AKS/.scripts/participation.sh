@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md   | :gear: Conf | Actions |"
-echo "|------|----------------------------|-------------|-------------|---------|"
+echo "|:hash:| Boréal :id:                | README.md   | :gear: Conf | :wheel_of_dharma: AKS |"
+echo "|------|----------------------------|-------------|-------------|-----------------------|"
 
 i=0
 
@@ -54,7 +54,7 @@ do
    else
        OK_DATA="[:x:](../${F_DATA})"
    fi
-   OK="| ${i} | [${id}](../${id}) - ${U_AVATAR} | ${OK_SCHEMA} | ${OK_DATA} | [:wheel_of_dharma: Kubernetes]() | "
+   OK="| ${i} | [${id}](../${id}) - ${U_AVATAR} | ${OK_SCHEMA} | ${OK_DATA} | [aks.${TLDS[$i]}](http://aks.${TLDS[$i]}) | "
    echo ${OK}
    let "i++"
 done
