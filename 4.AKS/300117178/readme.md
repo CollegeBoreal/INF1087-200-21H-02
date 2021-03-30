@@ -30,4 +30,5 @@ after installing AKS CLI AND LENS
 ![w6](img/w6.PNG)
 
 :eight: log in
+
 ![w6](img/w8.PNG)
