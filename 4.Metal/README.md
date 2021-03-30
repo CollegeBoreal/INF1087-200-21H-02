@@ -9,7 +9,9 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 - [ ] Réorganiser [Reorg](.doc/Reorg.md) :writing_hand:	 les addresses IP dans le sous-réseau `10.13.237.0/24`
 
 
-## :a: Nommage - ( :busts_in_silhouette: en groupe )
+## :a: Nommage - 
+
+:busts_in_silhouette: activité en groupe
 
 Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
@@ -27,7 +29,9 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 | data plane    | rigel.boreal.codes      | `10.13.15.202/20` | 32GB Ram,      16cpus |
 | data plane    | saiph.boreal.codes      | `10.13.15.203/20` | 64GB Ram,      16cpus |
 
-## :b: La préparation ( :bust_in_silhouette: individuel )
+## :b: La préparation
+
+:bust_in_silhouette: activité individuelle
 
 :round_pushpin: Les disques
 
@@ -47,5 +51,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 [Preparation](.doc/Preparation.md) :writing_hand:	
 
 ## :ab: Les composants ( :bust_in_silhouette: individuel )
+
+:bust_in_silhouette: activité individuelle
 
 <img src="images/kube-cluster-component-topology.png" width="708" height="388"></img>
