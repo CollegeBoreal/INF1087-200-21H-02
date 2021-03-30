@@ -40,7 +40,7 @@ Adress IP/admin
 ![image](wp7.PNG)
 ![image](wp8.PNG)
 ![image](wp9.PNG)
-
+![image](aks1.PNG)
 
 
 
