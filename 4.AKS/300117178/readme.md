@@ -21,3 +21,13 @@ after installing AKS CLI AND LENS
 
 ![w4](img/w4.PNG)
 
+:five:Manage a record DNS
+
+![w5](img/w7.PNG)
+
+:seven: Test your Domain Name
+
+![w6](img/w6.PNG)
+
+:eight: log in
+![w6](img/w8.PNG)
