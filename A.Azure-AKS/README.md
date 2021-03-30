@@ -1,6 +1,6 @@
 # Azure [AKS Service](https://azure.microsoft.com/services/kubernetes-service)
 
-# [Participation](.scripts/Participation.md)
+[:tada: Participation](.scripts/Participation.md)
 
 ## :gear: Installation
 
