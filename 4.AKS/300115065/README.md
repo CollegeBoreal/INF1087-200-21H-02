@@ -5,7 +5,7 @@
 
 
 
-![image](./01-lens.PNG)
+![image](./01-lens.png)
 
 ![w1](img/02-lens.PNG)
 
