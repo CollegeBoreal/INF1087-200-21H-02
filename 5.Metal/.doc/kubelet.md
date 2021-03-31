@@ -2,7 +2,7 @@
 
 | Service | Utilisation                                                   |
 |---------|--------------------------------------------------------------------------------------------------------------------------|
-| kubelet | Responsable de maintainir un ensemble de `pods`, qui sont composé d'un ou de plusieurs conteneurs, dans un système local |
+| kubelet | Responsable de maintainir un ensemble de `pods`, qui sont composés d'un ou de plusieurs conteneurs, dans un système local |
 
 - [ ] Let's install a specific version
 
