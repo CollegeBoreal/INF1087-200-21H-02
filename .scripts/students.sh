@@ -35,20 +35,20 @@ AVATARS=(
 )
 
 SERVERS=(
-luxury@10.13.237.18
-blevie@10.13.237.66
-fadde@10.13.237.98
-zackto@10.13.237.117
-auriane@10.13.237.25
-amirali11@10.13.237.88
-nathalie@10.13.237.23
-boris@10.13.237.15
-morti@10.13.237.100
-idir@10.13.237.97
-serve@10.13.237.85
-bertrand@10.13.237.77
-hassana@10.13.237.76
-zoureni@10.13.237.19
+luxury@10.13.237.12
+blevie@10.13.237.11
+fadde@10.13.237.13
+zackto@10.13.237.14
+auriane@10.13.237.15
+amirali11@10.13.237.10
+nathalie@10.13.237.16
+boris@10.13.237.17
+morti@10.13.237.18
+idir@10.13.237.19
+serve@10.13.237.20
+bertrand@10.13.237.21
+hassana@10.13.237.22
+zoureni@10.13.237.23
 )
 
 TLDS=(
