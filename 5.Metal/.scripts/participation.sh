@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | ssh | Docker Engine |"
-echo "|------|----------------------------|--------------------|-----|---------------|"
+echo "|:hash:| Boréal :id:                | Interne            | ssh | Docker Engine | LVG |"
+echo "|------|----------------------------|--------------------|-----|---------------|-----|"
 
 i=0
 
@@ -46,16 +46,25 @@ do
         -o StrictHostKeyChecking=no \
         -o PasswordAuthentication=no \
         -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status docker 2>/dev/null`
-   OKI="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :tada: | "
-   OK="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :x: | "
-   KO="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | :x: | "
-   if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* ]]; then
-       echo ${OKI}
+   LVG=`ssh -i ~/.ssh/b300098957@ramena.pk \
+        -o StrictHostKeyChecking=no \
+        -o PasswordAuthentication=no \
+        -o ConnectTimeout=5 ${SERVERS[${i}]} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
+   OKII="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :tada: | :100:g |"
+   OKI="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :tada: | :x: |"
+   OK="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :x: | :x: |"
+   KO="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | :x: | :x: |"
+   if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* && $LVG == *"100.00g"* ]]; then
+       echo ${OKII}
    else
-       if [[ $VERSION == *"Ubuntu"* ]]; then
-           echo ${OK}
+       if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* ]]; then
+           echo ${OKI}
        else
-           echo ${KO}
+           if [[ $VERSION == *"Ubuntu"* ]]; then
+               echo ${OK}
+           else
+               echo ${KO}
+           fi
        fi
    fi
    let "i++"
