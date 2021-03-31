@@ -39,6 +39,7 @@ Find your local number: https://collegeboreal.zoom.us/u/kcQWtlaysv
 |:two:  |21/02/21| [2.Docker](2.Docker)       | â Noter :bangbang: |
 |:three:|19/03/21| [3.Compose](3.Compose)     | â Noter :bangbang: |
 |:four: |04/04/21| [4.AKS](4.AKS)             | â Noter :bangbang: |
+|:five: |04/11/21| [5.Metal](5.Metal)         |   |
 
 
 ## Resultats d'Apprentissage du Cours
