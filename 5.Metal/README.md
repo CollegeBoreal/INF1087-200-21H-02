@@ -2,6 +2,8 @@
 
 L'exercice dans cette section est de préparer sa grappe (cluster) que vous installerez sur du métal.
 
+:tada: [Participation](.scripts/Participation.md)
+
 ## :x: Réorganisation
 
 Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresses IP
