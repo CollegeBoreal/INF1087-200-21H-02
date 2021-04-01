@@ -70,4 +70,6 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 ### :control_knobs: Le plan de contrôle (control plane)
 
+:warning: Assurez vous que votre domaine à touts les noms de serveurs liés à votre grappe
+
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md)
