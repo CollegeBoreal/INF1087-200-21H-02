@@ -2,14 +2,6 @@
 
 Sur chacun des serveurs, installer les outils suivants
 
-## :gear: Nommer son noeud (serveur)
-
-- [ ] S'assurer de donner le bon nom à votre serveur hôte (basé sur la topologie de la grappe)
-
-```
-$ hostnamectl --static set-hostname "DONNER UN NOM AU SERVEUR"
-```
-
 ## :zero: Preparer le serveur
 
 Mettre le serveur à jour et le redémarrer.
