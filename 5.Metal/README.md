@@ -58,6 +58,10 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 <img src="images/kube-cluster-component-topology.png" width="708" height="388"></img>
 
+:round_pushpin: Installation les outils
+
+[:icecube: kubetools](.doc/kube-tools.md)
+
 :round_pushpin: Installation des services
 
 - [ ] Installer le [CRI](https://kubernetes.io/docs/setup/production-environment/container-runtimes/) géré par le Service [:whale: Docker](.doc/docker.md) défini par l'[OCI](https://opencontainers.org) ( :bulb: __À installer uniquement si Docker n'est pas sur le serveur__ )
