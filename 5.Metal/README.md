@@ -58,9 +58,9 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 <img src="images/kube-cluster-component-topology.png" width="708" height="388"></img>
 
-:round_pushpin: Installation les outils
+:round_pushpin: Installation des outils
 
-[:ice_cube: kubetools](.doc/kube-tools.md)
+- [ ] Installer les outils [:ice_cube: kubetools](.doc/kube-tools.md) permettant de gérer la grappe, comme `kubeadm` et `kubectl`
 
 :round_pushpin: Installation des services
 
