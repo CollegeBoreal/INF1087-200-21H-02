@@ -1,14 +1,18 @@
 # :droplet: CNI Plugin
 
-## :a: Installer the CNI Plugin pour gérer le réseau de gousses (PD Network)
+Installer the CNI Plugin pour gérer le réseau de gousses (PD Network)
 
 [Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 
 * Exécuter "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
-
 https://kubernetes.io/docs/concepts/cluster-administration/addons/
 
-- [ ] Let's use [Calico](projectcalico.org) CNI
+## :a: Installer le plugin CNI
+
+
+- [ ] Le plugin CNI a utiliser est [Calico](projectcalico.org)
+
+Sur le serveur du plan de contrôle:
 
 ```
 $ kubectl apply --filename=https://docs.projectcalico.org/manifests/calico.yaml
@@ -39,7 +43,9 @@ serviceaccount/calico-kube-controllers created
 poddisruptionbudget.policy/calico-kube-controllers created
 ```
 
-- [ ] Check the :droplet: `Kubelet` service after installing the CNI
+- [ ] Vérifier le service :droplet: `Kubelet` après l'installation du plugin CNI
+
+La trace de `calico` doit apparaître
 
 ```
 $ sudo systemctl status kubelet
