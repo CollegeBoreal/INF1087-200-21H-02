@@ -11,7 +11,7 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 - [ ] Réorganiser [Reorg](.doc/Reorg.md) :writing_hand:	 les addresses IP dans le sous-réseau `10.13.237.0/24`
 
 
-## :a: Nommage - 
+## :o: Nommage - 
 
 :busts_in_silhouette: activité en groupe
 
@@ -31,7 +31,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 | data plane    | rigel.boreal.codes      | `10.13.15.202/20` | 32GB Ram,      16cpus |
 | data plane    | saiph.boreal.codes      | `10.13.15.203/20` | 64GB Ram,      16cpus |
 
-## :b: La préparation
+## :a: La préparation
 
 :bust_in_silhouette: activité individuelle
 
@@ -52,7 +52,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 [Preparation](.doc/Preparation.md) :writing_hand:	
 
-## :ab: Les composants
+## :b: Les composants
 
 :bust_in_silhouette: activité individuelle
 
@@ -63,3 +63,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 - [ ] Installer le [CRI](https://kubernetes.io/docs/setup/production-environment/container-runtimes/) géré par le Service [:whale: Docker](.doc/docker.md) défini par l'[OCI](https://opencontainers.org) ( :bulb: __À installer uniquement si Docker n'est pas sur le serveur__ )
 
 - [ ] Installer le [CNI](https://kubernetes.io/docs/concepts/cluster-administration/networking/) géré par le Service [:droplet: Kubelet](.doc/kubelet.md)
+
+## :ab: Les plans
+
+### :control_knobs: Le plan de contrôle (control plane)
