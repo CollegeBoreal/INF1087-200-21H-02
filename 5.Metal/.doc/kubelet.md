@@ -4,17 +4,19 @@
 |---------|--------------------------------------------------------------------------------------------------------------------------|
 | kubelet | Responsable de maintainir un ensemble de `pods`, qui sont composés d'un ou de plusieurs conteneurs, dans un système local |
 
-- [ ] Let's install a specific version
+## :zero: Installer la librairie
+
+:bulb: S'assurer que le référentiel des librairies `kubernetes` a été installé précédemment (voir [Installation des outils kubernetes])
+
+:round_pushpin: Install the `kubelet` service package
+
+- [ ] Choisir une version spécifique de Kubernetes
 
 ```
 $ export KUBEVERSION=1.18.6
 ``` 
 
-## :zero: Install the packages 
-
-[< previous page](Control-Plane.md) to find the Google PGP Key :key: and Repository Artifact. (if not already installed)
-
-:round_pushpin: Install the `kubelet` service package
+- [ ] Commencer l'installation
 
 ```
 $ sudo apt update && sudo apt -y install kubelet=${KUBEVERSION}-00
