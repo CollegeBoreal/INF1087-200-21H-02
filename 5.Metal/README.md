@@ -77,5 +77,5 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 :warning: Assurez vous que votre domaine à tous les noms de serveurs (noeuds) liés à votre grappe
 
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md) :writing_hand:	 
-- [ ] Initialiser le réseau de gousses (pod network) en utilisant le [CNI plugin](.doc/cni-plugin.md) Calico
+- [ ] Initialiser le réseau de gousses (pod network) en utilisant le [CNI plugin](.doc/cni-plugin.md) :writing_hand: Calico
 - [ ] Permettre aux autre noeux de joindre la grappe.
