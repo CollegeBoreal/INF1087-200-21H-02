@@ -81,5 +81,5 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 ### :abacus: Les plan de données (data plane)
 
-- [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) la grappe.
+- [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) :writing_hand: la grappe.
 
