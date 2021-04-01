@@ -26,7 +26,7 @@
 |:m:|Morteza|300117314|18|33|
 |:m:|Idir|300117444|19|34|
 
-## :a: Nom: [A.Alberta](A.Alberta)
+## :a: Nom: [A.Alberta](../A.Alberta)
 
 | Groupe |:airplane:|:id:  |Domaine      |:star: Control Plane |
 |--------|-----------|------|---------------------|--------------|
