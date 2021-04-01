@@ -62,4 +62,4 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 - [ ] Installer le Service [:whale: Docker]()
 
-- [ ] Installer le Service [:droplet: Kubelet](.docs/kubelet.md)
+- [ ] Installer le Service [:droplet: Kubelet](.doc/kubelet.md)
