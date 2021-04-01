@@ -60,7 +60,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 :round_pushpin: Installation les outils
 
-[:icecube: kubetools](.doc/kube-tools.md)
+[:ice_cube: kubetools](.doc/kube-tools.md)
 
 :round_pushpin: Installation des services
 
