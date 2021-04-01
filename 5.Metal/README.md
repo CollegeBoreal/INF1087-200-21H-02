@@ -58,12 +58,8 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 <img src="images/kube-cluster-component-topology.png" width="708" height="388"></img>
 
-### :one: Installation des services
+:round_pushpin: Installation des services
 
-#### :round_pushpin: Installer le Service :whale: `Docker` 
+- [ ] Installer le Service [:whale: Docker]()
 
-[:whale: Docker]()
-
-#### :round_pushpin: Installer le Service :droplet: `Kubelet`
-
-[:droplet: Kubelet](.docs/kubelet.md)
+- [ ] Installer le Service [:droplet: Kubelet](.docs/kubelet.md)
