@@ -1,4 +1,4 @@
-# Le :abacus: Noeud du Plan de données `data plane` 
+# :abacus: Noeud du Plan de données `data plane` 
 
 :round_pushpin: Joindre un noeud 
 
