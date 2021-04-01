@@ -1,7 +1,7 @@
 # :control_knobs: Le plan de contrôle (control plane)
 
 
-:x: Le plan de contrôle est également appelé `master` mais ce therme devrait être utilisé avec rétention
+:x: Le plan de contrôle est également appelé `master` mais ce terme devrait être utilisé avec rétention
 
 :warning: Les commandes ci-dessous doivent se faire sur le serveur que vous avez choisi pour `plan de contrôle`
 
