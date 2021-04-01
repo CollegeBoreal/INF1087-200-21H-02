@@ -26,7 +26,7 @@ Mettre le serveur à jour et le redémarrer.
 $ sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
 ```
 
-## :one: Installer en utilisant le [référentiel](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+## :one: Installer le [référentiel](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `google cloud`
 
 :round_pushpin: Installe `curl`, `apt-transport-https` et autres outils utilisé pour télécharger les librairies (Package Manager)
 
@@ -35,15 +35,6 @@ $ sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
 ```
 $ sudo apt update && sudo apt -y install curl apt-transport-https ca-certificates gnupg-agent software-properties-common
 ```
-
-## :two: Installer **kubeadm** and **kubectl**
-
-:bulb: Quels outils :ice_cube: kube doit on installer? 
-
-| Outil   | Utilisation                                                      |
-|---------|------------------------------------------------------------------|
-| kubeadm | Outil créé pour fournir **kubeadm** `init` et **kubeadm** `join` |
-| kubectl | Outil de ligne de commande Kubernetes                            |
 
 :round_pushpin: Ajout du référentiel de librairies `kubernetes` au référentiel de gestionnaire de libraries  
 
@@ -69,6 +60,15 @@ uid           [ unknown] Google Cloud Packages Automatic Signing Key <gc-team@go
 ```
 $ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 ```
+
+## :two: Installer **kubeadm** and **kubectl**
+
+:bulb: Quels outils :ice_cube: kube doit on installer? 
+
+| Outil   | Utilisation                                                      |
+|---------|------------------------------------------------------------------|
+| kubeadm | Outil créé pour fournir **kubeadm** `init` et **kubeadm** `join` |
+| kubectl | Outil de ligne de commande Kubernetes                            |
 
 :round_pushpin: Installer les outils :ice_cube: `kube`
 
