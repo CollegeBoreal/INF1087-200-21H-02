@@ -78,4 +78,8 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md) :writing_hand:	 
 - [ ] Initialiser le réseau de gousses (pod network) en utilisant le [CNI plugin](.doc/cni-plugin.md) :writing_hand: Calico
-- [ ] Permettre aux autres noeux de joindre la grappe.
+
+### :abacus: Les plan de données (data plane)
+
+- [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) la grappe.
+
