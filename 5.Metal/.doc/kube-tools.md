@@ -1,5 +1,7 @@
 # Kube Tools
 
+Sur chacun des serveurs, installer les outils suivants
+
 ## :gear: Version de Kubernetes
 
 - [ ] S'assurer de donner le bon nom à votre serveur hôte (basé sur la topologie de la grappe)
