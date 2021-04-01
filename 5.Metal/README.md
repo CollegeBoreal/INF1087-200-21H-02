@@ -35,7 +35,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 :bust_in_silhouette: activité individuelle
 
-:round_pushpin: Les disques
+#### :round_pushpin: Les disques
 
 Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
 
@@ -44,7 +44,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 [LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :writing_hand:	
 
-:round_pushpin: Le serveur
+#### :round_pushpin: Le serveur
 
 - [ ] son nom
 - [ ] son `swap`
@@ -58,11 +58,11 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 <img src="images/kube-cluster-component-topology.png" width="708" height="388"></img>
 
-:round_pushpin: Installation des outils
+#### :round_pushpin: Installation des outils
 
 - [ ] Installer les outils [:ice_cube: kubetools](.doc/kube-tools.md) :writing_hand: permettant de gérer la grappe, comme `kubeadm` et `kubectl`
 
-:round_pushpin: Installation des services
+#### :round_pushpin: Installation des services
 
 - [ ] Installer le [CRI](https://kubernetes.io/docs/setup/production-environment/container-runtimes/) géré par le Service [:whale: Docker](.doc/docker.md) :writing_hand:	 défini par l'[OCI](https://opencontainers.org) ( :bulb: __À installer uniquement si Docker n'est pas sur le serveur__ )
 
