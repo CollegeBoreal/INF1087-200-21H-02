@@ -81,3 +81,5 @@ $ sudo apt-mark hold kubeadm kubectl
 ```
 $ OUT="--output=json"; kubeadm version ${OUT} && kubectl version --client ${OUT}
 ```
+
+[:back:](../../)
