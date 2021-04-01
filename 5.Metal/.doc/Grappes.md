@@ -9,7 +9,7 @@
 |:o:|Amir|300116685|10| |
 |:o:|Blevie|300111824|11| |
 
-## :b: Nom: [A.Africa](../A.Africa)
+## :b: Nom: [B.Africa](../B.Africa)
 
 | Groupe |:airplane:|:id:  |:penguin: 10.13.237.*| Domaine      |:star: Control Plane |
 |--------|-----------|------|---------------------|--------------|--------------|
