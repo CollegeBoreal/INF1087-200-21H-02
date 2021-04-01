@@ -29,7 +29,7 @@ $ sudo apt-mark hold kubelet
 ```
 
 
-## :gear: Oû est le fichier de service `kubelet` [drop-in file](https://stackoverflow.com/questions/59842743/what-is-a-drop-in-file-what-is-a-drop-in-directory-how-to-edit-systemd-service) (i.e. fichier systemd .conf)
+## :gear: Où est le fichier de service `kubelet` [drop-in file](https://stackoverflow.com/questions/59842743/what-is-a-drop-in-file-what-is-a-drop-in-directory-how-to-edit-systemd-service) (i.e. fichier systemd .conf)
 
 ```
 $ sudo cat /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
