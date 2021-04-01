@@ -41,7 +41,7 @@ $ sudo kubeadm init \
 
 #### :tada: Your Kubernetes control-plane has initialized successfully!
 
-L'initialisation de la grappe va donner un long texte où se trouve un :tickets: jeton (`token`) permettant:
+L'initialisation de la grappe va donner un long texte où se trouve un :tickets: jeton (`--token`) permettant:
 
 - [ ] de récupérer le fichier de configuration pour gérer la grappe
 - [ ] d'initialiser le réseau des gousses (`pods`)
