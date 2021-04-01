@@ -66,3 +66,5 @@ $ sudo bash -c 'echo "net.bridge.bridge-nf-call-ip6tables = 1" > /etc/sysctl.d/k
 ```
 $ sudo sysctl --system
 ```
+
+[:back:](../#round_pushpin-le-serveur)
