@@ -36,7 +36,7 @@ $ sudo apt update && sudo apt -y upgrade && sudo systemctl reboot
 $ sudo apt update && sudo apt -y install curl apt-transport-https ca-certificates gnupg-agent software-properties-common
 ```
 
-## :two: Installer kubelet, kubeadm and kubectl
+## :two: Installer **kubeadm** and **kubectl**
 
 :bulb: Quels outils :ice_cube: kube doit on installer? 
 
