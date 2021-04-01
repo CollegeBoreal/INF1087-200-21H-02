@@ -47,7 +47,7 @@ L'initialisation de la grappe va donner un long texte où se trouve un jeton (`t
 - [ ] d'initialiser le réseau des gousses (`pods`)
 - [ ] de permettre aux autre noeux de `joindre` la grappe. 
 
-Un example se trouve ci-dessous
+Un example se trouve ci-dessous, sauvegarder l'information quelque part pour une future utilisation
 
 ```
 Your Kubernetes control-plane has initialized successfully!
