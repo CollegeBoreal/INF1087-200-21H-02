@@ -8,7 +8,7 @@
 
 :bulb: S'assurer que le référentiel des librairies `kubernetes` a été installé précédemment (voir [Installation des outils kubernetes])
 
-:round_pushpin: Install the `kubelet` service package
+:round_pushpin: Installer la librarie du service `kubelet`
 
 - [ ] Choisir une version spécifique de Kubernetes
 
@@ -22,22 +22,22 @@ $ export KUBEVERSION=1.18.6
 $ sudo apt update && sudo apt -y install kubelet=${KUBEVERSION}-00
 ```
 
-:round_pushpin: Prevent the `kubelet` service package from being altered (optional)
+:round_pushpin:  Prévenir l'altération (mise à jour) du service :droplet: kubelet
 
 ```
 $ sudo apt-mark hold kubelet
 ```
 
 
-## :gear: Where is the `kubelet` [drop-in file](https://stackoverflow.com/questions/59842743/what-is-a-drop-in-file-what-is-a-drop-in-directory-how-to-edit-systemd-service) (i.e. systemd .conf file)
+## :gear: Oû est le fichier de service `kubelet` [drop-in file](https://stackoverflow.com/questions/59842743/what-is-a-drop-in-file-what-is-a-drop-in-directory-how-to-edit-systemd-service) (i.e. fichier systemd .conf)
 
 ```
 $ sudo cat /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
 ```
 
-## :one: Just after package management install
+## :one: Tout de suite après l'installation du service
 
-:+1: Test that the `kubelet` service is just loaded
+:+1: Tester que le service `kubelet` est chargé **(loaded)**
 
 ```
 $ systemctl status kubelet
@@ -51,12 +51,12 @@ $ systemctl status kubelet
    Main PID: 315103 (code=exited, status=255/EXCEPTION)
 ```
 
-## :two: Booting up the :droplet: `kubelet` service
+## :two: Démarrer le :droplet: service `kubelet`
 
 ``` 
 $ sudo systemctl enable kubelet && sudo systemctl start kubelet
 ```
 
-# References
+# Références
 
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/kubelet-integration/
