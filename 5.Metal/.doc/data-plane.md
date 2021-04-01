@@ -2,6 +2,10 @@
 
 :round_pushpin: Joindre un noeud 
 
+À l'initialisation du plan de contrôle, un :tickets: jeton à été donné avec la commande `kubeadm`, récupérer cette commande.
+
+Elle dvrait ressembler à la suivante:
+
 ```
 $ sudo kubeadm join betelgeuse.boreal.codes:6443 \
                --token 2pje0m.xl8voke0wisjymvp   \
