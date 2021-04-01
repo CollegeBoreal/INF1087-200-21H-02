@@ -66,6 +66,8 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 ## :ab: Les plans
 
+:busts_in_silhouette: activité en groupe
+
 ### :control_knobs: Le plan de contrôle (control plane)
 
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md)
