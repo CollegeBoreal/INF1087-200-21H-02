@@ -1,4 +1,4 @@
-:star: Installer l'utilitaire client kubectl permetant de controller la grappe. 
+# :star: Installer l'utilitaire client kubectl permetant de controller la grappe. 
 ```
 choco install kubernetes-cli
 ```
@@ -9,7 +9,8 @@ choco install kubernetes-cli
 ```
 choco install lens
 ```
-<img src=images/6.PNG  alt="alt text" width="650" height="500">
+![instalaltion LENS](https://user-images.githubusercontent.com/54910261/113331447-fe858600-92ed-11eb-9e19-69628f5ddabe.png)
+
 
 
 #  :pushpin: Création de grape sur Azure:
@@ -18,6 +19,6 @@ choco install lens
 ```
 choco install azure-cli
 ```
-<img src=images/7.PNG  alt="alt text" width="650" height="500">
+![1 installer Azure CLI](https://user-images.githubusercontent.com/54910261/113331470-03e2d080-92ee-11eb-8016-3d8635272979.png)
 
 ##
