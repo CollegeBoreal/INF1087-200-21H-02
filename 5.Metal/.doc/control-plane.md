@@ -74,3 +74,40 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join betelgeuse.boreal.codes:6443 --token 2pje0m.xl8voke0wisjymvp \
     --discovery-token-ca-cert-hash sha256:27c4b80df3d468bfe13517750a265bb3a3c560871e1bf177cafb323070b7b4a6
 ```
+
+:b: Utiliser sa grappe
+
+:round_pushpin: Pour commencer à utiliser sa grappe sur votre serveur, taper les commandes suivantes:
+
+```
+$ mkdir -p $HOME/.kube
+$ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
+$ export KUBECONFIG=$HOME/.kube/config
+```
+
+Alternativement, si vous êtes l'utilisateur `root` , vous pouvez utiliser la commande:
+
+```
+$ export KUBECONFIG=/etc/kubernetes/admin.conf
+```
+
+:round_pushpin: Vérifier le contexte courant
+
+```
+$ kubectl config get-contexts
+CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
+*         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin   
+```
+
+:round_pushpin: Vérifier les noeux (avec `kubectl`)
+
+```
+$ kubectl get nodes
+NAME         STATUS     ROLES    AGE     VERSION
+betelgeuse   NotReady   master   4m23s   v1.18.6
+```
+
+:warning: Not yet ready 
+
+
