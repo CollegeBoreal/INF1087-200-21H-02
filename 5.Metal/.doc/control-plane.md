@@ -43,7 +43,7 @@ $ sudo kubeadm init \
 
 L'initialisation de la grappe va donner un long texte où se trouve un :tickets: jeton `--token` permettant:
 
-- [ ] de récupérer le fichier de configuration pour gérer la grappe
+- [ ] de récupérer le fichier de [configuration](control-plane.md#b-utiliser-sa-grappe-sur-le-serveur---plan-de-contrôle) :writing_hand: pour gérer la grappe
 - [ ] d'initialiser le réseau des gousses (`pods`)
 - [ ] de permettre aux autre noeux de `joindre` la grappe. 
 
