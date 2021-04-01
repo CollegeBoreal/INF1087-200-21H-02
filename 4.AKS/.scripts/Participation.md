@@ -1,4 +1,4 @@
-# Participation au 01-04-2021 16:16
+# Participation au 01-04-2021 16:49
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -25,7 +25,7 @@
 | 6 | [300116973](../300116973) - <image src='https://avatars0.githubusercontent.com/u/54910252?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300116973/README.md) | [:x:](../300116973/.kube/config) | [aks.2splus.live](http://aks.2splus.live) |
 | 7 | [300117178](../300117178) - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300117178/.kube/config) | [aks.developers.engineer](http://aks.developers.engineer) |
 | 8 | [300117314](../300117314) - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300117314/README.md) | [:x:](../300117314/.kube/config) | [aks.mrti.rocks](http://aks.mrti.rocks) |
-| 9 | [300117444](../300117444) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300117444/.kube/config) | [aks.dido05327.live](http://aks.dido05327.live) |
+| 9 | [300117444](../300117444) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300117444/README.md) | [:x:](../300117444/.kube/config) | [aks.dido05327.live](http://aks.dido05327.live) |
 | 10 | [300117782](../300117782) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300117782/README.md) | [:x:](../300117782/.kube/config) | [aks.ernanjia.live](http://aks.ernanjia.live) |
 | 11 | [300117784](../300117784) - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300117784/README.md) | [:x:](../300117784/.kube/config) | [aks.laadjo.me](http://aks.laadjo.me) |
 | 12 | [300117806](../300117806) - <image src='https://avatars0.githubusercontent.com/u/54910103?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300117806/README.md) | [:x:](../300117806/.kube/config) | [aks.kossay.live](http://aks.kossay.live) |
