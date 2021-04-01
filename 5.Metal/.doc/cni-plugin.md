@@ -4,7 +4,7 @@
 
 [Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 
-- [ ] Exécuter "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+* Exécuter "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 
 https://kubernetes.io/docs/concepts/cluster-administration/addons/
 
