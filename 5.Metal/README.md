@@ -60,6 +60,6 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 :round_pushpin: Installation des services
 
-- [ ] Installer le [CRI](https://kubernetes.io/docs/setup/production-environment/container-runtimes/) correspondant au Service [:whale: Docker](.doc/docker.md)  ( :bulb: __À installer uniquement si Docker n'est pas sur le serveur__ )
+- [ ] Installer le [CRI](https://kubernetes.io/docs/setup/production-environment/container-runtimes/) correspondant au Service [:whale: Docker](.doc/docker.md) défini par l'[OCI](https://opencontainers.org) ( :bulb: __À installer uniquement si Docker n'est pas sur le serveur__ )
 
 - [ ] Installer le Service [:droplet: Kubelet](.doc/kubelet.md)
