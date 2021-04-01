@@ -73,3 +73,5 @@ Feb 18 02:36:35 orion kubelet[1130554]: 2021-02-18 02:36:35.472 [INFO][1182250] 
 Feb 18 02:36:35 orion kubelet[1130554]: 2021-02-18 02:36:35.483 [INFO][1182250] k8s.go 474: Wrote updated endpoint to datastore ContainerI>
 lines 1-22/22 (END)
 ```
+
+[:back:](../#control_knobs-le-plan-de-contrôle-control-plane)
