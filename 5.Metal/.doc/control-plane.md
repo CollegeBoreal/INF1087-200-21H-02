@@ -3,7 +3,9 @@
 
 :x: Le plan de contrôle est également appelé `master` mais ce therme devrait être utilisé avec rétention
 
-:warning: Les commandes ci-dessous doivent se faire sur votre serveur que vous avez choisi pour `plan de contrôle`
+:warning: Les commandes ci-dessous doivent se faire sur le serveur que vous avez choisi pour `plan de contrôle`
+
+## :a: Installer le plan de contrôle
 
 :round_pushpin: Télécharger les images (pour accélérer le processus)
 
