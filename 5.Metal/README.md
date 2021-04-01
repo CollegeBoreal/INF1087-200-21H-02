@@ -74,7 +74,7 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 
 ### :control_knobs: Le plan de contrôle (control plane)
 
-:warning: Assurez vous que votre domaine à tous les noms de serveurs (noeuds) liés à votre grappe
+:warning: Assurez vous que votre domaine a tous les noms de serveurs (noeuds) liés à votre grappe
 
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md) :writing_hand:	 
 - [ ] Initialiser le réseau de gousses (pod network) en utilisant le [CNI plugin](.doc/cni-plugin.md) :writing_hand: Calico
