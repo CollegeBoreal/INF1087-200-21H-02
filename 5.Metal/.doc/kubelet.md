@@ -6,7 +6,7 @@
 
 ## :zero: Installer la librairie
 
-:bulb: S'assurer que le référentiel des librairies `kubernetes` a été installé précédemment (voir [Installation des outils kubernetes])
+:bulb: S'assurer que le référentiel des librairies `kubernetes` a été installé précédemment (voir [Installation des outils kubernetes](.docs/kube-tools.md#one-installer-le-référentiel-google-cloud))
 
 :round_pushpin: Installer la librarie du service `kubelet`
 
