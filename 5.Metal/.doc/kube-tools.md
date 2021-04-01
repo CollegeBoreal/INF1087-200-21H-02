@@ -10,12 +10,6 @@ Sur chacun des serveurs, installer les outils suivants
 $ hostnamectl --static set-hostname "DONNER UN NOM AU SERVEUR"
 ```
 
-- [ ] Installer une version spécifique de Kubernetes
-
-```
-$ export KUBEVERSION=1.18.6
-``` 
-
 ## :zero: Preparer le serveur
 
 Mettre le serveur à jour et le redémarrer.
@@ -71,6 +65,14 @@ $ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/a
 | kubectl | Outil de ligne de commande Kubernetes                            |
 
 :round_pushpin: Installer les outils :ice_cube: `kube`
+
+- [ ] Choisir une version spécifique de Kubernetes
+
+```
+$ export KUBEVERSION=1.18.6
+``` 
+
+- [ ] Installer la version spécifique de Kubernetes
 
 ```
 $ sudo apt update && sudo apt install -y kubeadm=${KUBEVERSION}-00 kubectl=${KUBEVERSION}-00
