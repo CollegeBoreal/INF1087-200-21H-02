@@ -28,7 +28,12 @@
 
 ![image](images/d7.PNG)
 
-## :leopard:
+## :leopard: utiliser le nom d'utilisateur 'user' et le mots de passe recu
 
 ![image](images/d11.PNG)
+
+## :octopus:
+
+![image](images/d12.PNG)
+
 
