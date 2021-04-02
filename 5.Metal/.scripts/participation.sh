@@ -24,8 +24,21 @@ echo ""
 echo "| Signe              | Signification                 |"
 echo "|--------------------|-------------------------------|"
 echo "| :heavy_check_mark: | Prêt à être corrigé           |"
-echo "| :x:                | Projet inexistant             |"
+echo "| :x:                | Étape inexistante             |"
 
+echo ""
+echo "## Service"
+echo ""
+
+echo "| Signe           | État                              | Signification                 |"
+echo "|-----------------|-----------------------------------|-------------------------------|"
+echo "| :red_circle:    | Active: inactive (dead)           | Inexistant ou inactif         |"
+echo "| :orange_circle: | Active: activating (auto-restart) | En cours d'activation         |"
+echo "| :green_circle:  | Active: active (running)          | En marche                     |"
+
+RED=":red_circle:"
+ORANGE=":orange_circle:"
+GREEN=":green_circle:"
 
 echo ""
 echo "## :a: Présence"
@@ -75,14 +88,22 @@ do
           VALUE="${VALUE} ${KO} |"
        fi
        if [[ $DOCKER == *"(running)"* ]]; then
-          VALUE="${VALUE} ${OK} |"
+          VALUE="${VALUE} ${GREEN} |"
        else
-          VALUE="${VALUE} ${KO} |"
+          if [[ $DOCKER == *"(auto-restart)"* ]]; then
+             VALUE="${VALUE} ${ORANGE} |"
+          else
+             VALUE="${VALUE} ${RED} |"
+          fi
        fi
        if [[ $KUBELET == *"(running)"* ]]; then
-          VALUE="${VALUE} ${OK} |"
+          VALUE="${VALUE} ${GREEN} |"
        else
-          VALUE="${VALUE} ${KO} |"
+          if [[ $KUBELET == *"(auto-restart)"* ]]; then
+             VALUE="${VALUE} ${ORANGE} |"
+          else
+             VALUE="${VALUE} ${RED} |"
+          fi
        fi
    else
        VALUE="${VALUE} ${KO} | ${NOSSH}"
