@@ -79,7 +79,7 @@ TriggeredBy: ● iscsid.socket
        Docs: man:iscsid(8)
 ```
 
-- [ ] Démmarer le service `iscsid`
+- [ ] Démarrer le service `iscsid`
 
 ```
 $ sudo systemctl enable --now iscsid
