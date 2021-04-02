@@ -27,3 +27,7 @@
 ## :elephant: Vérifier si Moodle existe 
 
 ![image](images/d7.PNG)
+
+
+![image](images/d8.PNG)
+
