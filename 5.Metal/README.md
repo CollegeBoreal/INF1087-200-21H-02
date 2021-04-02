@@ -43,7 +43,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 [Preparation](.doc/Preparation.md) :writing_hand:	
 
-#### :round_pushpin: Le disque
+#### :round_pushpin: Le réseau d'aire de stockage - SAN
 
 Le but de l'exercice est de créer un disque (`CR` Custom Resources) et le mettre en réseau avec `iSCSI`
 
