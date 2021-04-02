@@ -33,7 +33,7 @@ echo ""
 echo "|:hash:| Boréal :id:                | Interne            | ssh | :floppy_disk: LV | :whale: Docker | :droplet: Kubelet |"
 echo "|------|----------------------------|--------------------|-----|------------------|----------------|-------------------|"
 
-NOSSH=" :x: | :x: | :x | :x: |"
+NOSSH=" :x: | :x: | :x: | :x: |"
 
 i=0
 OK=":heavy_check_mark:"
