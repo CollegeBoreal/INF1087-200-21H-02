@@ -43,10 +43,10 @@ GREEN=":green_circle:"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | ssh | :floppy_disk: LV | :whale: Docker | :droplet: Kubelet |"
-echo "|------|----------------------------|--------------------|-----|------------------|----------------|-------------------|"
+echo "|:hash:| Boréal :id:                | Interne            | ssh | :dvd: LV         | :whale: Docker | :droplet: Kubelet | :minidisk: iSCCI |"
+echo "|------|----------------------------|--------------------|-----|------------------|----------------|-------------------|---|"
 
-NOSSH=" :x: | :x: | :x: | :x: |"
+NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 
 i=0
 OK=":heavy_check_mark:"
@@ -78,15 +78,25 @@ do
         -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status kubelet 2>/dev/null`
    # echo $KUBELET
 
+   ISCSI=`ssh -i ~/.ssh/b300098957@ramena.pk \
+        -o StrictHostKeyChecking=no \
+        -o PasswordAuthentication=no \
+        -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status iscsid 2>/dev/null`
+   # echo $ISCSI
+
    VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` |"
 
    if [[ $VERSION == *"Ubuntu"* ]]; then
+
+       # --- LVG -------------
        VALUE="${VALUE} ${OK} |"
        if [[ $LVG == *"-wi-a-----"* ]]; then
           VALUE="${VALUE} ${OK} |"
        else
           VALUE="${VALUE} ${KO} |"
        fi
+
+       # --- DOCKER -------------
        if [[ $DOCKER == *"(running)"* ]]; then
           VALUE="${VALUE} ${GREEN} |"
        else
@@ -96,6 +106,8 @@ do
              VALUE="${VALUE} ${RED} |"
           fi
        fi
+
+       # --- KUBELET -------------
        if [[ $KUBELET == *"(running)"* ]]; then
           VALUE="${VALUE} ${GREEN} |"
        else
@@ -105,6 +117,18 @@ do
              VALUE="${VALUE} ${RED} |"
           fi
        fi
+
+       # --- ISCSI -------------
+       if [[ $ISCSI == *"(running)"* ]]; then
+          VALUE="${VALUE} ${GREEN} |"
+       else
+          if [[ $ISCSI == *"(auto-restart)"* ]]; then
+             VALUE="${VALUE} ${ORANGE} |"
+          else
+             VALUE="${VALUE} ${RED} |"
+          fi
+       fi
+
    else
        VALUE="${VALUE} ${KO} | ${NOSSH}"
    fi
