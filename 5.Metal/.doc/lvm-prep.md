@@ -49,7 +49,7 @@ sda                       273.4G disk
 ```
 
 
-## :minidic: Verify iSCSI services are configured
+## :minidisc: Verify iSCSI services are configured
 
 https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
 
