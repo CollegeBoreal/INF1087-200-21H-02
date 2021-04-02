@@ -54,7 +54,7 @@ do
    OKI="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :tada: | :x: |"
    OK="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :x: | :x: |"
    KO="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | :x: | :x: |"
-   if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* && $LVG == *"100.00g"* ]]; then
+   if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* && $LVG == *"-wi-a-----"* ]]; then
        echo ${OKII}
    else
        if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* ]]; then
