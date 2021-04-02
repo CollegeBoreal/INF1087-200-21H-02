@@ -1,7 +1,7 @@
 # SAN (Storage Area Network)
 
 
-## :cd: Créer le Volume Logique (lv) iSCSI
+## :cd: Volume Logique (lv)
 
 - [ ] Créer le volume logique à :100:G
 
@@ -50,23 +50,23 @@ sda                       273.4G disk
 ```
 
 
-## :minidisc: Verify iSCSI services are configured
+## :minidisc: Service iSCSI
 
 https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
 
-- [ ] Check presence of `iscsi` configuration file  
+- [ ] Vérifier la présence du fichier de configuration `iscsi` 
 
 ```
 $ sudo cat /etc/iscsi/initiatorname.iscsi
 ```
 
-:bulb: if `ìnitiator` file is not present, install
+:bulb: if le fichier `ìnitiator` n'est pas présent, installer `open-iscsi`:
 
 ```
 $ sudo apt-get update && sudo apt-get install open-iscsi
 ```
 
-- [ ] Check `iscsid` Sercice is enabled
+- [ ] Vérifier que le service `iscsid` est disponible
 
 :warning: Printout below shows `disabled` 
 
@@ -79,7 +79,7 @@ TriggeredBy: ● iscsid.socket
        Docs: man:iscsid(8)
 ```
 
-- [ ] Enable the `iscsid` Sercice
+- [ ] Démmarer le service `iscsid`
 
 ```
 $ sudo systemctl enable --now iscsid
@@ -88,7 +88,7 @@ Executing: /lib/systemd/systemd-sysv-install enable iscsid
 Created symlink /etc/systemd/system/sysinit.target.wants/iscsid.service → /lib/systemd/system/iscsid.service.
 ```
 
-- [ ] Check back again
+- [ ] Vérifier qu'il est démarré et en marche `active (running)`
 
 ```
 $ systemctl status iscsid 
