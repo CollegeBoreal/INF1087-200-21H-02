@@ -1,4 +1,4 @@
-# Participation au 02-04-2021 14:50
+# Participation au 02-04-2021 14:53
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -22,7 +22,7 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id:                | Interne            | ssh | :dvd: LV         | :whale: Docker | :droplet: Kubelet | :minidisk: iSCCI |
+|:hash:| Boréal :id:                | Interne            | ssh | :dvd: LV         | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |
 |------|----------------------------|--------------------|-----|------------------|----------------|-------------------|---|
 | 0 | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | `ssh luxury@10.13.237.12` | :heavy_check_mark: | :x: | :green_circle: | :red_circle: | :red_circle: |
 | 1 | 300111824 - <image src='https://avatars0.githubusercontent.com/u/54911706?s=460&v=4' width=20 height=20></image> | `ssh blevie@10.13.237.11` | :x: | :x: | :x: | :x: | :x: | :x: |

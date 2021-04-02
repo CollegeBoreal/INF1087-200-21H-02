@@ -43,7 +43,7 @@ GREEN=":green_circle:"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | ssh | :dvd: LV         | :whale: Docker | :droplet: Kubelet | :minidisk: iSCCI |"
+echo "|:hash:| Boréal :id:                | Interne            | ssh | :dvd: LV         | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |"
 echo "|------|----------------------------|--------------------|-----|------------------|----------------|-------------------|---|"
 
 NOSSH=" :x: | :x: | :x: | :x: | :x: |"
