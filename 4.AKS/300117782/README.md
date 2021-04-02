@@ -1,5 +1,5 @@
 
-# :monkey::palm_tree::tiger2: Installer de `Moodle` avec kubernetes services et apartie de Lens Installer `pplication Moodle`
+# :monkey::palm_tree::tiger2: - Installer de `Moodle` avec kubernetes services et apartie de Lens Installer `pplication Moodle`
 
 #
 ## :pig2: se connecter à Azure en utilisant les commandes CLI 
