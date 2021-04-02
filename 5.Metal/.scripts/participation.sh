@@ -14,7 +14,7 @@ echo ""
 
 echo "| Table des matières            | Description                                             |"
 echo "|-------------------------------|---------------------------------------------------------|"
-echo "| :a: [Présence](#a-présence)   | L'étudiant.e a fait son travail    :heavy_check_mark:   |"
+echo "| :a: [Présence](#a-présence)   | L'étudiant.e a fait son travail    :white_check_mark:   |"
 echo "| :b: [Précision](#b-précision) | L'étudiant.e a réussi son travail  :tada:               |"
 
 echo ""
@@ -23,7 +23,7 @@ echo ""
 
 echo "| Signe              | Signification                 |"
 echo "|--------------------|-------------------------------|"
-echo "| :heavy_check_mark: | Prêt à être corrigé           |"
+echo "| :white_check_mark: | Prêt à être corrigé           |"
 echo "| :x:                | Étape inexistante             |"
 
 echo ""
@@ -49,7 +49,7 @@ echo "|------|----------------------------|--------------------|-----|----------
 NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 
 i=0
-OK=":heavy_check_mark:"
+OK=":white_check_mark:"
 KO=":x:"
 
 for id in "${ETUDIANTS[@]}"
