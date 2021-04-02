@@ -1,4 +1,4 @@
-# :wheel_of_dhrama: Kubernetes sur Métal
+# :wheel_of_dharma: Kubernetes sur Métal
 
 L'exercice dans cette section est de préparer sa grappe (cluster) que vous installerez sur du métal.
 
