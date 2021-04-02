@@ -1,14 +1,18 @@
 
-# :monkey::palm_tree::tiger2:Installer de Moodle avec kubernetes services apartie de Lens
+# :monkey::palm_tree::tiger2: Installer de Moodle avec kubernetes services et apartie de Lens Installer pplication Moodle
 
-## :lollipop: se connecter à Azure en utilisant les commandes CLI 
+#
+## :pig2: se connecter à Azure en utilisant les commandes CLI 
 
 ![image](images/d1.PNG)
 
-## :pineapple: Créer sa grappe et Vérifier que le groupe existe
+## :rooster: Créer sa grappe et Vérifier que le groupe existe
 
-![image](images/d3.PNG)
+![image](images/d3.PNG) 
 
-## :cat2:
+
+# :cat2::ant: Utiliser Lens pour installer application Moodle
+
+## :camel: Lancer Lens et verifier notre grappe Erna
 
 ![image](images/d4.PNG)
