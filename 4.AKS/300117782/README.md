@@ -22,3 +22,8 @@
 ![image](images/d5.PNG)
 
 ![image](images/d6.PNG)
+
+
+## :elephant: Vérifier si Moodle existe 
+
+![image](images/d7.PNG)
