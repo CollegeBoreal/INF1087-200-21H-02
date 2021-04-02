@@ -16,3 +16,9 @@
 ## :camel: Lancer Lens et verifier notre grappe Erna
 
 ![image](images/d4.PNG)
+
+## :poodle: Instalation de Moodle
+
+![image](images/d5.PNG)
+
+![image](images/d6.PNG)
