@@ -37,8 +37,9 @@
 ![image](images/d13.PNG)
 
 
-## :mouse2:
+## :mouse2:  ajouter l'adresse ip externe de Moodle dans la zone DNS Azure, pour pouvoire etre se connecter a Moodle avec le nom de domaine "ernanjia.live"
 
 ![image](images/d14.PNG)
 
 
+## :dancer: :tada: ça marche
