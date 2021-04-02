@@ -35,15 +35,6 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 :bust_in_silhouette: activité individuelle
 
-#### :round_pushpin: Les disques
-
-Le but de l'exercice est de créer des disques (CR Custom Resources pour Kubernetes)
-
-- [ ] `ubuntu--vg-iscsi--lv`
-- [ ] `ubuntu--vg-docker--lv`
-
-[LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM) :writing_hand:	
-
 #### :round_pushpin: Le serveur
 
 - [ ] son nom
@@ -51,6 +42,16 @@ Le but de l'exercice est de créer des disques (CR Custom Resources pour Kuberne
 - [ ] son `bridge`
 
 [Preparation](.doc/Preparation.md) :writing_hand:	
+
+#### :round_pushpin: Le disque
+
+Le but de l'exercice est de créer un disque (`CR` Custom Resources) et le mettre en réseau avec `iSCSI`
+
+- [ ] `ubuntu--vg-iscsi--lv`
+- [ ] iSCSI
+
+[SAN](.doc/san.md) :writing_hand:	
+
 
 ## :b: Les composants
 
