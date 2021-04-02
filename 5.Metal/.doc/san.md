@@ -1,7 +1,7 @@
 # SAN (Storage Area Network)
 
 
-## :cd: Volume Logique (lv)
+## :a: :cd: Volume Logique (lv)
 
 - [ ] Créer le volume logique à :100:G
 
@@ -50,7 +50,7 @@ sda                       273.4G disk
 ```
 
 
-## :minidisc: Service iSCSI
+## :b: :minidisc: Service iSCSI
 
 https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
 
