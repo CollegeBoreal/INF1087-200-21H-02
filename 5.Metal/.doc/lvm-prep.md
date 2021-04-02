@@ -22,7 +22,7 @@ sda                       273.4G disk
   └─ubuntu--vg-iscsi--lv    100G lvm                                   
 ```
 
-:bulb: Si il n'y a plus assez d'espace
+:bangbang: Si il n'y a plus assez d'espace
 
 ```
 $ sudo lvcreate --name iscsi-lv --size 100G  ubuntu-vg
@@ -36,6 +36,7 @@ $ sudo lvcreate --name iscsi-lv --extents 100%FREE ubuntu-vg
   Logical volume "iscsi-lv" created.
 ```
 
+- [ ] Vérifier si il a été créé
 
 ```
 $ lsblk /dev/sda --output NAME,SIZE,TYPE,FSSIZE,FSTYPE,FSUSED,FSUSE%,MOUNTPOINT 
