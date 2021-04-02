@@ -43,8 +43,8 @@ GREEN=":green_circle:"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | ssh | :dvd: LV         | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |"
-echo "|------|----------------------------|--------------------|-----|------------------|----------------|-------------------|---|"
+echo "|:hash:| Boréal :id: | Interne | ssh | :dvd: LV | :minidisc: iSCSI | :whale: Docker | :droplet: Kubelet |"
+echo "|------|-------------|---------|-----|----------|------------------|----------------|-------------------|"
 
 NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 
@@ -66,6 +66,12 @@ do
         -o ConnectTimeout=5 ${SERVERS[${i}]} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
    # echo $LVG
 
+   ISCSI=`ssh -i ~/.ssh/b300098957@ramena.pk \
+        -o StrictHostKeyChecking=no \
+        -o PasswordAuthentication=no \
+        -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status iscsid 2>/dev/null`
+   # echo $ISCSI
+
    DOCKER=`ssh -i ~/.ssh/b300098957@ramena.pk \
         -o StrictHostKeyChecking=no \
         -o PasswordAuthentication=no \
@@ -78,11 +84,6 @@ do
         -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status kubelet 2>/dev/null`
    # echo $KUBELET
 
-   ISCSI=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status iscsid 2>/dev/null`
-   # echo $ISCSI
 
    VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` |"
 
@@ -94,6 +95,17 @@ do
           VALUE="${VALUE} ${OK} |"
        else
           VALUE="${VALUE} ${KO} |"
+       fi
+
+       # --- ISCSI -------------
+       if [[ $ISCSI == *"(running)"* ]]; then
+          VALUE="${VALUE} ${GREEN} |"
+       else
+          if [[ $ISCSI == *"(auto-restart)"* ]]; then
+             VALUE="${VALUE} ${ORANGE} |"
+          else
+             VALUE="${VALUE} ${RED} |"
+          fi
        fi
 
        # --- DOCKER -------------
@@ -112,17 +124,6 @@ do
           VALUE="${VALUE} ${GREEN} |"
        else
           if [[ $KUBELET == *"(auto-restart)"* ]]; then
-             VALUE="${VALUE} ${ORANGE} |"
-          else
-             VALUE="${VALUE} ${RED} |"
-          fi
-       fi
-
-       # --- ISCSI -------------
-       if [[ $ISCSI == *"(running)"* ]]; then
-          VALUE="${VALUE} ${GREEN} |"
-       else
-          if [[ $ISCSI == *"(auto-restart)"* ]]; then
              VALUE="${VALUE} ${ORANGE} |"
           else
              VALUE="${VALUE} ${RED} |"
