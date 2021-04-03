@@ -67,7 +67,7 @@ $ kubectl completion bash >/etc/bash_completion.d/kubectl
 ```
 
 
-## :star: IDE LENS
+## :ab: IDE LENS
 
 https://k8slens.dev/
 
@@ -83,7 +83,7 @@ $ brew install --cask lens
 PS > choco install lens
 ```
 
-## :b: Le context
+## :o2: Le context
 
 :star: Switching Kubernetes Context
 
