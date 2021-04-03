@@ -106,7 +106,7 @@ $ export KUBECONFIG=$HOME/.kube/config
 :round_pushpin:  Tester sa connexion à la grappe
 
 ```
-% kubectl config get-contexts                                                      
+$ kubectl config get-contexts                                                      
 CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
 *         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin   
 ```
