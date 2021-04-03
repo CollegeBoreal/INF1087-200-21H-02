@@ -69,14 +69,14 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 :busts_in_silhouette: activité en groupe
 
-### :control_knobs: Le plan de contrôle (control plane)
+##### :control_knobs: Le plan de contrôle (control plane)
 
 :warning: Assurez vous que votre domaine a tous les noms de serveurs (noeuds) liés à votre grappe
 
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md) :writing_hand:	 
 - [ ] Initialiser le réseau de gousses (pod network) en utilisant le [CNI plugin](.doc/cni-plugin.md) :writing_hand: Calico
 
-### :abacus: Les plan de données (data plane)
+##### :abacus: Les plan de données (data plane)
 
 - [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) :writing_hand: la grappe.
 
