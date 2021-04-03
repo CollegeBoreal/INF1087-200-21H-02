@@ -81,3 +81,7 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 - [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) :writing_hand: la grappe.
 
+<hr/>
+
+
+- [ ] Installer le [CSI](https://kubernetes-csi.github.io) géré par OpenEBS
