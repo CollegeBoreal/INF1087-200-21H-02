@@ -84,4 +84,4 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 <hr/>
 
 
-- [ ] Installer le [CSI](https://kubernetes-csi.github.io) géré par OpenEBS
+- [ ] Installer le [CSI](https://kubernetes-csi.github.io) géré par [OpenEBS](https://openebs.io) `Elastic Block Storage`
