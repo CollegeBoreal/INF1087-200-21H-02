@@ -4,7 +4,7 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 :tada: [Participation](.scripts/Participation.md)
 
-| Tanle des matières                      | Chapitres                       |
+| Table des matières                      | Chapitres                       |
 |-----------------------------------------|---------------------------------|
 | [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe  |
 | [:a: La préparation](#a-la-préparation) | Préparer son noeud              |
