@@ -16,7 +16,7 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 | [:ab: Les plans](#ab-les-plans)         | Déployer les plans `kubernetes` de contrôle et de données          |
 
 
-## :o: Nommage
+## :o2: Nommage
 
 :busts_in_silhouette: activité en groupe
 
