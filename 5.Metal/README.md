@@ -76,11 +76,11 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 - [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) :writing_hand: la grappe.
 
 
-## :rocket: Contrôller la grappe à distance
+## :cl: Contrôller la grappe à distance
 
 
 
-## :cl: Le réseau d'aire de stockage - SAN
+## :floppy_disc: Le réseau d'aire de stockage - SAN
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
