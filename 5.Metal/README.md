@@ -13,10 +13,11 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 
 ## :book: Table des matières
 
-| Chapitres                               | Descriptions                     |
-|-----------------------------------------|---------------------------------|
-| [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe  |
-| [:a: La préparation](#a-la-préparation) | Préparer son noeud              |
+| Chapitres                               | Descriptions                         |
+|-----------------------------------------|--------------------------------------|
+| [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe       |
+| [:a: La préparation](#a-la-préparation) | Préparer son noeud                   |
+| [:b: Les composants](#b-les-composants) | Les composants constituant la grappe (outils et services)|
 
 
 ## :o: Nommage
