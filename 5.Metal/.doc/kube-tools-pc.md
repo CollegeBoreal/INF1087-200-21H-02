@@ -1,6 +1,6 @@
 # :toolbox: Outils Kubernetes
 
-## Cheat Sheet
+## :bookmark_tabs: Cheat Sheet
 
 [ :blue_book: ](./Kubernetes-Cheat-Sheet_07182019.pdf) https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/
 
