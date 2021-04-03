@@ -20,7 +20,7 @@ PS > choco install kubernetes-cli
 :apple: Sous MacOS avec HomeBrew
 
 ```
-brew install kubernetes-cli
+$ brew install kubernetes-cli
 ```
 
 
@@ -66,6 +66,21 @@ $ echo 'source <(kubectl completion bash)' >>~/.bashrc # for zsh replace bash wi
 $ kubectl completion bash >/etc/bash_completion.d/kubectl
 ```
 
+## :b: Helm
+
+https://helm.sh/docs/intro/install/#from-script
+
+:apple: Mac OS
+
+```
+$ brew install helm
+```
+
+:computer: Windows
+
+```
+PS > choco install kubernetes-helm
+```
 
 ## :ab: IDE LENS
 
