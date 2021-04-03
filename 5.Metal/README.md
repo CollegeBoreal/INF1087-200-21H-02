@@ -4,6 +4,10 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 :tada: [Participation](.scripts/Participation.md)
 
+| Lien |  Nom    |
+|------|---------|
+| :o:  | Nommage |
+
 ## :x: Réorganisation
 
 Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresses IP
