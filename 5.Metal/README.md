@@ -4,9 +4,9 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 :tada: [Participation](.scripts/Participation.md)
 
-| Tanle des matières | Chapitres |
-|--------------------|----------|
-| [:o:](#o-nommage)  | Nommage  |
+| Tanle des matières         | Chapitres                       |
+|----------------------------|---------------------------------|
+| [:o: Nommage](#o-nommage)  | Constituer et nommer sa grappe  |
 
 ## :x: Réorganisation
 
