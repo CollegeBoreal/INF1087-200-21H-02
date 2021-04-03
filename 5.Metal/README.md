@@ -4,12 +4,7 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 :tada: [Participation](.scripts/Participation.md)
 
-:x: Réorganisation
-
-Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresses IP
-
-- [ ] Réorganiser [Reorg](.doc/Reorg.md) :writing_hand:	 les addresses IP dans le sous-réseau `10.13.237.0/24`
-
+:x: [Réorganisation](.doc/Reorg.md) :writing_hand:	préalable des addresses IP sous le sous-réseau `10.13.237.0/24`
 
 ## :book: Table des matières
 
