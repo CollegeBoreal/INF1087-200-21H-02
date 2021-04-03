@@ -48,7 +48,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 Le but de l'exercice est de créer un disque (`CR` Custom Resources) et le mettre en réseau avec `iSCSI`
 
 - [ ] `ubuntu--vg-iscsi--lv` :cd:
-- [ ] Installer le Service :minidisc: [iSCSI](.doc/san.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
+- [ ] Installer le Service :minidisc: [iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 
 
 ## :b: Les composants
