@@ -66,6 +66,23 @@ $ echo 'source <(kubectl completion bash)' >>~/.bashrc # for zsh replace bash wi
 $ kubectl completion bash >/etc/bash_completion.d/kubectl
 ```
 
+
+## :star: IDE LENS
+
+https://k8slens.dev/
+
+:apple: Mac OS
+
+```
+$ brew install --cask lens
+```
+
+:computer: Windows
+
+```
+PS > choco install lens
+```
+
 ## :b: Le context
 
 :star: Switching Kubernetes Context
@@ -97,20 +114,3 @@ $ kubectl cluster-info dump
 ``` 
 $ KUBECONFIG=~/.kube/orion:~/.kube/config kubectl config view --flatten > ~/.kube/config
 ``` 
-
-## :star: IDE LENS
-
-https://k8slens.dev/
-
-:apple: Mac OS
-
-```
-$ brew install --cask lens
-```
-
-:computer: Windows
-
-```
-PS > choco install lens
-```
-
