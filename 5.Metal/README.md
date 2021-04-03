@@ -100,11 +100,11 @@ $ export KUBECONFIG=$HOME/.kube/config
 
 :round_pushpin: Installer les [:toolbox: outils](.doc/kube-tools-pc.md) :writing_hand: pour gérer sa grappe
 
-- [ ] `kubectl` 
-
-- [ ] `helm`
-
-- [ ] `lens`
+| outil     | Description          |
+|-----------|----------------------|
+| `kubectl` | Contrôller la grappe |
+| `helm`    | Gestionnaire de librairies (Package Manager) de Kubernetes |
+| `lens`    | IDE permettant la gestion de Kubernetes |
 
 :round_pushpin:  Tester sa connexion à la grappe
 
