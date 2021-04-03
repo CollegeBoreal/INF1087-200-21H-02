@@ -1,5 +1,6 @@
 # :cd: Volume Logique (lv)
 
+:bulb: Si vous avez déjà fail l'activité [L.LVM](https://github.com/CollegeBoreal/Tutoriels/tree/main/O.OS/1.Linux/L.LVM), [:eye: vérifier](#eye-vérifier-si-le-volume-logique-a-été-créé) seulement que le volume logique a été créé 
 
 ## :100:G 
 
