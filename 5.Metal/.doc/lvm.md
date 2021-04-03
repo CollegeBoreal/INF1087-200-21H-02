@@ -50,4 +50,4 @@ sda                       273.4G disk
   └─ubuntu--vg-iscsi--lv   67.9G lvm                                   
 ```
 
-[:back:](../#round_pushpin-le-r%C3%A9seau-daire-de-stockage---san)
+[:back:](../#cl-le-réseau-daire-de-stockage---san)
