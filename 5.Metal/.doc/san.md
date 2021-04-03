@@ -207,3 +207,42 @@ EOF
 
 
 [:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
+
+
+# References
+
+https://help.mayadata.io/hc/en-us/articles/360033465571-BlockDevice-CR-creation-for-partitioned-disks
+
+```
+apiVersion: openebs.io/v1alpha1
+kind: BlockDevice
+metadata:
+  name: example-blockdevice
+  labels:
+    kubernetes.io/hostname: <host name in which disk/blockdevice is attached> # like gke-openebs-user-default-pool-044afcb8-bmc0
+    ndm.io/managed: "false" # for manual disk creation put false
+    ndm.io/blockdevice-type: blockdevice
+status:
+  claimState: Unclaimed
+  state: Active
+spec:
+  capacity:
+    logicalSectorSize: <logical sector size of lockdevice> # like 512
+    storage: <total capacity in bits> #like 53687091200
+  details:
+    firmwareRevision: <firmware revision>
+    model: <model name of blockdevice> # like PersistentDisk
+    serial: <serial no of disk> # like google-disk-2
+    compliance: <compliance of disk> #like "SPC-4"
+    vendor: <vendor of disk> #like Google
+  devlinks:
+  - kind: by-id
+    links:
+    - <link1> # like /dev/disk/by-id/scsi-0Google_PersistentDisk_disk-2
+    - <link2> # like /dev/disk/by-id/google-disk-2
+  - kind: by-path
+    links:
+    - <link1> # like /dev/disk/by-path/virtio-pci-0000:00:03.0-scsi-0:0:2:0 
+  Partitioned: Yes
+  path: <devpath> # like /dev/sdb1
+  ```
