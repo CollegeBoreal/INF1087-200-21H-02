@@ -1,4 +1,4 @@
-# :toolbox: Kubernetes
+# :toolbox: Outils Kubernetes
 
 ## Cheat Sheet
 
