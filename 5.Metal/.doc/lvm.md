@@ -50,4 +50,4 @@ sda                       273.4G disk
   └─ubuntu--vg-iscsi--lv   67.9G lvm                                   
 ```
 
-[:back:](../#cl-le-réseau-daire-de-stockage---san)
+[:back:](../#floppy_disk-le-réseau-daire-de-stockage---san)
