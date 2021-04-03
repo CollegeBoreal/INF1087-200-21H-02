@@ -97,11 +97,13 @@ $ scp -i ~/.ssh/myprivate-key.pk ubuntu@betelgeuse.boreal.codes:.kube/config ~/.
 $ export KUBECONFIG=$HOME/.kube/config
 ```
 
-:round_pushpin: Installer les outils :toolbox: pour gérer sa grappe
+:round_pushpin: Installer les [:toolbox: outils](.doc/kube-tools-pc.md) :writing_hand: pour gérer sa grappe
 
-- [ ] kubectl 
+- [ ] `kubectl` 
 
-- [ ] helm
+- [ ] `helm`
+
+- [ ] `lens`
 
 :round_pushpin:  Tester sa connexion à la grappe
 
