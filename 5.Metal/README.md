@@ -45,9 +45,9 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 #### :round_pushpin: Le réseau d'aire de stockage - SAN
 
-Le but de l'exercice est de créer un disque (`CR` Custom Resources) et le mettre en réseau avec `iSCSI`
+Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
-- [ ] `ubuntu--vg-iscsi--lv` :cd:
+- [ ] Créer le volume logique `iscsi--lv` [:cd: lvm](.doc/lvm.md) :writing_hand:	
 - [ ] Installer le Service :minidisc: [iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 
 
