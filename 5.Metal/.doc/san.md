@@ -213,7 +213,7 @@ EOF
 
 https://help.mayadata.io/hc/en-us/articles/360033465571-BlockDevice-CR-creation-for-partitioned-disks
 
-```
+```yaml
 apiVersion: openebs.io/v1alpha1
 kind: BlockDevice
 metadata:
