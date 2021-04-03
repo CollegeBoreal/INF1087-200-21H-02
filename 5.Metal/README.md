@@ -6,7 +6,7 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 ## Table des matières
 
-| Chapitres                               | Description                     |
+| Chapitres                               | Descriptions                     |
 |-----------------------------------------|---------------------------------|
 | [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe  |
 | [:a: La préparation](#a-la-préparation) | Préparer son noeud              |
