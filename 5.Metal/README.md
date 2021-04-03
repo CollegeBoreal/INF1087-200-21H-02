@@ -10,7 +10,7 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 | Chapitres                               | Descriptions                                                       |
 |-----------------------------------------|--------------------------------------------------------------------|
-| [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe                                     |
+| [:o2: Nommage](#o2-nommage)               | Constituer et nommer sa grappe                                     |
 | [:a: La préparation](#a-la-préparation) | Préparer son noeud                                                 |
 | [:b: Les composants](#b-les-composants) | Installer les composants constituant la grappe (outils et services)|
 | [:ab: Les plans](#ab-les-plans)         | Déployer les plans `kubernetes` de contrôle et de données          |
