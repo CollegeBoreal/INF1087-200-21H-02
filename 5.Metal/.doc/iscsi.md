@@ -61,7 +61,7 @@ Feb 28 18:13:56 brooks systemd[1]: Started iSCSI initiator daemon (iscsid).
 Feb 28 18:13:57 brooks iscsid[727345]: iSCSI daemon with pid=727346 started!
 ```
 
-[:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
+[:back:](../#cl-le-réseau-daire-de-stockage---san)
 
 # References:
 
