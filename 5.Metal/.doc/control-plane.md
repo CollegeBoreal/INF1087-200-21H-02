@@ -89,7 +89,7 @@ $ export KUBECONFIG=$HOME/.kube/config
 Alternativement, si vous êtes l'utilisateur `root` , vous pouvez utiliser la commande:
 
 ```
-$ export KUBECONFIG=/etc/kubernetes/admin.conf
+# export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
 
 :round_pushpin: Vérifier le contexte courant
