@@ -1,7 +1,5 @@
 # :minidisc: Service iSCSI 
 
-https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
-
 <img src="../images/iSCSI-Techbast.png" width="675" height="410"></img>
 
 ## :a: Vérifier la présence du fichier de configuration `iscsi` 
@@ -66,5 +64,7 @@ Feb 28 18:13:57 brooks iscsid[727345]: iSCSI daemon with pid=727346 started!
 [:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
 
 # References:
+
+https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
 
 https://techbast.com/2019/06/visio-stencils-operation-diagram-of-iscsi-target-server.html
