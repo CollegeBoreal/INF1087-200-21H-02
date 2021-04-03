@@ -11,7 +11,7 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 - [ ] Réorganiser [Reorg](.doc/Reorg.md) :writing_hand:	 les addresses IP dans le sous-réseau `10.13.237.0/24`
 
 
-## :cl: Nommage - 
+## :o: Nommage - 
 
 :busts_in_silhouette: activité en groupe
 
@@ -75,9 +75,8 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 - [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) :writing_hand: la grappe.
 
-<hr/>
 
-### :cl: Le réseau d'aire de stockage - SAN
+## :cl: Le réseau d'aire de stockage - SAN
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
