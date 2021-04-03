@@ -9,7 +9,7 @@ Installer the CNI Plugin pour gérer le réseau de gousses [Cluster Networking](
 ## :a: Installer le plugin CNI
 
 
-- [ ] Le plugin CNI a utiliser est [Calico](projectcalico.org)
+- [ ] Le plugin CNI a utiliser est [Calico](https://projectcalico.org)
 
 Sur le serveur du plan de contrôle:
 
