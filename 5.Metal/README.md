@@ -86,7 +86,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 
 
-## :floppy_disk: Le réseau d'aire de stockage - SAN
+## :floppy_disk: Le stockage
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
