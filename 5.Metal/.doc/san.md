@@ -147,17 +147,25 @@ TAGS=:systemd:
 The block device name needs to be segregated by node, by convention the string `blockdevice`-`UUID` should be used.
 Since dealing with a LV which will be formatted by `openebs`, let's use the Partition UUID of the disk `/dev/sda3` instead. `PARTUUID` can be taken from the below command.
 
+**PARTUUID**
+
 ```
 $ echo "blockdevice-"`sudo blkid --match-tag PARTUUID --output value /dev/sda3`
 blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
 ```
 
+```
+$ uname --nodename
+scarborough
+```
+
+
 :building_construction: The below file contains 3 node configurations separated by `---` 
 
 | TAG | VALUE |
-|-----|-------|
-| `metadata.name:` | blockdevice-**PARTUUID** |
-| `metadata.labels.kubernetes.io/hostname:` | hostname |
+|--------------------------------------------|--------------------------|
+| `{metadata.name}`                          | blockdevice-**PARTUUID** |
+| `{metadata.labels.kubernetes.io/hostname}` | **nodename** |
 | `spec.devlinks.kind: by-id.links:`        | - DEVLINKS /dev/disk/**by-id** |
 | `spec.devlinks.kind: by-path.links:`      | - DEVLINKS /dev/**mapper** |
 | `spec.nodeAttributes.nodeName:`           | hostname |
@@ -170,7 +178,7 @@ $ kubectl apply -n openebs -f - <<EOF
  metadata:
    name: blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
    labels:
-     kubernetes.io/hostname: bellatrix
+     kubernetes.io/hostname: scarborough
      ndm.io/managed: "false"
      ndm.io/blockdevice-type: blockdevice
  status:
