@@ -77,7 +77,7 @@ kubeadm join betelgeuse.boreal.codes:6443 --token 2pje0m.xl8voke0wisjymvp \
 
 ## :b: Utiliser sa grappe (sur le serveur - plan de contrôle)
 
-:round_pushpin: Pour contrôler la grappe à partir du serveur, il faut utiliser l'outil `kubectl` qui a besoin d'un fichier de configuration.
+:round_pushpin: Pour `contrôler` la grappe à partir du serveur, il faut utiliser l'outil de contrôle de grappes Kubernetes `kubectl` qui a besoin d'un fichier de configuration.
 
 Pour installer le fichier de configuration `$HOME.kube/config`, il faut taper les commandes suivantes:
 
