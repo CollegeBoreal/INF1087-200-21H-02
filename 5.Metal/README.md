@@ -81,7 +81,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 - [ ] Permettre aux autres noeux de [joindre](.doc/data-plane.md) :writing_hand: la grappe.
 
 
-## :cl: Contrôller la grappe à distance
+## :joystick: Contrôller la grappe à distance
 
 
 
