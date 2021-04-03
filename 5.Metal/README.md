@@ -80,7 +80,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 
 
-## :floppy_disc: Le réseau d'aire de stockage - SAN
+## :floppy_disk: Le réseau d'aire de stockage - SAN
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
@@ -88,3 +88,5 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 - [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 
 - [ ] Installer le [CSI](https://kubernetes-csi.github.io) géré par [OpenEBS](https://openebs.io) `Elastic Block Storage`
+
+## :rocket: Service
