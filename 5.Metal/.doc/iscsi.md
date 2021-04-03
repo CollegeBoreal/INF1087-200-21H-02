@@ -2,7 +2,7 @@
 
 https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
 
-<img src="../images/iSCSI-Techbast.png" width="" height=""></img>
+<img src="../images/iSCSI-Techbast.png" width="675" height="410"></img>
 
 ## :a: Vérifier la présence du fichier de configuration `iscsi` 
 
