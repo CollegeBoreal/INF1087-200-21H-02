@@ -13,11 +13,12 @@ Pour faciliter l'organisation en grappes, il faut d'abord assembler les addresse
 
 ## :book: Table des matières
 
-| Chapitres                               | Descriptions                         |
-|-----------------------------------------|--------------------------------------|
-| [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe       |
-| [:a: La préparation](#a-la-préparation) | Préparer son noeud                   |
-| [:b: Les composants](#b-les-composants) | Les composants constituant la grappe (outils et services)|
+| Chapitres                               | Descriptions                                                       |
+|-----------------------------------------|--------------------------------------------------------------------|
+| [:o: Nommage](#o-nommage)               | Constituer et nommer sa grappe                                     |
+| [:a: La préparation](#a-la-préparation) | Préparer son noeud                                                 |
+| [:b: Les composants](#b-les-composants) | Installer les composants constituant la grappe (outils et services)|
+| [:ab: Les plans](#ab-les-plans)         | Déployer les plans `kubernetes` de contrôle et de données          |
 
 
 ## :o: Nommage
