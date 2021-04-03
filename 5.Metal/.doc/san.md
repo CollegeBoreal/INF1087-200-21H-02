@@ -174,7 +174,7 @@ brooks
 | `spec.path:`                               | - DEVNAME |
 
 ```yaml
-$ kubectl apply -n openebs -f - <<EOF 
+$ kubectl apply --namespace openebs --filename - <<EOF 
  apiVersion: openebs.io/v1alpha1
  kind: BlockDevice
  metadata:
