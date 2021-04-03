@@ -77,7 +77,9 @@ kubeadm join betelgeuse.boreal.codes:6443 --token 2pje0m.xl8voke0wisjymvp \
 
 ## :b: Utiliser sa grappe (sur le serveur - plan de contrôle)
 
-:round_pushpin: Pour commencer à utiliser sa grappe sur votre serveur, taper les commandes suivantes:
+:round_pushpin: Pour contrôler la grappe à partir du serveur, il faut utiliser l'outil `kubectl` qui a besoin d'un fichier de configuration.
+
+Pour installer le fichier de configuration `$HOME.kube/config`, il faut taper les commandes suivantes:
 
 ```
 $ mkdir -p $HOME/.kube
@@ -92,7 +94,7 @@ Alternativement, si vous êtes l'utilisateur `root` , vous pouvez utiliser la co
 # export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
 
-:round_pushpin: Vérifier le contexte courant
+:round_pushpin: Vérifier le contexte courant (avec `kubectl`)
 
 ```
 $ kubectl config get-contexts
@@ -100,7 +102,7 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
 *         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin   
 ```
 
-:round_pushpin: Vérifier les noeux (avec `kubectl`)
+:round_pushpin: Vérifier les noeux
 
 ```
 $ kubectl get nodes
