@@ -60,7 +60,7 @@ https://docs.openebs.io/docs/next/prerequisites.html#ubuntu
 $ sudo cat /etc/iscsi/initiatorname.iscsi
 ```
 
-:bulb: if le fichier `ìnitiator` n'est pas présent, installer `open-iscsi`:
+:bulb: si le fichier `ìnitiator` n'est pas présent, installer `open-iscsi`:
 
 ```
 $ sudo apt-get update && sudo apt-get install open-iscsi
