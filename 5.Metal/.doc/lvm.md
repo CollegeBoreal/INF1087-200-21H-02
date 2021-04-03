@@ -36,7 +36,7 @@ $ sudo lvcreate --name iscsi-lv --extents 100%FREE ubuntu-vg
   Logical volume "iscsi-lv" created.
 ```
 
-- [ ] Vérifier si il a été créé
+## :eye: Vérifier si le volume logique a été créé
 
 ```
 $ lsblk /dev/sda --output NAME,SIZE,TYPE,FSSIZE,FSTYPE,FSUSED,FSUSE%,MOUNTPOINT 
