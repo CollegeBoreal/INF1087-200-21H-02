@@ -18,4 +18,4 @@ For using [cStor](https://docs.openebs.io/docs/next/cstor.html) as the CSI compl
 
 For testing the Storage with [cStor](https://docs.openebs.io/docs/next/cstor.html), provide with some [user operations](userop.md):pinching_hand:
 
-[:back:](../#floppy_disk-le-stockage)
+[:back:](../../#floppy_disk-le-stockage)
