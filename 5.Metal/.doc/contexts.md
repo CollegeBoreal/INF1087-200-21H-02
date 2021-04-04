@@ -6,7 +6,7 @@ Le fichier de configuration `$KUBECONFIG=$HOME/.kube/config` encapsule les carac
 
 :round_pushpin: Copier le fichier :ice_cube: `kube` config sur son PC
 
-- [ ] s'assurer d'avoir une connexion privilégiée avec une clé privée `~/.ssh/myprivate-key.pk`
+- [ ] s'assurer d'avoir une connexion privilégiée avec une clé privée `~/.ssh/myprivate-key.pk` ayant accès au plan de contrôle.
 
 - [ ] Fournir le nom de domaine du plan de contrôle i.e. `ubuntu@betelgeuse.boreal.codes`
 
