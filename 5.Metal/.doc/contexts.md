@@ -2,6 +2,8 @@
 
 Le fichier de configuration `$KUBECONFIG=$HOME/.kube/config` encapsule les caractéristiques de la grappe, les certificats :closed_lock_with_key: correspondants, les clés privés :key: ainsi que les informations sur l'administrateur. 
 
+<img src="../context-prod.png" width="" height=""></img>
+
 ## :o2: Fichier de configuration
 
 :round_pushpin: Copier le fichier :ice_cube: `kube` config sur son PC
