@@ -1,11 +1,15 @@
+# :one: 
 
-![w1](img/ONE.PNG)
+![image](images/one.PNG)
+```
 
-:two:voir l'addresse ip avec le menu Network
+```
 
-![w2](img/TWO.PNG)
+![image](images/two.PNG)
+```
 
-:three: Testez sur le Navigateur
-
-![w3](img/aks.PNG)
-
+```
+## Avec le nom de domaine
+![image](images/aks.PNG)
+```
+```
