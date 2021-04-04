@@ -78,6 +78,7 @@ $ cp ~/.kube/config <LE NOM DE MA GRAPPE>/.kube
 $ git add et tralala
 ```
 
+[:back:](../#joystick-contrôller-la-grappe)
 
 # References
 
