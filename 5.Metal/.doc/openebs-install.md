@@ -4,6 +4,17 @@
 
 ## :o2: Installation
 
+
+
+```
+$ helm repo add openebs https://openebs.github.io/charts
+```
+
+```
+$ helm repo update
+```
+
+
 ```
 $ kubectl create namespace openebs
 namespace/openebs created
