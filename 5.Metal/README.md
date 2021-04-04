@@ -121,7 +121,7 @@ rigel        Ready    <none>   68s     v1.18.6
 saiph        Ready    <none>   22s     v1.18.6
 ```
 
-- [ ] Visualiser la grappe dans Lens
+- [ ] Visualiser la grappe dans :level_slider: `Lens`
 
 :warning: Attention à ne pas installer d'applications, il manque la partie stockage.
 
