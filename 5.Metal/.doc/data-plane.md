@@ -48,11 +48,11 @@ $ openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt \
 
 ```
 $ kubeadm token list
-
+```
 
 :abacus: Sur le plan de données
 
-Donner les valeurs récupérées aux variables d'environnements suivantes: (par example)
+- [ ] Donner les valeurs récupérées aux variables d'environnements suivantes: (par example)
 
 ```
 $ CTL_PLANE="betelgeuse.boreal.codes"
@@ -65,7 +65,6 @@ $ CA_CERT_HASH="c41ff0c3608120eaf7599bc77f6bc72b1e75c46caa073bb28cba21ea1f86f5ef
 ```
 $ sudo kubeadm join ${CTL_PLANE}:6443 --token ${TOKEN} --discovery-token-ca-cert-hash sha256:${CA_CERT_HASH}
 ```
-
 
 :round_pushpin: Si les jetons ont tous expirés, regénérer un jeton avec les commandes ci-dessous
 
