@@ -106,8 +106,8 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 ```
 $ kubectl config get-contexts                                                      
-CURRENT   NAME                     CLUSTER   AUTHINFO           NAMESPACE
-*         kubernetes-admin@orion   orion   kubernetes-admin   
+CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
+*         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin   
 ```
 
 - [ ] Vérifier que la grappe est complète
