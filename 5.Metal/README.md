@@ -104,8 +104,8 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 ```
 $ kubectl config get-contexts                                                      
-CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
-*         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin   
+CURRENT   NAME                       CLUSTER   AUTHINFO           NAMESPACE
+*         kubernetes-admin@ontario   ontario   kubernetes-admin   
 ```
 
 ## :floppy_disk: Le stockage
