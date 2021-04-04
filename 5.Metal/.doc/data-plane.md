@@ -68,6 +68,8 @@ $ sudo kubeadm join ${CTL_PLANE}:6443 --token ${TOKEN} --discovery-token-ca-cert
 
 :round_pushpin: Si les jetons ont tous expirés, regénérer un jeton avec les commandes ci-dessous
 
+:control_knobs: sur le plan de controle
+
 ```
 $ kubeadm token create --print-join-command
 W0304 19:51:22.390054 2541130 configset.go:202] WARNING: kubeadm cannot validate component configs for API groups [kubelet.config.k8s.io kubeproxy.config.k8s.io]
@@ -75,6 +77,11 @@ W0304 19:51:22.390054 2541130 configset.go:202] WARNING: kubeadm cannot validate
 kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --discovery-token-ca-cert-hash sha256:3aa3fe1dd88a80e7ea9e76408dd166947a606b7bd0f1ad089454ccf9a80c2365 
 ```
 
+:abacus: sur le plan de données
+
+```
+sudo kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --discovery-token-ca-cert-hash sha256:3aa3fe1dd88a80e7ea9e76408dd166947a606b7bd0f1ad089454ccf9a80c2365 
+```
 
 
 # References
