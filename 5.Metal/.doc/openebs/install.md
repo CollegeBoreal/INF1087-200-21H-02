@@ -1,9 +1,8 @@
-# OpenEBS
+# OpenEBS :package:
 
 
 
-## :o2: Installation
-
+## :o2: Installation avec helm :package:
 
 
 ```
