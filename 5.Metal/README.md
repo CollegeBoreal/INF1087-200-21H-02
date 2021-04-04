@@ -93,8 +93,8 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 | outil     | Description          |
 |-----------|----------------------|
 | `kubectl` | Contrôller la grappe |
-| `helm`    | Gestionnaire de librairies (Package Manager) de Kubernetes |
-| `lens`    | IDE permettant la gestion de Kubernetes |
+| :package: `helm`    | Gestionnaire de librairies (Package Manager) de Kubernetes |
+| :level_slider: `lens`    | IDE permettant la gestion de Kubernetes |
 
 :round_pushpin:  Mettre le fichier de `configuration` en contexte pour permettre la gestion de la grappe à distance
 
