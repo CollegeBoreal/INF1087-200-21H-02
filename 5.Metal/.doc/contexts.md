@@ -8,14 +8,20 @@ Le fichier de configuration `$KUBECONFIG=$HOME/.kube/config` encapsule les carac
 
 :round_pushpin: Copier le fichier :ice_cube: `kube` config sur son PC
 
+- [ ] Créer le répertoire caché de configuration `kubernetes`
+
+```
+$ mkdir -p $HOME/.kube
+```
+
 - [ ] s'assurer d'avoir une connexion privilégiée avec une clé privée `~/.ssh/myprivate-key.pk` ayant accès au plan de contrôle.
 
 - [ ] Fournir le nom de domaine du plan de contrôle i.e. `ubuntu@betelgeuse.boreal.codes`
 
+- [ ] Copier le fichier de configuration `config` dans le répertoire `$HOME/.kube`
+
 ```
-$ mkdir -p $HOME/.kube
 $ scp -i ~/.ssh/myprivate-key.pk ubuntu@betelgeuse.boreal.codes:.kube/config ~/.kube/config
-$ export KUBECONFIG=$HOME/.kube/config
 ```
 
 - [ ] Visualisation des contexts de connexion aux grappes `Kubernetes`
