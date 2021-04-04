@@ -2,7 +2,7 @@
 
 Le fichier de configuration `$KUBECONFIG=$HOME/.kube/config` encapsule les caractéristiques de la grappe, les certificats :closed_lock_with_key: correspondants, les clés privés :key: ainsi que les informations sur l'administrateur. 
 
-<img src="../images/context-prod.png" width="1388" height="624"></img>
+<img src="../images/context-prod.png" width="" height=""></img>
 
 ## :o2: Fichier de configuration
 
