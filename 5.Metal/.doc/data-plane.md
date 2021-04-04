@@ -48,5 +48,5 @@ $ TOKEN=<TOKEN PRIS DE LA LISTE>
 ```
 
 ```
-$ sudo kubeadm join orion.boreal.codes:6443 --token ${TOKEN}     --discovery-token-ca-cert-hash sha256:${CA_CERT_HASH}
+$ sudo kubeadm join orion.boreal.codes:6443 --token ${TOKEN} --discovery-token-ca-cert-hash sha256:${CA_CERT_HASH}
 ```
