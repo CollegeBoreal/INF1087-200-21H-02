@@ -132,6 +132,6 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 - [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv` 
 - [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 
-- [ ] Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) `Elastic Block Storage`
+- [ ] Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) :writing_hand: `Elastic Block Storage`
 
 ## :rocket: Les Services
