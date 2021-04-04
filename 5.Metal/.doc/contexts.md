@@ -1,6 +1,16 @@
 
 
+:round_pushpin: Copier le fichier :ice_cube: `kube` config sur son PC
 
+- [ ] s'assurer d'avoir une connexion privilégiée avec une clé privée `~/.ssh/myprivate-key.pk`
+
+- [ ] Fournir le nom de domaine du plan de contrôle i.e. `ubuntu@betelgeuse.boreal.codes`
+
+```
+$ mkdir -p $HOME/.kube
+$ scp -i ~/.ssh/myprivate-key.pk ubuntu@betelgeuse.boreal.codes:.kube/config ~/.kube/config
+$ export KUBECONFIG=$HOME/.kube/config
+```
 
 - [ ] Visualisation des contexts de connexion aux grappes `Kubernetes`
 
