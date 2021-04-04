@@ -121,6 +121,8 @@ rigel        Ready    <none>   68s     v1.18.6
 saiph        Ready    <none>   22s     v1.18.6
 ```
 
+- [ ] Visualiser la grappe dans Lens
+
 ## :floppy_disk: Le stockage
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
