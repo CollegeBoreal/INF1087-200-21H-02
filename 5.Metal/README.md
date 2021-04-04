@@ -102,10 +102,23 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 :round_pushpin:  Tester sa connexion à la grappe
 
+- [ ] Vérifier que le context courrant pointe bien sur `kubernetes-admin@ontario`
+
 ```
 $ kubectl config get-contexts                                                      
 CURRENT   NAME                       CLUSTER   AUTHINFO           NAMESPACE
 *         kubernetes-admin@ontario   ontario   kubernetes-admin   
+```
+
+- [ ] Vérifier que la grappe est complète
+
+```
+$ kubectl get nodes
+NAME         STATUS   ROLES    AGE     VERSION
+bellatrix    Ready    <none>   3m15s   v1.18.6
+betelgeuse   Ready    master   25m     v1.18.6
+rigel        Ready    <none>   68s     v1.18.6
+saiph        Ready    <none>   22s     v1.18.6
 ```
 
 ## :floppy_disk: Le stockage
