@@ -98,7 +98,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 :round_pushpin:  Mettre le fichier de `configuration` en contexte pour permettre la gestion de la grappe à distance
 
-- [ ] Installer le fichier de configuration dans un [contexte](.doc/context.md) :writing_hand:	 `Kubernetes`
+- [ ] Installer le fichier de configuration dans un [contexte](.doc/contexts.md) :writing_hand:	 `Kubernetes`
 
 :round_pushpin:  Tester sa connexion à la grappe
 
