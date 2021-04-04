@@ -13,8 +13,8 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 | [:o2: Nommage](#o2-nommage)               | Constituer et nommer sa grappe                                     |
 | [:a: La préparation](#a-la-préparation) | Préparer son noeud                                                 |
 | [:b: Les composants](#b-les-composants) | Installer les composants constituant la grappe (outils et services)|
-| [:ab: Les plans](#ab-les-plans)                                                         | Déployer les plans `kubernetes` de contrôle et de données          |
-| [:joystick: Contrôller la grappe](#joystick-contrôller-la-grappe-à-distance) |  Contrôller la grappe à distance d'un poste d'utilisateur |
+| [:ab: Les plans](#ab-les-plans)                                   | Déployer les plans `kubernetes` de contrôle et de données          |
+| [:joystick: Contrôller la grappe](#joystick-contrôller-la-grappe) |  Contrôller la grappe à distance d'un poste d'utilisateur |
 | [:floppy_disk: Le stockage ](#floppy_disk-le-stockage) | Stocker les données sur des disques synchronisés sur un réseau de stockage (SAN) |
 | [:rocket: Les services](#rocket-les-services) | Permet de fournir les applications à travers des services |
 
