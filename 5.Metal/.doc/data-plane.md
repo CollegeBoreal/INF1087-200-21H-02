@@ -12,7 +12,10 @@ $ sudo kubeadm join betelgeuse.boreal.codes:6443 \
                --discovery-token-ca-cert-hash sha256:27c4b80df3d468bfe13517750a265bb3a3c560871e1bf177cafb323070b7b4a6
 ```
 
-:bulb: :tickets: Gestion des Jetons
+[:back:](../#abacus-les-plan-de-données-data-plane)
+
+
+## :cl: :tickets: Gestion des Jetons
 
 Si vous avez perdu le :tickets: jeton, ou que le jeton a expiré
 
@@ -35,7 +38,6 @@ W0304 19:51:22.390054 2541130 configset.go:202] WARNING: kubeadm cannot validate
 kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --discovery-token-ca-cert-hash sha256:3aa3fe1dd88a80e7ea9e76408dd166947a606b7bd0f1ad089454ccf9a80c2365 
 ```
 
-[:back:](../#abacus-les-plan-de-données-data-plane)
 
 
 ```
