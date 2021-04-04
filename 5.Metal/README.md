@@ -86,15 +86,19 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 ## :joystick: Contrôller la grappe
 
+:busts_in_silhouette: activité en groupe
 
-
-:round_pushpin: Installer les [:toolbox: outils](.doc/kube-tools-pc.md) :writing_hand: pour gérer sa grappe
+:round_pushpin: Installer les [:toolbox: outils](.doc/kube-tools-pc.md) :writing_hand: sur son PC pour gérer la grappe
 
 | outil     | Description          |
 |-----------|----------------------|
 | `kubectl` | Contrôller la grappe |
 | `helm`    | Gestionnaire de librairies (Package Manager) de Kubernetes |
 | `lens`    | IDE permettant la gestion de Kubernetes |
+
+:round_pushpin:  Mettre le fichier de `configuration` en contexte pour permettre la gestion de la grappe à distance
+
+- [ ] Installer le fichier de configuration dans un [contexte](.doc/context.md) :writing_hand:	 `Kubernetes`
 
 :round_pushpin:  Tester sa connexion à la grappe
 
