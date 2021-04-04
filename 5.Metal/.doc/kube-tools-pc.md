@@ -66,7 +66,7 @@ $ echo 'source <(kubectl completion bash)' >>~/.bashrc # for zsh replace bash wi
 $ kubectl completion bash >/etc/bash_completion.d/kubectl
 ```
 
-## :b: Helm
+## :b: Helm :package: 
 
 https://helm.sh/docs/intro/install/#from-script
 
@@ -82,7 +82,7 @@ $ brew install helm
 PS > choco install kubernetes-helm
 ```
 
-## :ab: IDE LENS
+## :ab: IDE LENS :level_slider:
 
 https://k8slens.dev/
 
