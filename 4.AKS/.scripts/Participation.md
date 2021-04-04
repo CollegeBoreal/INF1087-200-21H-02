@@ -1,4 +1,4 @@
-# Participation au 04-04-2021 02:21
+# Participation au 04-04-2021 02:29
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | README.md   | :gear: Conf | :wheel_of_dharma: AKS |
 |------|----------------------------|-------------|-------------|-----------------------|
-| 0 | [300111441](../300111441) - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300111441/.kube/config) | [aks.luxuryking.live](http://aks.luxuryking.live) |
+| 0 | [300111441](../300111441) - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300111441/.kube/config) | [aks.luxuryking.me](http://aks.luxuryking.me) |
 | 1 | [300111824](../300111824) - <image src='https://avatars0.githubusercontent.com/u/54911706?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:](../300111824/.kube/config) | [aks.blevie.me](http://aks.blevie.me) |
 | 2 | [300115065](../300115065) - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300115065/README.md) | [:x:](../300115065/.kube/config) | [aks.abdelkrimfd.com](http://aks.abdelkrimfd.com) |
 | 3 | [300115140](../300115140) - <image src='https://avatars0.githubusercontent.com/u/54910329?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300115140/README.md) | [:x:](../300115140/.kube/config) | [aks.talktoyoulater.tech](http://aks.talktoyoulater.tech) |
