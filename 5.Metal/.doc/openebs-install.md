@@ -4,7 +4,12 @@
 
 ## :o2: Installation
 
+```
+$ kubectl create namespace openebs
+namespace/openebs created
+```
 
+- [ ] Installer `openebs` avec le gestionnaire de librairie :package: helm
 
 ```
 $ helm install openebs openebs/openebs --namespace openebs
