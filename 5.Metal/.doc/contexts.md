@@ -28,11 +28,11 @@ La grappe `kubernetes`, ayant comme nom de contexte `kubernetes-admin@kubernetes
 
 - [ ] Renommer le nom de contexte par défaut `kubernetes-admin@kubernetes` à celui du nom de contexte voulu
 
-Par exemple de `kubernetes-admin@kubernetes` à `kubernetes-admin@ontario`
+Par exemple de `kubernetes-admin@kubernetes` à `kubernetes-admin@orion`
 
 ```
-$ kubectl config rename-context kubernetes-admin@kubernetes kubenetes-admin@ontario
-Context "kubernetes-admin@kubernetes" renamed to "kubenetes-admin@ontario".
+$ kubectl config rename-context kubernetes-admin@kubernetes kubenetes-admin@orion
+Context "kubernetes-admin@kubernetes" renamed to "kubenetes-admin@orion".
 ```
 
 - [ ] Vérifier le chandement de nom de contexte
@@ -40,15 +40,15 @@ Context "kubernetes-admin@kubernetes" renamed to "kubenetes-admin@ontario".
 ```
 $ kubectl config get-contexts                                                      
 CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
-*         kubenetes-admin@ontario   kubernetes   kubernetes-admin   
+*         kubenetes-admin@orion     kubernetes   kubernetes-admin   
 ```
 
 - [ ] Renommer le nom de grappe par défaut `kubernetes` à celui du nom de grappe voulu
 
-Par exemple de `kubernetes` à `ontario`
+Par exemple de `kubernetes` à `orion`
 
 ```
-$ kubectl config set contexts.kubenetes-admin@ontario.cluster ontario 
+$ kubectl config set contexts.kubenetes-admin@orion.cluster orion 
 ```
 
 - [ ] Vérifier le chandement de nom de grappe
@@ -56,7 +56,7 @@ $ kubectl config set contexts.kubenetes-admin@ontario.cluster ontario
 ```
 $ kubectl config get-contexts                                        
 CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
-*         kubenetes-admin@ontario   ontario      kubernetes-admin   
+*         kubenetes-admin@orion     orion        kubernetes-admin   
 ```
 
 ## :cl: Sauvegarde du contexte
