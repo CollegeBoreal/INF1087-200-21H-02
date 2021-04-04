@@ -55,6 +55,8 @@ CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
 
 Par exemple de `kubernetes` à `orion`
 
+:warning: Attention changer `orion` deux fois
+
 ```
 $ kubectl config set contexts.kubenetes-admin@orion.cluster orion 
 ```
