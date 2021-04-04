@@ -57,3 +57,7 @@ $ CTL_PLANE="betelgeuse.boreal.codes"
 ```
 $ sudo kubeadm join ${CTL_PLANE}:6443 --token ${TOKEN} --discovery-token-ca-cert-hash sha256:${CA_CERT_HASH}
 ```
+
+# References
+
+https://stackoverflow.com/questions/51126164/how-do-i-find-the-join-command-for-kubeadm-on-the-master
