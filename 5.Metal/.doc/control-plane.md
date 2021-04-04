@@ -87,7 +87,6 @@ Pour installer ce fichier de configuration, taper les commandes suivantes:
 $ mkdir -p $HOME/.kube
 $ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 $ sudo chown $(id -u):$(id -g) $HOME/.kube/config
-$ export KUBECONFIG=$HOME/.kube/config
 ```
 
 Alternativement, si vous êtes l'utilisateur `root` , vous pouvez utiliser la commande:
