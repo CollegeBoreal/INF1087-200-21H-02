@@ -1,14 +1,14 @@
-![image](images/word3.png)
+![images](images/word3.PNG)
 ```
 
 ```
 
-![image](images/wordp1.png)
+![images](images/wordp1.PNG)
 ```
 
 ```
 ## Avec le nom de domaine
-![image](images/word2.png)
+![images](images/worl2.PNG)
 ```
 ```
 
