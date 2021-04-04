@@ -15,7 +15,7 @@ $ sudo kubeadm join betelgeuse.boreal.codes:6443 \
 [:back:](../#abacus-les-plan-de-données-data-plane)
 
 
-## :cl: :tickets: Gestion des Jetons
+## :cl: Gestion des Jetons :tickets: 
 
 Si vous avez perdu le :tickets: jeton, ou que le jeton a expiré
 
