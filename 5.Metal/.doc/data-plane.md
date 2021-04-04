@@ -34,3 +34,9 @@ kubeadm join orion.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --disco
 ```
 
 [:back:](../#abacus-les-plan-de-données-data-plane)
+
+
+$ CA_CERT_HASH=`openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt \
+    | openssl rsa -pubin -outform der 2>/dev/null \
+    | openssl dgst -sha256 -hex \
+    | sed 's/^.* //'`
