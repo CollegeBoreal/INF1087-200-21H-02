@@ -125,14 +125,16 @@ saiph        Ready    <none>   22s     v1.18.6
 
 :warning: Attention à ne pas installer d'applications, il manque la partie stockage.
 
-## :floppy_disk: Le périphérique
+## :cl: La classe de stockage (Storage Class)
+
+#### :floppy_disk: Le périphérique (Block Device)
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
 - [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv` 
 - [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 
-## :infinity: Le stockage
+#### :infinity: Le stockage (Container Storage)
 
 - [ ] Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) :writing_hand: `Elastic Block Storage`
 
