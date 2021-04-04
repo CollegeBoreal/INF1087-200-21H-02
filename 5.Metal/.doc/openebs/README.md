@@ -2,13 +2,13 @@
 
 https://openebs.io
 
-Used by `kubesphere`
+Utilisé par `kubesphere`
 
 <img src="../../images/1-config-sequence.svg" width="657" height="145"> </img>
 
-## :gear: Prerequisites
+## :gear: Prérequis
 
-[Install](install.md):pinching_hand: the [openEBS](https://openebs.io) [CSI](https://kubernetes-csi.github.io/docs/) [Driver](https://kubernetes-csi.github.io/docs/drivers.html) along with the [iSCSI](https://en.wikipedia.org/wiki/ISCSI) [SAN](https://en.wikipedia.org/wiki/Storage_area_network) implementation 
+[Install](install.md):pinching_hand: L'[openEBS](https://openebs.io) est une [Police](https://kubernetes-csi.github.io/docs/drivers.html) [CSI](https://kubernetes-csi.github.io/docs/) permettant une implémentation [SAN](https://en.wikipedia.org/wiki/Storage_area_network) du protocole [iSCSI](https://en.wikipedia.org/wiki/ISCSI) 
 
 ## :a: Admin Operations
 
