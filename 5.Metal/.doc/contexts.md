@@ -59,6 +59,24 @@ CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
 *         kubenetes-admin@ontario   ontario      kubernetes-admin   
 ```
 
+## :cl: Sauvegarde du contexte
+
+Sauvegarder le fichier de configuration de contexte sur github dans votre nom de grappe.
+
+- [ ] Créer un répertoire `.kube` sous votre grappe dans le projet
+
+```
+$ mkdir <LE NOM DE MA GRAPPE>/.kube
+$ cp ~/.kube/config <LE NOM DE MA GRAPPE>/.kube
+```
+
+- [ ] Sauver dans github
+
+```
+$ git add et tralala
+```
+
+
 # References
 
 https://faun.pub/using-different-kubectl-versions-with-multiple-kubernetes-clusters-a3ad8707b87b
