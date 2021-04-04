@@ -44,7 +44,10 @@ OpenEBS Volumes and your nodes should have the iSCSI initiator installed.
 For more information, visit our Slack at https://openebs.io/community or view the documentation online at http://docs.openebs.io/.
 ```
 
+- [ ] Tester l'installation
 
+```
 $ helm ls --namespace openebs
 NAME   	NAMESPACE	REVISION	UPDATED                             	STATUS  	CHART        	APP VERSION
 openebs	openebs  	1       	2021-04-04 11:25:42.579325 -0400 EDT	deployed	openebs-2.7.0	2.7.0   
+```
