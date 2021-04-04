@@ -37,4 +37,4 @@ NAME   	NAMESPACE	REVISION	UPDATED                             	STATUS  	CHART  
 openebs	openebs  	1       	2021-04-04 11:25:42.579325 -0400 EDT	deployed	openebs-2.7.0	2.7.0   
 ```
 
-[:back:](#gear-prérequis)
+[:back:](../#gear-prérequis)
