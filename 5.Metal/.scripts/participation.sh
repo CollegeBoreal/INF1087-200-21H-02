@@ -89,6 +89,8 @@ do
 
    if [[ $VERSION == *"Ubuntu"* ]]; then
 
+       # --- SSH -------------
+       VALUE="${VALUE} ${OK} |"
 
        # --- DOCKER -------------
        if [[ $DOCKER == *"(running)"* ]]; then
@@ -113,7 +115,6 @@ do
        fi
 
        # --- LVG -------------
-       VALUE="${VALUE} ${OK} |"
        if [[ $LVG == *"-wi-a-----"* ]]; then
           VALUE="${VALUE} ${OK} |"
        else
