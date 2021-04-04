@@ -24,7 +24,7 @@ TOKEN                     TTL         EXPIRES                USAGES             
 zlt7nb.lpd06ao1kxf4uwgm   23h         2021-03-05T19:51:22Z   authentication,signing   <none>         system:bootstrappers:kubeadm:default-node-token
 ```
 
-- [ ] Si les jetons ont expirés, regénérer les jetons avec les commandes ci-dessous
+- [ ] Si les jetons ont expirés, regénérer un jeton avec les commandes ci-dessous
 
 ```
 $ kubeadm token create --print-join-command
