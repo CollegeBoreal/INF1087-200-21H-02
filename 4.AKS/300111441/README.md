@@ -1,14 +1,14 @@
-![image](images/owncloud1.png)
+![image](images/word1.PNG)
 ```
 
 ```
 
-![image](images/owncloud2.png)
+![image](images/word2.PNG)
 ```
 
 ```
 ## Avec le nom de domaine
-![image](images/owncloud3.png)
+![image](images/word3.PNG)
 ```
 ```
 
