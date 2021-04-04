@@ -55,3 +55,6 @@ CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
 *         kubenetes-admin@ontario   ontario      kubernetes-admin   
 ```
 
+# References
+
+https://faun.pub/using-different-kubectl-versions-with-multiple-kubernetes-clusters-a3ad8707b87b
