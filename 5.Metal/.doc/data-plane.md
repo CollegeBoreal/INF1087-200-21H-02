@@ -19,7 +19,7 @@ $ sudo kubeadm join betelgeuse.boreal.codes:6443 \
 
 Si vous avez perdu le :tickets: jeton, ou que le jeton a expiré
 
-- [ ] Sur le :control_knobs: plan de contrôle, afficher la liste des :tickets: Jetons
+:round_pushpin: Sur le :control_knobs: plan de contrôle, afficher la liste des :tickets: Jetons
 
 Observer le champ `TTL` (Time To Live), il indique le temps restant avant expiration du jeton 
 
