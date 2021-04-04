@@ -1,16 +1,16 @@
 ##KING
 
-![image](images/one.PNG)
+![image](image/one.PNG)
 ```
 
 ```
 
-![image](images/two.PNG)
+![image](image/two.PNG)
 ```
 
 ```
 ## Avec le nom de domaine
-![image](images/aks.PNG)
+![image](image/aks.PNG)
 ```
 ```
 
