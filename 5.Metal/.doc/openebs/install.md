@@ -4,28 +4,32 @@
 
 ## :o2: Installation avec helm :package:
 
+- [ ] Installer le référentiel
 
 ```
 $ helm repo add openebs https://openebs.github.io/charts
 ```
 
+- [ ] Mettre à jour les référentiels
+
 ```
 $ helm repo update
 ```
 
+- [ ] Créer l'espace de noms `openebs`
 
 ```
 $ kubectl create namespace openebs
 namespace/openebs created
 ```
 
-- [ ] Installer `openebs` avec le gestionnaire de librairie :package: helm
+- [ ] Installer `openebs` dans l'espace de noms `openebs`
 
 ```
 $ helm install openebs openebs/openebs --namespace openebs
 ```
 
-- [ ] Vérifier l'installation
+## :o: Vérifier l'installation
 
 ```
 $ helm ls --namespace openebs
