@@ -34,41 +34,6 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
 
 La grappe `kubernetes`, ayant comme nom de contexte `kubernetes-admin@kubernetes` est affichée
 
-- [ ] Renommer le nom de contexte par défaut `kubernetes-admin@kubernetes` à celui du nom de contexte voulu
-
-Par exemple de `kubernetes-admin@kubernetes` à `kubernetes-admin@orion`
-
-```
-$ kubectl config rename-context kubernetes-admin@kubernetes kubenetes-admin@orion
-Context "kubernetes-admin@kubernetes" renamed to "kubenetes-admin@orion".
-```
-
-- [ ] Vérifier le chandement de nom de contexte
-
-```
-$ kubectl config get-contexts                                                      
-CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
-*         kubenetes-admin@orion     kubernetes   kubernetes-admin   
-```
-
-- [ ] Renommer le nom de grappe par défaut `kubernetes` à celui du nom de grappe voulu
-
-Par exemple de `kubernetes` à `orion`
-
-:warning: Attention changer `orion` deux fois, une fois dans le nom du contexte et enfin dans le nom de la grappe
-
-```
-$ kubectl config set contexts.kubenetes-admin@orion.cluster orion 
-```
-
-- [ ] Vérifier le chandement de nom de grappe
-
-```
-$ kubectl config get-contexts                                        
-CURRENT   NAME                      CLUSTER      AUTHINFO           NAMESPACE
-*         kubenetes-admin@orion     orion        kubernetes-admin   
-```
-
 ## :cl: Sauvegarde du contexte
 
 Sauvegarder le fichier de configuration de contexte sur github dans votre nom de grappe.
@@ -91,3 +56,5 @@ $ git add et tralala
 # References
 
 https://faun.pub/using-different-kubectl-versions-with-multiple-kubernetes-clusters-a3ad8707b87b
+
+https://serverfault.com/questions/1001257/kubernetes-rename-cluster
