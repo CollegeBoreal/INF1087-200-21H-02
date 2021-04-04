@@ -14,15 +14,19 @@ M
 O
 )
 
-luxury@10.13.237.12
-fadde@10.13.237.13
-zackto@10.13.237.14
-auriane@10.13.237.15
-10.13.237.16
-boris@10.13.237.17
-morti@10.13.237.18
-idir@10.13.237.19
+## Africa
 
+AfricaDTA=(
+luxury@guinee.ecocenter.live
+fadde@maroc.ecocenter.live
+zackto@algerie.ecocenter.live
+)
+
+AfricaCTL=(
+auriane@congo.ecocenter.live
+)
+
+## Alberta
 
 AlbertaDTA=(
 serve@edmonton.ernanjia.live
