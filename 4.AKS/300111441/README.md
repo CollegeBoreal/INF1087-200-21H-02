@@ -1,18 +1,18 @@
 # 1️⃣: 
 
-![image](images/one.PNG)
+![image](one.PNG)
 ```
 
 ```
 
 2️⃣:
-![image](images/two.PNG)
+![image](two.PNG)
 ```
 
 ```
 
 3️⃣:
 ## Avec le nom de domaine
-![image](images/aks.PNG)
+![image](aks.PNG)
 ```
 ```
