@@ -153,8 +153,6 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 - [ ] Pour utiliser [cStor](https://docs.openebs.io/docs/next/cstor.html) comme `Moteur de Stockage` en concordance avec le `CSI` , fournir quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:.
 
-- [ ] Appliquer les operations liées à l'utilisateur de la grappe
-
-Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) :writing_hand: `Elastic Block Storage`
+- [ ] Vous pouvez maintenant 
 
 ## :rocket: Les Services
