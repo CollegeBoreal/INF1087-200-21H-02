@@ -28,7 +28,7 @@ DM_VG_NAME=ubuntu-vg
 DM_LV_NAME=iscsi-lv
 DM_TABLE_STATE=LIVE
 DM_STATE=ACTIVE
-DEVLINKS=/dev/mapper/ubuntu--vg-iscsi--lv /dev/disk/by-id/dm-uuid-LVM-HKIv7LZ8lAU2TLmwaLrT0eCuRQwJJ9efoV0aa0SfTVZwDsctMoF6dfv9xlyxv115 /dev/ubuntu-vg/iscsi-lv /dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv
+DEVLINKS=/dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv /dev/mapper/ubuntu--vg-iscsi--lv /dev/disk/by-id/dm-uuid-LVM-HKIv7LZ8lAU2TLmwaLrT0eCuRQwJJ9efoV0aa0SfTVZwDsctMoF6dfv9xlyxv115 /dev/ubuntu-vg/iscsi-lv
 TAGS=:systemd:
 ```
 
