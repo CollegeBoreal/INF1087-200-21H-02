@@ -32,6 +32,8 @@ DEVLINKS=/dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv /dev/mapper/ubuntu--vg-isc
 TAGS=:systemd:
 ```
 
+- [ ] fdisk --list
+
 ```
 $ sudo fdisk --list /dev/mapper/ubuntu--vg-iscsi--lv
 Disk /dev/mapper/ubuntu--vg-iscsi--lv: 100 GiB, 107374182400 bytes, 209715200 sectors
@@ -40,12 +42,14 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 ```
 
-**PARTUUID**
+- [ ] **PARTUUID**
 
 ```
 $ echo "blockdevice-"`sudo blkid --match-tag PARTUUID --output value /dev/sda3`
 blockdevice-943643da-1a54-4b2f-b1fa-e1c27ba61b96
 ```
+
+- [ ] nodename
 
 ```
 $ uname --nodename
@@ -58,11 +62,13 @@ brooks
 | TAG | VALUE |
 |--------------------------------------------|--------------------------|
 | `{metadata.name}`                          | blockdevice-**PARTUUID** |
-| `{metadata.labels.kubernetes.io/hostname}` | **nodename** |
-| `spec.devlinks.kind: by-id.links:`         | - DEVLINKS /dev/disk/**by-id** |
-| `spec.devlinks.kind: by-path.links:`       | - DEVLINKS /dev/**mapper** |
-| `spec.nodeAttributes.nodeName:`            | **nodename** |
-| `spec.path:`                               | - DEVNAME |
+| `{metadata.labels.kubernetes.io/hostname}` | **uname --nodename**              |
+| `{spec.capacity.storage}`                  | **fdisk --list (taille en bytes)  |
+| `{spec.devlinks.kind[by-id].links}`        | - DEVLINKS /dev/disk/**by-id(1)** |
+|                                            | - DEVLINKS /dev/disk/**by-id(2)** |
+| `{spec.devlinks.kind[by-path].links}`      | - DEVLINKS /dev/**mapper(1)** |
+| `{spec.nodeAttributes.nodeName]`           | **nodename** |
+| `{spec.path}`                              | - DEVNAME |
 
 ```yaml
 $ kubectl apply --namespace openebs --filename - <<EOF 
