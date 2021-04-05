@@ -56,8 +56,7 @@ $ uname --nodename
 brooks
 ```
 
-
-:building_construction: Ces informations sont requises pour créer le fichier de configuration `yaml` utilisé pour créer le périphérique `block device`. 3 périphérique (Block Device) sont requis pour former une équipe (pool) de stockage géré par un réseau ìSCSI`
+:building_construction: Ces informations sont requises pour créer le fichier de configuration `yaml` utilisé pour créer le périphérique en mode bloc `block device`. 3 périphériques `(block devices)` sont requis pour former un réservoir `(pool)` de stockage géré par un réseau `iSCSI`
 
 | TAG | Valeur |
 |--------------------------------------------|------------------------------------|
@@ -106,17 +105,18 @@ $ kubectl apply --namespace openebs --filename - <<EOF
 EOF
 ```
 
-# :b: Créer le fichier blockdevice:
+# :b: Créer le fichier `blockdevice`:
 
-- [ ] Créer un fichier par noeud et le mettre dans le répertoire de la grappe en suivant le modèle ci-dessous
+:round_pushpin: Créer un fichier par noeud et le mettre dans le répertoire de la grappe en suivant le modèle ci-dessous:
 
 - [ ] Le nom du fichier devra être sous la forme `blockdevice-xxxx-xxxx-xxx-xxx.md`
 
 - [ ] Il sera de type `yaml` et commencera par la commande `kubectl` comme ceci:
   >  kubectl apply --namespace openebs --filename - <<EOF 
 
-- [ ] Il se terminera avec le mot:
-  >  EOF
+- [ ] Il se terminera avec le commentaire `yaml` `---` et le mot:
+  > ---
+  > EOF
 
 :warning: Bien vérifier que le fichier aient les bonnes informations du périphérique `iscsi-lv`
 
