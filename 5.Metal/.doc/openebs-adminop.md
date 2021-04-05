@@ -142,7 +142,7 @@ openebs-snapshot-promoter   volumesnapshot.external-storage.k8s.io/snapshot-prom
 standard (default)          openebs.io/provisioner-iscsi                               Delete          Immediate              false                  48s
 ```
 
-[:back:](../#floppy_disk-)
+[:back:](../#floppy_disk-le-stockage)
 
 # References
 
