@@ -148,6 +148,8 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 :control_knobs: Sur les plan de contrôle: 
 
+<img src="../images/1-config-sequence.svg" width="657" height="145"> </img>
+
 - [ ] Installer openEBS
 - [ ] Appliquer les operations liées à l'administrateur de la grappe 
 - [ ] Appliquer les operations liées à l'utilisateur de la grappe
