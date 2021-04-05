@@ -141,7 +141,9 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 - [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv`
 - [ ] Préparer le [périphérique](.doc/blockdevice.md) en mode block et l'enregistrer dans un fichier `blockdevice-xxxx-xxx-xxx.md` du répertoire de votre grappe.
 
-#### :floppy_disk: Le stockage (Container Storage)
+#### :floppy_disk: Le stockage 
+
+[Container Storage](https://landscape.cncf.io/card-mode?category=cloud-native-storage&grouping=category)
 
 :busts_in_silhouette: activité en groupe à appliquer à partir du :control_knobs: plan de contrôle: 
 
