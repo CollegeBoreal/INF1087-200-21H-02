@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# --------------------------------------
+# Fonctions 
+#
+#
+# --------------------------------------
 COULEURS=(
 ":red_circle:"
 ":orange_circle:"
@@ -67,8 +72,8 @@ echo "| :green_circle:  | Active: active (running)          | En marche         
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id: | Interne | ssh | :whale: Docker | :droplet: Kubelet |:dvd: LV        | :minidisc: iSCSI  |"
-echo "|------|-------------|---------|-----|----------------|-------------------|----------------|-------------------|"
+echo "|:hash:| Boréal :id: | Interne | ssh | :whale: Docker | :droplet: Kubelet | :minidisc: iSCSI |:dvd: LV        |"
+echo "|------|-------------|---------|-----|----------------|-------------------|------------------|----------------|"
 
 NOSSH=" :x: | :x: | :x: | :x: | :x: |"
 
@@ -96,17 +101,16 @@ do
    KUBELET=$?
    # echo $KUBELET
 
-   LVG=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVER} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
-   # echo $LVG
-
    SERVICE="iscsid"
    statut_du_service
    ISCSI=$?
    # echo $ISCSI
 
+   LVG=`ssh -i ~/.ssh/b300098957@ramena.pk \
+        -o StrictHostKeyChecking=no \
+        -o PasswordAuthentication=no \
+        -o ConnectTimeout=5 ${SERVER} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
+   # echo $LVG
 
    VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVER}\` |"
 
@@ -121,15 +125,15 @@ do
        # --- KUBELET -------------
        VALUE="${VALUE} ${COULEURS[${KUBELET}]} |"
 
+       # --- ISCSI -------------
+       VALUE="${VALUE} ${COULEURS[${ISCSI}]} |"
+
        # --- LVG -------------
        if [[ $LVG == *"-wi-a-----"* ]]; then
           VALUE="${VALUE} ${OK} |"
        else
           VALUE="${VALUE} ${KO} |"
        fi
-
-       # --- ISCSI -------------
-       VALUE="${VALUE} ${COULEURS[${ISCSI}]} |"
 
    else
        VALUE="${VALUE} ${KO} | ${NOSSH}"
