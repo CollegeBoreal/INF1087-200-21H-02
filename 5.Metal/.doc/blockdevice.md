@@ -114,7 +114,7 @@ EOF
 - [ ] Il sera de type `yaml` et commencera par la commande `kubectl` comme ceci:
   >  kubectl apply --namespace openebs --filename - <<EOF 
 
-- [ ] Il se terminera avec le commentaire `yaml` `---` et le mot:
+- [ ] Il se terminera avec le commentaire `yaml` `---` et le mot `EOF`:
   > `---`
   > 
   > EOF
