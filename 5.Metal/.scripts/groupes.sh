@@ -44,8 +44,8 @@ echo "| :x:                | Étape inexistante             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :three: BlockDevices :roll_of_paper: |"
-echo "|------|--------------------------|---------------|-----------------------------|"
+echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: |"
+echo "|------|--------------------------|---------------|--------------------------|-----------------------------|"
 
 i=0
 y=0
@@ -69,9 +69,13 @@ do
    else
       VALUE="${VALUE} ${KO} |"
    fi
+   
+   NODE_COUNT=`kubectl get nodes --kubeconfig ${FOLDER}/.kube/config --no-headers 2> /dev/null | grep -v master | wc -l`
+   # echo $NODE_COUNT
+   VALUE="${VALUE} ${CHIFFRES[${NODE_COUNT}]} |"
 
-   COUNT=`ls ${FOLDER}/blockdevice-*.md 2> /dev/null | wc -l`
-   VALUE="${VALUE} ${CHIFFRES[${COUNT}]} |"
+   DEVICE_COUNT=`ls ${FOLDER}/blockdevice-*.md 2> /dev/null | wc -l`
+   VALUE="${VALUE} ${CHIFFRES[${DEVICE_COUNT}]} |"
 
    echo ${VALUE}
    let "i++"
