@@ -71,6 +71,12 @@ spec:
 EOF
 ```
 
+:round_pushpin: Sauveguarder le fichier `StoragePoolClaim.md`
+
+- [ ] après avoir modifier les périphériques sauvegarder sous le nom `StoragePoolClaim.md` dans le répertoire de votre grappe
+
+- [ ] Exécuter la commande `kubectl` à partir du fichier.
+
 :round_pushpin: Vérifier que les périphériques passent à l'état `claimed` - Contesté
 
 ```
@@ -83,7 +89,7 @@ blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5   rigel       102687672   Claim
 
 ## :ab: [Classe de Stockage](https://kubernetes.io/docs/concepts/storage/storage-classes/)
 
-- [ ] Créer la **Class de Storage** `standard` 
+:round_pushpin: Créer la **Class de Storage** `standard` 
 
 ```yaml
 $ kubectl apply -f - <<EOF
@@ -102,7 +108,14 @@ provisioner: openebs.io/provisioner-iscsi
 EOF
 ```
 
-- [ ] Vérifier
+- [ ] après avoir modifier la valeur du champ `ReplicaCount` au nombre de noeuds sur la grappe (idéalement :three:)
+- [ ] sauvegarder sous le nom `StoragePoolClaim.md` dans le répertoire de votre grappe
+- [ ] Exécuter la commande `kubectl` à partir du fichier.
+
+
+:round_pushpin: La classe par défaut de stockage `standard`
+
+- [ ] Vérifier la classe de stockage `standard`
 
 ```
 $ kubectl get storageclass standard
@@ -110,7 +123,7 @@ NAME       PROVISIONER                    RECLAIMPOLICY   VOLUMEBINDINGMODE   AL
 standard   openebs.io/provisioner-iscsi   Delete          Immediate           false                  74s
 ```
 
-- [ ] Appliquer le stockage par défaut
+- [ ] Appliquer le stockage par défaut à **standard**
 
 ```
 $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
