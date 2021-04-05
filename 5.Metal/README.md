@@ -155,7 +155,7 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 - [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** par défaut
 
-<img src="images/kube-storage-model.png" width="" height=""></img>
+<img src="images/kube-storage-model.png" width="382" height="189"></img>
 
 :bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
 
