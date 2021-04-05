@@ -153,6 +153,19 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 - [ ] Pour utiliser [cStor](https://docs.openebs.io/docs/next/cstor.html) comme `Moteur de Stockage` en concordance avec le `CSI` , fournir quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:.
 
-- [ ] Vous pouvez maintenant 
+- [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** par défaut
+
+:bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
+
+```
+$ kubectl get sc          
+NAME                        PROVISIONER                                                RECLAIMPOLICY   VOLUMEBINDINGMODE      ALLOWVOLUMEEXPANSION   AGE
+openebs-device              openebs.io/local                                           Delete          WaitForFirstConsumer   false                  20h
+openebs-hostpath            openebs.io/local                                           Delete          WaitForFirstConsumer   false                  20h
+openebs-jiva-default        openebs.io/provisioner-iscsi                               Delete          Immediate              false                  20h
+openebs-snapshot-promoter   volumesnapshot.external-storage.k8s.io/snapshot-promoter   Delete          Immediate              false                  20h
+standard (default)          openebs.io/provisioner-iscsi                               Delete          Immediate              false                  48s
+```
+
 
 ## :rocket: Les Services
