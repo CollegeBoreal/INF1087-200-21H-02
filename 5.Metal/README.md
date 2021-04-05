@@ -2,10 +2,10 @@
 
 L'exercice dans cette section est de préparer sa grappe (cluster) que vous installerez sur du métal.
 
-| :tada: Participation                                    |        | 
-|---------------------------------------------------------|---------|
+| :tada: Participation                                             |  Commentaires        | 
+|------------------------------------------------------------------|----------|
 | [ :bust_in_silhouette: ](.scripts/Participation.md) Individuelle |          |
-| [ :busts_in_silhouette: ](.scripts/Grappes.md) en groupe |          |
+| [ :busts_in_silhouette: ](.scripts/Grappes.md) en groupe         |          |
 
 :x: [Réorganisation](.doc/Reorg.md) :writing_hand:	préalable des addresses IP sous le sous-réseau `10.13.237.0/24`
 
