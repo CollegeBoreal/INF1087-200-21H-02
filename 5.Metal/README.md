@@ -132,7 +132,7 @@ saiph        Ready    <none>   22s     v1.18.6
 
 #### :roll_of_paper: Le périphérique (Block Device)
 
-:bust_in_silhouette: activité individuelle à appliquer à partir du :abacus: des plans de données: 
+:bust_in_silhouette: activité individuelle à appliquer à partir des :abacus: plans de données: 
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
