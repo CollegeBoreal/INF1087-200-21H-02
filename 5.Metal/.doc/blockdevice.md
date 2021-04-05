@@ -1,8 +1,12 @@
 # :roll_of_paper: Le périphérique en mode bloc (Block Device)
 
-## :ab: Information sur le disque
+Les périphériques en mode bloc réferent souvant aux disques durs dont la lecture se fait en bloc, généralement de 512 octets (bytes)
 
-* finally, let's grab the `DEVLINKS` through `udevadm` using the found `LV Path`
+## :ab: Information sur le périphérique 
+
+`Udev` est le gestionnaire de périphérique du noyau `Linux`.
+
+- [ ] Pour avoir des informations sur un périphérique: (i.e `/dev/ubuntu-vg/iscsi-lv`)
 
 ```
 $ udevadm info --query property --name /dev/ubuntu-vg/iscsi-lv
@@ -137,3 +141,6 @@ spec:
   Partitioned: Yes
   path: <devpath> # like /dev/sdb1
 ```
+# References
+
+https://www.thegeekdiary.com/beginners-guide-to-udev-in-linux/
