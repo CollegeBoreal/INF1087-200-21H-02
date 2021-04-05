@@ -115,6 +115,9 @@ EOF
 - [ ] Il sera de type `yaml` et commencera par la commande `kubectl` comme ceci:
   >  kubectl apply --namespace openebs --filename - <<EOF 
 
+- [ ] Il se terminera avec le mot:
+  >  EOF
+
 
 [:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
 
