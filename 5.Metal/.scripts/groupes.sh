@@ -60,6 +60,16 @@ do
 
    VALUE="| ${CHIFFRES[${y}]} | [${FOLDER}](${FOLDER}) |"
 
+   # --- config ---
+   ls ${FOLDER}/.kube/config 2> /dev/null 1> /dev/null
+   LS=$?
+   # echo $LS
+   if [ $LS == 0 ]; then
+      VALUE="${VALUE} ${OK} |"
+   else
+      VALUE="${VALUE} ${KO} |"
+   fi
+
    echo ${VALUE}
    let "i++"
 
