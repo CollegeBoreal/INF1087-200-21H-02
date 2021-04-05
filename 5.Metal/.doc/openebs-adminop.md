@@ -109,7 +109,7 @@ EOF
 ```
 
 - [ ] après avoir modifier la valeur du champ `ReplicaCount` au nombre de noeuds sur la grappe (idéalement :three:)
-- [ ] sauvegarder sous le nom `StoragePoolClaim.md` dans le répertoire de votre grappe
+- [ ] sauvegarder sous le nom `StorageClass.md` dans le répertoire de votre grappe
 - [ ] Exécuter la commande `kubectl` à partir du fichier.
 
 
