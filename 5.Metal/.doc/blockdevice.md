@@ -4,7 +4,7 @@ Les périphériques en mode bloc réferent souvant aux disques durs dont la lect
 
 ## :ab: Information sur le périphérique 
 
-`Udev` est le gestionnaire de périphérique du noyau `Linux`.
+`Udev` est le gestionnaire de périphérique du noyau `Linux`. Dynamiquement, Udev crée ou enlève des noeuds de fichiers périphériques au démarrage en fonction du répertoire `/dev` pour tous types de périphériques. `Udev` fait maintenant partie de `systemd` et peut être controllé par `$ systemctl status systemd-udevd`.
 
 - [ ] Pour avoir des informations sur un périphérique: (i.e `/dev/ubuntu-vg/iscsi-lv`)
 
