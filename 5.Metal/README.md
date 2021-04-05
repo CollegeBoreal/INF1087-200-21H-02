@@ -151,7 +151,7 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 - [ ]  [Installer](.doc/openebs-install.md):pinching_hand: [openEBS](https://openebs.io). C'est une [Police](https://kubernetes-csi.github.io/docs/drivers.html) [CSI](https://kubernetes-csi.github.io/docs/) permettant une implémentation [SAN](https://en.wikipedia.org/wiki/Storage_area_network) du protocole [iSCSI](https://en.wikipedia.org/wiki/ISCSI) 
 
-- [ ] Pour utiliser [cStor](https://docs.openebs.io/docs/next/cstor.html) comme `Moteur de Stockage` en concordance avec le `CSI` , fournir quelques [operations d'administration](adminop.md):pinching_hand:.
+- [ ] Pour utiliser [cStor](https://docs.openebs.io/docs/next/cstor.html) comme `Moteur de Stockage` en concordance avec le `CSI` , fournir quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:.
 
 - [ ] Appliquer les operations liées à l'utilisateur de la grappe
 
