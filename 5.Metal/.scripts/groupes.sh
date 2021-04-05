@@ -44,7 +44,7 @@ echo "| :x:                | Étape inexistante             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :roll_of_paper: BlockDevice |"
+echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :roll_of_paper: :three: BlockDevice |"
 echo "|------|--------------------------|---------------|-----------------------------|"
 
 i=0
@@ -69,6 +69,9 @@ do
    else
       VALUE="${VALUE} ${KO} |"
    fi
+
+   COUNT=`ls ${FOLDER}/blockdevice-*.md 2> /dev/null | wc -l`
+   VALUE="${VALUE} ${CHIFFRES[${COUNT}]} |"
 
    echo ${VALUE}
    let "i++"
