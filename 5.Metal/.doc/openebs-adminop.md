@@ -91,6 +91,8 @@ blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5   rigel       102687672   Claim
 
 :round_pushpin: Créer la **Class de Storage** `standard` 
 
+- [ ] après avoir modifier la valeur du champ `ReplicaCount` au nombre de noeuds sur la grappe (idéalement :three:)
+
 ```yaml
 $ kubectl apply -f - <<EOF
 apiVersion: storage.k8s.io/v1
@@ -108,7 +110,6 @@ provisioner: openebs.io/provisioner-iscsi
 EOF
 ```
 
-- [ ] après avoir modifier la valeur du champ `ReplicaCount` au nombre de noeuds sur la grappe (idéalement :three:)
 - [ ] sauvegarder sous le nom `StorageClass.md` dans le répertoire de votre grappe
 - [ ] Exécuter la commande `kubectl` à partir du fichier.
 
