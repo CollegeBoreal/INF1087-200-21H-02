@@ -4,7 +4,7 @@
 
 https://docs.openebs.io/docs/next/ugcstor.html#admin-operations
 
-## :a: Créer les Périphériques en mode bloc - BlockDevice CR (Custom Resource)
+## :a: Les Périphériques en mode bloc - BlockDevice CR (Custom Resource)
 
 
 - [ ] Créer les périphériques :roll_of_paper:
@@ -36,9 +36,11 @@ bdc-562edaf1-6aef-485b-b83f-a7ddd73efcd3   blockdevice-23e1292d-32f5-4528-8f7f-3
 bdc-a68503ba-9882-459d-9e36-da24c54e1977   blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5   Bound   17h
 ```
 
-## :b: Storage Pool
+## :b: Le réservoir de stockage - Storage Pool
 
-- [ ] Create the `cStor Storage Pool` (csp)
+:round_pushpin: Créer le réservoir de stockage `cstor` `cStor Storage Pool` (csp)
+
+- [ ] modifier le fichier de configuration ci-dessous en changeant les périphériques `block device`
 
 ```yaml
 $ kubectl apply -f - <<EOF
@@ -62,59 +64,17 @@ spec:
     poolType: striped
   blockDevices:
     blockDeviceList:
-    - blockdevice-23e1292d-32f5-4528-8f7f-3abaee070a03
-    - blockdevice-3fa7d473-d0f1-4532-bcd4-a402241eeff1
-    - blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5
+    - blockdevice-23e1292d-32f5-4528-8f7f-3abaee070a03 # ME CHANGER VITE
+    - blockdevice-3fa7d473-d0f1-4532-bcd4-a402241eeff1 # ME CHANGER VITE
+    - blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5 # ME CHANGER VITE
 ---
 EOF
 ```
 
-:round_pushpin: Observe the `StoragePoolClaim`
+:round_pushpin: Vérifier que les périphériques passent à l'état `claimed` - Contesté
 
 ```
-$ kubectl get spc
-NAME              AGE
-cstor-disk-pool   7s
-```
-
-:round_pushpin: Observe the cStor Storage Pool 
-
-* It may take some time to `Init`
-
-:bulb: Use the [cStor CLI](https://docs.openebs.io/docs/next/cstor.html#cstor-cli) to display the Storage Engine artifacts
-
-```
-$ kubectl get csp --watch
-NAME                   ALLOCATED   FREE    CAPACITY   STATUS    READONLY   TYPE      AGE
-cstor-disk-pool-3oqs   83K         99.5G   99.5G      Healthy   false      striped   23s
-cstor-disk-pool-thk6                                  Init      false      striped   23s
-cstor-disk-pool-yit1   83K         99.5G   99.5G      Healthy   false      striped   23s
-```
-
-* It may take some time to `ALLOCATE` (i.e. 83K)
-
-```
-$ kubectl get csp --watch           
-NAME                   ALLOCATED   FREE    CAPACITY   STATUS    READONLY   TYPE      AGE
-cstor-disk-pool-3oqs   665K        99.5G   99.5G      Healthy   false      striped   95s
-cstor-disk-pool-thk6   83K         99.5G   99.5G      Healthy   false      striped   95s
-cstor-disk-pool-yit1   662K        99.5G   99.5G      Healthy   false      striped   95s
-```
-
-* Finally
-
-```
-$ kubectl get csp --watch
-NAME                   ALLOCATED   FREE    CAPACITY   STATUS    READONLY   TYPE      AGE
-cstor-disk-pool-3oqs   665K        99.5G   99.5G      Healthy   false      striped   4m59s
-cstor-disk-pool-thk6   662K        99.5G   99.5G      Healthy   false      striped   4m59s
-cstor-disk-pool-yit1   662K        99.5G   99.5G      Healthy   false      striped   4m59s
-```
-
-:round_pushpin: Block Devices are now `claimed`
-
-```
-$ kubectl get blockdevices -nopenebs
+$ kubectl get blockdevices --namespace openebs
 NAME                                               NODENAME    SIZE        CLAIMSTATE   STATUS   AGE
 blockdevice-23e1292d-32f5-4528-8f7f-3abaee070a03   bellatrix   102687672   Claimed      Active   16m
 blockdevice-3fa7d473-d0f1-4532-bcd4-a402241eeff1   saiph       102687672   Claimed      Active   16m
