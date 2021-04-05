@@ -57,7 +57,7 @@ brooks
 ```
 
 
-:building_construction: Ces informations sont requises pour créer le fichier de configuration `yaml` utilisé pour créer le prériphérique `block device`
+:building_construction: Ces informations sont requises pour créer le fichier de configuration `yaml` utilisé pour créer le périphérique `block device`. 3 périphérique (Block Device) sont requis pour former une équipe (pool) de stockage géré par un réseau ìSCSI`
 
 | TAG | Valeur |
 |--------------------------------------------|------------------------------------|
