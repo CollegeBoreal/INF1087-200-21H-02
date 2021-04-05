@@ -65,7 +65,7 @@ do
    LS=$?
    # echo $LS
    if [ $LS == 0 ]; then
-      VALUE="${VALUE} [${OK}](${FOLDER}/.kube/config) |"
+      VALUE="${VALUE} [${OK}](../${FOLDER}/.kube/config) |"
    else
       VALUE="${VALUE} ${KO} |"
    fi

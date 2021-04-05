@@ -1,4 +1,4 @@
-# Participation du groupe au 05-04-2021 14:39
+# Participation du groupe au 05-04-2021 14:41
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -19,4 +19,4 @@
 | :one: | [A.Alberta](A.Alberta) | :x: |
 | :two: | [B.Africa](B.Africa) | :x: |
 | :three: | [M.GTA](M.GTA) | :x: |
-| :four: | [O.Ontario](O.Ontario) | [:white_check_mark:](O.Ontario/.kube/config) |
+| :four: | [O.Ontario](O.Ontario) | [:white_check_mark:](../O.Ontario/.kube/config) |
