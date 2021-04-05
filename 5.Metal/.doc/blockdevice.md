@@ -118,6 +118,7 @@ EOF
 - [ ] Il se terminera avec le mot:
   >  EOF
 
+:warning: Bien vérifier que le fichier aient les bonnes informations du périphérique `iscsi-lv`
 
 [:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
 
