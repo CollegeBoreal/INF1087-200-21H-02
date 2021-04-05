@@ -130,18 +130,6 @@ standard   openebs.io/provisioner-iscsi   Delete          Immediate           fa
 $ kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 ```
 
-- [ ] Vérifier le stockage par défaut
-
-```
-$ kubectl get sc          
-NAME                        PROVISIONER                                                RECLAIMPOLICY   VOLUMEBINDINGMODE      ALLOWVOLUMEEXPANSION   AGE
-openebs-device              openebs.io/local                                           Delete          WaitForFirstConsumer   false                  20h
-openebs-hostpath            openebs.io/local                                           Delete          WaitForFirstConsumer   false                  20h
-openebs-jiva-default        openebs.io/provisioner-iscsi                               Delete          Immediate              false                  20h
-openebs-snapshot-promoter   volumesnapshot.external-storage.k8s.io/snapshot-promoter   Delete          Immediate              false                  20h
-standard (default)          openebs.io/provisioner-iscsi                               Delete          Immediate              false                  48s
-```
-
 [:back:](../#floppy_disk-le-stockage)
 
 # References
