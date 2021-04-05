@@ -160,7 +160,7 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 :bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
 
 ```
-$ kubectl get sc          
+$ kubectl get storageclasses        
 NAME                        PROVISIONER                                                RECLAIMPOLICY   VOLUMEBINDINGMODE      ALLOWVOLUMEEXPANSION   AGE
 openebs-device              openebs.io/local                                           Delete          WaitForFirstConsumer   false                  20h
 openebs-hostpath            openebs.io/local                                           Delete          WaitForFirstConsumer   false                  20h
