@@ -110,6 +110,12 @@ EOF
 
 - [ ] Créer un fichier par noeud et le mettre dans le répertoire de la grappe en suivant le modèle ci-dessous
 
+- [ ] Le nom du fichier devra être sous la forme `blockdevice-xxxx-xxxx-xxx-xxx.md`
+
+- [ ] Il sera de type `yaml` et commencera par la commande `kubectl` comme ceci:
+  >  kubectl apply --namespace openebs --filename - <<EOF 
+
+
 [:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
 
 
