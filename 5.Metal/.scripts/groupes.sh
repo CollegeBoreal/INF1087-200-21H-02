@@ -44,7 +44,7 @@ echo "| :x:                | Étape inexistante             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :roll_of_paper: :three: BlockDevice |"
+echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :three: BlockDevices :roll_of_paper: |"
 echo "|------|--------------------------|---------------|-----------------------------|"
 
 i=0

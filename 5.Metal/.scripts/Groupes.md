@@ -1,4 +1,4 @@
-# Participation du groupe au 05-04-2021 14:54
+# Participation du groupe au 05-04-2021 14:56
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,7 +14,7 @@
 
 ## :a: Présence
 
-|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :roll_of_paper: :three: BlockDevice |
+|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :three: BlockDevices :roll_of_paper: |
 |------|--------------------------|---------------|-----------------------------|
 | :one: | [A.Alberta](../A.Alberta) | :x: | :zero: |
 | :two: | [B.Africa](../B.Africa) | :x: | :zero: |
