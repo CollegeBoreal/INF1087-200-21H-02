@@ -2,7 +2,7 @@
 
 L'exercice dans cette section est de préparer sa grappe (cluster) que vous installerez sur du métal.
 
-| :tada: Participation                                             |  Commentaires        | 
+| :tada: Participation                                             |  Commentaires        |
 |------------------------------------------------------------------|----------|
 | [ :bust_in_silhouette: ](.scripts/Participation.md) Individuelle |          |
 | [ :busts_in_silhouette: ](.scripts/Grappes.md) en groupe         |          |
