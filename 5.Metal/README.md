@@ -146,6 +146,8 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 :busts_in_silhouette: activité en groupe
 
+:control_knobs: Sur les plan de contrôle: 
+
 - [ ] Installer openEBS
 - [ ] Appliquer les operations liées à l'administrateur de la grappe 
 - [ ] Appliquer les operations liées à l'utilisateur de la grappe
