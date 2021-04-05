@@ -129,11 +129,15 @@ saiph        Ready    <none>   22s     v1.18.6
 
 #### :roll_of_paper: Le périphérique (Block Device)
 
+:bust_in_silhouette: activité individuelle
+
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
-- [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv`
-- [ ] Créer le [périphérique](.doc/blockdevice.md) en mode block à gérer en réseau
+:abacus: Sur les plans de données: 
+
 - [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
+- [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv`
+- [ ] Préparer le [périphérique](.doc/blockdevice.md) en mode block et l'enregistrer dans un fichier `blockdevice-xxxx-xxx-xxx.md` du répertoire de votre grappe.
 
 #### :floppy_disk: Le stockage (Container Storage)
 
