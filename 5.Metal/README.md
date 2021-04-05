@@ -146,6 +146,10 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 :busts_in_silhouette: activité en groupe
 
-- [ ] Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) :writing_hand: `Elastic Block Storage`
+- [ ] Installer openEBS
+- [ ] Appliquer les operations liées à l'administrateur de la grappe 
+- [ ] Appliquer les operations liées à l'utilisateur de la grappe
+
+Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) :writing_hand: `Elastic Block Storage`
 
 ## :rocket: Les Services
