@@ -91,7 +91,7 @@ blockdevice-7e848c90-cca2-4ef4-9fdc-90cff05d5bb5   rigel       102687672   Claim
 
 :round_pushpin: Créer la **Class de Storage** `standard` 
 
-- [ ] après avoir modifier la valeur du champ `ReplicaCount` au nombre de noeuds sur la grappe (idéalement :three:)
+- [ ] après avoir modifié la valeur du champ `ReplicaCount` au nombre de noeuds sur la grappe (idéalement :three:)
 
 ```yaml
 $ kubectl apply -f - <<EOF
@@ -141,6 +141,8 @@ openebs-jiva-default        openebs.io/provisioner-iscsi                        
 openebs-snapshot-promoter   volumesnapshot.external-storage.k8s.io/snapshot-promoter   Delete          Immediate              false                  20h
 standard (default)          openebs.io/provisioner-iscsi                               Delete          Immediate              false                  48s
 ```
+
+[:back:](../#floppy_disk-)
 
 # References
 
