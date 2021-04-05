@@ -1,4 +1,4 @@
-# Participation du groupe au 05-04-2021 14:41
+# Participation du groupe au 05-04-2021 14:42
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Grappe :wheel_of_dharma: | :gear: Config | :roll_of_paper: BlockDevice |
 |------|--------------------------|---------------|-----------------------------|
-| :one: | [A.Alberta](A.Alberta) | :x: |
-| :two: | [B.Africa](B.Africa) | :x: |
-| :three: | [M.GTA](M.GTA) | :x: |
-| :four: | [O.Ontario](O.Ontario) | [:white_check_mark:](../O.Ontario/.kube/config) |
+| :one: | [A.Alberta](../A.Alberta) | :x: |
+| :two: | [B.Africa](../B.Africa) | :x: |
+| :three: | [M.GTA](../M.GTA) | :x: |
+| :four: | [O.Ontario](../O.Ontario) | [:white_check_mark:](../O.Ontario/.kube/config) |

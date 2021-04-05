@@ -58,7 +58,7 @@ do
    let "y++"
    FOLDER=${DIR[${i}]}.${grappe}
 
-   VALUE="| ${CHIFFRES[${y}]} | [${FOLDER}](${FOLDER}) |"
+   VALUE="| ${CHIFFRES[${y}]} | [${FOLDER}](../${FOLDER}) |"
 
    # --- config ---
    ls ${FOLDER}/.kube/config 2> /dev/null 1> /dev/null
