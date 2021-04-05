@@ -32,7 +32,7 @@ DEVLINKS=/dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv /dev/mapper/ubuntu--vg-isc
 TAGS=:systemd:
 ```
 
-- [ ] fdisk --list
+- [ ] pour avoir la taille d'un périphérique
 
 ```
 $ sudo fdisk --list /dev/mapper/ubuntu--vg-iscsi--lv
@@ -42,14 +42,14 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 ```
 
-- [ ] **PARTUUID**
+- [ ] pour avoir son :id: ou encore son **PARTUUID**
 
 ```
 $ echo "blockdevice-"`sudo blkid --match-tag PARTUUID --output value /dev/sda3`
 blockdevice-943643da-1a54-4b2f-b1fa-e1c27ba61b96
 ```
 
-- [ ] nodename
+- [ ] pour enfin avoir le nom du noeud
 
 ```
 $ uname --nodename
@@ -57,7 +57,7 @@ brooks
 ```
 
 
-:building_construction: The below file contains 3 node configurations separated by `---` 
+:building_construction: Ces informations sont requises pour créer le fichier de configuration `yaml` utilisé pour créer le prériphérique `block device`
 
 | TAG | Valeur |
 |--------------------------------------------|------------------------------------|
@@ -69,6 +69,8 @@ brooks
 | `{spec.devlinks.kind[by-path].links}`      | **udevadm info**- DEVLINKS /dev/**mapper(1)**      |
 | `{spec.nodeAttributes.nodeName]`           | **uname --nodename**               |
 | `{spec.path}`                              | **udevadm info**- DEVNAME |
+
+:star: Le fichier se présente comme ceci:
 
 ```yaml
 $ kubectl apply --namespace openebs --filename - <<EOF 
@@ -104,6 +106,9 @@ $ kubectl apply --namespace openebs --filename - <<EOF
 EOF
 ```
 
+# :b: Créer le fichier blockdevice:
+
+- [ ] Créer un fichier par noeud et le mettre dans le répertoire de la grappe en suivant le modèle ci-dessous
 
 [:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
 
