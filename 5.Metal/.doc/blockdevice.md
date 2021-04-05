@@ -116,6 +116,7 @@ EOF
 
 - [ ] Il se terminera avec le commentaire `yaml` `---` et le mot:
   > `---`
+  > 
   > EOF
 
 :warning: Bien vérifier que le fichier aient les bonnes informations du périphérique `iscsi-lv`
