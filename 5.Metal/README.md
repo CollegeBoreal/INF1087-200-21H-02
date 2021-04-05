@@ -132,11 +132,10 @@ saiph        Ready    <none>   22s     v1.18.6
 
 #### :roll_of_paper: Le périphérique (Block Device)
 
-:bust_in_silhouette: activité individuelle
+:bust_in_silhouette: activité individuelle à appliquer à partir du :abacus: des plans de données: 
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
-:abacus: Sur les plans de données: 
 
 - [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 - [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv`
@@ -144,9 +143,7 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 #### :floppy_disk: Le stockage (Container Storage)
 
-:busts_in_silhouette: activité en groupe
-
-:control_knobs: Sur les plan de contrôle: 
+:busts_in_silhouette: activité en groupe à appliquer à partir du :control_knobs: plan de contrôle: 
 
 <img src="images/1-config-sequence.svg" width="657" height="145"> </img>
 
