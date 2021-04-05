@@ -1,5 +1,32 @@
 #!/bin/sh
 
+COULEURS=(
+":red_circle:"
+":orange_circle:"
+":green_circle:"
+)
+
+SERVICE="docker"
+SERVER="localhost"
+
+statut_du_service() {
+  RETOUR=`ssh -i ~/.ssh/b300098957@ramena.pk \
+     -o StrictHostKeyChecking=no \
+     -o PasswordAuthentication=no \
+     -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status ${SERVICE} 2>/dev/null`
+  # echo ${RETOUR}
+  COULEUR=0
+  # --- DOCKER -------------
+  if [[ ${RETOUR} == *"(running)"* ]]; then
+     COULEUR=2
+  else
+     if [[ ${RETOUR} == *"(auto-restart)"* ]]; then
+        COULEUR=1
+     fi
+  fi
+  return ${COULEUR}
+}
+
 # --------------------------------------
 #
 #
@@ -36,9 +63,6 @@ echo "| :red_circle:    | Active: inactive (dead)           | Inexistant ou inac
 echo "| :orange_circle: | Active: activating (auto-restart) | En cours d'activation         |"
 echo "| :green_circle:  | Active: active (running)          | En marche                     |"
 
-RED=":red_circle:"
-ORANGE=":orange_circle:"
-GREEN=":green_circle:"
 
 echo ""
 echo "## :a: Présence"
@@ -54,38 +78,37 @@ KO=":x:"
 
 for id in "${ETUDIANTS[@]}"
 do
+   SERVER=${SERVERS[${i}]}
+
    VERSION=`ssh -i ~/.ssh/b300098957@ramena.pk \
         -o StrictHostKeyChecking=no \
         -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVERS[${i}]} lsb_release -a 2>/dev/null`
+        -o ConnectTimeout=5 ${SERVER} lsb_release -a 2>/dev/null`
    # echo $VERSION
 
-   DOCKER=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status docker 2>/dev/null`
-   # echo $DOCKER
+   SERVICE="docker"
+   statut_du_service
+   DOCKER=$?
+   #echo $DOCKER
 
-   KUBELET=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status kubelet 2>/dev/null`
+   SERVICE="kubelet"
+   statut_du_service
+   KUBELET=$?
    # echo $KUBELET
 
    LVG=`ssh -i ~/.ssh/b300098957@ramena.pk \
         -o StrictHostKeyChecking=no \
         -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVERS[${i}]} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
+        -o ConnectTimeout=5 ${SERVER} sudo lvs ubuntu-vg/iscsi-lv --noheadings 2>/dev/null`
    # echo $LVG
 
-   ISCSI=`ssh -i ~/.ssh/b300098957@ramena.pk \
-        -o StrictHostKeyChecking=no \
-        -o PasswordAuthentication=no \
-        -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status iscsid 2>/dev/null`
+   SERVICE="iscsid"
+   statut_du_service
+   ISCSI=$?
    # echo $ISCSI
 
 
-   VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` |"
+   VALUE="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVER}\` |"
 
    if [[ $VERSION == *"Ubuntu"* ]]; then
 
@@ -93,26 +116,10 @@ do
        VALUE="${VALUE} ${OK} |"
 
        # --- DOCKER -------------
-       if [[ $DOCKER == *"(running)"* ]]; then
-          VALUE="${VALUE} ${GREEN} |"
-       else
-          if [[ $DOCKER == *"(auto-restart)"* ]]; then
-             VALUE="${VALUE} ${ORANGE} |"
-          else
-             VALUE="${VALUE} ${RED} |"
-          fi
-       fi
+       VALUE="${VALUE} ${COULEURS[${DOCKER}]} |"
 
        # --- KUBELET -------------
-       if [[ $KUBELET == *"(running)"* ]]; then
-          VALUE="${VALUE} ${GREEN} |"
-       else
-          if [[ $KUBELET == *"(auto-restart)"* ]]; then
-             VALUE="${VALUE} ${ORANGE} |"
-          else
-             VALUE="${VALUE} ${RED} |"
-          fi
-       fi
+       VALUE="${VALUE} ${COULEURS[${KUBELET}]} |"
 
        # --- LVG -------------
        if [[ $LVG == *"-wi-a-----"* ]]; then
@@ -122,15 +129,7 @@ do
        fi
 
        # --- ISCSI -------------
-       if [[ $ISCSI == *"(running)"* ]]; then
-          VALUE="${VALUE} ${GREEN} |"
-       else
-          if [[ $ISCSI == *"(auto-restart)"* ]]; then
-             VALUE="${VALUE} ${ORANGE} |"
-          else
-             VALUE="${VALUE} ${RED} |"
-          fi
-       fi
+       VALUE="${VALUE} ${COULEURS[${ISCSI}]} |"
 
    else
        VALUE="${VALUE} ${KO} | ${NOSSH}"
