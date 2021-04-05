@@ -131,7 +131,8 @@ saiph        Ready    <none>   22s     v1.18.6
 
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
-- [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv` 
+- [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv`
+- [ ] Créer le [périphérique](blockdevice.md) en mode block à gérer en réseau
 - [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
 
 #### :floppy_disk: Le stockage (Container Storage)
