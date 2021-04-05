@@ -7,9 +7,11 @@ https://docs.openebs.io/docs/next/ugcstor.html#admin-operations
 ## :a: Créer les Périphériques en mode bloc - BlockDevice CR (Custom Resource)
 
 
-- [ ] Créer les périphériques
+- [ ] Créer les périphériques :roll_of_paper:
 
 > Éxécuter les commandes `kubectl` se reférant aux fichiers `blockdevice-****-****-****-****.md`
+
+:bulb: Il devrait y avoir :three: fichiers à éxécuter
 
 
 - [ ] Vérifier la création des périphériques
