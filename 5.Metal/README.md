@@ -4,8 +4,8 @@ L'exercice dans cette section est de préparer sa grappe (cluster) que vous inst
 
 | :tada: Participation                                             |  Commentaires        |
 |------------------------------------------------------------------|----------|
-| [ :bust_in_silhouette: ](.scripts/Participation.md) Individuelle |          |
-| [ :busts_in_silhouette: ](.scripts/Grappes.md) en groupe         |          |
+| [ :bust_in_silhouette: Individuelle ](.scripts/Participation.md) |          |
+| [ :busts_in_silhouette: En groupe ](.scripts/Grappes.md)         |          |
 
 :x: [Réorganisation](.doc/Reorg.md) :writing_hand:	préalable des addresses IP sous le sous-réseau `10.13.237.0/24`
 
