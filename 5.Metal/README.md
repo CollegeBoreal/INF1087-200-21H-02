@@ -151,7 +151,11 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 <img src="images/1-config-sequence.svg" width="657" height="145"> </img>
 
 - [ ] Installer openEBS
+
+[Installer](install.md):pinching_hand: [openEBS](https://openebs.io). C'est une [Police](https://kubernetes-csi.github.io/docs/drivers.html) [CSI](https://kubernetes-csi.github.io/docs/) permettant une implémentation [SAN](https://en.wikipedia.org/wiki/Storage_area_network) du protocole [iSCSI](https://en.wikipedia.org/wiki/ISCSI) 
+
 - [ ] Appliquer les operations liées à l'administrateur de la grappe 
+
 - [ ] Appliquer les operations liées à l'utilisateur de la grappe
 
 Installer la [Police](https://kubernetes-csi.github.io/docs/drivers.html) de [CSI](https://kubernetes-csi.github.io) (Interface de Stockage de Conteneur) géré par [OpenEBS](.doc/openebs) :writing_hand: `Elastic Block Storage`
