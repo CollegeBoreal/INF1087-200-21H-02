@@ -59,16 +59,16 @@ brooks
 
 :building_construction: The below file contains 3 node configurations separated by `---` 
 
-| TAG | VALUE |
-|--------------------------------------------|--------------------------|
-| `{metadata.name}`                          | blockdevice-**PARTUUID** |
-| `{metadata.labels.kubernetes.io/hostname}` | **uname --nodename**              |
-| `{spec.capacity.storage}`                  | **fdisk --list (taille en bytes)  |
-| `{spec.devlinks.kind[by-id].links}`        | - DEVLINKS /dev/disk/**by-id(1)** |
-|                                            | - DEVLINKS /dev/disk/**by-id(2)** |
-| `{spec.devlinks.kind[by-path].links}`      | - DEVLINKS /dev/**mapper(1)** |
-| `{spec.nodeAttributes.nodeName]`           | **nodename** |
-| `{spec.path}`                              | - DEVNAME |
+| TAG | Valeur |
+|--------------------------------------------|------------------------------------|
+| `{metadata.name}`                          | blockdevice-**PARTUUID**           |
+| `{metadata.labels.kubernetes.io/hostname}` | **uname --nodename**               |
+| `{spec.capacity.storage}`                  | **fdisk --list (taille en bytes)** |
+| `{spec.devlinks.kind[by-id].links}`        | **udevadm info** - DEVLINKS /dev/disk/**by-id(1)**  |
+|                                            | **udevadm info**- DEVLINKS /dev/disk/**by-id(2)**  |
+| `{spec.devlinks.kind[by-path].links}`      | **udevadm info**- DEVLINKS /dev/**mapper(1)**      |
+| `{spec.nodeAttributes.nodeName]`           | **uname --nodename**               |
+| `{spec.path}`                              | **udevadm info**- DEVNAME |
 
 ```yaml
 $ kubectl apply --namespace openebs --filename - <<EOF 
