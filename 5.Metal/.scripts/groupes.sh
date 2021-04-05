@@ -55,7 +55,7 @@ do
 
    FOLDER=${DIR[${i}]}.${grappe}
 
-   VALUE="| ${i} | [${FOLDER}](${FOLDER}) |"
+   VALUE="| ${PERIPHERIQUES[${i}]} | [${FOLDER}](${FOLDER}) |"
 
    echo ${VALUE}
    let "i++"
