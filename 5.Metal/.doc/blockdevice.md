@@ -62,7 +62,7 @@ brooks
 |--------------------------------------------|------------------------------------|
 | `{metadata.name}`                          | blockdevice-**PARTUUID**           |
 | `{metadata.labels.kubernetes.io/hostname}` | **uname --nodename**               |
-| `{spec.capacity.storage}`                  | **fdisk --list (taille en bytes)** |
+| `{spec.capacity.storage}`                  | **fdisk --list (taille en octets -- bytes)** |
 | `{spec.devlinks.kind[by-id].links}`        | **udevadm info** - DEVLINKS /dev/disk/**by-id(1)**  |
 |                                            | **udevadm info**- DEVLINKS /dev/disk/**by-id(2)**  |
 | `{spec.devlinks.kind[by-path].links}`      | **udevadm info**- DEVLINKS /dev/**mapper(1)**      |
