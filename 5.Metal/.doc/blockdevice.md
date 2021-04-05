@@ -120,7 +120,7 @@ EOF
 
 :warning: Bien vérifier que le fichier aient les bonnes informations du périphérique `iscsi-lv`
 
-[:back:](../#round_pushpin-le-réseau-daire-de-stockage---san)
+[:back:](../#roll_of_paper-le-périphérique-block-device)
 
 
 # References
