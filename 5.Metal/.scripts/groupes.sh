@@ -5,11 +5,12 @@
 #
 #
 # --------------------------------------
-PERIPHERIQUES=(
+CHIFFRES=(
 ":zero:"
 ":one:"
 ":two:"
 ":three:"
+":four:"
 )
 
 GROUPE="boreal"
@@ -47,15 +48,17 @@ echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :roll_of_paper: BlockD
 echo "|------|--------------------------|---------------|-----------------------------|"
 
 i=0
+y=0
 OK=":white_check_mark:"
 KO=":x:"
 
 for grappe in "${GRAPPES[@]}"
 do
 
+   let "y++"
    FOLDER=${DIR[${i}]}.${grappe}
 
-   VALUE="| ${PERIPHERIQUES[${i}]} | [${FOLDER}](${FOLDER}) |"
+   VALUE="| ${CHIFFRES[${y}]} | [${FOLDER}](${FOLDER}) |"
 
    echo ${VALUE}
    let "i++"
