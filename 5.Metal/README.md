@@ -159,11 +159,11 @@ Dans notre environnement, nous allons choisir [openEBS](https://openebs.io) et s
 
 <img src="images/1-config-sequence.svg" width="657" height="145"> </img>
 
-- [ ]  [Installer](.doc/openebs-install.md):pinching_hand:
+- [ ]  [Installer](.doc/openebs-install.md):pinching_hand: [openEBS](https://openebs.io)
 
-- [ ]  Créer la **classe de stockage (sc)** , avec les périphériques ci-dessous en appliquant quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:.
+- [ ]  Créer la **classe de stockage (sc)** , avec les périphériques préalablement définis ci-dessus en appliquant quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:. permettant la création d'un réservoir de stockage `pool` et son utilisation grâce à la **classe de stockage (sc)** `standard`
 
-- [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** par défaut
+- [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** `standard` définie par `défaut`
 
 :bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
 
