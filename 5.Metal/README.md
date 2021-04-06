@@ -175,3 +175,10 @@ standard (default)          openebs.io/provisioner-iscsi                        
 ## :rocket: Les Services
 
 [:bookmark: Service](https://kubernetes.io/fr/docs/concepts/services-networking/service/)
+
+
+:busts_in_silhouette: activité en groupe
+
+##### :control_knobs: Le plan de contrôle (control plane)
+
+- [ ]  [Installer](.doc/porterelb.md):pinching_hand: [porterelb](https://porterelb.io). 
