@@ -149,6 +149,12 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 :busts_in_silhouette: activité en groupe à appliquer à partir du :control_knobs: plan de contrôle: 
 
+:round_pushpin: Le modèle kubernetes de stockage
+
+<img src="images/kube-storage-model.png" width="382" height="189"></img>
+
+
+
 <img src="images/1-config-sequence.svg" width="657" height="145"> </img>
 
 - [ ]  [Installer](.doc/openebs-install.md):pinching_hand: [openEBS](https://openebs.io). C'est une [Police](https://kubernetes-csi.github.io/docs/drivers.html) [CSI](https://kubernetes-csi.github.io/docs/) `CSI plugin` permettant une implémentation [SAN](https://en.wikipedia.org/wiki/Storage_area_network) du protocole [iSCSI](https://en.wikipedia.org/wiki/ISCSI) 
@@ -157,7 +163,6 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 - [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** par défaut
 
-<img src="images/kube-storage-model.png" width="382" height="189"></img>
 
 :bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
 
