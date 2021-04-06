@@ -28,3 +28,9 @@
 ☔:recharger la configuration
 ------------------------
 ![image](images/1.6.PNG)
+
+## 🃏:Installation des outils
+
+☁️: installer google cloud 
+--------------------------
+
