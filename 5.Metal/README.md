@@ -82,7 +82,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 - [ ] Installer le [plan de contrôle](.doc/control-plane.md) :writing_hand:	 
 - [ ] Initialiser le réseau de gousses (pod network) en utilisant le [CNI plugin](.doc/cni-plugin.md) :writing_hand: Calico
 
-:star2: Mais qu'est-ce qu'un [manifeste](.doc/manifeste.md)
+:star2: Mais qu'est-ce qu'un [manifeste](.doc/manifest.md) ?
 
 ##### :abacus: Les plan de données (data plane)
 
