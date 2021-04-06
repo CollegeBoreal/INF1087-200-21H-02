@@ -181,4 +181,4 @@ standard (default)          openebs.io/provisioner-iscsi                        
 
 ##### :control_knobs: Le plan de contrôle (control plane)
 
-- [ ]  [Installer](.doc/porterelb.md):pinching_hand: [porterelb](https://porterelb.io). 
+- [ ]  [Installer](.doc/porterlb.md):pinching_hand: [porterlb](https://porterlb.io). 
