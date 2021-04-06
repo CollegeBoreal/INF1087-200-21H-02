@@ -1,6 +1,6 @@
+# IP à l'externe
 
-
-
+## External IP 
 
 ```
 $ ip addr | grep 10.13.237
