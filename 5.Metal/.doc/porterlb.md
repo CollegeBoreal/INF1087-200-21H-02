@@ -4,6 +4,8 @@ https://porterlb.io/docs/getting-started/usage/use-porter-in-layer-2-mode/
 
 ## :o2: [Installer Porter](https://porterlb.io/docs/getting-started/installation/install-porter-on-kubernetes/#install-porter-using-kubectl)
 
+- [ ] Exécuter l'installation du manifeste ci-dessous
+
 ```
 $ kubectl apply --filename https://raw.githubusercontent.com/kubesphere/porter/master/deploy/porter.yaml
 ```
@@ -21,7 +23,7 @@ porter-manager-6d78f6fb7-kpl2k   1/1     Running     0          8m7s
 
 ## :round_pushpin: Permettre strictARP à kube-proxy
 
-En mode Couche 2, vous devez activer `strictARP` pour `kube-proxy` afin que toutes les cartes réseaux de la grappe Kubernetes cessent de répondre aux requêtes `ARP` des autres cartes réseaux et que Porter gère les requêtes `ARP` à la place.
+En mode Couche 2, vous devez activer `strictARP` pour `kube-proxy` afin que toutes les cartes réseaux de la grappe Kubernetes cessent de répondre aux requêtes `ARP` des autres cartes réseaux et que Porter gère les requêtes `ARP` à leur place.
 
 - [ ] Exécuter la commande suivante pour modifier le `kube-proxy ConfigMap`:
 
