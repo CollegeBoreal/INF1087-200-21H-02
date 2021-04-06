@@ -2,7 +2,7 @@
 
 https://porterlb.io/docs/getting-started/usage/use-porter-in-layer-2-mode/
 
-## :zero: [Installer Porter](https://porterlb.io/docs/getting-started/installation/install-porter-on-kubernetes/#install-porter-using-kubectl)
+## :o2: [Installer Porter](https://porterlb.io/docs/getting-started/installation/install-porter-on-kubernetes/#install-porter-using-kubectl)
 
 ```
 $ kubectl apply --filename https://raw.githubusercontent.com/kubesphere/porter/master/deploy/porter.yaml
@@ -19,7 +19,7 @@ porter-manager-6d78f6fb7-kpl2k   1/1     Running     0          8m7s
 ```
 
 
-## :one: Permettre strictARP à kube-proxy
+## :round_pushpin: Permettre strictARP à kube-proxy
 
 En mode Couche 2, vous devez activer `strictARP` pour `kube-proxy` afin que toutes les cartes réseaux de la grappe Kubernetes cessent de répondre aux requêtes `ARP` des autres cartes réseaux et que Porter gère les requêtes `ARP` à la place.
 
@@ -42,7 +42,7 @@ ipvs:
 $ kubectl rollout restart daemonset kube-proxy --namespace kube-system
 ```
 
-## :two: Spécifiez la carte réseau à utiliser pour Porter
+## :round_pushpin: Spécifiez la carte réseau à utiliser pour Porter
 
 Si le nœud sur lequel Porter est installé a plusieurs «NIC», vous devez spécifier le «NIC» utilisé pour Porter en mode «Layer 2». Vous pouvez ignorer cette étape si le nœud n'a qu'un seul «NIC».
 
@@ -57,7 +57,7 @@ $ kubectl annotate nodes betelgeuse \
 ```
 
 
-## :three: Créer l'objet EIP (External IP) 
+## :round_pushpin: Créer l'objet EIP (External IP) 
 
 L'objet `Eip` functionne comme un réservoir d'adresse IP pour Porter.
 
