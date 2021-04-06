@@ -51,4 +51,4 @@ sda                       273.4G disk
 ```
 
 
-[:back:](../#floppy_disk-le-réseau-daire-de-stockage---san)
+[:back:](../#roll_of_paper-le-périphérique-block-device)
