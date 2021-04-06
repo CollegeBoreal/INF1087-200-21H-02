@@ -33,4 +33,5 @@
 
 ☁️: installer google cloud 
 --------------------------
+![image](images/2.1.PNG)
 
