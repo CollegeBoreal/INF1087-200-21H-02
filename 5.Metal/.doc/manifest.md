@@ -15,3 +15,10 @@ Le fichier yaml entre dans cet espace séparé par le séparateur EOF
 EOF
 ```
 
+:round_pushpin: Utiloisation du manifeste avec un fichier `.yaml`
+
+```yaml
+$ kubectl apply --filename=monfichier.yaml
+```
+
+
