@@ -64,4 +64,19 @@
  🧪: Tester que les outils sont installés
  ------------------------------------------
   ![image](images/2.8.PNG)
+  
+  
+## 🃏: Les plans
+
+🥖: Installer le plan de contrôle ✍️
+▪️  Télécharger les images 
+
+![image](images/3.1.PNG)
+
+▪️ Véfifier l'installation des images
+
+![image](images/3.2.PNG)
+
+
+
 
