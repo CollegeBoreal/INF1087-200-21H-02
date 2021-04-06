@@ -174,4 +174,4 @@ standard (default)          openebs.io/provisioner-iscsi                        
 
 ## :rocket: Les Services
 
-[:bookmark: Service](https://kubernetes.io/docs/concepts/services-networking/service/)
+[:bookmark: Service](https://kubernetes.io/fr/docs/concepts/services-networking/service/)
