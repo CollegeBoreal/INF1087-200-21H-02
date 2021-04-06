@@ -9,7 +9,7 @@ Un manifeste spécifie l'état souhaité d'un objet que Kubernetes conservera lo
 ```yaml
 $ kubectl apply --filename - <<EOF
 
-Le fichier yaml entre dans cet espace
+Le fichier yaml entre dans cet espace séparé par le séparateur EOF
 
 ---
 EOF
