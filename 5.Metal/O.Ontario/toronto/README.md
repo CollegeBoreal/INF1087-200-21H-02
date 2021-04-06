@@ -35,3 +35,11 @@
 --------------------------
 ![image](images/2.1.PNG)
 
+🔑: Ajouter la clé PGP
+-------------------
+![image](images/2.2.PNG)
+
+◾ Vérifier que l'empreinte de la clé
+
+![image](images/2.2.PNG)
+
