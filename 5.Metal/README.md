@@ -159,11 +159,17 @@ Dans notre environnement, nous allons choisir [openEBS](https://openebs.io) et s
 
 <img src="images/1-config-sequence.svg" width="657" height="145"> </img>
 
-- [ ]  [Installer](.doc/openebs-install.md):pinching_hand: [openEBS](https://openebs.io)
+:round_pushpin:  [Installer](.doc/openebs-install.md):pinching_hand: le `CSI Plugin` [openEBS](https://openebs.io)
 
-- [ ]  Créer la **classe de stockage (sc)** , avec les périphériques préalablement définis ci-dessus en appliquant quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:. permettant la création d'un réservoir de stockage `pool` et son utilisation grâce à la **classe de stockage (sc)** `standard`
+:round_pushpin:  Créer la **classe de stockage (sc)** `standard` 
 
-- [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** `standard` définie par `défaut`
+- [ ] Installer les périphériques préalablement définis ci-dessus 
+- [ ] Créer d'un réservoir de stockage `pool` avec les :three: périphériques
+- [ ] Créer la **classe de stockage (sc)** `standard` avec le réservoir de stockage `pool`
+
+Utiliser les [operations d'administration](.doc/openebs-adminop.md):pinching_hand:. suivante pour la création de la  **classe de stockage (sc)** `standard`
+
+:round_pushpin:  Vous pouvez maintenant utiliser la **classe de stockage (sc)** `standard` définie par `défaut`
 
 :bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
 
