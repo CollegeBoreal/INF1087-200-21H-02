@@ -81,7 +81,7 @@ $ ip addr | grep 10.13.237
 :round_pushpin: Sauveguarder le fichier `porterlb.md`
 
 - [ ] modifiez les informations du réservoir d'IP dans le champ `{spec.address}` (i.e. `10.13.237.8-10.13.237.11`) séparé par un `-` 
-- [ ] modifiez les informations du réservoir d'IP dans le champ `{spec.interface}` (i.e. `enp3s0f0`)
+- [ ] modifiez l'informations de l'interface "NIC" dans le champ `{spec.interface}` (i.e. `enp3s0f0`)
 - [ ] après avoir modifier les informations sauvegarder sous le nom `porterlb.md` dans le répertoire de votre grappe
 - [ ] Exécuter la commande `kubectl` à partir du fichier.
 
