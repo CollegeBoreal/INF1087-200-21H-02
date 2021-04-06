@@ -25,10 +25,16 @@ porter-manager-6d78f6fb7-kpl2k   1/1     Running     0          8m7s
 
 En mode Couche 2, vous devez activer `strictARP` pour `kube-proxy` afin que toutes les cartes réseaux de la grappe Kubernetes cessent de répondre aux requêtes `ARP` des autres cartes réseaux et que Porter gère les requêtes `ARP` à leur place.
 
-- [ ] Exécuter la commande suivante pour modifier le `kube-proxy ConfigMap`:
+- [ ] Exécuter la commande suivante pour [éditer](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_edit) le `kube-proxy ConfigMap`:
 
 ```
 $ kubectl edit configmap kube-proxy --namespace kube-system
+```
+
+:bulb: Pour utiliser `nano` en tant qu'éditeur
+
+```
+$ KUBE_EDITOR="nano" kubectl edit configmap kube-proxy --namespace kube-system
 ```
 
 - [ ] Dans la configuration `kube-proxy ConfigMap YAML`, mettre `data.config.conf.ipvs.strictARP` à `true`.
