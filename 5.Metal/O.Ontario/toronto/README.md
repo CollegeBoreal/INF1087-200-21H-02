@@ -17,3 +17,14 @@
 ------------------------------------------------------------
 ![image](images/1.2.PNG)
 
+🪀 Vérifiez que l'échange dans /etc/fstab est commentee
+----------------------------------------------------
+![image](images/1.4.PNG)
+
+🎍 voir le pont
+-----------------
+![image](images/1.5.PNG)
+
+☔:recharger la configuration
+------------------------
+![image](images/1.6.PNG)
