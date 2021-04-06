@@ -139,7 +139,7 @@ saiph        Ready    <none>   22s     v1.18.6
 Le but de l'exercice est de créer un disque ou plutôt un volume logique et de le mettre en réseau avec `iSCSI`
 
 
-- [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	d'[`open-iscsi`](http://www.open-iscsi.com/)
+- [ ] Installer le Service [:minidisc: iSCSI](.doc/iscsi.md) :writing_hand:	permettant une implémentation [SAN](https://en.wikipedia.org/wiki/Storage_area_network) du protocole d'[`open-iscsi`](http://www.open-iscsi.com/)
 - [ ] Créer le volume logique [:cd: lvm](.doc/lvm.md) :writing_hand:	appellé `iscsi-lv`
 - [ ] Préparer le [périphérique](.doc/blockdevice.md) en mode block et l'enregistrer dans un fichier `blockdevice-xxxx-xxx-xxx.md` du répertoire de votre grappe.
 
@@ -149,20 +149,21 @@ Le but de l'exercice est de créer un disque ou plutôt un volume logique et de 
 
 :busts_in_silhouette: activité en groupe à appliquer à partir du :control_knobs: plan de contrôle: 
 
-:round_pushpin: Le modèle kubernetes de stockage
+:round_pushpin: Le modèle de stockage de kubernetes 
 
 <img src="images/kube-storage-model.png" width="382" height="189"></img>
 
+Le standard Kubernetes permet aux founisseurs d'infrastructure d'utiliser leur propre moteur de stockage pour conteneur ou encore `CS` (Container Storage). Pour cela, la norme Kubernetes fournit une interface [CSI](https://kubernetes-csi.github.io/docs). Cette interface permet d'utiliser des [Police](https://kubernetes-csi.github.io/docs/drivers.html) ou `Plugin` en fonction de l'environnement info-nuagique ou métal.
 
+Dans notre environnement, nous allons choisir [openEBS](https://openebs.io) et son `Moteur de Stockage` [cStor](https://docs.openebs.io/docs/next/cstor.html) comme `CSI Plugin`
 
 <img src="images/1-config-sequence.svg" width="657" height="145"> </img>
 
-- [ ]  [Installer](.doc/openebs-install.md):pinching_hand: [openEBS](https://openebs.io). C'est une [Police](https://kubernetes-csi.github.io/docs/drivers.html) [CSI](https://kubernetes-csi.github.io/docs/) `CSI plugin` permettant une implémentation [SAN](https://en.wikipedia.org/wiki/Storage_area_network) du protocole [iSCSI](https://en.wikipedia.org/wiki/ISCSI) 
+- [ ]  [Installer](.doc/openebs-install.md):pinching_hand:
 
-- [ ] Pour utiliser [cStor](https://docs.openebs.io/docs/next/cstor.html) comme `Moteur de Stockage` en concordance avec le `CSI` , fournir quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:.
+- [ ]  Créer la **classe de stockage (sc)** , avec les périphériques ci-dessous en appliquant quelques [operations d'administration](.doc/openebs-adminop.md):pinching_hand:.
 
 - [ ] Vous pouvez maintenant utiliser la **classe de stockage (sc)** par défaut
-
 
 :bulb: Vérifier que la classe de stockage par **défaut** est bien **standard**
 
