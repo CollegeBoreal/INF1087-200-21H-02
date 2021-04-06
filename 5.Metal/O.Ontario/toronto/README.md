@@ -43,3 +43,6 @@
 
 ![image](images/2.3.PNG)
 
+💀: Ajouter le fichier kubernetes debian au référentiel
+--------------------------------------------------------
+![image](images/2.4.PNG)
