@@ -46,3 +46,22 @@
 💀: Ajouter le fichier kubernetes debian au référentiel
 --------------------------------------------------------
 ![image](images/2.4.PNG)
+
+## 🃏  Installer kubeadm and kubectl
+
+▪️: Choisir une version spécifique de Kubernetes
+
+![image](images/2.5.PNG)
+
+🚆: Installer la version spécifique de Kubernetes
+---------------------------------------------------
+![image](images/2.6.PNG)
+
+🍏:  Prévenir l'altération (mise à jour) des outils
+----------------------------------------------------
+ ![image](images/2.7.PNG)
+ 
+ 🧪: Tester que les outils sont installés
+ ------------------------------------------
+  ![image](images/2.8.PNG)
+
