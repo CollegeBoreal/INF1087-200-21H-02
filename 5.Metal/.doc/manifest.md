@@ -27,6 +27,7 @@ $ kubectl apply --filename monfichier.yaml
 $ kubectl apply --filename https://monserveur.com/monfichier.yaml
 ```
 
+[:back:](../#control_knobs-le-plan-de-contrôle-control-plane) --- Je le savais déjà
 
 # Références
 
