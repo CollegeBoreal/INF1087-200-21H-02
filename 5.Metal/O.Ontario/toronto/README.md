@@ -41,5 +41,5 @@
 
 ◾ Vérifier que l'empreinte de la clé
 
-![image](images/2.2.PNG)
+![image](images/2.3.PNG)
 
