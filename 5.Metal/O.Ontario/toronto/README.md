@@ -12,3 +12,7 @@
 ▪️:swap
 
 ![image](images/1.2.PNG)
+
+🤸:swap désactivé swap  au démarrage dans le file/etc/fstab
+------------------------------------------------------------
+![image](images/1.3.PNG)
