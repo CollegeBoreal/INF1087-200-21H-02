@@ -66,8 +66,10 @@
   ![image](images/2.8.PNG)
   
   ## 🥑: domain 
- ▪️: ping a mon domain 
-  ![image](images/ping.PNG)
+ ▪️ ping a mon domain 
+ 
+ ![image](images/ping.PNG)                           ![image](images/domain.PNG)
+ 
   
   
   
