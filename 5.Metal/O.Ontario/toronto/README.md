@@ -68,7 +68,8 @@
   ## 🥑: domain 
  ▪️ ping a mon domain 
  
- ![image](images/ping.PNG)                           ![image](images/domain.PNG)
+ ![image](images/ping.PNG)                           ![image](images/domain.PNG)          ![image](images/ping1.PNG)        
+
  
   
   
