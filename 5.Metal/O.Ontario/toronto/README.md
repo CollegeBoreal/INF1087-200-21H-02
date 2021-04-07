@@ -77,6 +77,7 @@
 ## 🃏: Les plans
 
 🥖: Installer le plan de contrôle ✍️
+
 ▪️  Télécharger les images 
 
 ![image](images/3.1.PNG)
