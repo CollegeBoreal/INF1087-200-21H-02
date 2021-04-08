@@ -77,6 +77,7 @@
 ## 🃏: Les plans
 
 🥖: Installer le plan de contrôle ✍️
+-------------------------------------
 
 ▪️  Télécharger les images 
 
@@ -86,6 +87,9 @@
 
 ![image](images/3.2.PNG)
 
+ 🎛️ Initialiser la grappe
+ -------------------------
+![image](images/3.3.PNG)                            ![image](images/3.4.PNG)
 
 
 
