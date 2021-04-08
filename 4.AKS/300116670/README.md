@@ -2,6 +2,8 @@
 
 ## PRÉRÉQUIS
 
-📍[:round_pushpin:Nodejs](https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/) !
+Sur votre PC:
 
-📍[:round_pushpin:Nodejs](https://nodejs.org/fr/docs/guides/nodejs-docker-webapp/) !
+:round_pushpin: Installer [kubectl](https://github.com/CollegeBoreal/Tutoriels/blob/main/2.MicroServices/3.Orchestration/1.Kubernetes/README.md#a-kubectl-client)
+
+:round_pushpin: Installer [Lens](https://github.com/CollegeBoreal/Tutoriels/blob/main/2.MicroServices/3.Orchestration/1.Kubernetes/README.md#star-ide)
