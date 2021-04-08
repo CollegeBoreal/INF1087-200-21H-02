@@ -45,6 +45,19 @@ Sur votre PC:
    
 ### :b: SE CONNECTER À DOKUWIKI
 
+ I/PREMIERE ÉTAPE: Avec l'adresse IP
+
+
+
+   ✔️ Ouvrir l'onglet **network**
+
+   ✔️Ouvrir service dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
+   
+   
+   II/DEUXIÈME ÉTAPE: A partir d'un nom de domaine 
+   
+   
+ ![image](connexion_successfull.PNG)
 
    
    
