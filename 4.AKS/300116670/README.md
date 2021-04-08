@@ -13,7 +13,13 @@ Sur votre PC:
 
 ### 🅰️ OUVRIR L'ONGLET APPS DANS L'APPLICATION LENS
 
-Après avoir ouvert l'onglet apps , cliquez sur **Charts** puis dans la barre de recherche puis entrez le nom de l'application que vous souhaitez installer. Dans notre cas il s'Agit de DOKUWIKI
+Après avoir ouvert l'onglet apps:
+
+cliquez sur **Charts** 
+
+puis dans la barre de recherche puis entrez le nom de l'application que vous souhaitez installer. Dans notre cas il s'Agit de DOKUWIKI
+
+cliquez sur Install
 
 ![image](dokuwiki_install.PNG)
 
