@@ -62,3 +62,22 @@ $ sudo systemctl enable kubelet && sudo systemctl start kubelet
 # Références
 
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/kubelet-integration/
+
+
+# :x: Troubleshooting
+
+:one: Si vous vous êtes trompé de version 
+
+- [ ] vérifier la version installée
+
+```
+$ sudo dpkg --list kubelet
+```
+
+- [ ] Si elle n'est pas bonne, enlever la librairie
+
+```
+$ sudo apt purge kubelet
+```
+
+:bulb: Si une librarie en dépend, désinstaller la (i.e. `kubeadm`)
