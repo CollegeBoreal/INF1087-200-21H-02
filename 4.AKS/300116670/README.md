@@ -13,7 +13,7 @@ Sur votre PC:
 
 ### 🅰️ OUVRIR L'ONGLET APPS DANS L'APPLICATION LENS
 
-   I/PREMIERE ÉTAPE: INSTALLER
+   **I/PREMIERE ÉTAPE: INSTALLER**
 
    Après avoir ouvert l'onglet apps:
 
@@ -27,7 +27,7 @@ Sur votre PC:
 
 
 
-   II/ 🔑 DEUXIEME ETAPE: OBTENIR LES CREDENTIALS 🔑
+   **II/ 🔑 DEUXIEME ETAPE: OBTENIR LES CREDENTIALS 🔑**
    
    Dans le meme onglet(APPS):
    
@@ -45,16 +45,22 @@ Sur votre PC:
    
 ### :b: SE CONNECTER À DOKUWIKI
 
- I/PREMIERE ÉTAPE: Avec l'adresse IP
+ **I/PREMIERE ÉTAPE: Avec l'adresse IP**
 
 
 
-   ✔️ Ouvrir l'onglet **network**
+   ✔️ Ouvrir l'onglet **Network**
 
-   ✔️Ouvrir service dans lens afin de voir l'adresse ip publique qui vous permettra de consulter wordpress que vous avez installer, ensuite allez dans votre navigateur tapez cet address suivie de admin cette page va s'ouvrir pour vous permettre de d'entre votre credential:
+   ✔️Ouvrir **Services** dans le meme onglet ainsi vous pourrez récuper votre adresse IP
+   ✔️Ouvrez votre navigateur et entrer l'adresse IP dans la barre de recherche
+    suivie de admin .Vous pourrez alors utilisez les credentials récuperer plus haut pour vous connecter.
+    
+   ![image](login.PNG)
    
    
-   II/DEUXIÈME ÉTAPE: A partir d'un nom de domaine 
+**II/DEUXIÈME ÉTAPE: A partir d'un nom de domaine**
+   
+  
    
    
  ![image](connexion_successfull.PNG)
