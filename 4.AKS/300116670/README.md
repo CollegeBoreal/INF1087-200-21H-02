@@ -33,9 +33,21 @@ Sur votre PC:
    
    ✔️Cliquez sur **Releases** 
    
-   ✔️Copier la zone encadrée ci-dessous
+   ✔️Cliquez sur votre release nommé **dokuwiki** et une fenetre apparaitra sur la droite de votre écran. Allez vers le bas.
    
-   ![image](Credentials.PNG)
+   ✔️Copier la zone encadrée ci-dessous sur l'image 
+   
+   ![image](credentials_lens.PNG)
+   
+   ✔️Coller la commnande dnas un terminal, pour ma part j'ai utilisé Gitbash
+   
+   ![image](credentials.PNG)
+   
+### :b: SE CONNECTER À DOKUWIKI
+
+
+   
+   
    
    
 
