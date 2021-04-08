@@ -13,7 +13,7 @@ Sur votre PC:
 
 ### 🅰️ OUVRIR L'ONGLET APPS DANS L'APPLICATION LENS
 
-:first_place_medal:
+   I/PREMIERE ÉTAPE: INSTALLER
 
    Après avoir ouvert l'onglet apps:
 
@@ -24,6 +24,20 @@ Sur votre PC:
    ✔️Cliquez sur Install
 
 ![image](dokuwiki_install.PNG)
+
+
+
+   II/ 🔑 DEUXIEME ETAPE: OBTENIR LES CREDENTIALS 🔑
+   
+   Dans le meme onglet(APPS):
+   
+   ✔️Cliquez sur **Releases** 
+   
+   ✔️Copier la zone encadrée ci-dessous
+   
+   ![image](Credentials.PNG)
+   
+   
 
 
 
