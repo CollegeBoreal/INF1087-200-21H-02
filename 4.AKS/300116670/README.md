@@ -47,8 +47,6 @@ Sur votre PC:
 
  **I/PREMIERE ÉTAPE: Avec l'adresse IP**
 
-
-
    ✔️ Ouvrir l'onglet **Network**
 
    ✔️Ouvrir **Services** dans le meme onglet ainsi vous pourrez récuper votre adresse IP
@@ -60,9 +58,8 @@ Sur votre PC:
    
 **II/DEUXIÈME ÉTAPE: A partir d'un nom de domaine**
    
-  
-   
-   
+ ![image](login.PNG)
+ 
  ![image](connexion_successfull.PNG)
 
    
