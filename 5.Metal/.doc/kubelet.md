@@ -81,3 +81,5 @@ $ sudo apt purge kubelet
 ```
 
 :bulb: Si une librarie en dépend, désinstaller la (i.e. `kubeadm`)
+
+- [ ] Réinstaller la librairie avec la bonne version
