@@ -26,7 +26,7 @@ kubectl apply --namespace openebs --filename - <<EOF
      - /dev/mapper/ubuntu--vg-iscsi--lv
      - /dev/ubuntu-vg/iscsi-lv
    nodeAttributes:
-     nodeName: brooks
+     nodeName: calgary
    path: /dev/dm-1
 ---
 EOF
