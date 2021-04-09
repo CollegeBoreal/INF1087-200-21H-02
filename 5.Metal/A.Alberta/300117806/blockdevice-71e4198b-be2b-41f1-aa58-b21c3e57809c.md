@@ -1,4 +1,5 @@
-kubectl apply --namespace openebs --filename - <<EOF 
+```yaml
+$ kubectl apply --namespace openebs --filename - <<EOF 
  apiVersion: openebs.io/v1alpha1
  kind: BlockDevice
  metadata:
@@ -28,5 +29,7 @@ kubectl apply --namespace openebs --filename - <<EOF
    nodeAttributes:
      nodeName: calgary
    path: /dev/dm-1
+   
 ---
 EOF
+```
