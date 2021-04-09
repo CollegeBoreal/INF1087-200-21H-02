@@ -3,7 +3,7 @@ kubectl apply --namespace openebs --filename - <<EOF
  apiVersion: openebs.io/v1alpha1
  kind: BlockDevice
  metadata:
-   name: blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
+   name: blockdevice-0677cb25-01d4-4b7f-b318-77a98705173a
    labels:
      kubernetes.io/hostname: brooks
      ndm.io/managed: "false"
