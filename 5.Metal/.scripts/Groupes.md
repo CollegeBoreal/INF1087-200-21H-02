@@ -1,4 +1,4 @@
-# Participation du groupe au 09-04-2021 06:32
+# Participation du groupe au 09-04-2021 06:51
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,9 +14,9 @@
 
 ## :a: Présence
 
-|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: |
-|------|--------------------------|---------------|--------------------------|-----------------------------|
-| :one: | [A.Alberta](../A.Alberta) | :x: | :zero: | :four: |
-| :two: | [B.Africa](../B.Africa) | :x: | :zero: | :one: |
-| :three: | [M.GTA](../M.GTA) | [:white_check_mark:](../M.GTA/.kube/config) | :zero: | :one: |
-| :four: | [O.Ontario](../O.Ontario) | :x: | :zero: | :two: |
+|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: | :potable_water: Reservoir | :oil_drum: Stockage 
+|------|--------------------------|---------------|--------------------------|-----------------------------|-|-|
+| :one: | [A.Alberta](../A.Alberta) | :x: | :zero: | :four: | :x: | :x: |
+| :two: | [B.Africa](../B.Africa) | :x: | :zero: | :one: | :x: | :x: |
+| :three: | [M.GTA](../M.GTA) | [:white_check_mark:](../M.GTA/.kube/config) | :zero: | :one: | :x: | :x: |
+| :four: | [O.Ontario](../O.Ontario) | :x: | :zero: | :two: | :x: | :x: |

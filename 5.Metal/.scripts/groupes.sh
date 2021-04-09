@@ -44,8 +44,8 @@ echo "| :x:                | Étape inexistante             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: |"
-echo "|------|--------------------------|---------------|--------------------------|-----------------------------|"
+echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: | :potable_water: Reservoir | :oil_drum: Stockage "
+echo "|------|--------------------------|---------------|--------------------------|-----------------------------|-|-|"
 
 i=0
 y=0
@@ -61,21 +61,40 @@ do
    VALUE="| ${CHIFFRES[${y}]} | [${FOLDER}](../${FOLDER}) |"
 
    # --- config ---
-   ls ${FOLDER}/.kube/config 2> /dev/null 1> /dev/null
-   LS=$?
-   # echo $LS
-   if [ $LS == 0 ]; then
+   CONFIG=${FOLDER}/.kube/config
+   # echo $CONFIG
+   if [ -f "$CONFIG" ]; then
       VALUE="${VALUE} [${OK}](../${FOLDER}/.kube/config) |"
    else
       VALUE="${VALUE} ${KO} |"
    fi
-   
+
+   # --- combien de noeuds en tout ---   
    NODE_COUNT=`kubectl get nodes --kubeconfig ${FOLDER}/.kube/config --no-headers 2> /dev/null | grep -v master | wc -l`
    # echo $NODE_COUNT
    VALUE="${VALUE} ${CHIFFRES[${NODE_COUNT}]} |"
 
+   # --- combien de peripheriques en tout ---   
    DEVICE_COUNT=`ls ${FOLDER}/blockdevice-*.md 2> /dev/null | wc -l`
    VALUE="${VALUE} ${CHIFFRES[${DEVICE_COUNT}]} |"
+
+   # --- reservoir de peripheriques ---
+   POOL=${FOLDER}/StoragePoolClaim.md
+   # echo $POOL
+   if [ -f "$POOL" ]; then
+      VALUE="${VALUE} [${OK}](../${FOLDER}/StoragePoolClaim.md) |"
+   else
+      VALUE="${VALUE} ${KO} |"
+   fi
+
+   # --- reservoir de peripheriques ---
+   CLASS=${FOLDER}/StorageClass.md
+   # echo $CLASS
+   if [ -f "$CLASS" ]; then
+      VALUE="${VALUE} [${OK}](../${FOLDER}/StorageClass.md) |"
+   else
+      VALUE="${VALUE} ${KO} |"
+   fi
 
    echo ${VALUE}
    let "i++"
