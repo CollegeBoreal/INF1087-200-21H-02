@@ -1,5 +1,5 @@
 ```yaml
-kubectl apply -f - <<EOF
+$ kubectl apply -f - <<EOF
 #Use the following YAMLs to create a cStor Storage Pool.
 apiVersion: openebs.io/v1alpha1
 kind: StoragePoolClaim
