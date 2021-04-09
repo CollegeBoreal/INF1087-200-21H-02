@@ -5,11 +5,11 @@ $ kubectl apply --namespace openebs --filename - <<EOF
  apiVersion: openebs.io/v1alpha1
  kind: BlockDevice
  metadata:
-   name: blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
+   name: blockdevice-e4cdeaed-5419-4518-b2a3-1df52d94ca9e
    labels:
      kubernetes.io/hostname: guinee
      ndm.io/managed: "false"
-     ndm.io/blockdevice-type: blockdevice-e4cdeaed-5419-4518-b2a3-1df52d94ca9e
+     ndm.io/blockdevice-type: blockdevice
  status:
    claimState: Unclaimed
    state: Active
