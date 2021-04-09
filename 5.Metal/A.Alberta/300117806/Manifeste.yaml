@@ -28,3 +28,4 @@ kubectl apply --namespace openebs --filename - <<EOF
      nodeName: brooks
    path: /dev/dm-1
 ---
+EOF
