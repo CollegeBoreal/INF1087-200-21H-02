@@ -100,5 +100,14 @@
   ![image](images/3.7.PNG)
  
 
+## 🃏 Installer le plugin CNI
+
+◾ Sur le serveur du plan de contrôle:
+
+ ![image](images/4.1PNG)
+ 
+ ▪️ Vérifier le service  Kubelet après l'installation du plugin CNI
+ ![image](images/4.2PNG)
+ 
 
 
