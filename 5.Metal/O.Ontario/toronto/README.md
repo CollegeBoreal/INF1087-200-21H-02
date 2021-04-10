@@ -131,8 +131,11 @@
  ▪️ Exécuter la commande permettant de joindre la grappe
  
   ![image](images/5.5.PNG)
+  
+  ▪️ sur le plan de controle
+  
  
- 
+  ![image](images/5.6.PNG)
 
  
 
