@@ -31,4 +31,7 @@ Sur votre PC:
 
 - [ ] Y mettre le fichier `config` de votre grappe
 
-- [ ] Ajouter la grappe AKS à votre nom de domaine et y ajoutant l'adresse IP de votre `service` Kubernetes (si disponible)
+## :CL: IP et Domaine
+
+- [ ] Démontrer l'adresse IP de votre `service` Kubernetes (si disponible)
+- [ ] Ajouter la grappe AKS à votre nom de domaine et démontrer que votre grappe tourne sous le nom de domaine
