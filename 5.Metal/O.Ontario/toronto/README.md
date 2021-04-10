@@ -95,6 +95,10 @@
 ▪️ verifie le context 
 
  ![image](images/3.6.PNG)
+ 
+ ▪️: Vérifier les noeux
+  ![image](images/3.7.PNG)
+ 
 
 
 
