@@ -107,6 +107,8 @@
  ![image](images/4.1PNG)
  
  ▪️ Vérifier le service  Kubelet après l'installation du plugin CNI
+ 
+ 
  ![image](images/4.2PNG)
  
 
