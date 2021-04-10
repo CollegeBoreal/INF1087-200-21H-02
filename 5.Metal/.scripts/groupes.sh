@@ -44,8 +44,8 @@ echo "| :x:                | Étape inexistante             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: | :potable_water: Reservoir | :oil_drum: Stockage "
-echo "|------|--------------------------|---------------|--------------------------|-----------------------------|-|-|"
+echo "|:hash:| Grappe :wheel_of_dharma: | :gear: Config | :abacus: Plan de données | :three: BlockDevices :roll_of_paper: | :potable_water: Reservoir | :floppy_disk: Stockage | :rocket: Service |"
+echo "|-|-|-|-|-|-|-|-|"
 
 i=0
 y=0
@@ -87,11 +87,20 @@ do
       VALUE="${VALUE} ${KO} |"
    fi
 
-   # --- reservoir de peripheriques ---
+   # --- classe de peripheriques ---
    CLASS=${FOLDER}/StorageClass.md
    # echo $CLASS
    if [ -f "$CLASS" ]; then
       VALUE="${VALUE} [${OK}](../${FOLDER}/StorageClass.md) |"
+   else
+      VALUE="${VALUE} ${KO} |"
+   fi
+
+   # --- service ---
+   PORTER=${FOLDER}/porterlb.md
+   # echo $PORTER
+   if [ -f "$PORTER" ]; then
+      VALUE="${VALUE} [${OK}](../${FOLDER}/porterlb.md) |"
    else
       VALUE="${VALUE} ${KO} |"
    fi
