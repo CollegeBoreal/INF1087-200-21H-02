@@ -104,12 +104,11 @@
 
 ◾ Sur le serveur du plan de contrôle:
 
- ![image](images/4.1PNG)
+ ![image](images/4.1.PNG)
  
  ▪️ Vérifier le service  Kubelet après l'installation du plugin CNI
  
- 
-![image](images/4.2PNG)
+ ![image](images/4.2.PNG)
  
 
 
