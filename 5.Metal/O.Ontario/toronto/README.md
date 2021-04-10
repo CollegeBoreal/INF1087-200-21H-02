@@ -92,4 +92,9 @@
 ![image](images/3.3.PNG)                            ![image](images/3.4.PNG)
 
 
+▪️ verifie le context 
+
+ ![image](images/3.6.PNG)
+
+
 
