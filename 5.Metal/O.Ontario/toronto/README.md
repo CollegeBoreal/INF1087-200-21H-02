@@ -110,5 +110,30 @@
  
  ![image](images/4.2.PNG)
  
+## 🃏 Permettre aux autres noeux de joindre ✍️ la grappe.
+
+▪️ Joindre un noeud
+
+ ![image](images/5.1.PNG)
+ 
+ ▪️ Afficher la liste des 🎟️ Jetons
+ 
+ ![image](images/5.2.PNG)
+ 
+ ▪️: Le hashage #️⃣ du certificat 
+ 
+ ![image](images/5.3.PNG)
+ 
+ ▪️ Donner les valeurs récupérées aux variables d'environnements suivantes: (par example)
+ 
+ ![image](images/5.4.PNG)
+ 
+ ▪️ Exécuter la commande permettant de joindre la grappe
+ 
+  ![image](images/5.5.PNG)
+ 
+ 
+
+ 
 
 
