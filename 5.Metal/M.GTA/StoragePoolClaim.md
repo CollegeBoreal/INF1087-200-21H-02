@@ -22,6 +22,7 @@ spec:
     blockDeviceList:
     - blockdevice-4090a013-bb15-4bf8-912e-344562b01708 
     - blockdevice-b50c6f43-f2f2-4531-99c2-903cb7399a51
+    - blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
 ---
 EOF
 
