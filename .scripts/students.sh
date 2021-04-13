@@ -2,9 +2,11 @@
 
 ETUDIANTS=(
 300111441
+300111824
 300115065
 300115140
 300116670
+300116685
 300116973
 300117178
 300117314
@@ -17,9 +19,11 @@ ETUDIANTS=(
 
 AVATARS=(
 55207099
+54911706
 54910778
 54910329
 55238107
+54910751
 54910252
 54910937
 54910700
@@ -31,17 +35,35 @@ AVATARS=(
 )
 
 SERVERS=(
-luxury@10.13.237.18
-fadde@10.13.237.98
-zackto@10.13.237.117
-auriane@10.13.237.25
-nathalie@10.13.237.23
-boris@10.13.237.15
-morti@10.13.237.100
-idir@10.13.237.97
-serve@10.13.237.85
-bertrand@10.13.237.77
-hassana@10.13.237.76
-zoureni@10.13.237.19
+luxury@10.13.237.12
+blevie@10.13.237.11
+fadde@10.13.237.13
+zackto@10.13.237.14
+auriane@10.13.237.15
+amirali11@10.13.237.10
+nathalie@10.13.237.16
+boris@10.13.237.17
+morti@10.13.237.18
+idir@10.13.237.19
+serve@10.13.237.20
+bertrand@10.13.237.21
+hassana@10.13.237.22
+zoureni@10.13.237.23
 )
 
+TLDS=(
+luxuryking.me
+blevie.me
+abdelkrimfd.com
+talktoyoulater.tech
+ecocenter.live
+amir-ali.live
+2splus.live 
+developers.engineer
+mrti.rocks
+dido05327.live
+ernanjia.live
+laadjo.me
+kossay.live
+borealreni.live
+)

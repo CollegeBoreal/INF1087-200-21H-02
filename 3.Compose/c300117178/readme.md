@@ -23,3 +23,13 @@ services:
 
 # run the appliction
 docker-compose up --detach
+![compose1](compose1.PNG)
+
+
+
+# Test the application
+http://localhost:5000/
+![compose2](compose2.PNG)
+
+
+### source :📌 https://docs.docker.com/compose/gettingstarted/
