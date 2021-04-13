@@ -1,4 +1,4 @@
-# Participation du groupe au 10-04-2021 12:55
+# Participation du groupe au 13-04-2021 10:44
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -18,5 +18,5 @@
 |-|-|-|-|-|-|-|-|
 | :one: | [A.Alberta](../A.Alberta) | [:white_check_mark:](../A.Alberta/.kube/config) | :three: | :four: | :x: | :x: | :x: |
 | :two: | [B.Africa](../B.Africa) | :x: | :zero: | :four: | :x: | :x: | :x: |
-| :three: | [M.GTA](../M.GTA) | [:white_check_mark:](../M.GTA/.kube/config) | :zero: | :two: | [:white_check_mark:](../M.GTA/StoragePoolClaim.md) | :x: | [:white_check_mark:](../M.GTA/porterlb.md) |
+| :three: | [M.GTA](../M.GTA) | [:white_check_mark:](../M.GTA/.kube/config) | :zero: | :three: | [:white_check_mark:](../M.GTA/StoragePoolClaim.md) | :x: | [:white_check_mark:](../M.GTA/porterlb.md) |
 | :four: | [O.Ontario](../O.Ontario) | :x: | :zero: | :two: | :x: | :x: | :x: |
