@@ -23,13 +23,13 @@ services:
 
 # run the appliction
 docker-compose up --detach
-![compose1](compose1.JPG)
+![compose1](compose1.PNG)
 
 
 
 #Test the application
 docker-compose up --detach
-![compose2](compose2.JPG)
+![compose2](compose2.PNG)
 
 
 ### source :📌 https://docs.docker.com/compose/gettingstarted/
