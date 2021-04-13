@@ -3,7 +3,7 @@
 ## On utilisera un fichier Dockerfile et un Fichier HTML pour la creation de notre Container Apache Server 
 
 ---------------------------
-## :one: Creation d'image pour le fonctionnement de nos containers 
+## :one: Creation des images pour le fonctionnement de nos containers 
 ```
 $ docker-compose build
 ```
@@ -12,7 +12,7 @@ $ docker-compose build
 ---
 ![image](d11.PNG)
 
-## :two: Creation des container
+## :two: Creation des containers 
 
 ```
 $ docker-compose up -detach
@@ -32,3 +32,4 @@ localhost:8080
 ```
 ![image](d44.PNG)
 
+# :rainbow:                      FIN                :rainbow:
