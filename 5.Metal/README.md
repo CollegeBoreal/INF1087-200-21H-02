@@ -107,7 +107,7 @@ Votre grappe comprend 4 noeuds (serveurs) que vous devrez d'abord nommer
 
 :round_pushpin:  Tester sa connexion à la grappe
 
-- [ ] Vérifier que le context courrant pointe bien sur `kubernetes-admin@orion`
+- [ ] Vérifier que le context courant pointe bien sur `kubernetes-admin@kubernetes`
 
 ```
 $ kubectl config get-contexts                                                      
