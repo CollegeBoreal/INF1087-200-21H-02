@@ -27,8 +27,8 @@ docker-compose up --detach
 
 
 
-#Test the application
-docker-compose up --detach
+# Test the application
+http://localhost:5000/
 ![compose2](compose2.PNG)
 
 
