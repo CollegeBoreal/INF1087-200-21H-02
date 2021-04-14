@@ -1,4 +1,5 @@
 import time
+
 import redis
 from flask import Flask
 
@@ -20,4 +21,3 @@ def get_hit_count():
 def hello():
     count = get_hit_count()
     return 'Hello World! I have been seen {} times.\n'.format(count)
-
