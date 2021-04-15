@@ -56,7 +56,7 @@ $ kubeadm token list
 
 ```
 $ CTL_PLANE="betelgeuse.boreal.codes"
-$ TOKEN="seg7l8.5b6iz1mpixhtool4"
+$ TOKEN="tod4ok.xbzkz5h9zg2q7c1j"
 $ CA_CERT_HASH="c41ff0c3608120eaf7599bc77f6bc72b1e75c46caa073bb28cba21ea1f86f5ef"
 ```
 
