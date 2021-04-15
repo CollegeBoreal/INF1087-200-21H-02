@@ -100,6 +100,10 @@ Then check the containers and networks on which your server is listening:
 ##
 <img src=images/61.PNG  alt="alt text" width="800" height="550">
 
+##
+From your project directory, start up your application by running ``docker-compose up --detach``. 
+
+<img src=images/80.PNG  alt="alt text" width="800" height="550">
 
 
 
