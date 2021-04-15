@@ -130,7 +130,7 @@ Finally, when every all services are installed your are ready to go:
 
 Open a browser and put you IP address and port number to see how your browser and python are running:
 
-<img src=images/100.PNG  alt="alt text" width="800" height="550">
+<img src=images/100.PNG  alt="alt text" width="1100" height="350">
 
 
 
