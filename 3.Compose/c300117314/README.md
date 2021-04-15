@@ -118,12 +118,12 @@ Or
 
 ##
 
-<img src=images/3.PNG  alt="alt text" width="800" height="550">
+<img src=images/3.PNG  alt="alt text" width="800" height="250">
 ##
 
 Finally, when every all services are installed your are ready to go:
 
-<img src=images/92.PNG  alt="alt text" width="800" height="550">
+<img src=images/92.PNG  alt="alt text" width="800" height="600">
 
 
 ##
