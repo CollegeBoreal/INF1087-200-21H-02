@@ -82,9 +82,14 @@ This Compose file defines two services: `web` and `redis`.
 
 :star:Build and run your app with Compose
 
+## 
+First turn on your docker container: 
 
-<img src=images/1.png  alt="alt text" width="800" height="150">
+<img src=images/1.PNG  alt="alt text" width="800" height="150">
 
+##
+Then go to your server and delete the container which are dead:
+<img src=images/60.PNG  alt="alt text" width="800" height="250">
 
 
 
