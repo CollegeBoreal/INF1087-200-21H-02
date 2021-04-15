@@ -85,7 +85,7 @@ This Compose file defines two services: `web` and `redis`.
 ## 
 First turn on your docker container: 
 
-<img src=images/1.PNG  alt="alt text" width="800" height="150">
+<img src=images/1.PNG  alt="alt text" width="800" height="250">
 
 ##
 Then go to your server and delete the container which are dead:
