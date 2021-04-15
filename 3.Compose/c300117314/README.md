@@ -1,7 +1,7 @@
 # :zap: Python web application running on Docker Compose:zap: 
 :star:On this page you build a simple Python web application running on Docker Compose. The application uses the Flask framework and maintains a hit counter in Redis.
 
-:star: Create a file called app.py in your project directory and paste this in
+:star: Create a file called `app.py` in your project directory and paste this in
 ```python
 import time
 
