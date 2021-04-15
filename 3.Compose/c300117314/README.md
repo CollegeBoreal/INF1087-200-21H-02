@@ -105,10 +105,32 @@ From your project directory, start up your application by running ``docker-compo
 
 <img src=images/80.PNG  alt="alt text" width="800" height="550">
 
+##
+If you have problem installing all services, you should check the ports on your server, and on your docker-comose.yml and docker file. 
+
+##
+
+<img src=images/2.PNG  alt="alt text" width="800" height="550">
+
+##
+Or
 
 
+##
+
+<img src=images/3.PNG  alt="alt text" width="800" height="550">
+##
+
+Finally, when every all services are installed your are ready to go:
+
+<img src=images/92.PNG  alt="alt text" width="800" height="550">
 
 
+##
+
+Open a browser and put you IP address and port number to see how your browser and python are running:
+
+<img src=images/100.PNG  alt="alt text" width="800" height="550">
 
 
 
