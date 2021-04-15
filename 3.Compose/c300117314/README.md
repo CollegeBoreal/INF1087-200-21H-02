@@ -89,12 +89,16 @@ First turn on your docker container:
 
 ##
 Then go to your server and delete the container which are dead:
+
+##
 <img src=images/60.PNG  alt="alt text" width="800" height="250">
 
 
+##
+Then check the containers and networks on which your server is listening:
 
-
-
+##
+<img src=images/61.PNG  alt="alt text" width="800" height="550">
 
 
 
