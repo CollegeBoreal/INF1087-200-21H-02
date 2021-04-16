@@ -106,7 +106,7 @@ Vous pouvez ignorer les `daemonsets` et données locale dans la machine
 $ kubectl drain <node-name> --ignore-daemonsets --delete-local-data
 ```
   
-2) Finalement, emlever le noeud
+2) Finalement, enlever le noeud
 
 ```
 $ kubectl delete node <node-name>
