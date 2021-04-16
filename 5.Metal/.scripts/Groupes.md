@@ -1,4 +1,4 @@
-# Participation du groupe au 16-04-2021 10:49
+# Participation du groupe au 16-04-2021 14:26
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -18,5 +18,5 @@
 |-|-|-|-|-|-|-|-|
 | :one: | [A.Alberta](../A.Alberta) | [:white_check_mark:](../A.Alberta/.kube/config) | :three: | :three: | [:white_check_mark:](../A.Alberta/StoragePoolClaim.md) | [:white_check_mark:](../A.Alberta/StorageClass.md) | [:white_check_mark:](../A.Alberta/porterlb.md) |
 | :two: | [B.Africa](../B.Africa) | [:white_check_mark:](../B.Africa/.kube/config) | :zero: | :four: | :x: | :x: | :x: |
-| :three: | [M.GTA](../M.GTA) | [:white_check_mark:](../M.GTA/.kube/config) | :one: | :three: | [:white_check_mark:](../M.GTA/StoragePoolClaim.md) | :x: | [:white_check_mark:](../M.GTA/porterlb.md) |
+| :three: | [M.GTA](../M.GTA) | [:white_check_mark:](../M.GTA/.kube/config) | :two: | :three: | [:white_check_mark:](../M.GTA/StoragePoolClaim.md) | [:white_check_mark:](../M.GTA/StorageClass.md) | [:white_check_mark:](../M.GTA/porterlb.md) |
 | :four: | [O.Ontario](../O.Ontario) | [:white_check_mark:](../O.Ontario/.kube/config) | :zero: | :two: | :x: | :x: | :x: |
