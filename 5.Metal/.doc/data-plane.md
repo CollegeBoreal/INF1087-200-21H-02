@@ -83,6 +83,35 @@ kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --
 $ sudo kubeadm join betelgeuse.boreal.codes:6443 --token zlt7nb.lpd06ao1kxf4uwgm     --discovery-token-ca-cert-hash sha256:3aa3fe1dd88a80e7ea9e76408dd166947a606b7bd0f1ad089454ccf9a80c2365 
 ```
 
+## :x: Troubleshooting
+
+:control_knobs: Sur le plan de controle
+
+Lister les noeuds and obtenir le <nom-du-neoud> vous voulez drainer (enlever de la grappe)
+
+
+```
+$ kubectl get nodes
+```
+
+1) Pemièrement, drainer le noeud
+
+```
+$ kubectl drain <nom-du-neoud>
+```
+
+Vous pouvez ignorer les `daemonsets` et données locale dans la machine
+
+```
+$ kubectl drain <node-name> --ignore-daemonsets --delete-local-data
+```
+  
+2) Finalement, emlever le noeud
+
+```
+$ kubectl delete node <node-name>
+```
+
 
 # References
 
@@ -91,3 +120,7 @@ https://stackoverflow.com/questions/51126164/how-do-i-find-the-join-command-for-
 https://unix.stackexchange.com/questions/87405/how-can-i-execute-local-script-on-remote-machine-and-include-arguments
 
 https://sdorsett.github.io/post/2018-12-26-using-local-exec-and-remote-exec-provisioners-with-terraform/
+
+https://stackoverflow.com/questions/35757620/how-to-gracefully-remove-a-node-from-kubernetes
+
+https://stackoverflow.com/questions/35757620/how-to-gracefully-remove-a-node-from-kubernetes
