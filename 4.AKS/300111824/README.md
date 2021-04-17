@@ -3,6 +3,6 @@
 
 ![image](qa.PNG)
 
-![image](Capture.PNG 2.PNG)
+![image](1.PNG)
 
-![image](Capture.PNG 3.PNG)
+![image](2.PNG)
