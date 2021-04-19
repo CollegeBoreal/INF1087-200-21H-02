@@ -129,7 +129,7 @@ do
        VALUE="${VALUE} ${COULEURS[${ISCSI}]} |"
 
        # --- LVG -------------
-       if [[ $LVG == *"-wi-a-----"* ]]; then
+       if [[ $LVG == *"-wi-a"* ]]; then
           VALUE="${VALUE} ${OK} |"
        else
           VALUE="${VALUE} ${KO} |"
