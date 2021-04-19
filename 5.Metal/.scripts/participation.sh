@@ -6,9 +6,9 @@
 #
 # --------------------------------------
 COULEURS=(
-":red_circle:"
-":orange_circle:"
-":green_circle:"
+":broken_heart:"
+":orange_heart:"
+":green_heart:"
 )
 
 SERVICE="docker"
