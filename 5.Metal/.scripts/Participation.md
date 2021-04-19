@@ -1,4 +1,4 @@
-# Participation au 19-04-2021 13:48
+# Participation au 19-04-2021 13:51
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,9 +16,9 @@
 
 | Signe           | État                              | Signification                 |
 |-----------------|-----------------------------------|-------------------------------|
-| :red_circle:    | Active: inactive (dead)           | Inexistant ou inactif         |
-| :orange_circle: | Active: activating (auto-restart) | En cours d'activation         |
-| :green_circle:  | Active: active (running)          | En marche                     |
+| :broken_heart:    | Active: inactive (dead)           | Inexistant ou inactif         |
+| :orange_heart: | Active: activating (auto-restart) | En cours d'activation         |
+| :green_heart:  | Active: active (running)          | En marche                     |
 
 ## :a: Présence
 

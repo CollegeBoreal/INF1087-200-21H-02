@@ -64,9 +64,9 @@ echo ""
 
 echo "| Signe           | État                              | Signification                 |"
 echo "|-----------------|-----------------------------------|-------------------------------|"
-echo "| :red_circle:    | Active: inactive (dead)           | Inexistant ou inactif         |"
-echo "| :orange_circle: | Active: activating (auto-restart) | En cours d'activation         |"
-echo "| :green_circle:  | Active: active (running)          | En marche                     |"
+echo "| :broken_heart:    | Active: inactive (dead)           | Inexistant ou inactif         |"
+echo "| :orange_heart: | Active: activating (auto-restart) | En cours d'activation         |"
+echo "| :green_heart:  | Active: active (running)          | En marche                     |"
 
 
 echo ""
