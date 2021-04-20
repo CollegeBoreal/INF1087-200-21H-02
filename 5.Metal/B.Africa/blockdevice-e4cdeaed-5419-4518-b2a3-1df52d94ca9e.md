@@ -22,7 +22,7 @@ $ kubectl apply --namespace openebs --filename - <<EOF
    devlinks:
    - kind: by-id
      links:
-     - /dev/disk/by-id/dm-uuid-LVM-cfxDXYikVxenYnWiSAn77FJVA0NWhsmJce7RJOGCcrDrOzQnyTQ3L1TRBo0hPXCA /dev/ubuntu-vg/iscsi-lv
+     - /dev/disk/by-id/dm-uuid-LVM-cfxDXYikVxenYnWiSAn77FJVA0NWhsmJce7RJOGCcrDrOzQnyTQ3L1TRBo0hPXCA
      - /dev/disk/by-id/dm-name-ubuntu--vg-iscsi--lv
    - kind: by-path
      links:
