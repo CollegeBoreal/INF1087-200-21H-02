@@ -87,3 +87,7 @@ $ kubectl apply --filename=https://raw.githubusercontent.com/CollegeBoreal/INF10
 ```
 $ kubectl delete --filename=https://raw.githubusercontent.com/CollegeBoreal/INF1087-200-21H-02/main/5.Metal/manifests/calico.yaml
 ```
+
+# References:
+
+https://stackoverflow.com/questions/52390481/kubernetes-calico-node-xxxxxxxxxxx-already-using-ipv4-address-xxxxxxxxx-crash
