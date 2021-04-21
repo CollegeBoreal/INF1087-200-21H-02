@@ -82,3 +82,8 @@ lines 1-22/22 (END)
 ```
 $ kubectl apply --filename=https://raw.githubusercontent.com/CollegeBoreal/INF1087-200-21H-02/main/5.Metal/manifests/calico.yaml
 ```
+
+
+```
+$ kubectl delete --filename=https://raw.githubusercontent.com/CollegeBoreal/INF1087-200-21H-02/main/5.Metal/manifests/calico.yaml
+```
