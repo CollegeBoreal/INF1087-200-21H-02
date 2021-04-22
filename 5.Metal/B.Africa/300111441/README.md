@@ -30,6 +30,6 @@ A ce niveau ca veut dire que les grappe pret
 
 ![image](w8.jpg)
 
-## :king: l'application installee marche
+## 🍏: l'application installee marche
 
 ![image](w9.jpg)
