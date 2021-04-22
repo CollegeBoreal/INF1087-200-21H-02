@@ -26,7 +26,7 @@ Allez dans votre serveur pour l'installer
 
 ![image](7.JPG)
 
-Verifier l'installation dans network puis service
+Verifier l'installation dans network puis service. Malheureuse nous n'arrivons pas a ouvrir notre application en cliquant sur le port
 
 ![image](8.JPG)
 
@@ -37,6 +37,8 @@ Verifier egalement dans deploiement
 Puis verifier dans Pod
 
 ![image](10.JPG)
+
+![image](11.JPG)
 
 Malheureusement nous n'arrivons pas a ouvrir notre application a cause d'un probleme de stockage.
 
