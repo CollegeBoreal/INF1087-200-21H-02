@@ -43,12 +43,12 @@
 
 
 
-# DEPLOYMENT 
+# SERVICES
 
 ![image](wordpresss10.PNG)
 
 
-# SERVICES
+# DEPLOYMENT 
 
 
 ![image](wordpress11.PNG)
