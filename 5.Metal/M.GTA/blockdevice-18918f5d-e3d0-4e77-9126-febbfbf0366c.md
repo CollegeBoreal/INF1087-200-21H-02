@@ -5,7 +5,7 @@ $ kubectl apply --namespace openebs --filename - <<EOF
  metadata:
    name: blockdevice-18918f5d-e3d0-4e77-9126-febbfbf0366c
    labels:
-     kubernetes.io/hostname: idirmachine
+     kubernetes.io/hostname: scarborough
      ndm.io/managed: "false"
      ndm.io/blockdevice-type: blockdevice
  status:
@@ -14,7 +14,7 @@ $ kubectl apply --namespace openebs --filename - <<EOF
  spec:
    capacity:
      logicalSectorSize: 512
-     storage: 107374182400
+     storage: 72846671872
    details:
      deviceType: lvm
    devlinks:
@@ -26,7 +26,7 @@ $ kubectl apply --namespace openebs --filename - <<EOF
      links:
      - /dev/mapper/ubuntu--vg-iscsi--lv
    nodeAttributes:
-     nodeName: idirmachine
+     nodeName: scarborough
    path: /dev/dm-1
 ---
 EOF

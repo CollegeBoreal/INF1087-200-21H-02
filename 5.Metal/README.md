@@ -194,5 +194,13 @@ standard (default)          openebs.io/provisioner-iscsi                        
 ##### :control_knobs: Le plan de contrôle (control plane)
 
 - [ ]  [Installer](.doc/porterlb.md):pinching_hand: [porterlb](https://porterlb.io). 
+
+## :clapper: Les Applications
+
+:bust_in_silhouette: activité individuelle
+
+Chaque étudiant aura à installer son application dans la grappe
+
 - [ ]  Installer les applications avec LENS
-- [ ]  Modifier les services en fonction des examples de [Configuration](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/3.Orchestration/1.Kubernetes/C.Cluster/0.Local/6.K8s/apps) d'applications suivantes
+- [ ] Activer :rocket: le service en appliquant les annotations reliés à l'équilibreur de charge `LoadBalancer` Porter en fonction des examples de [Configuration](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/3.Orchestration/1.Kubernetes/C.Cluster/0.Local/6.K8s/apps) d'applications suivantes
+- [ ] Attacher l'application à votre nom de domaine

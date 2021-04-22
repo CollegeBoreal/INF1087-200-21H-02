@@ -5,7 +5,7 @@ kind: Eip
 metadata:
   name: porter-layer2-eip
 spec:
-  address: 10.13.237.16-10.13.237.255
+  address: 10.13.237.16-10.13.237.19
   interface: enp2s0f0
   protocol: layer2
 EOF

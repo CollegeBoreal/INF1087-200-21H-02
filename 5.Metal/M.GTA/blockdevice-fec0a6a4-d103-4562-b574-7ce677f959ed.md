@@ -14,7 +14,7 @@ $ kubectl apply --namespace openebs --filename - <<EOF
  spec:
    capacity:
      logicalSectorSize: 512
-     storage: 293563949056 
+     storage: 107374182400
    details:
      deviceType: lvm
    devlinks:
