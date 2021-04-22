@@ -3,11 +3,11 @@
 
 # Sur Lens
 
+![image](wordpress.PNG)
+
+
+
 ![image](wordpress1.PNG)
-
-
-
-![image](wordpress2.PNG)
 
 
 
@@ -26,13 +26,6 @@
 
 
 ![image](wordpress6.PNG)
-
-
-
-
-
-![image](wordpress7.PNG)
-
 
 
 
