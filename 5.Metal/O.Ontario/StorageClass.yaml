@@ -1,6 +1,3 @@
-```YAML
-
-$ kubectl apply -f - <<EOF
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
@@ -13,5 +10,3 @@ metadata:
       - name: ReplicaCount
         value: "2"
 provisioner: openebs.io/provisioner-iscsi
-EOF
-```
