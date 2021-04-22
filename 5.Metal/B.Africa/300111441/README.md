@@ -1,6 +1,6 @@
 # :computer: Deployement d'applications sur Lens et la grappe Africa
 
-## :apple: Verification de Kubernetes (actif et en mode runnin) c'est okay 
+## :apple: Verification de Kubernetes (actif et mode runnin) c'est okay 
 
 ![image](w1.jpg)
 
