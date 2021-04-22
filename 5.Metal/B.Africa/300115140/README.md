@@ -1,4 +1,4 @@
-# Deployement d'applications sur Lens et la grappe Africa::africa:
+# Deployement d'applications sur Lens et la grappe Africa:
 
 ## Avant l'installation des applications:
 
@@ -72,7 +72,14 @@ Ensuite il faut executer le fichier de configuration sur le PC:
 
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/pending.png" width="850">
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/running.PNG" width=8650">
+
+
+On vérifie sur Lens si tout cela marche, running.
+
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/running.PNG" width=850">
+                                                                                                                                  
+                                                                                                                                  
+Voici le résultat au final lorqu'on a installé OrangeHRM:                                                                                                                             
 
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/orange.pngG" width="850">
 
