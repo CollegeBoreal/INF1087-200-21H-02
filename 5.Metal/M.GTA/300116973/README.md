@@ -28,6 +28,8 @@ Allez dans votre serveur pour l'installer
 
 Verifier l'installation dans network puis service. Malheureuse nous n'arrivons pas a ouvrir notre application en cliquant sur le port
 
+![image](12.JPG)
+
 ![image](8.JPG)
 
 Verifier egalement dans deploiement
