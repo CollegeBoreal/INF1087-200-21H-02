@@ -81,6 +81,6 @@ On vérifie sur Lens si tout cela marche, running.
                                                                                                                                   
 Voici le résultat au final lorqu'on a installé OrangeHRM:                                                                                                                             
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/orange.pngG" width="850">
+<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/orange.PNG" width="850">
 
 
