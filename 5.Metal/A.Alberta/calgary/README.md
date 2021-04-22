@@ -36,18 +36,19 @@
 ![image](wordpress8.PNG)
 
 
-
+# PODS
 
 
 ![image](wordpress9.PNG)
 
 
 
-
+# DEPLOYMENT 
 
 ![image](wordpresss10.PNG)
 
 
+# SERVICES
 
 
 ![image](wordpress11.PNG)
