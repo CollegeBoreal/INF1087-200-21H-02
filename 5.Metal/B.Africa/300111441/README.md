@@ -16,7 +16,7 @@ A ce niveau ca veut dire que les grappe sont pret
 
 ![image](w4.jpg)
 
-## 🍍: Installation de l'application ensuite on va mettre l'identifiant de l;application sur le fichier config
+## 🍍: Installation de l'application ensuite on va mettre l'identifiant de l'application sur le fichier config
 
 ![image](w5.jpg)
 
