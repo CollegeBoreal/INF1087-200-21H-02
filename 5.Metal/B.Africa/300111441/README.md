@@ -1,6 +1,6 @@
 # :computer: Deployement d'applications sur Lens et la grappe Africa
 
-## :apple: Verification de Kubernetes (actif et mode runnin) c'est okay 
+## :apple: Verification de Kubernetes (actif et mode running) c'est okay 
 
 ![image](w1.jpg)
 
@@ -8,7 +8,7 @@
 
 ![image](w2.jpg)
 
-A ce niveau ca veut dire que les grappe pret
+A ce niveau ca veut dire que les grappe sont pret
 
 ![image](w3.jpg)
 
