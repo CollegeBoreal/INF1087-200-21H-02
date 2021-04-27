@@ -50,6 +50,10 @@ On vérifie sur Lens si les pods sont "running":
 
 **Résultat final** :
 
+![image](https://user-images.githubusercontent.com/55238107/116187816-45e81200-a6f4-11eb-8df4-f727734a8b01.png)
+
+
+On a une erreur ZUT
                                                                                                                                                                                                                                                                    
 
 
