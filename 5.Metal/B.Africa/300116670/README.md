@@ -1,25 +1,33 @@
-# Deployer l'application moodle sur Lens:
-
-## PREREQUIS:
+# Deployer l'application moodle sur Lens en quelques étapes:
 
 
-Verifiez que le service Kubelet est actif , en mode "Running", c'est ce dernier qui gere les applications dans kubernetes
+## :one: Verifiez que le service Kubelet est actif , en mode "Running", c'est ce dernier qui gere les applications dans kubernetes
 
 
-Ensuite,vérifiez si les nodes d ela grappes sont prêts (mode Ready):
+## Assurez-vous que tous les noeuds de la grappe sont en mode "Ready":
 
-
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/ready.PNG" width="850">
 
 
 ## Installation de Moodle:
 
-J'ai décidé d'installer sur la grappe, l'application OrangeHRM.  
-OrangeHRM Inc. est une société de logiciels RH, connue pour son système de gestion des ressources humaines. Le logiciel propose un niveau de produits open-source, professionnel et d'entreprise. Le niveau open-source est gratuit tandis que les niveaux professionnel et entreprise sont hébergés sur la base d'un logiciel en tant que service. 
+Allez dans l'onglet **App** puis **Release** et taper **Moodle**
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/oran.PNG" width="850">
 
-Je vais sur Lens pour télécharger l'application:
+### Appliquer votre fichier de configuration 
+
+vous aurez au préalable modifié en changeant la ligne "name: moodle-1619103057" par votre id que vous recevrez en installant l'application (Voir image suivante)
+
+![image](https://user-images.githubusercontent.com/55238107/116185333-619ce980-a6ef-11eb-94a6-94f1f80768c2.png)
+
+
+**Resultat**
+
+![image](https://user-images.githubusercontent.com/55238107/116185060-dd4a6680-a6ee-11eb-9cd8-278b4000bc77.png)
+
+
+
+## Rendez-vous sur Lens
+
 <img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/lens.PNG" width="850">
 
 
