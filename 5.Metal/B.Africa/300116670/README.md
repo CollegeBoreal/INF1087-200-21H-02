@@ -1,19 +1,29 @@
-# Deployer l'application moodle sur Lens en quelques étapes:
+# :::::: 🌟Deployer l'application moodle sur Lens en quelques étapes 🌟 ::::::
 
 
-## :one: Verifiez que le service Kubelet est actif , en mode "Running", c'est ce dernier qui gere les applications dans kubernetes
+## :one: Verifiez que le service Kubelet est actif , en mode "Running", 
+
+c'est ce dernier qui gere les applications dans kubernetes
+
+![image](https://user-images.githubusercontent.com/55238107/116186385-85f9c580-a6f1-11eb-8ba5-7b158e63e0af.png)
 
 
-## Assurez-vous que tous les noeuds de la grappe sont en mode "Ready":
+
+## 2️⃣ Assurez-vous que tous les noeuds de la grappe sont en mode "Ready":
+
+![image](https://user-images.githubusercontent.com/55238107/116186263-4632de00-a6f1-11eb-8d1f-c0a4a1dd3d94.png)
+
+![image](https://user-images.githubusercontent.com/55238107/116186303-56e35400-a6f1-11eb-8b13-18d8013f0cb3.png)
 
 
+## 3️⃣ Installation de Moodle:
 
-## Installation de Moodle:
+Allez dans l'onglet **App** >>> **Release** et taper **Moodle** dans la barre de recherche puis **Installer**
 
-Allez dans l'onglet **App** puis **Release** et taper **Moodle**
+![image](https://user-images.githubusercontent.com/55238107/116186145-0a981400-a6f1-11eb-88c1-1062c2fdf5bd.png)
 
 
-### Appliquer votre fichier de configuration 
+### ✔️ Appliquer votre fichier de configuration ✔️
 
 vous aurez au préalable modifié en changeant la ligne "name: moodle-1619103057" par votre id que vous recevrez en installant l'application (Voir image suivante)
 
@@ -26,54 +36,11 @@ vous aurez au préalable modifié en changeant la ligne "name: moodle-1619103057
 
 
 
-## Rendez-vous sur Lens
+## 4️⃣ Ouvrir l'application: 
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/lens.PNG" width="850">
+Cliquez sur la ligne entourée ci-dessous pour ouvrir l'application
 
-
-Après l'application, on va recevoir un identifiant pour le service, que l'on va mettre sur le fichier de configuration OrangeHRM.
-
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/service.PNG" width="850">
-
-Voici le fichier de configuration en question
-
-```
-```yaml
-$ kubectl apply --filename - <<EOF
-apiVersion: v1
-kind: Service
-metadata:
-  name: orangehrm-1619103057
-  annotations:
-    lb.kubesphere.io/v1alpha1: porter
-    protocol.porter.kubesphere.io/v1alpha1: layer2
-    eip.porter.kubesphere.io/v1alpha2: porter-layer2-eip
-spec:
-  ports:
-    - name: http
-      protocol: TCP
-      port: 80
-      targetPort: http
-    - name: https
-      protocol: TCP
-      port: 443
-      targetPort: https
-  type: LoadBalancer
----
-EOF
-```
-
-
-## Exécuter l'application:
-
-Ensuite il faut executer le fichier de configuration sur le PC:
-
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/keube.PNG" width="850">
-
-
-
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/pending.png" width="850">
-
+![image](https://user-images.githubusercontent.com/55238107/116186576-eee13d80-a6f1-11eb-9dec-e07a480fa283.png)
 
 
 On vérifie sur Lens si tout cela marche, running.
