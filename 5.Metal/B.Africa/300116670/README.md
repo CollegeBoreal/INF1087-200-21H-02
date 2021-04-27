@@ -43,11 +43,13 @@ Cliquez sur la ligne entourée ci-dessous pour ouvrir l'application
 ![image](https://user-images.githubusercontent.com/55238107/116186576-eee13d80-a6f1-11eb-9dec-e07a480fa283.png)
 
 
-On vérifie sur Lens si tout cela marche, running.
+On vérifie sur Lens si les pods sont "running":
 
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/running.PNG" width="850">
-                                                                                                                                  
-                                                                                                                                  
-Voici le résultat au final lorqu'on a installé OrangeHRM:                                                                                                                             
-<img src="https://github.com/CollegeBoreal/INF1087-200-21H-02/blob/main/5.Metal/B.Africa/300115140/IMAGES/orange.png" width="850">
+![image](https://user-images.githubusercontent.com/55238107/116186997-b1c97b00-a6f2-11eb-9a69-18d0ad818608.png)
+
+
+**Résultat final** :
+
+                                                                                                                                                                                                                                                                   
+
 
